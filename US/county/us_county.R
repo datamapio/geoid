@@ -1,4 +1,4 @@
-## setwd("/Users/rogerfischer/datamap/geoid/US/county")
+## setwd("../datamap/geoid/US/county")
 ## getwd()
 
 ## 2010 FIPS Codes for Counties and County Equivalent Entities
