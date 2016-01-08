@@ -29,7 +29,9 @@ data$fips <- paste(data$state_fips, data$county_fips, sep="")
 data <- data[c("id", "fips", "county_name", "state_code", "state_fips", "county_fips", "class_fips")]
 
 ## Export as csv
-## write.table(data, file="us_county_2010.csv",sep=",",col.names=FALSE,row.names=FALSE)
+# write.table(data, file="us_county_2010.csv",sep=",",col.names=TRUE,row.names=FALSE)
+
+
 
 ## Only States and DC (without Puerto Rico, Guam etc.) for 2010
 # state_code <- unique(data$state_code)
@@ -40,7 +42,8 @@ state_data <- slice(data, 1:3143)
 ## Crosscheck with data[3144, ] => gives AS, fips 60010
 
 ## Export state&DC data 2010
-## write.table(state_data, file="us_county_congressionalvote_2010.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(state_data, file="us_county_congressionalvote_2010.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 
 ## Only States and DC (without Puerto Rico, Guam etc.) for 2011, 2012
 ## LaSalle Parish, Louisiana (22-059)
