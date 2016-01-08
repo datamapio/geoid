@@ -24,15 +24,16 @@ data = read.delim("data.txt",
 ## data <- write.table(data, file="data.csv",sep=",",col.names=FALSE,row.names=FALSE)
 
 data$id <- paste("840", data$state_fips, data$county_fips, sep="")
-data$fips <- paste(data$state_fips, data$county_fips, sep="")
+data$fips <- paste(data$state_fips, data$county_fips, sep="")  
+  
 data <- data[c("id", "fips", "county_name", "state_code", "state_fips", "county_fips", "class_fips")]
 
 ## Export as csv
 ## write.table(data, file="us_county_2010.csv",sep=",",col.names=FALSE,row.names=FALSE)
 
 ## Only States and DC (without Puerto Rico, Guam etc.) for 2010
-state_code <- unique(data$state_code)
-nonstate_code <- c("AS", "GU", "MP", "PR", "UM", "VI")
+# state_code <- unique(data$state_code)
+# nonstate_code <- c("AS", "GU", "MP", "PR", "UM", "VI")
 
 library(dplyr)
 state_data <- slice(data, 1:3143)
@@ -51,3 +52,8 @@ state_data[state_data$fips == "22059", ] <- lasalle
 ## Export state&DC data 2011,2012
 write.table(state_data, file="us_county_congressionalvote_2011.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 write.table(state_data, file="us_county_congressionalvote_2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## To check the number of counties by state
+group_by_state_code <- group_by(state_data, state_code)
+county_by_state <- summarize(group_by_state_code, count = n())
+View(county_by_state)
