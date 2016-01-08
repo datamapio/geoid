@@ -20,6 +20,10 @@ The reference files should make that clear.
 We want to make GeoIDs usable internationally that's why the id always starts with the numeric country code (ISO 3166-1 numeric). After that we use the established codes inside a country. 
 
 
-## Example
+## Examples
+
+Here is a reference GeoID file for US States and other areas like Puerto Rico
+https://github.com/datamapio/geoid/blob/master/US/state/us_state_and_other.csv
+
 Here is a reference GeoID file for US Counties and similar being able to vote at the Presidential Election 2012
 https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv
