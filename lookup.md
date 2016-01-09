@@ -1,4 +1,15 @@
 
+#GEOID LOOKUP
+## Some Guidelines
+- Use numeric as much as possible (not always possible)
+- Use delimiters between the numeric country code and what follows only if there is a possible clash
+- Use short delimiters
+- Use delimiters consistenly
+
+Delimiter in use: 
+- ZP: for ZIP or Postal Code. Only use when necessary.
+
+
 
 ##Country
 Country (3, numeric, ISO)   
@@ -11,10 +22,10 @@ Canada
 124     
 
 ###Postal Code (Canadapost) 
-Type: Alphanumeric, 11   
-Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (6, alphanumeric, Canadapost)    
-124 | ZP | K1AOB1     
-Ex.  124ZPK1AOB1 = Postal Code K1A OB1    
+Type: Alphanumeric, 9   
+Country (3, numeric, ISO) | Postal Code (6, alphanumeric, Canadapost)    
+124 | K1AOB1     
+Ex.  124K1AOB1 = Postal Code K1A OB1    
 Note: There is no space between 3rd and 4th character for the GeoID (= id).      
 
 
@@ -30,7 +41,7 @@ Country (3, numeric, ISO) | State (2, numeric, FIPS)
 Ex. 84006 = California   
 
 ###County
-Type: Numeric    
+Type: Numeric, 8    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS)   
 840 | 06 | 001     
 Ex. 84006001 = Alameda County   
