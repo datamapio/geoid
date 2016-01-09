@@ -1,4 +1,4 @@
-## setwd("../datamap/geoid/US/county")
+## setwd("/Users/rogerfischer/datamap/geoid/US/county")
 ## getwd()
 
 ## 2010 FIPS Codes for Counties and County Equivalent Entities
@@ -59,4 +59,5 @@ write.table(state_data, file="us_county_congressionalvote_2012.csv", sep="," ,co
 ## To check the number of counties by state
 group_by_state_code <- group_by(state_data, state_code)
 county_by_state <- summarize(group_by_state_code, count = n())
-View(county_by_state)
+# View(county_by_state)
+write.table(county_by_state, file="us_county_by_state_2010-2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
