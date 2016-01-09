@@ -28,6 +28,9 @@ Country (3, numeric, ISO) | Postal Code (6, alphanumeric, Canadapost)
 Ex.  124K1AOB1 = Postal Code K1A OB1    
 Note: There is no space between 3rd and 4th character for the GeoID (= id).      
 
+See: 
+http://www.statcan.gc.ca/eng/mgeo/geo   
+http://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/hierarch/p1-eng.htm
 
 
 ##US
