@@ -65,6 +65,16 @@ data <- merge(geoid, ext, by="fips")
 # Bachmann Cain Gingrich Huntsman Paul Perry Roemer Romney Santorum No.Preference Other (Candidates in alphabetical order)
 data$no_preference <- data$No.Preference
 data$other <- data$Other
-data <- data <- data[c("id", "county_name", "Bachmann", "Cain", "Gingrich", "Huntsman", "Paul", "Perry", "Roemer", "Romney", "Santorum", "no_preference", "other")]
+data$bachmann <- data$Bachmann  
+data$cain	<- data$Cain
+data$gingrich	<- data$Gingrich
+data$huntsman	<- data$Huntsman
+data$paul	<- data$Paul
+data$perry <- data$Perry
+data$roemer	<- data$Roemer
+data$romney	<- data$Romney
+data$santorum <- data$Santorum
+
+data <- data[c("id", "county_name", "bachmann", "cain", "gingrich", "huntsman", "paul", "perry", "roemer", "romney", "santorum", "no_preference", "other")]
 
 write.table(data, file="primary_iowa_county_2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
