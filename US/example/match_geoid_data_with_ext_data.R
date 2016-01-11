@@ -54,13 +54,13 @@ data <- merge(geoid, ext, by="fips")
 ## data2 <- merge(geoid, ext2, by="county_fips")
 
 ## Rearranging and deleting unimportant data
-## data2$bachmann <- data$Bachmann  
-## data2$gingrich	<- data$Gingrich
-## data2$huntsman	<- data$Huntsman
-## data2$paul	<- data$Paul
-## data2$perry <- data$Perry
-## data2$romney	<- data$Romney
-## data2$santorum <- data$Santorum
+## data2$bachmann <- data2$Bachmann  
+## data2$gingrich	<- data2$Gingrich
+## data2$huntsman	<- data2$Huntsman
+## data2$paul	<- data2$Paul
+## data2$perry <- data2$Perry
+## data2$romney	<- data2$Romney
+## data2$santorum <- data2$Santorum
 
 ## data2 <- data2[c("id", "county_name", "bachmann", "gingrich", "huntsman", "paul", "perry", "romney", "santorum")]
 ## data2 <- data2[order(data2$id),] # if you have to order the data
