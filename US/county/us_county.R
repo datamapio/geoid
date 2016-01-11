@@ -59,7 +59,12 @@ write.table(state_data, file="us_county_congressionalvote_2012.csv", sep="," ,co
 ## To check the number of counties by state
 group_by_state_code <- group_by(state_data, state_fips, state_code)
 county_by_state <- summarize(group_by_state_code, count = n())
+county_by_state$id <- paste("840", county_by_state$state_fips, sep="")
+county_by_state$counties_by_state <- county_by_state$count
+county_by_state <- county_by_state[c("id", "state_fips", "state_code", "counties_by_state")]
 # If you want to group alphabetically AK, AL instead of fips
 # county_by_state <- county_by_state[order(county_by_state$state_code),]
 # View(county_by_state)
 write.table(county_by_state, file="us_county_by_state_2010-2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
