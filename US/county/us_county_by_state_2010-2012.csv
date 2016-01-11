@@ -1,4 +1,4 @@
-"id","state_fips","state_code","counties_by_state"
+"id","state_fips","state_code","county_number"
 "84001","01","AL",67
 "84002","02","AK",29
 "84004","04","AZ",15
