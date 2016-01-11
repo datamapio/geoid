@@ -67,4 +67,4 @@ data$no_preference <- data$No.Preference
 data$other <- data$Other
 data <- data <- data[c("id", "county_name", "Bachmann", "Cain", "Gingrich", "Huntsman", "Paul", "Perry", "Roemer", "Romney", "Santorum", "no_preference", "other")]
 
-write.table(data, file="primary_iowa_2012_merged.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(data, file="primary_iowa_county_2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
