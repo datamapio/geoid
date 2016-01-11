@@ -1,4 +1,4 @@
-# US: county
+# US:County
 
 ## Changes 2010-2015
 
@@ -51,7 +51,7 @@ Wade Hampton Census Area, Alaska (02-270)
 Changed name and code to Kusilvak Census Area (02-158) effective July 1, 2015.
 
 
-## The number of counties by state
+## The Number of Counties by State
 [counties by state, 2010 - July 2013](https://github.com/datamapio/geoid/blob/master/US/county/us_county_by_state_2010-2012.csv)
 
 
