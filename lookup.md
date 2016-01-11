@@ -52,7 +52,7 @@ Ex. 84006001 = Alameda County
 ###ZIP Code (ZIP Code Tabulation Area (ZCTA)) 
 Type: Alphanumeric, 10    
 Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)   
-840 | Z | 94702    
+840 | ZP | 94702    
 Ex. 840ZP94702 = ZIP Code 94702   
 
 
