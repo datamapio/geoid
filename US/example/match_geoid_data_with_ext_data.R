@@ -54,8 +54,17 @@ data <- merge(geoid, ext, by="fips")
 ## data2 <- merge(geoid, ext2, by="county_fips")
 
 ## Rearranging and deleting unimportant data
-## data2 <- data2[c("id", "county_name", "Bachmann", "Gingrich", "Huntsman", "Paul", "Perry", "Romney", "Santorum")]
-## data2 <- data2[order(data2$id),] # if you have to order data
+## data2$bachmann <- data$Bachmann  
+## data2$gingrich	<- data$Gingrich
+## data2$huntsman	<- data$Huntsman
+## data2$paul	<- data$Paul
+## data2$perry <- data$Perry
+## data2$romney	<- data$Romney
+## data2$santorum <- data$Santorum
+
+## data2 <- data2[c("id", "county_name", "bachmann", "gingrich", "huntsman", "paul", "perry", "romney", "santorum")]
+## data2 <- data2[order(data2$id),] # if you have to order the data
+## write.table(data2, file="primary_iowa_county_2012_2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
 ## head(data)
