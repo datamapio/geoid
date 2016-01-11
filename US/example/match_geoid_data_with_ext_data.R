@@ -7,13 +7,13 @@
 ## External Data: 2012 Data from the Guardian
 ## https://docs.google.com/spreadsheets/d/15_KGSulg72cU2Km8G3ZrZdLSctg_WSoGKiFCgihpTVs/edit#gid=21
 ## See also: http://www.theguardian.com/news/datablog/2012/jan/05/us-elections-2012-iowa-caucus-results#data
-## Imported to example as csv file: https://github.com/datamapio/geoid/blob/master/US/example/primary_iowa_county_2012.csv
+## Imported as csv file: https://github.com/datamapio/geoid/blob/master/US/example/primary_iowa_county_2012.csv
 fileUrl <- "https://raw.githubusercontent.com/datamapio/geoid/master/US/example/primary_iowa_county_2012_ext.csv"
 download.file(fileUrl, destfile = "ext.csv", method = "curl")
 
 # Geoid reference Data for 2012
 # https://github.com/datamapio/geoid/blob/master/US/county/by_state/iowa/iowa_2011-2012.csv
-fileUrl <- "https://raw.githubusercontent.com/datamapio/geoid/master/US/county/by_state/iowa/iowa_2011-2012.csv"
+fileUrl <- "https://raw.githubusercontent.com/datamapio/geoid/master/US/county/by_state/iowa/iowa_county_2011-2012.csv"
 download.file(fileUrl, destfile = "geoid.csv", method = "curl")
 list.files()
 
