@@ -44,6 +44,14 @@ state_data <- slice(data, 1:3143)
 ## Export state&DC data 2010
 write.table(state_data, file="us_county_congressionalvote_2010.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## By State
+## Iowa 2010
+iowa <- filter(state_data, state_code == "IA")
+write.table(iowa, file="iowa_2010.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+#########################################################################################################
+
 
 ## Only States and DC (without Puerto Rico, Guam etc.) for 2011, 2012
 ## LaSalle Parish, Louisiana (22-059)
@@ -67,4 +75,7 @@ county_by_state <- county_by_state[c("id", "state_fips", "state_code", "county_n
 # View(county_by_state)
 write.table(county_by_state, file="us_county_by_state_2010-2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
-
+## By State
+## Iowa 2011, 2012
+iowa <- filter(state_data, state_code == "IA")
+write.table(iowa, file="iowa_2011-2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
