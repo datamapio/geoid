@@ -19,7 +19,7 @@ Part taken to create new Petersburg Borough (02-195) effective January 3, 2013; 
 Prince of Wales-Hyder Census Area, Alaska (02-198):
 Prince of Wales-Hyder Census Area (02-198) added part of the former Petersburg Census Area (02-195) effective January 3, 2013; estimated added population 613.
 
-New Counties or County Equivalent Entities
+New Counties or County Equivalent Entities   
 Petersburg Borough, Alaska (02-195): 
 Created from part of former Petersburg Census Area (02-195) and part of Hoonah-Angoon Census Area (02-105) effective January 3, 2013; estimated population 3,203.
 
@@ -51,6 +51,8 @@ Wade Hampton Census Area, Alaska (02-270)
 Changed name and code to Kusilvak Census Area (02-158) effective July 1, 2015.
 
 
+## The number of counties by state
+[counties by state, 2010 - July 2013](https://github.com/datamapio/geoid/blob/master/US/county/us_county_by_state_2010-2012.csv)
 
 
 ## Counties for Elections (only States and DC)
