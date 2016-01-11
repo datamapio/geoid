@@ -1,4 +1,4 @@
-# US:County
+# US: county
 
 ## Changes 2010-2015
 
@@ -15,6 +15,7 @@ Name corrected from La Salle Parish (removing space) reported as of January 1, 2
 2013:    
 Hoonah-Angoon Census Area, Alaska (02-105):
 Part taken to create new Petersburg Borough (02-195) effective January 3, 2013; estimated detached population: 1
+
 Prince of Wales-Hyder Census Area, Alaska (02-198):
 Prince of Wales-Hyder Census Area (02-198) added part of the former Petersburg Census Area (02-195) effective January 3, 2013; estimated added population 613.
 
