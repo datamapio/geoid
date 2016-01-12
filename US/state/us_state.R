@@ -1,4 +1,4 @@
-## setwd("/Users/rogerfischer/datamap/geoid/US/state")
+## setwd("/datamap/geoid/US/state")
 ## getwd()
 
 ## American National Standards Institute (ANSI) Codes for States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States
