@@ -8,8 +8,8 @@ You can match your data on any parameter you want and then get rid of anything b
 ## Focus on the data
 datamap provides you with:
 * MAP (a TopoJSON or GeoJSON file)
-* DATE or the REF (currently as csv. file)
-* DATAVIZ (the index.html)
+* DATA, more precisely with the REF (currently as csv. file)
+* VIZ (the index.html)     
 This way, when having similarly structured new data, the only thing you have to do, is to merge your external data (EXT) to the REF. 
 
 ## GeoID Data as Reference
