@@ -20,10 +20,10 @@ The REF should make that clear for every year.
 We want to make GeoIDs usable internationally that's why the id always starts with the numeric country code (ISO 3166-1 numeric). After that we use the established codes inside a country. 
 
 ## Process
-1. Map in TopoJSON/GeoJSON only uses GeoID to identify an area unit (e.g. 84006001 for Alameda County, California, USA) 
-2. GeoIDs are tied to all additional information in the REF, which are the area unit names (in different languages if you want), any codes in use etc.
-3. Merge: Now you can merge your data, the EXT, with the REF. As the REF provides several columns to merge, you should find what is the most appropriate to merge on. If you see problems arise during your merge, you see it in the data. We call the result simply the MERGE
-4. MERGE: Keep the GeoID (= id) and all other columns you need for your data visualization. Get rid of all the rest in the MERGE as you don't want to load data that is not necessary.
+1. The TopoJSON/GeoJSON map only uses GeoIDs to identify an area unit (e.g. id = 84006001 for Alameda County, California, USA) 
+2. All additional information about a GeoID is in the REF. Next to the GeoID, you will find the area unit names (in different languages if you want) and any codes in use. See an example of a REF here: [us_county_2012](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv).
+3. Merge: Now you can merge your data, the EXT, with the REF. As the REF provides several columns to merge, you should find what is the most appropriate to merge on. (If you see problems arising during your merge, you see it right there in the data and you don't need to go in your map data.) We call the final result of REF and EXT simply the MERGE.
+4. Continue with the MERGE. Keep the GeoID (= id) and all other columns you need for your data visualization. Get rid of all the rest in the MERGE as you don't want to load data that will not be in use.
 5. Rename the MERGE. We use the following structure: what_location_areaunit_date. For example: primary_iowa_county_2012.csv
 6. Now you can start with your data visualization
 
