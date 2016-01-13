@@ -30,7 +30,21 @@ str(ext) # 4074 obs. of  7 variables
 str(ref) # 3143 obs. of  7 variables
 
 ## Let's figure out how many counties per state are in the EXT file:
+## EXT
 group_by_state_code <- group_by(ext, State.Postal)
 county_by_state_ext <- summarize(group_by_state_code, count = n())
 write.table(county_by_state_ext, file="us_county_by_state_ext.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+## change of matching variable
+county_by_state_ext$state_code <- county_by_state_ext$State.Postal
 
+## REF
+install.packages("curl")
+library(curl)
+county_by_state_ref<- read.csv( curl("https://raw.githubusercontent.com/datamapio/geoid/master/US/county/us_county_by_state_2010-2012.csv") )
+
+## Compare REF TO EXT
+county_by_state_ext$county_number_ext <- county_by_state_ext$count
+county_by_state_ref$county_number_ref <- county_by_state_ref$county_number
+ref_ext_county_by_state <- data <- merge(county_by_state_ref, county_by_state_ext, by="state_code")
+ref_ext_county_by_state <- ref_ext_county_by_state[c("id", "state_code", "county_number_ref", "county_number_ext")]
+write.table(ref_ext_county_by_state, file="ref_ext_comparison_us_county_by_state.csv", sep="," ,col.names=TRUE, row.names=FALSE)
