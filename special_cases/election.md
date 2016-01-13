@@ -39,4 +39,17 @@ It has 4639 rows/observations instead of only 4074 rows/observations
 The result is much better: [REF EXT2 comparison: Number of Counties per State](https://github.com/datamapio/geoid/blob/master/special_cases/ref_ext2_comparison_us_county_by_state.csv) 
 
 If the difference is one between the number of counties, it is normally because in the EXT2 we not only have the county data by itself, but also the state totals. If it is much more than the number of counties, we will probably have precinct data. If it is less, then we have either unreported counties or only state data (like in the case of Alaska).
+
+Here are the ones to check in detail:
+
+id	state_code	county_number_ref	county_number_ext   
+84002	AK	29	2   
+84009	CT	8	170   
+84015	HI	5	5    
+84023	ME	16	500    
+84025	MA	14	352      
+84033	NH	10	238    
+84044	RI	5	40    
+84050	VT	14	247    
+
  
