@@ -43,6 +43,7 @@ If the difference is one between the number of counties, it is normally because 
 Here are the ones to check in detail:
 
 id		| state_code | county_number_ref	| county_number_ext |  
+--------|:----------:|:--------------------:|:-----------------:|
 84002	| AK		 | 29					| 2   				|
 84009	| CT  		 | 8  					| 170 				|   
 84015	| HI  		 | 5    				| 5  				|    
