@@ -2,7 +2,7 @@
 
 ## US Presidential Elections 2012
 
-PROBLEM: How to visualize messy data which covers bigger and smaller units than your base unit? What are the best strategies?
+PROBLEM: How to visualize messy data which covers bigger and smaller units than your base unit? What are the best strategies?   
 
 EXT has data by self, parent and children 
 Here:   
@@ -34,5 +34,9 @@ So we need to find better data or else our data viz is incomplete.
 
 ### EXT 2
 Let's look now at the Excel Sheet 2 (Full Data)
-It has 4639 rows/observations instead of only 4074 rows/observations  
+It has 4639 rows/observations instead of only 4074 rows/observations 
+
+The result is much better: [REF EXT2 comparison: Number of Counties per State](https://github.com/datamapio/geoid/blob/master/special_cases/ref_ext2_comparison_us_county_by_state.csv) 
+
+If the difference is one between the number of counties, it is normally because in the EXT2 we not only have the county data by itself, but also the state totals. If it is much more than the number of counties, we will probably have precinct data. If it is less, then we have either unreported counties or only state data (like in the case of Alaska).
  
