@@ -30,7 +30,7 @@ str(ext) # 4074 obs. of  7 variables
 str(ref) # 3143 obs. of  7 variables
 
 ## Let's figure out how many counties per state are in the EXT file:
-## EXT
+## EXT ()
 group_by_state_code <- group_by(ext, State.Postal)
 county_by_state_ext <- summarize(group_by_state_code, count = n())
 write.table(county_by_state_ext, file="us_county_by_state_ext.csv", sep="," ,col.names=TRUE, row.names=FALSE)
@@ -45,6 +45,24 @@ county_by_state_ref<- read.csv( curl("https://raw.githubusercontent.com/datamapi
 ## Compare REF TO EXT
 county_by_state_ext$county_number_ext <- county_by_state_ext$count
 county_by_state_ref$county_number_ref <- county_by_state_ref$county_number
-ref_ext_county_by_state <- data <- merge(county_by_state_ref, county_by_state_ext, by="state_code")
+ref_ext_county_by_state <- merge(county_by_state_ref, county_by_state_ext, by="state_code", all=T)
 ref_ext_county_by_state <- ref_ext_county_by_state[c("id", "state_code", "county_number_ref", "county_number_ext")]
 write.table(ref_ext_county_by_state, file="ref_ext_comparison_us_county_by_state.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## EXT 2 (with 4639 rows, 203 variables)
+ext2 <- read.xls ("ext.xls", sheet = 2, header = TRUE, stringsAsFactors=FALSE)
+dim(ext2) # [1] 4639  203, WOW!
+
+group_by_state_code2 <- group_by(ext2, State.Postal)
+county_by_state_ext2 <- summarize(group_by_state_code2, count = n())
+dim(county_by_state_ext2) # [1] 51  2
+
+## write.table(county_by_state_ext2, file="us_county_by_state_ext2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+## change of matching variable
+county_by_state_ext2$state_code <- county_by_state_ext2$State.Postal
+
+## Compare REF TO EXT
+county_by_state_ext2$county_number_ext <- county_by_state_ext2$count
+ref_ext2_county_by_state <- merge(county_by_state_ref, county_by_state_ext2, by="state_code", all=T)
+ref_ext2_county_by_state <- ref_ext2_county_by_state[c("id", "state_code", "county_number_ref", "county_number_ext")]
+write.table(ref_ext2_county_by_state, file="ref_ext2_comparison_us_county_by_state.csv", sep="," ,col.names=TRUE, row.names=FALSE)
