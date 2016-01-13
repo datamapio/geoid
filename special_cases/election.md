@@ -19,3 +19,6 @@ Our [REF](https://github.com/datamapio/geoid/blob/master/US/county/us_county_con
 So let's start by comparing the number of counties per state:
 [REF](https://github.com/datamapio/geoid/blob/master/US/county/us_county_by_state_2010-2012.csv)
 [EXT](https://github.com/datamapio/geoid/blob/master/special_cases/us_county_by_state_ext.csv)
+
+And here is an overview side by side
+[Comparison REF and EXT](https://github.com/datamapio/geoid/blob/master/special_cases/ref_ext_comparison_us_county_by_state.csv)
