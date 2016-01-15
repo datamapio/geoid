@@ -1,17 +1,11 @@
-Preparation for 2016
-=============================
+#Preparation for 2016
 
-- primary_iowa_county_2012.csv
-
+Origin: primary_iowa_county_2012.csv
 
 
-
-primary_rep_iowa_county_2016.csv 
-================================
-REF: [=> ref.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/county/by_state/iowa/iowa_county_2010-2016.csv) +
-EXT: [=> ext.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/example/primary_rep_iowa_county_2016_ext.csv)   
-= DATA: primary_rep_iowa_county_2016.csv 
-
+## primary_rep_iowa_county_2016.csv 
+[REF => ref.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/county/by_state/iowa/iowa_county_2010-2016.csv) +
+[EXT => ext.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/example/primary_rep_iowa_county_2016_ext.csv) = DATA: primary_rep_iowa_county_2016.csv 
 
 
 bush = Jeb Bush, Former Florida Governor 
@@ -40,8 +34,7 @@ trump = Donald J. Trump, Real Estate Mogul
 
 
 
-primary_dem_iowa_county_2016.csv
-================================
+##primary_dem_iowa_county_2016.csv
 
 clinton = Hillary Clinton, Former Secretary of State
 
