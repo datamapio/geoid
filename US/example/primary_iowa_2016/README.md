@@ -8,10 +8,9 @@ Preparation for 2016
 
 primary_rep_iowa_county_2016.csv 
 ================================
-REF: 
-EXT: primary_rep_iowa_county_2016_ext.csv
-=
-DATA: primary_rep_iowa_county_2016.csv 
+REF: [=> ref.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/county/by_state/iowa/iowa_county_2010-2016.csv) +
+EXT: [=> ext.csv](https://raw.githubusercontent.com/datamapio/geoid/master/US/example/primary_rep_iowa_county_2016_ext.csv)   
+= DATA: primary_rep_iowa_county_2016.csv 
 
 
 
