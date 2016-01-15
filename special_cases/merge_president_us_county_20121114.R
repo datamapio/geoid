@@ -65,4 +65,20 @@ county_by_state_ext2$state_code <- county_by_state_ext2$State.Postal
 county_by_state_ext2$county_number_ext <- county_by_state_ext2$count
 ref_ext2_county_by_state <- merge(county_by_state_ref, county_by_state_ext2, by="state_code", all=T)
 ref_ext2_county_by_state <- ref_ext2_county_by_state[c("id", "state_code", "county_number_ref", "county_number_ext")]
+ref_ext2_county_by_state <- ref_ext2_county_by_state[order(ref_ext2_county_by_state$id),]
 write.table(ref_ext2_county_by_state, file="ref_ext2_comparison_us_county_by_state.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## FILTER STATES THAT LOOK SPECIAL
+
+## AK, 84002, 29 counties
+ext2_AK <- subset(ext2, State.Postal == "AK")
+
+## CT, 84009, 8 counties
+ext2_CT <- subset(ext2, State.Postal == "CT")
+ext2_CT_county_fips_no <- ext2_CT[c("FIPS.Code", "County.Name", "County.Number")]
+group_by_ext2_CT_county_fips_no <- group_by(ext2_CT_county_fips_no, FIPS.Code)
+dim(group_by_ext2_CT_county_fips_no) # 170 x for 8 counties
+county_by_fips_ext2_CT_county_fips_no <- summarize(group_by_ext2_CT_county_fips_no, count = n())
+View(county_by_fips_ext2_CT_county_fips_no)
+
+
