@@ -8,6 +8,11 @@ Preparation for 2016
 
 primary_rep_iowa_county_2016.csv 
 ================================
+REF: 
+EXT: primary_rep_iowa_county_2016_ext.csv
+=
+DATA: primary_rep_iowa_county_2016.csv 
+
 
 
 bush = Jeb Bush, Former Florida Governor 
