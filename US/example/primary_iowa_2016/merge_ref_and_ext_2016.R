@@ -85,6 +85,7 @@ data$roemer	<- data$Roemer
 data$romney	<- data$Romney
 data$santorum <- data$Santorum
 
-data <- data[c("id", "county_name", "bachmann", "cain", "gingrich", "huntsman", "paul", "perry", "roemer", "romney", "santorum", "no_preference", "other")]
-
-write.table(data, file="primary_iowa_county_2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+# data <- data[c("id", "county_name", "bachmann", "cain", "gingrich", "huntsman", "paul", "perry", "roemer", "romney", "santorum", "no_preference", "other")]
+data <- data[c("id", "county_name", "bush", "carson", "christie", "fiorina", "paul", "rubio", "gilmore", "cruz", "santorum", "kasich", "trump","huckabee", "no_preference", "other")]
+# write.table(data, file="primary_iowa_county_2012.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(data, file="primary_rep_iowa_county_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
