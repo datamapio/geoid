@@ -43,3 +43,29 @@ omalley = Martin O’Malley, Former Maryland Governor
 sanders = Bernie Sanders, United States Senator
 
 
+JSON
+
+background-color: #8ab2bf
+
+
+"candidates2016":[
+
+{
+  "id":"bush"
+  "first_name": "Jeb",
+  "last_name": "Bush",
+  "occupation": "Former Florida Governor"
+  "party": "Republican",
+  "status":"Running"  // Other possibilities: "Dropped Out", "Not Running", 
+
+
+  "style": {
+    "background-color": "#ff7f00",
+    "image": "/img/bush_50.jpg",
+
+  },
+}
+]
+
+
+
