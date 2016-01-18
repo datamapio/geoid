@@ -7,7 +7,9 @@
 - Use delimiters consistenly
 
 Delimiter in use: 
-- ZP: for ZIP or Postal Code. Only use when necessary.
+- No delimiter (country > state > county; country > canton > municipality etc)
+- ZP: for Z like ZIP and P like Postal Code. Only use when necessary.
+- PCT: Precinct
 
 
 
@@ -53,7 +55,14 @@ Ex. 84006001 = Alameda County
 Type: Alphanumeric, 10    
 Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)   
 840 | ZP | 94702    
-Ex. 840ZP94702 = ZIP Code 94702   
+Ex. 840ZP94702 = ZIP Code 94702 
+
+###Precinct Code
+Type: Alphanumeric, 15
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)
+840 | 06 | 075 | PCT | 1117
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco
+
 
 
 

@@ -1,4 +1,4 @@
-# GeoID Files (REF)
+# GeoID aka REF Files
 
 GeoID files, also called Reference files (REF), are the glue between a map and your data.
 REF files contain always the GeoID resp. id to reference the area unit on a map, e.g. a county. They also come with additional information like the FIPS code, the County Name, the State Code etc.
