@@ -58,10 +58,10 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)
 Ex. 840ZP94702 = ZIP Code 94702 
 
 ###Precinct Code
-Type: Alphanumeric, 15
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)
-840 | 06 | 075 | PCT | 1117
-Ex. 84006075PCT1117 = Precinct 1117 in San Francisco
+Type: Alphanumeric, 15    
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)   
+840 | 06 | 075 | PCT | 1117   
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco   
 
 
 
