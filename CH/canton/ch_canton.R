@@ -26,5 +26,5 @@ canton$id <- paste("756", canton$canton_number, sep="")
 canton <- canton[c("id", "canton_number", "canton_code", "canton_name", "ktnr", "gdekt", "gdektna")]
 
 ## Export as csv
-write.table(data, file="ch_canton.csv",sep=",",col.names=TRUE,row.names=FALSE)
+write.table(canton, file="ch_canton.csv",sep=",",col.names=TRUE,row.names=FALSE)
 
