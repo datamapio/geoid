@@ -6,7 +6,7 @@
 - Use short delimiters
 - Use delimiters consistenly
 
-Delimiter in use: 
+Delimiters in use: 
 - No delimiter (country > state > county; country > canton > municipality etc)
 - ZP: for Z like ZIP and P like Postal Code. Only use when necessary.
 - PCT: Precinct
@@ -24,15 +24,47 @@ Canada
 124     
 
 ###Postal Code (Canadapost) 
-Type: Alphanumeric, 9   
-Country (3, numeric, ISO) | Postal Code (6, alphanumeric, Canadapost)    
-124 | K1AOB1     
-Ex.  124K1AOB1 = Postal Code K1A OB1    
+Type: Alphanumeric, 11   
+Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (6, alphanumeric, Canadapost)    
+124 | ZP | K1AOB1     
+Ex.  124ZPK1AOB1 = Postal Code K1A OB1    
 Note: There is no space between 3rd and 4th character for the GeoID (= id).      
 
 See: 
 http://www.statcan.gc.ca/eng/mgeo/geo   
 http://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/hierarch/p1-eng.htm
+
+
+##CH
+Switzerland
+756
+
+###Canton
+Type: Numeric, 4   
+Country (3, numeric, ISO) | State (2, numeric, BFS)    
+756 | 01   
+Ex. 75601 = Canton of Zurich   
+We add the leading zeros for cantons that have only one digit   
+
+###District (Bezirk)
+Type: Numeric, 6   
+Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS)   
+756 | 01 | 12   
+Ex. 7560112 = District Zurich 
+We add the leading zeros for district that have only one digit    
+
+###Municipality (Commune / Gemeinde)
+Type: Numeric, 11   
+Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, mumeric, BFS)   
+756 | 01 | 12 | 0261
+Ex. 75601120261 = Municipality of Zurich  
+We add the leading zeros for municipalities with less then 4 digits    
+
+###Postal Code (PLZ)
+Type: Alphanumeric, 9     
+Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, USPS)     
+756 | ZP | 8004      
+Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
 
 
 ##US
