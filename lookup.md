@@ -2,12 +2,13 @@
 #GEOID LOOKUP
 ## Some Guidelines
 - Use numeric as much as possible (not always possible)
+- Use parent-children relationships when possible (country > state > county; country > canton > district > municipality).
 - Use delimiters between the numeric country code and what follows only if there is a possible clash
 - Use short delimiters
 - Use delimiters consistenly
 
 Delimiters in use: 
-- No delimiter (country > state > county; country > canton > municipality etc)
+- No delimiter (country > state > county; country > canton > district > municipality etc)
 - ZP: for Z like ZIP and P like Postal Code. Only use when necessary.
 - PCT: Precinct
 
@@ -62,7 +63,7 @@ We add the leading zeros for municipalities with less then 4 digits
 
 ###Postal Code (PLZ)
 Type: Alphanumeric, 9     
-Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, USPS)     
+Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)     
 756 | ZP | 8004      
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
 
