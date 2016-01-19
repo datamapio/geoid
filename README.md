@@ -6,7 +6,7 @@ You can match your data on any parameter you want and then get rid of anything b
 
 
 ## Focus on the data
-datamap provides you with:
+[datamap](https://www.datamap.io) provides you with:
 * MAP
 * DATA, more precisely with the REF. You then merge your external data EXT with our REF
 * VIZ    
@@ -31,8 +31,9 @@ We want to make GeoIDs usable internationally that's why the id always starts wi
 
 ## Examples
 
-Here is the REF for US States and other areas like Puerto Rico
-https://github.com/datamapio/geoid/blob/master/US/state/us_state_and_other.csv
-
 Here is the REF for US Counties and similar being able to vote at the Presidential Election 2012
 https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv
+
+Here are more examples for Switzerland    
+https://github.com/datamapio/geoid/blob/master/CH/README.md
+
