@@ -9,9 +9,9 @@ https://github.com/datamapio/geoid/blob/master/CH/district/ch_district_2016.csv
 ##Municipality REF File
 https://github.com/datamapio/geoid/blob/master/CH/municipality/ch_municipality_2016.csv
 
-    
-    
-See [Lookup](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+      
+## See Lookup for GeoID construction   
+[Lookup](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
 
 
 Source:  
