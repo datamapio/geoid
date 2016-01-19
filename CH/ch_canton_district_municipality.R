@@ -11,21 +11,22 @@ fileUrl <- "http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/b
 download.file(fileUrl, destfile = "ch_canton_district_municipality_2016.xls", method = "curl")
 
 dateDownloaded <- date()
-dateDownloaded # "Tue Jan 12 15:17:15 2016"
+dateDownloaded # "Mon Jan 18 17:24:41 2016"
 
 install.packages("gdata")
 require(gdata)
 
 ## Canton
 canton <- read.xls ("ch_canton_district_municipality_2016.xls", sheet = 4, header = TRUE, stringsAsFactors=FALSE)
-write.table(data, file="canton/ch_canton_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(canton, file="canton/ch_canton_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 ## District
-district <- read.xls ("ch_canton_district_municipality.xls", sheet = 3, header = TRUE, stringsAsFactors=FALSE)
+district <- read.xls ("ch_canton_district_municipality_2016.xls", sheet = 3, header = TRUE, stringsAsFactors=FALSE)
+write.table(district, file="district/ch_district_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 ## Muncipality
-municipality <- read.xls ("ch_canton_district_municipality.xls", sheet = 2, header = TRUE, stringsAsFactors=FALSE)
-
+municipality <- read.xls ("ch_canton_district_municipality_2016.xls", sheet = 2, header = TRUE, stringsAsFactors=FALSE)
+write.table(municipality, file="municipality/ch_municipality_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
 
