@@ -55,7 +55,7 @@ We add the leading zeros for district that have only one digit
 
 ###Municipality (Commune / Gemeinde)
 Type: Numeric, 11   
-Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, mumeric, BFS)   
+Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS)   
 756 | 01 | 12 | 0261
 Ex. 75601120261 = Municipality of Zurich  
 We add the leading zeros for municipalities with less then 4 digits    
@@ -65,6 +65,9 @@ Type: Alphanumeric, 9
 Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, USPS)     
 756 | ZP | 8004      
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
+
+Reference:   
+http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html   
 
 
 ##US
