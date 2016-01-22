@@ -57,3 +57,13 @@ write.table(massachusetts, file="massachusetts/massachusetts_county_2010-2016.cs
 ## Minnesota 2010-2016 (no changes)
 minnesota <- filter(ref_2010, state_code == "MN")
 write.table(minnesota, file="minnesota/minnesota_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## North Dakota 2010-2016 (no changes)
+north_dakota <- filter(ref_2010, state_code == "ND")
+write.table(north_dakota, file="north_dakota/north_dakota_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Oklahoma 2010-2016 (no changes)
+oklahoma <- filter(ref_2010, state_code == "OK")
+write.table(oklahoma, file="oklahoma/oklahoma_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
