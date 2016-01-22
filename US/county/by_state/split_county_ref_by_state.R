@@ -170,9 +170,26 @@ write.table(utah, file="utah/utah_county_2010-2016.csv", sep="," ,col.names=TRUE
 
 
 
-Changes
-SD	South Dakota: Changes
+
+## South Dakota: Changes
 # Oglala Lakota County, South Dakota (46-102) Changed name and code from Shannon County (46-113) effective May 1, 2015. Shannon County, South Dakota (46-113) Changed name and code to Oglala Lakota County (46-102) effective May 1, 2015.
+south_dakota2010_20150430 <- filter(ref_2010, state_code == "SD")
+south_dakota20150501_2016 <- south_dakota2010_20150430
+oglala <- south_dakota20150501_2016[south_dakota20150501_2016$fips == "46113", ] 
+oglala$id <- "84046102"
+oglala$fips <- "46102"
+oglala$county_name <- "Oglala Lakota County"
+oglala$county_fips <- "102"
+south_dakota20150501_2016[south_dakota20150501_2016$fips == "46113", ] <- oglala
+south_dakota20150501_2016 <- arrange(south_dakota20150501_2016, id)
+
+write.table(south_dakota2010_20150430, file="south_dakota/south_dakota_county_2010-20150430.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(south_dakota20150501_2016, file="south_dakota/south_dakota_county_20150501-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+
+
+
 AK	Alaska
 # Hoonah-Angoon Census Area, Alaska (02-105): Part taken to create new Petersburg Borough (02-195) effective January 3, 2013; estimated detached population: 1
 # Prince of Wales-Hyder Census Area, Alaska (02-198): Prince of Wales-Hyder Census Area (02-198) added part of the former Petersburg Census Area (02-195) effective January 3, 2013; estimated added population 613.
