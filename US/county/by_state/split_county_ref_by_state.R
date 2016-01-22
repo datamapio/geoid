@@ -11,7 +11,7 @@ ref_2010 <- read.csv("/Users/rogerfischer/datamap/geoid/US/county/us_county_cong
 
 
 ## By State
-The 3 states that had changes are Alaska, Louisiana and Virginia. All others remain the same.
+The 3 states that had changes during 2010-2016 are Alaska, Louisiana and Virginia. All others remain the same.
 library(dplyr)
 
 ## Iowa 2010-2016 (no changes)
@@ -49,3 +49,11 @@ write.table(colorado, file="colorado/colorado_county_2010-2016.csv", sep="," ,co
 ## Georgia 2010-2016 (no changes)
 georgia <- filter(ref_2010, state_code == "GA")
 write.table(georgia , file="georgia/georgia_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Massachusetts 2010-2016 (no changes)
+massachusetts <- filter(ref_2010, state_code == "MA")
+write.table(massachusetts, file="massachusetts/massachusetts_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Minnesota 2010-2016 (no changes)
+minnesota <- filter(ref_2010, state_code == "MN")
+write.table(minnesota, file="minnesota/minnesota_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
