@@ -158,6 +158,17 @@ write.table(north_carolina, file="north_carolina/north_carolina_county_2010-2016
 ## Ohio 2010-2016 (no changes)
 ohio <- filter(ref_2010, state_code == "OH")
 write.table(ohio, file="ohio/ohio_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+  
+## Arizona 2010-2016 (no changes)
+arizona <- filter(ref_2010, state_code == "AZ")
+write.table(arizona, file="arizona/arizona_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Utah 2010-2016 (no changes)
+utah <- filter(ref_2010, state_code == "UT")
+write.table(utah, file="utah/utah_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+
 
 Changes
 SD	South Dakota: Changes
