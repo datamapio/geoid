@@ -11,7 +11,7 @@ ref_2010 <- read.csv("/Users/rogerfischer/datamap/geoid/US/county/us_county_cong
 
 
 ## By State
-The 3 states that had changes during 2010-2016 are Alaska, Louisiana and Virginia. All others remain the same.
+The 4 states that had changes during 2010-2016 are Alaska, Louisiana, South Dakota and Virginia. All others remain the same.
 library(dplyr)
 
 ## Iowa 2010-2016 (no changes)
@@ -73,5 +73,27 @@ write.table(tennessee, file="tennessee/tennessee_county_2010-2016.csv", sep="," 
 ## Texas 2010-2016 (no changes)
 texas <- filter(ref_2010, state_code == "TX")
 write.table(texas, file="texas/texas_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Vermont 2010-2016 (no changes)
+vermont <- filter(ref_2010, state_code == "VT")
+write.table(vermont, file="vermont/vermont_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+## Virginia: Attention changes
+#Deleted Counties or County Equivalent Entities Bedford (independent) city, Virginia (51-515): Changed to town status and added to Bedford County (51-019) effective July 1, 2013.
+#Bedford County, Virginia (51-019): Added the former independent city of Bedford (51-515) effective July 1, 2013; estimated net added population 6,222.
+## With 84051515, Date:  2010-20130630
+## Without 84051515, Date: 20130701-2016
+
+virginia2010_20130630 <- filter(ref_2010, state_code == "VA")
+virginia20130701_2016 <- virginia2010_20130630
+virginia20130701_2016 <- virginia20130701_2016[-(virginia20130701_2016$fips == "51515"), ] 
+write.table(virginia2010_20130630, file="virginia/virginia_county_2010-20130630.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(virginia20130701_2016, file="virginia/virginia_county_20130701-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+  
+## Wyoming 2010-2016 (no changes)
+wyoming <- filter(ref_2010, state_code == "WY")
+write.table(wyoming, file="wyoming/wyoming_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
