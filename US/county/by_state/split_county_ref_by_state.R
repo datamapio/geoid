@@ -151,3 +151,25 @@ write.table(illinois, file="illinois/illinois_county_2010-2016.csv", sep="," ,co
 missouri <- filter(ref_2010, state_code == "MO")
 write.table(missouri, file="missouri/missouri_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## North Carolina 2010-2016 (no changes)
+north_carolina <- filter(ref_2010, state_code == "NC")
+write.table(north_carolina, file="north_carolina/north_carolina_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+ 
+## Ohio 2010-2016 (no changes)
+ohio <- filter(ref_2010, state_code == "OH")
+write.table(ohio, file="ohio/ohio_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+Changes
+SD	South Dakota: Changes
+# Oglala Lakota County, South Dakota (46-102) Changed name and code from Shannon County (46-113) effective May 1, 2015. Shannon County, South Dakota (46-113) Changed name and code to Oglala Lakota County (46-102) effective May 1, 2015.
+AK	Alaska
+# Hoonah-Angoon Census Area, Alaska (02-105): Part taken to create new Petersburg Borough (02-195) effective January 3, 2013; estimated detached population: 1
+# Prince of Wales-Hyder Census Area, Alaska (02-198): Prince of Wales-Hyder Census Area (02-198) added part of the former Petersburg Census Area (02-195) effective January 3, 2013; estimated added population 613.
+# New Counties or County Equivalent Entities
+# Petersburg Borough, Alaska (02-195): Created from part of former Petersburg Census Area (02-195) and part of Hoonah-Angoon Census Area (02-105) effective January 3, 2013; estimated population 3,203.
+# Hoonah-Angoon Census Area, Alaska (02-105): Part taken to create new Petersburg Borough (02-195) effective January 3, 2013; estimated detached population: 1
+# Prince of Wales-Hyder Census Area, Alaska (02-198): Prince of Wales-Hyder Census Area (02-198) added part of the former Petersburg Census Area (02-195) effective January 3, 2013; estimated added population 613.
+# Kusilvak Census Area, Alaska (02-158) Changed name and code from Wade Hampton Census Area (02-270) effective July 1, 2015. Wade Hampton Census Area, Alaska (02-270) Changed name and code to Kusilvak Census Area (02-158) effective July 1, 2015.
+
+
+
