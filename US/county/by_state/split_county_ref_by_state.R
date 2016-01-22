@@ -38,4 +38,14 @@ write.table(washington, file="washington/washington_county_2010-2016.csv", sep="
 alabama <- filter(ref_2010, state_code == "AL")
 write.table(alabama, file="alabama/alabama_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Arkansas 2010-2016 (no changes)
+arkansas <- filter(ref_2010, state_code == "AR")
+write.table(arkansas, file="arkansas/arkansas_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Colorado 2010-2016 (no changes)
+colorado <- filter(ref_2010, state_code == "CO")
+write.table(colorado, file="colorado/colorado_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Georgia 2010-2016 (no changes)
+georgia <- filter(ref_2010, state_code == "GA")
+write.table(georgia , file="georgia/georgia_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
