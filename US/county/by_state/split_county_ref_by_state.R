@@ -126,3 +126,28 @@ write.table(nebraska, file="nebraska/nebraska_county_2010-2016.csv", sep="," ,co
 ## Hawaii 2010-2016 (no changes)
 hawaii <- filter(ref_2010, state_code == "HI")
 write.table(hawaii, file="hawaii/hawaii_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+  
+## Idaho 2010-2016 (no changes)
+idaho <- filter(ref_2010, state_code == "ID")
+write.table(idaho, file="idaho/idaho_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+  
+## Michigan 2010-2016 (no changes)
+michigan <- filter(ref_2010, state_code == "MI")
+write.table(michigan, file="michigan/michigan_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+  
+## Mississippi 2010-2016 (no changes)
+mississippi <- filter(ref_2010, state_code == "MS")
+write.table(mississippi, file="mississippi/mississippi_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Florida 2010-2016 (no changes)
+florida <- filter(ref_2010, state_code == "FL")
+write.table(florida, file="florida/florida_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+	
+## Illinois 2010-2016 (no changes)
+illinois <- filter(ref_2010, state_code == "IL")
+write.table(illinois, file="illinois/illinois_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+	
+## Missouri 2010-2016 (no changes)
+missouri <- filter(ref_2010, state_code == "MO")
+write.table(missouri, file="missouri/missouri_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
