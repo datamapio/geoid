@@ -113,6 +113,6 @@ lasalle$county_name <- "LaSalle Parish"
 louisiana2011_2016[louisiana2011_2016$fips == "22059", ] <- lasalle
 glimpse(louisiana2011_2016)
 write.table(louisiana2010_20103112, file="louisiana/louisiana_county_2010-20101231.csv", sep="," ,col.names=TRUE, row.names=FALSE)
-write.table(louisiana2011_2016, file="louisiana/louisiana_county_20110101_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(louisiana2011_2016, file="louisiana/louisiana_county_20110101-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
