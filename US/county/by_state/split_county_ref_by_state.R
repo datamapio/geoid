@@ -30,4 +30,12 @@ write.table(nevada, file="nevada/nevada_county_2010-2016.csv", sep="," ,col.name
 south_carolina <- filter(ref_2010, state_code == "SC")
 write.table(south_carolina, file="south_carolina/south_carolina_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Washington 2010-2016 (no changes)
+washington <- filter(ref_2010, state_code == "WA")
+write.table(washington, file="washington/washington_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Alabama 2010-2016 (no changes)
+alabama <- filter(ref_2010, state_code == "AL")
+write.table(alabama, file="alabama/alabama_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 
