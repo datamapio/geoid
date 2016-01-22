@@ -1,4 +1,5 @@
 "id","fips","county_name","state_code","state_fips","county_fips","class_fips"
+"84051001","51001","Accomack County","VA","51","001","H1"
 "84051003","51003","Albemarle County","VA","51","003","H1"
 "84051005","51005","Alleghany County","VA","51","005","H1"
 "84051007","51007","Amelia County","VA","51","007","H1"
@@ -94,7 +95,6 @@
 "84051197","51197","Wythe County","VA","51","197","H1"
 "84051199","51199","York County","VA","51","199","H1"
 "84051510","51510","Alexandria city","VA","51","510","C7"
-"84051515","51515","Bedford city","VA","51","515","C7"
 "84051520","51520","Bristol city","VA","51","520","C7"
 "84051530","51530","Buena Vista city","VA","51","530","C7"
 "84051540","51540","Charlottesville city","VA","51","540","C7"
