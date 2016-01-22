@@ -115,4 +115,14 @@ glimpse(louisiana2011_2016)
 write.table(louisiana2010_20103112, file="louisiana/louisiana_county_2010-20101231.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 write.table(louisiana2011_2016, file="louisiana/louisiana_county_20110101-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Maine 2010-2016 (no changes)
+maine <- filter(ref_2010, state_code == "ME")
+write.table(maine, file="maine/maine_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+ 
+## Nebraska 2010-2016 (no changes)
+nebraska <- filter(ref_2010, state_code == "NE")
+write.table(nebraska, file="nebraska/nebraska_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Hawaii 2010-2016 (no changes)
+hawaii <- filter(ref_2010, state_code == "HI")
+write.table(hawaii, file="hawaii/hawaii_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
