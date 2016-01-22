@@ -66,4 +66,12 @@ write.table(north_dakota, file="north_dakota/north_dakota_county_2010-2016.csv",
 oklahoma <- filter(ref_2010, state_code == "OK")
 write.table(oklahoma, file="oklahoma/oklahoma_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
+## Tennessee 2010-2016 (no changes)
+tennessee <- filter(ref_2010, state_code == "TN")
+write.table(tennessee, file="tennessee/tennessee_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+	
+## Texas 2010-2016 (no changes)
+texas <- filter(ref_2010, state_code == "TX")
+write.table(texas, file="texas/texas_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 
