@@ -84,16 +84,35 @@ write.table(vermont, file="vermont/vermont_county_2010-2016.csv", sep="," ,col.n
 #Bedford County, Virginia (51-019): Added the former independent city of Bedford (51-515) effective July 1, 2013; estimated net added population 6,222.
 ## With 84051515, Date:  2010-20130630
 ## Without 84051515, Date: 20130701-2016
-
 virginia2010_20130630 <- filter(ref_2010, state_code == "VA")
 virginia20130701_2016 <- virginia2010_20130630
-virginia20130701_2016 <- virginia20130701_2016[-(virginia20130701_2016$fips == "51515"), ] 
+virginia20130701_2016 <- filter(virginia20130701_2016, fips != "51515") 
+glimpse(virginia2010_20130630)
 write.table(virginia2010_20130630, file="virginia/virginia_county_2010-20130630.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+glimpse(virginia20130701_2016)
 write.table(virginia20130701_2016, file="virginia/virginia_county_20130701-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
-
   
 ## Wyoming 2010-2016 (no changes)
 wyoming <- filter(ref_2010, state_code == "WY")
 write.table(wyoming, file="wyoming/wyoming_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+  
+## Kansas 2010-2016 (no changes)
+kansas <- filter(ref_2010, state_code == "KS")
+write.table(kansas, file="kansas/kansas_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Kentucky 2010-2016 (no changes)
+kentucky <- filter(ref_2010, state_code == "KY")
+write.table(kentucky, file="kentucky/kentucky_county_2010-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## Louisiana: Changes
+## LaSalle Parish, Louisiana (22-059) Name corrected from La Salle Parish (removing space) reported as of January 1, 2011.
+louisiana2010_20103112 <- filter(ref_2010, state_code == "LA")
+louisiana2011_2016 <- louisiana2010_20103112
+lasalle <- louisiana2011_2016[louisiana2011_2016$fips == "22059", ] 
+lasalle$county_name <- "LaSalle Parish"
+louisiana2011_2016[louisiana2011_2016$fips == "22059", ] <- lasalle
+glimpse(louisiana2011_2016)
+write.table(louisiana2010_20103112, file="louisiana/louisiana_county_2010-20101231.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(louisiana2011_2016, file="louisiana/louisiana_county_louisiana20110101_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
