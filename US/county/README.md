@@ -1,5 +1,18 @@
 # US:County
 
+## Counties by State
+[Counties by State (2010-2016)](https://github.com/datamapio/geoid/tree/master/US/county/by_state)  
+
+## The Number of Counties by State
+[counties by state, 2010 - July 2013](https://github.com/datamapio/geoid/blob/master/US/county/us_county_by_state_2010-2012.csv)
+
+## All counties for Elections (only States and DC)
+
+[us_county_congressionalvote_2010.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2010.csv)     
+[us_county_congressionalvote_2011.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2011.csv) - with 2011 changes applied       
+[us_county_congressionalvote_2012.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv) - with 2011 changes applied
+ 
+
 ## Changes 2010-2015
 
 See: https://www.census.gov/geo/reference/county-changes.html
@@ -51,21 +64,9 @@ Wade Hampton Census Area, Alaska (02-270)
 Changed name and code to Kusilvak Census Area (02-158) effective July 1, 2015.
 
 
-## The Number of Counties by State
-[counties by state, 2010 - July 2013](https://github.com/datamapio/geoid/blob/master/US/county/us_county_by_state_2010-2012.csv)
-
-
-## Counties for Elections (only States and DC)
-
-[us_county_congressionalvote_2010.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2010.csv)     
-[us_county_congressionalvote_2011.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2011.csv) - with 2011 changes applied       
-[us_county_congressionalvote_2012.csv](https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv) - with 2011 changes applied
 
 
 
-
-## Counties by State
-Iowa
 
 
 
