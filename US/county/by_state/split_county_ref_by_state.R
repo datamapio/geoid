@@ -208,5 +208,11 @@ write.table(south_dakota20150501_2016, file="south_dakota/south_dakota_county_20
 ## Wisconsin 2010-2016 (no changes)
 wisconsin <- filter(ref_2010, state_code == "WI")
 write.table(wisconsin, file="wisconsin/wisconsin_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+  
+## New York 2010-2016 (no changes)
+new_york <- filter(ref_2010, state_code == "NY")
+write.table(new_york, file="new_york/new_york_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
-
+## Connecticut 2010-2016 (no changes)
+connecticut <- filter(ref_2010, state_code == "CT")
+write.table(connecticut, file="connecticut/connecticut_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
