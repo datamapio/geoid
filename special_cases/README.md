@@ -1,19 +1,19 @@
-# Special Cases: Election
+#Special Case: Election
 
-## US Presidential Elections 2012
+##US Presidential Elections 2012
 
 PROBLEM: How to visualize messy data which covers bigger and smaller units than your base unit? What are the best strategies?   
 
-EXT has data by self, parent and children 
-Here:   
+EXT has data by self, parent and children    
+Here:          
 self = county    
 parent = state   
 children = precinct   
 
-Otherwise said in the EXT there is not only county data, but the county data is mixed up with state and precinct data.
+Otherwise said in the EXT there is not only county data, but the county data is mixed up with state and precinct data.   
 
 
-### EXT
+###EXT
 During election night, the data comes in in all sorts of ways. Ideally you get the data per county, but as we can see in this [file](http://image.guardian.co.uk/sys-files/Guardian/documents/2012/11/14/US_elect_county.xls) from November 14, 2012, this is not always the case.
 
 We first use Excel Sheet 1 (OBAMA V ROMNEY ONLY)
@@ -32,7 +32,7 @@ What becomes immediately clear is that the EXT covers only 44 states, whereas th
 So we need to find better data or else our data viz is incomplete.
 
 
-### EXT 2
+###EXT 2
 Let's look now at the Excel Sheet 2 (Full Data)
 It has 4639 rows/observations instead of only 4074 rows/observations 
 
