@@ -1,10 +1,10 @@
-## setwd("/Users/rogerfischer/datamap/geoid/US/county/by_state")
+## setwd("datamap/geoid/US/county/by_state")
 ## getwd()
 
 ## If you don't have the file locally already, use the fileUrl below:
 ## fileUrl <- "https://raw.githubusercontent.com/datamapio/geoid/master/US/county/us_county_congressionalvote_2010.csv"
 
-ref_2010 <- read.csv("/Users/rogerfischer/datamap/geoid/US/county/us_county_congressionalvote_2010.csv", 
+ref_2010 <- read.csv("datamap/geoid/US/county/us_county_congressionalvote_2010.csv", 
                      header = TRUE, sep = ",", stringsAsFactors=FALSE, 
                      colClasses = c("character", "character", "character", "character", 
                                     "character", "character", "character"))
