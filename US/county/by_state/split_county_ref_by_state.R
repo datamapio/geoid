@@ -245,7 +245,25 @@ write.table(west_virginia, file="west_virginia/west_virginia_county_2010-2016.cs
 oregon <- filter(ref_2010, state_code == "OR")
 write.table(oregon, file="oregon/oregon_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## California 2010-2016 (no changes)
+california <- filter(ref_2010, state_code == "CA")
+write.table(california, file="california/california_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Montana 2010-2016 (no changes)
+montana <- filter(ref_2010, state_code == "MT")
+write.table(montana, file="montana/montana_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## New Jersey 2010-2016 (no changes)
+new_jersey <- filter(ref_2010, state_code == "NJ")
+write.table(new_jersey, file="new_jersey/new_jersey_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## New Mexico 2010-2016 (no changes)
+new_mexico <- filter(ref_2010, state_code == "NM")
+write.table(new_mexico, file="new_mexico/new_mexico_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## District of Columbia 2010-2016 (no changes)
+district_of_columbia <- filter(ref_2010, state_code == "DC")
+write.table(district_of_columbia, file="district_of_columbia/district_of_columbia_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
 
