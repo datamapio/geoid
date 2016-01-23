@@ -216,3 +216,36 @@ write.table(new_york, file="new_york/new_york_county_2010-2016.csv", sep="," , c
 ## Connecticut 2010-2016 (no changes)
 connecticut <- filter(ref_2010, state_code == "CT")
 write.table(connecticut, file="connecticut/connecticut_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Delaware 2010-2016 (no changes)
+delaware <- filter(ref_2010, state_code == "DE")
+write.table(delaware, file="delaware/delaware_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Maryland 2010-2016 (no changes)
+maryland <- filter(ref_2010, state_code == "MD")
+write.table(maryland, file="maryland/maryland_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+ 
+## Pennsylvania 2010-2016 (no changes)
+pennsylvania <- filter(ref_2010, state_code == "PA")
+write.table(pennsylvania, file="pennsylvania/pennsylvania_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Rhode Island 2010-2016 (no changes)
+rhode_island <- filter(ref_2010, state_code == "RI")
+write.table(rhode_island, file="rhode_island/rhode_island_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+	
+## Indiana 2010-2016 (no changes)
+indiana <- filter(ref_2010, state_code == "IN")
+write.table(indiana, file="indiana/indiana_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+  
+## West Virginia 2010-2016 (no changes)
+west_virginia <- filter(ref_2010, state_code == "WV")
+write.table(west_virginia, file="west_virginia/west_virginia_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Oregon 2010-2016 (no changes)
+oregon <- filter(ref_2010, state_code == "OR")
+write.table(oregon, file="oregon/oregon_county_2010-2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+
+
+
