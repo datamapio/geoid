@@ -179,14 +179,19 @@ petersburg$county_name <- "Petersburg Borough"
 petersburg$class_fips <- "H1"
 alaska20130103_20150630[alaska20130103_20150630$id == "84002195", ] <- petersburg
 
-
-
-alaska20150701_2016 <- alaska20130103_20150630
 # Kusilvak Census Area, Alaska (02-158) Changed name and code from Wade Hampton Census Area (02-270) effective July 1, 2015. Wade Hampton Census Area, Alaska (02-270) Changed name and code to Kusilvak Census Area (02-158) effective July 1, 2015.
+alaska20150701_2016 <- alaska20130103_20150630
+kusilvak <- alaska20150701_2016[alaska20150701_2016$fips == "02270", ] 
+kusilvak$county_name <- "Kusilvak Census Area"
+kusilvak$id <- "84002158"
+kusilvak$fips <- "02158"
+kusilvak$county_fips <- "158"
+alaska20150701_2016[alaska20150701_2016$fips == "02270", ] <- kusilvak
+alaska20150701_2016 <- arrange(alaska20150701_2016, id)
 
 write.table(alaska2010_20130102, file="alaska/alaska_county_2010-20130102.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 write.table(alaska20130103_20150630, file="alaska/alaska_county_20130103-20150630.csv", sep="," ,col.names=TRUE, row.names=FALSE)
-
+write.table(alaska20150701_2016, file="alaska/alaska_county_20150701-2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 ## South Dakota: Changes
 # Oglala Lakota County, South Dakota (46-102) Changed name and code from Shannon County (46-113) effective May 1, 2015. Shannon County, South Dakota (46-113) Changed name and code to Oglala Lakota County (46-102) effective May 1, 2015.
