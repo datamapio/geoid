@@ -46,8 +46,8 @@ See also:
 How the vote of the Swiss from abroad can change the result
 http://www.tagesanzeiger.ch/schweiz/standard/Auslandschweizer-kippten-Nein-in-ein-Ja/story/17574331
 The number of Swiss living abroad:
-(BfS)[http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/schweizer_im_ausland.html
-(NZZ, 2015: 761‘930) [http://www.nzz.ch/schweiz/aktuelle-themen/im-vergangenen-jahr-wuchs-die-zahl-der-auslandschweizer-um-rund-2-prozent-auf-761930-personen-1.18683329]
+[BfS](http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/schweizer_im_ausland.html)
+[NZZ, 2015: 761‘930] (http://www.nzz.ch/schweiz/aktuelle-themen/im-vergangenen-jahr-wuchs-die-zahl-der-auslandschweizer-um-rund-2-prozent-auf-761930-personen-1.18683329)
 
 The city of Zurich has since Autumn 2014 a special Swiss abroad district:  
 https://www.stadt-zuerich.ch/prd/de/index/bevoelkerungsamt/Stab/SZZ/Auslandsschweizer.html
