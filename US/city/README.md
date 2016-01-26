@@ -46,15 +46,15 @@ Manchester city, New Hampshire
 
 
       
-###See also:
-Geographic Terms and Concepts - Place
-https://www.census.gov/geo/reference/gtc/gtc_place.html
+###See also
+Geographic Terms and Concepts - Place     
+https://www.census.gov/geo/reference/gtc/gtc_place.html   
 
-Major US Cities with Latitude/Longitude and DMA Codes (last revised on May 25, 2010.)
-https://gist.github.com/ecarter/413343
+Major US Cities with Latitude/Longitude and DMA Codes (last revised on May 25, 2010.)    
+https://gist.github.com/ecarter/413343    
 
-Batch Geocoding
-http://www.findlatitudeandlongitude.com/batch-geocode/#.VqfzhFIqbl5
-Example Response:    
+Batch Geocoding     
+http://www.findlatitudeandlongitude.com/batch-geocode/#.VqfzhFIqbl5      
+Example Response:      
 "original address",latitude,longitude   
 "San Francisco",37.77493,-122.419416
