@@ -8,13 +8,13 @@ http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src
 https://en.wikipedia.org/wiki/List_of_U.S._states%27_largest_cities_by_population
 
 
-##GEOID FOR PLACES
+##GeoID For Places
 840 | 33 | 45140
 Ex. 8403345140
 
 
-From Shapefile: https://www.census.gov/geo/maps-data/data/cbf/cbf_place.html
-STATEFP    33   
+From Shapefile: https://www.census.gov/geo/maps-data/data/cbf/cbf_place.html     
+STATEFP    33     
 PLACEFP    45140   
 PLACENS    00873658  
 AFFGEOID    1600000US3345140   
@@ -25,10 +25,22 @@ ALAND    85730215
 AWATER    4822463   
 
 From https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv
-0100000US        United States    1620000US3345140    3345140    254    United States - Manchester city, New Hampshire    Manchester city, New Hampshire
+0100000US        
+United States    
+1620000US3345140    
+3345140    
+254    
+United States - Manchester city, New Hampshire   
+Manchester city, New Hampshire   
 
+
+## PROPOSAL FOR SIMPLE CITY FILE (5 most largest by state plus state capital)
+id | placefp | place_name | capital | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014   
 
 
 See also:
 Geographic Terms and Concepts - Place
 https://www.census.gov/geo/reference/gtc/gtc_place.html
+
+Major US Cities with Latitude/Longitude and DMA Codes (last revised on May 25, 2010.)
+https://gist.github.com/ecarter/413343
