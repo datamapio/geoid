@@ -1,0 +1,753 @@
+GEO.id,GEO.id2,GEO.display-label,GC_RANK.target-geo-id,GC_RANK.target-geo-id2,GC_RANK.rank-label,GC_RANK.display-label,GC_RANK.display-label,rescensus42010,resbase42010,respop72010,respop72011,respop72012,respop72013,respop72014
+0100000US,,United States,1620000US3651000,3651000,1,"United States - New York city, New York","New York city, New York",8175133,8174959,8191853,8287238,8365903,8438379,8491079
+0100000US,,United States,1620000US0644000,0644000,2,"United States - Los Angeles city, California","Los Angeles city, California",3792621,3792657,3796290,3826423,3861678,3897940,3928864
+0100000US,,United States,1620000US1714000,1714000,3,"United States - Chicago city, Illinois","Chicago city, Illinois",2695598,2695598,2697319,2705627,2715415,2722307,2722389
+0100000US,,United States,1620000US4835000,4835000,4,"United States - Houston city, Texas","Houston city, Texas",2099451,2096661,2102421,2129784,2164834,2203806,2239558
+0100000US,,United States,1620000US4260000,4260000,5,"United States - Philadelphia city, Pennsylvania","Philadelphia city, Pennsylvania",1526006,1526006,1528544,1539313,1550396,1556052,1560297
+0100000US,,United States,1620000US0455000,0455000,6,"United States - Phoenix city, Arizona","Phoenix city, Arizona",1445632,1447617,1449583,1465114,1489531,1512442,1537058
+0100000US,,United States,1620000US4865000,4865000,7,"United States - San Antonio city, Texas","San Antonio city, Texas",1327407,1327556,1333994,1359174,1385553,1411766,1436697
+0100000US,,United States,1620000US0666000,0666000,8,"United States - San Diego city, California","San Diego city, California",1307402,1301621,1306133,1321016,1339644,1359844,1381069
+0100000US,,United States,1620000US4819000,4819000,9,"United States - Dallas city, Texas","Dallas city, Texas",1197816,1197792,1200648,1219399,1243243,1260725,1281047
+0100000US,,United States,1620000US0668000,0668000,10,"United States - San Jose city, California","San Jose city, California",945942,952560,955453,971495,985286,1003821,1015785
+0100000US,,United States,1620000US4805000,4805000,11,"United States - Austin city, Texas","Austin city, Texas",790390,811458,816022,839714,865571,887124,912791
+0100000US,,United States,1620000US1235000,1235000,12,"United States - Jacksonville city, Florida","Jacksonville city, Florida",821784,821784,823334,829543,837444,844014,853382
+0100000US,,United States,1620000US0667000,0667000,13,"United States - San Francisco city, California","San Francisco city, California",805235,805195,805825,816239,829691,841138,852469
+0100000US,,United States,1620000US1836003,1836003,14,"United States - Indianapolis city (balance), Indiana","Indianapolis city (balance), Indiana",820445,820441,821671,827346,834520,843375,848788
+0100000US,,United States,1620000US3918000,3918000,15,"United States - Columbus city, Ohio","Columbus city, Ohio",787033,788654,790425,799270,810607,823536,835957
+0100000US,,United States,1620000US4827000,4827000,16,"United States - Fort Worth city, Texas","Fort Worth city, Texas",741206,742060,745879,761895,778728,794055,812238
+0100000US,,United States,1620000US3712000,3712000,17,"United States - Charlotte city, North Carolina","Charlotte city, North Carolina",731424,735758,738746,756204,774969,793951,809958
+0100000US,,United States,1620000US2622000,2622000,18,"United States - Detroit city, Michigan","Detroit city, Michigan",713777,713862,711195,702149,696746,686674,680250
+0100000US,,United States,1620000US4824000,4824000,19,"United States - El Paso city, Texas","El Paso city, Texas",649121,649133,651676,665503,675829,676791,679036
+0100000US,,United States,1620000US5363000,5363000,20,"United States - Seattle city, Washington","Seattle city, Washington",608660,608658,610298,622175,635063,653404,668342
+0100000US,,United States,1620000US0820000,0820000,21,"United States - Denver city, Colorado","Denver city, Colorado",600158,600025,603365,619390,633868,648401,663862
+0100000US,,United States,1620000US1150000,1150000,22,"United States - Washington city, District of Columbia","Washington city, District of Columbia",601723,601767,605210,620427,635040,649111,658893
+0100000US,,United States,1620000US4748000,4748000,23,"United States - Memphis city, Tennessee","Memphis city, Tennessee",646889,651858,652597,655975,659727,658508,656861
+0100000US,,United States,1620000US2507000,2507000,24,"United States - Boston city, Massachusetts","Boston city, Massachusetts",617594,617680,620598,630645,640839,649917,655884
+0100000US,,United States,1620000US4752006,4752006,25,"United States - Nashville-Davidson metropolitan government (balance), Tennessee","Nashville-Davidson metropolitan government (balance), Tennessee",601222,603506,604843,612243,625318,634870,644014
+0100000US,,United States,1620000US2404000,2404000,26,"United States - Baltimore city, Maryland","Baltimore city, Maryland",620961,621121,621317,620889,622950,623404,622793
+0100000US,,United States,1620000US4055000,4055000,27,"United States - Oklahoma City city, Oklahoma","Oklahoma City city, Oklahoma",579999,580008,582098,589896,599887,611030,620602
+0100000US,,United States,1620000US4159000,4159000,28,"United States - Portland city, Oregon","Portland city, Oregon",583776,583789,585261,593859,602954,609520,619360
+0100000US,,United States,1620000US3240000,3240000,29,"United States - Las Vegas city, Nevada","Las Vegas city, Nevada",583756,584240,584670,588257,596384,603670,613599
+0100000US,,United States,1620000US2148006,2148006,30,"United States - Louisville/Jefferson County metro government (balance), Kentucky","Louisville/Jefferson County metro government (balance), Kentucky",597337,597265,598171,601709,605606,610475,612780
+0100000US,,United States,1620000US5553000,5553000,31,"United States - Milwaukee city, Wisconsin","Milwaukee city, Wisconsin",594833,594738,595064,597435,598768,599503,599642
+0100000US,,United States,1620000US3502000,3502000,32,"United States - Albuquerque city, New Mexico","Albuquerque city, New Mexico",545852,546360,547085,551813,554925,556833,557169
+0100000US,,United States,1620000US0477000,0477000,33,"United States - Tucson city, Arizona","Tucson city, Arizona",520116,520561,521215,524192,525273,526522,527972
+0100000US,,United States,1620000US0627000,0627000,34,"United States - Fresno city, California","Fresno city, California",494665,496080,497030,501357,506064,510288,515986
+0100000US,,United States,1620000US0664000,0664000,35,"United States - Sacramento city, California","Sacramento city, California",466488,466488,467539,471625,475617,480224,485199
+0100000US,,United States,1620000US0643000,0643000,36,"United States - Long Beach city, California","Long Beach city, California",462257,462257,462769,465825,469141,471480,473577
+0100000US,,United States,1620000US2938000,2938000,37,"United States - Kansas City city, Missouri","Kansas City city, Missouri",459787,459787,460651,462035,464472,467253,470800
+0100000US,,United States,1620000US0446000,0446000,38,"United States - Mesa city, Arizona","Mesa city, Arizona",439041,439865,440228,444954,452198,458347,464704
+0100000US,,United States,1620000US1304000,1304000,39,"United States - Atlanta city, Georgia","Atlanta city, Georgia",420003,420256,422806,432135,444032,448409,456002
+0100000US,,United States,1620000US5182000,5182000,40,"United States - Virginia Beach city, Virginia","Virginia Beach city, Virginia",437994,437966,439073,442984,445769,449308,450980
+0100000US,,United States,1620000US3137000,3137000,41,"United States - Omaha city, Nebraska","Omaha city, Nebraska",408958,423327,424687,429604,435371,441047,446599
+0100000US,,United States,1620000US0816000,0816000,42,"United States - Colorado Springs city, Colorado","Colorado Springs city, Colorado",416427,417341,420455,427416,433630,440137,445830
+0100000US,,United States,1620000US3755000,3755000,43,"United States - Raleigh city, North Carolina","Raleigh city, North Carolina",403892,403971,406295,414135,423411,431717,439896
+0100000US,,United States,1620000US1245000,1245000,44,"United States - Miami city, Florida","Miami city, Florida",399457,399508,401136,412438,416917,421363,430332
+0100000US,,United States,1620000US0653000,0653000,45,"United States - Oakland city, California","Oakland city, California",390724,390905,391716,396649,401867,407667,413775
+0100000US,,United States,1620000US2743000,2743000,46,"United States - Minneapolis city, Minnesota","Minneapolis city, Minnesota",382578,382599,383062,388253,392966,400647,407207
+0100000US,,United States,1620000US4075000,4075000,47,"United States - Tulsa city, Oklahoma","Tulsa city, Oklahoma",391906,391922,392422,392751,394510,398404,399682
+0100000US,,United States,1620000US3916000,3916000,48,"United States - Cleveland city, Ohio","Cleveland city, Ohio",396815,396697,395994,392505,391406,391156,389521
+0100000US,,United States,1620000US2079000,2079000,49,"United States - Wichita city, Kansas","Wichita city, Kansas",382368,382386,382821,383696,385577,387052,388413
+0100000US,,United States,1620000US2255000,2255000,50,"United States - New Orleans city, Louisiana","New Orleans city, Louisiana",343829,343829,347987,360877,370167,379006,384320
+0100000US,,United States,1620000US4804000,4804000,51,"United States - Arlington city, Texas","Arlington city, Texas",365438,365361,366251,370908,376394,379843,383204
+0100000US,,United States,1620000US0603526,0603526,52,"United States - Bakersfield city, California","Bakersfield city, California",347483,347587,348944,353533,358050,363999,368759
+0100000US,,United States,1620000US1271000,1271000,53,"United States - Tampa city, Florida","Tampa city, Florida",335709,335715,336885,346934,349069,352999,358699
+0100000US,,United States,1620000US0804000,0804000,54,"United States - Aurora city, Colorado","Aurora city, Colorado",325078,324688,325977,332633,339302,346201,353108
+0100000US,,United States,1620000US1571550,1571550,55,"United States - Urban Honolulu CDP, Hawaii","Urban Honolulu CDP, Hawaii",337256,337256,338671,342179,345661,348782,350399
+0100000US,,United States,1620000US0602000,0602000,56,"United States - Anaheim city, California","Anaheim city, California",336265,336440,337280,340830,343606,345923,346997
+0100000US,,United States,1620000US0669000,0669000,57,"United States - Santa Ana city, California","Santa Ana city, California",324528,324782,325513,328856,331684,335388,334909
+0100000US,,United States,1620000US4817000,4817000,58,"United States - Corpus Christi city, Texas","Corpus Christi city, Texas",305215,305215,305333,308069,312419,317111,320434
+0100000US,,United States,1620000US0662000,0662000,59,"United States - Riverside city, California","Riverside city, California",303871,303987,305656,310025,313284,316932,319504
+0100000US,,United States,1620000US2965000,2965000,60,"United States - St. Louis city, Missouri","St. Louis city, Missouri",319294,319365,319258,319188,319274,318496,317419
+0100000US,,United States,1620000US2146027,2146027,61,"United States - Lexington-Fayette urban county, Kentucky","Lexington-Fayette urban county, Kentucky",295803,295803,296695,301213,305251,308411,310797
+0100000US,,United States,1620000US4261000,4261000,62,"United States - Pittsburgh city, Pennsylvania","Pittsburgh city, Pennsylvania",305704,305702,305656,306099,306373,306726,305412
+0100000US,,United States,1620000US0675000,0675000,63,"United States - Stockton city, California","Stockton city, California",291707,291731,292598,295386,297451,298280,302389
+0100000US,,United States,1620000US0203000,0203000,64,"United States - Anchorage municipality, Alaska","Anchorage municipality, Alaska",291826,291826,293337,296282,298633,301629,301010
+0100000US,,United States,1620000US3915000,3915000,65,"United States - Cincinnati city, Ohio","Cincinnati city, Ohio",296943,296950,296918,296114,296801,297618,298165
+0100000US,,United States,1620000US2758000,2758000,66,"United States - St. Paul city, Minnesota","St. Paul city, Minnesota",285068,285068,285468,288884,291244,295431,297640
+0100000US,,United States,1620000US3728000,3728000,67,"United States - Greensboro city, North Carolina","Greensboro city, North Carolina",269666,268877,269521,272521,276372,279782,282586
+0100000US,,United States,1620000US3977000,3977000,68,"United States - Toledo city, Ohio","Toledo city, Ohio",287208,287206,287028,285549,283450,282633,281031
+0100000US,,United States,1620000US3451000,3451000,69,"United States - Newark city, New Jersey","Newark city, New Jersey",277140,277149,277522,277854,278289,279468,280579
+0100000US,,United States,1620000US4858016,4858016,70,"United States - Plano city, Texas","Plano city, Texas",259841,259841,261249,267620,272950,275414,278480
+0100000US,,United States,1620000US3231900,3231900,71,"United States - Henderson city, Nevada","Henderson city, Nevada",257729,257354,257914,259958,265188,270703,277440
+0100000US,,United States,1620000US3128000,3128000,72,"United States - Lincoln city, Nebraska","Lincoln city, Nebraska",258379,258468,259102,262389,265568,268955,272996
+0100000US,,United States,1620000US1253000,1253000,73,"United States - Orlando city, Florida","Orlando city, Florida",238300,238834,239453,243787,250136,255432,262372
+0100000US,,United States,1620000US3436000,3436000,74,"United States - Jersey City city, New Jersey","Jersey City city, New Jersey",247597,247643,248714,253117,256681,258662,262146
+0100000US,,United States,1620000US0613392,0613392,75,"United States - Chula Vista city, California","Chula Vista city, California",243916,243916,244745,248684,253046,257646,260988
+0100000US,,United States,1620000US3611000,3611000,76,"United States - Buffalo city, New York","Buffalo city, New York",261310,261325,261146,260525,259843,259560,258703
+0100000US,,United States,1620000US1825000,1825000,77,"United States - Fort Wayne city, Indiana","Fort Wayne city, Indiana",253691,253700,253821,254607,254893,256864,258522
+0100000US,,United States,1620000US0412000,0412000,78,"United States - Chandler city, Arizona","Chandler city, Arizona",236123,236167,236688,239977,244818,250394,254276
+0100000US,,United States,1620000US1263000,1263000,79,"United States - St. Petersburg city, Florida","St. Petersburg city, Florida",244769,245193,245368,246042,247362,249679,253693
+0100000US,,United States,1620000US4841464,4841464,80,"United States - Laredo city, Texas","Laredo city, Texas",236091,236058,237032,241188,245461,249297,252309
+0100000US,,United States,1620000US3719000,3719000,81,"United States - Durham city, North Carolina","Durham city, North Carolina",228330,228404,229195,234089,239781,245578,251893
+0100000US,,United States,1620000US0636770,0636770,82,"United States - Irvine city, California","Irvine city, California",212375,211906,213366,220528,229680,237111,248531
+0100000US,,United States,1620000US5548000,5548000,83,"United States - Madison city, Wisconsin","Madison city, Wisconsin",233209,233059,233515,236923,239932,243212,245691
+0100000US,,United States,1620000US5157000,5157000,84,"United States - Norfolk city, Virginia","Norfolk city, Virginia",242803,242831,242943,243723,246150,245480,245428
+0100000US,,United States,1620000US4845000,4845000,85,"United States - Lubbock city, Texas","Lubbock city, Texas",229573,229399,230581,233586,236256,240056,243839
+0100000US,,United States,1620000US0427400,0427400,86,"United States - Gilbert town, Arizona","Gilbert town, Arizona",208453,208399,209643,214057,222057,230615,239277
+0100000US,,United States,1620000US3775000,3775000,87,"United States - Winston-Salem city, North Carolina","Winston-Salem city, North Carolina",229617,229634,230051,231873,234330,236629,239269
+0100000US,,United States,1620000US0427820,0427820,88,"United States - Glendale city, Arizona","Glendale city, Arizona",226721,226437,226427,228645,232114,235144,237517
+0100000US,,United States,1620000US3260600,3260600,89,"United States - Reno city, Nevada","Reno city, Nevada",225221,226012,226402,228292,230634,233282,236995
+0100000US,,United States,1620000US1230000,1230000,90,"United States - Hialeah city, Florida","Hialeah city, Florida",224669,224667,225596,231352,233601,235392,235563
+0100000US,,United States,1620000US4829000,4829000,91,"United States - Garland city, Texas","Garland city, Texas",226876,226871,227329,230205,233831,234845,235501
+0100000US,,United States,1620000US5116000,5116000,92,"United States - Chesapeake city, Virginia","Chesapeake city, Virginia",222209,222209,223517,225333,228188,230431,233371
+0100000US,,United States,1620000US4837000,4837000,93,"United States - Irving city, Texas","Irving city, Texas",216290,216287,216866,220012,225748,229087,232406
+0100000US,,United States,1620000US3251800,3251800,94,"United States - North Las Vegas city, Nevada","North Las Vegas city, Nevada",216961,216700,216945,218971,223065,226918,230788
+0100000US,,United States,1620000US0465000,0465000,95,"United States - Scottsdale city, Arizona","Scottsdale city, Arizona",217385,217434,217550,219841,223358,226355,230512
+0100000US,,United States,1620000US2205000,2205000,96,"United States - Baton Rouge city, Louisiana","Baton Rouge city, Louisiana",229493,229447,229574,228939,229981,229396,228895
+0100000US,,United States,1620000US0626000,0626000,97,"United States - Fremont city, California","Fremont city, California",214089,214079,214652,217630,221798,225342,228758
+0100000US,,United States,1620000US5167000,5167000,98,"United States - Richmond city, Virginia","Richmond city, Virginia",204214,204246,204256,206977,211526,214704,217853
+0100000US,,United States,1620000US1608830,1608830,99,"United States - Boise City city, Idaho","Boise City city, Idaho",205671,206105,206333,209280,212244,214234,216282
+0100000US,,United States,1620000US0665000,0665000,100,"United States - San Bernardino city, California","San Bernardino city, California",209924,209961,210231,212061,213387,214376,215213
+0100000US,,United States,1620000US0107000,0107000,101,"United States - Birmingham city, Alabama","Birmingham city, Alabama",212237,212193,212072,211972,211302,211929,212247
+0100000US,,United States,1620000US5367000,5367000,102,"United States - Spokane city, Washington","Spokane city, Washington",208916,209440,209491,209025,209563,210559,212052
+0100000US,,United States,1620000US3663000,3663000,103,"United States - Rochester city, New York","Rochester city, New York",210565,210512,210230,210891,210653,210610,209983
+0100000US,,United States,1620000US0648354,0648354,104,"United States - Modesto city, California","Modesto city, California",201165,203116,203361,204312,205729,207203,209286
+0100000US,,United States,1620000US1921000,1921000,105,"United States - Des Moines city, Iowa","Des Moines city, Iowa",203433,204186,204555,205908,206864,207655,209220
+0100000US,,United States,1620000US0654652,0654652,106,"United States - Oxnard city, California","Oxnard city, California",197899,197899,198452,200080,201490,203477,205437
+0100000US,,United States,1620000US5370000,5370000,107,"United States - Tacoma city, Washington","Tacoma city, Washington",198397,198397,198405,199882,202265,203392,205159
+0100000US,,United States,1620000US0624680,0624680,108,"United States - Fontana city, California","Fontana city, California",196069,196074,197021,199879,201540,203341,204950
+0100000US,,United States,1620000US3722920,3722920,109,"United States - Fayetteville city, North Carolina","Fayetteville city, North Carolina",200564,200582,200856,201485,201700,204217,203948
+0100000US,,United States,1620000US0649270,0649270,110,"United States - Moreno Valley city, California","Moreno Valley city, California",193365,193365,194389,196970,198863,201131,202976
+0100000US,,United States,1620000US1319000,1319000,111,"United States - Columbus city, Georgia","Columbus city, Georgia",189885,190545,191082,195272,200041,203952,200887
+0100000US,,United States,1620000US0636000,0636000,112,"United States - Huntington Beach city, California","Huntington Beach city, California",189992,191037,191402,193366,194852,198122,200809
+0100000US,,United States,1620000US3684000,3684000,113,"United States - Yonkers city, New York","Yonkers city, New York",195976,195979,196383,197772,198581,199952,200667
+0100000US,,United States,1620000US0151000,0151000,114,"United States - Montgomery city, Alabama","Montgomery city, Alabama",205764,205595,205972,207513,204648,201846,200481
+0100000US,,United States,1620000US1703012,1703012,115,"United States - Aurora city, Illinois","Aurora city, Illinois",197899,197952,198161,199273,199814,200102,200456
+0100000US,,United States,1620000US0630000,0630000,116,"United States - Glendale city, California","Glendale city, California",191719,191713,191870,193214,194820,196805,200167
+0100000US,,United States,1620000US2270000,2270000,117,"United States - Shreveport city, Louisiana","Shreveport city, Louisiana",199311,200410,200882,201875,202115,200344,198242
+0100000US,,United States,1620000US3901000,3901000,118,"United States - Akron city, Ohio","Akron city, Ohio",199110,199092,198951,198909,198587,198158,197859
+0100000US,,United States,1620000US0541000,0541000,119,"United States - Little Rock city, Arkansas","Little Rock city, Arkansas",193524,193524,193989,195279,196620,197369,197706
+0100000US,,United States,1620000US4803000,4803000,120,"United States - Amarillo city, Texas","Amarillo city, Texas",190695,190672,191309,193907,195614,196525,197254
+0100000US,,United States,1620000US1304204,1304204,121,"United States - Augusta-Richmond County consolidated government (balance), Georgia","Augusta-Richmond County consolidated government (balance), Georgia",195844,195844,196303,195913,197270,196614,196741
+0100000US,,United States,1620000US0150000,0150000,122,"United States - Mobile city, Alabama","Mobile city, Alabama",195111,195243,195269,194806,194945,195007,194675
+0100000US,,United States,1620000US2634000,2634000,123,"United States - Grand Rapids city, Michigan","Grand Rapids city, Michigan",188040,188051,187998,189054,190535,192459,193792
+0100000US,,United States,1620000US4967000,4967000,124,"United States - Salt Lake City city, Utah","Salt Lake City city, Utah",186440,186452,186522,188158,189448,191282,190884
+0100000US,,United States,1620000US0137000,0137000,125,"United States - Huntsville city, Alabama","Huntsville city, Alabama",180105,180241,180893,182219,183772,186309,188226
+0100000US,,United States,1620000US1270600,1270600,126,"United States - Tallahassee city, Florida","Tallahassee city, Florida",181376,181383,181854,183442,187041,186498,188107
+0100000US,,United States,1620000US4830464,4830464,127,"United States - Grand Prairie city, Texas","Grand Prairie city, Texas",175396,175468,175978,178811,181866,183766,185453
+0100000US,,United States,1620000US2053775,2053775,128,"United States - Overland Park city, Kansas","Overland Park city, Kansas",173372,173333,174054,176068,178914,181329,184525
+0100000US,,United States,1620000US4740000,4740000,129,"United States - Knoxville city, Tennessee","Knoxville city, Tennessee",178874,178764,178954,180606,182144,182916,184281
+0100000US,,United States,1620000US4810768,4810768,130,"United States - Brownsville city, Texas","Brownsville city, Texas",175023,174982,175662,178551,180287,181713,183046
+0100000US,,United States,1620000US2582000,2582000,131,"United States - Worcester city, Massachusetts","Worcester city, Massachusetts",181045,181041,181811,182362,182367,183021,183016
+0100000US,,United States,1620000US5156000,5156000,132,"United States - Newport News city, Virginia","Newport News city, Virginia",180719,180918,180989,180356,180487,182015,182965
+0100000US,,United States,1620000US0669088,0669088,133,"United States - Santa Clarita city, California","Santa Clarita city, California",176320,176313,176487,177843,179021,180207,181557
+0100000US,,United States,1620000US4459000,4459000,134,"United States - Providence city, Rhode Island","Providence city, Rhode Island",178042,178038,178081,178375,178637,178523,179154
+0100000US,,United States,1620000US1224000,1224000,135,"United States - Fort Lauderdale city, Florida","Fort Lauderdale city, Florida",165521,165578,166043,169045,171380,173105,176013
+0100000US,,United States,1620000US0629000,0629000,136,"United States - Garden Grove city, California","Garden Grove city, California",170883,170964,171285,173281,174379,175270,175078
+0100000US,,United States,1620000US0653322,0653322,137,"United States - Oceanside city, California","Oceanside city, California",167086,167086,167688,169795,171569,173333,174558
+0100000US,,United States,1620000US0659451,0659451,138,"United States - Rancho Cucamonga city, California","Rancho Cucamonga city, California",165269,165350,166265,168210,170518,171659,174305
+0100000US,,United States,1620000US0670098,0670098,139,"United States - Santa Rosa city, California","Santa Rosa city, California",167815,167834,168039,169237,170317,172097,174170
+0100000US,,United States,1620000US1258715,1258715,140,"United States - Port St. Lucie city, Florida","Port St. Lucie city, Florida",164603,164716,165382,167112,168955,170775,174110
+0100000US,,United States,1620000US4714000,4714000,141,"United States - Chattanooga city, Tennessee","Chattanooga city, Tennessee",167674,168828,169100,170486,172303,173592,173778
+0100000US,,United States,1620000US0473000,0473000,142,"United States - Tempe city, Arizona","Tempe city, Arizona",161719,161781,162289,163730,167204,168883,172816
+0100000US,,United States,1620000US2836000,2836000,143,"United States - Jackson city, Mississippi","Jackson city, Mississippi",173514,173593,173796,175448,175273,172806,171155
+0100000US,,United States,1620000US1210275,1210275,144,"United States - Cape Coral city, Florida","Cape Coral city, Florida",154305,154301,154793,157680,161233,165412,169854
+0100000US,,United States,1620000US5374060,5374060,145,"United States - Vancouver city, Washington","Vancouver city, Washington",161791,161849,162350,163888,165227,167108,169294
+0100000US,,United States,1620000US0653896,0653896,146,"United States - Ontario city, California","Ontario city, California",163924,163924,164432,166027,167138,167876,169089
+0100000US,,United States,1620000US4659020,4659020,147,"United States - Sioux Falls city, South Dakota","Sioux Falls city, South Dakota",153888,153897,154474,156757,160290,164752,168586
+0100000US,,United States,1620000US0454050,0454050,148,"United States - Peoria city, Arizona","Peoria city, Arizona",154065,154083,154408,156708,159913,163181,166934
+0100000US,,United States,1620000US2970000,2970000,149,"United States - Springfield city, Missouri","Springfield city, Missouri",159498,159500,159583,160408,162270,164163,165378
+0100000US,,United States,1620000US1255775,1255775,150,"United States - Pembroke Pines city, Florida","Pembroke Pines city, Florida",154750,154019,154479,157568,159968,162763,164626
+0100000US,,United States,1620000US0622020,0622020,151,"United States - Elk Grove city, California","Elk Grove city, California",153015,153015,153444,155844,158542,160931,163553
+0100000US,,United States,1620000US4164900,4164900,152,"United States - Salem city, Oregon","Salem city, Oregon",154637,154742,155078,156248,157788,159138,161637
+0100000US,,United States,1620000US0616350,0616350,153,"United States - Corona city, California","Corona city, California",152374,152374,153181,155005,157934,159520,161486
+0100000US,,United States,1620000US0640130,0640130,154,"United States - Lancaster city, California","Lancaster city, California",156633,156633,156905,158474,158959,160168,161043
+0100000US,,United States,1620000US4123850,4123850,155,"United States - Eugene city, Oregon","Eugene city, Oregon",156185,156358,156446,157237,157894,158566,160561
+0100000US,,United States,1620000US0655156,0655156,156,"United States - Palmdale city, California","Palmdale city, California",152750,152750,153057,154440,155627,157686,158279
+0100000US,,United States,1620000US4845744,4845744,157,"United States - McKinney city, Texas","McKinney city, Texas",131117,131025,132806,137960,143470,149168,156767
+0100000US,,United States,1620000US0664224,0664224,158,"United States - Salinas city, California","Salinas city, California",150441,150498,150789,152667,154328,155761,156677
+0100000US,,United States,1620000US0827425,0827425,159,"United States - Fort Collins city, Colorado","Fort Collins city, Colorado",143986,144073,144505,145977,148956,152365,156480
+0100000US,,United States,1620000US3710740,3710740,160,"United States - Cary town, North Carolina","Cary town, North Carolina",135234,135276,136528,141773,145766,151103,155227
+0100000US,,United States,1620000US0633000,0633000,161,"United States - Hayward city, California","Hayward city, California",144186,144369,144839,147030,149584,152046,154612
+0100000US,,United States,1620000US2567000,2567000,162,"United States - Springfield city, Massachusetts","Springfield city, Massachusetts",153060,153195,153596,153798,153863,153931,153991
+0100000US,,United States,1620000US4856000,4856000,163,"United States - Pasadena city, Texas","Pasadena city, Texas",149043,149300,149571,151308,152596,153439,153887
+0100000US,,United States,1620000US1349008,1349008,164,"United States - Macon-Bibb County, Georgia","Macon-Bibb County, Georgia",(X),155292,155412,155632,155966,154400,153691
+0100000US,,United States,1620000US0658072,0658072,165,"United States - Pomona city, California","Pomona city, California",149058,149058,149184,150065,151068,152003,153350
+0100000US,,United States,1620000US5101000,5101000,166,"United States - Alexandria city, Virginia","Alexandria city, Virginia",139966,140006,140829,144461,146934,149312,150575
+0100000US,,United States,1620000US0622804,0622804,167,"United States - Escondido city, California","Escondido city, California",143911,143913,144434,146247,147887,149266,150243
+0100000US,,United States,1620000US0677000,0677000,168,"United States - Sunnyvale city, California","Sunnyvale city, California",140081,140058,140529,143968,146694,148420,149980
+0100000US,,United States,1620000US0843000,0843000,169,"United States - Lakewood city, Colorado","Lakewood city, Colorado",142980,142995,143156,144184,145461,146992,149643
+0100000US,,United States,1620000US2036000,2036000,170,"United States - Kansas City city, Kansas","Kansas City city, Kansas",145786,145786,146020,146281,147434,148655,149636
+0100000US,,United States,1620000US1765000,1765000,171,"United States - Rockford city, Illinois","Rockford city, Illinois",152871,153054,152963,151930,150973,150363,149123
+0100000US,,United States,1620000US0680000,0680000,172,"United States - Torrance city, California","Torrance city, California",145438,145438,145539,146461,147250,148048,148495
+0100000US,,United States,1620000US1232000,1232000,173,"United States - Hollywood city, Florida","Hollywood city, Florida",140768,140769,141158,143696,145681,147064,148047
+0100000US,,United States,1620000US1738570,1738570,174,"United States - Joliet city, Illinois","Joliet city, Illinois",147433,147459,147677,147895,148237,148017,147928
+0100000US,,United States,1620000US0908000,0908000,175,"United States - Bridgeport city, Connecticut","Bridgeport city, Connecticut",144229,144236,144845,146110,147005,147786,147612
+0100000US,,United States,1620000US4715160,4715160,176,"United States - Clarksville city, Tennessee","Clarksville city, Tennessee",132929,132963,133647,136442,143229,142773,146806
+0100000US,,United States,1620000US3457000,3457000,177,"United States - Paterson city, New Jersey","Paterson city, New Jersey",146199,146199,146445,145962,146075,146473,146753
+0100000US,,United States,1620000US1751622,1751622,178,"United States - Naperville city, Illinois","Naperville city, Illinois",141853,142087,142300,142994,143779,144782,146128
+0100000US,,United States,1620000US4827684,4827684,179,"United States - Frisco city, Texas","Frisco city, Texas",116989,117084,118129,123605,128624,137062,145035
+0100000US,,United States,1620000US4847892,4847892,180,"United States - Mesquite city, Texas","Mesquite city, Texas",139824,139629,139902,141454,143421,143733,144416
+0100000US,,United States,1620000US1369000,1369000,181,"United States - Savannah city, Georgia","Savannah city, Georgia",136286,136340,136962,140157,142262,142742,144352
+0100000US,,United States,1620000US3673000,3673000,182,"United States - Syracuse city, New York","Syracuse city, New York",145170,145196,145216,144457,144271,145016,144263
+0100000US,,United States,1620000US3921000,3921000,183,"United States - Dayton city, Ohio","Dayton city, Ohio",141527,141761,142294,141894,141837,141900,141003
+0100000US,,United States,1620000US0656000,0656000,184,"United States - Pasadena city, California","Pasadena city, California",137122,137122,137208,138036,138764,140328,140881
+0100000US,,United States,1620000US0653980,0653980,185,"United States - Orange city, California","Orange city, California",136416,136419,136823,138438,139476,140289,139812
+0100000US,,United States,1620000US0628000,0628000,186,"United States - Fullerton city, California","Fullerton city, California",135161,135235,135390,136673,138605,139355,139677
+0100000US,,United States,1620000US4845384,4845384,187,"United States - McAllen city, Texas","McAllen city, Texas",129877,130289,130890,133623,135382,136912,138596
+0100000US,,United States,1620000US4839148,4839148,188,"United States - Killeen city, Texas","Killeen city, Texas",127921,127911,129177,131157,134760,136884,138154
+0100000US,,United States,1620000US5135000,5135000,189,"United States - Hampton city, Virginia","Hampton city, Virginia",137436,137508,137416,136435,136843,136948,136879
+0100000US,,United States,1620000US5305210,5305210,190,"United States - Bellevue city, Washington","Bellevue city, Washington",122363,127887,128319,130267,132182,134050,136426
+0100000US,,United States,1620000US2684000,2684000,191,"United States - Warren city, Michigan","Warren city, Michigan",134056,134056,134034,133904,134222,134904,135099
+0100000US,,United States,1620000US1245975,1245975,192,"United States - Miramar city, Florida","Miramar city, Florida",122041,122041,122427,125189,129080,130686,134989
+0100000US,,United States,1620000US4983470,4983470,193,"United States - West Valley City city, Utah","West Valley City city, Utah",129480,129475,129616,131077,132474,133843,134495
+0100000US,,United States,1620000US2052575,2052575,194,"United States - Olathe city, Kansas","Olathe city, Kansas",125872,125875,126221,128269,130022,131954,133062
+0100000US,,United States,1620000US4516000,4516000,195,"United States - Columbia city, South Carolina","Columbia city, South Carolina",129272,130065,130371,131214,131869,131912,132067
+0100000US,,United States,1620000US2676460,2676460,196,"United States - Sterling Heights city, Michigan","Sterling Heights city, Michigan",129699,129699,129704,129883,130442,131253,131741
+0100000US,,United States,1620000US0877290,0877290,197,"United States - Thornton city, Colorado","Thornton city, Colorado",118772,118792,119395,121885,124360,127728,130307
+0100000US,,United States,1620000US0952000,0952000,198,"United States - New Haven city, Connecticut","New Haven city, Connecticut",129779,129890,129803,130955,130938,130763,130282
+0100000US,,United States,1620000US4876000,4876000,199,"United States - Waco city, Texas","Waco city, Texas",124805,124810,125430,126534,127703,129250,130194
+0100000US,,United States,1620000US4513330,4513330,200,"United States - Charleston city, South Carolina","Charleston city, South Carolina",120083,120246,120677,123144,125560,127791,130113
+0100000US,,United States,1620000US0678582,0678582,201,"United States - Thousand Oaks city, California","Thousand Oaks city, California",126683,126555,126836,127559,128062,128789,129342
+0100000US,,United States,1620000US0682954,0682954,202,"United States - Visalia city, California","Visalia city, California",124442,124457,124883,125859,126829,127875,129281
+0100000US,,United States,1620000US1912000,1912000,203,"United States - Cedar Rapids city, Iowa","Cedar Rapids city, Iowa",126326,126326,126561,127837,128072,128387,129195
+0100000US,,United States,1620000US3421000,3421000,204,"United States - Elizabeth city, New Jersey","Elizabeth city, New Jersey",124969,124969,125274,126063,126933,127880,128705
+0100000US,,United States,1620000US0662938,0662938,205,"United States - Roseville city, California","Roseville city, California",118788,118660,119364,122294,124210,126809,128615
+0100000US,,United States,1620000US1225175,1225175,206,"United States - Gainesville city, Florida","Gainesville city, Florida",124354,124486,124729,125743,126334,127102,128460
+0100000US,,United States,1620000US4813024,4813024,207,"United States - Carrollton city, Texas","Carrollton city, Texas",119097,119100,119479,122505,125485,126637,128353
+0100000US,,United States,1620000US0973000,0973000,208,"United States - Stamford city, Connecticut","Stamford city, Connecticut",122643,122630,122815,124123,125125,126688,128278
+0100000US,,United States,1620000US4819972,4819972,209,"United States - Denton city, Texas","Denton city, Texas",113383,116207,116922,120045,123527,125117,128205
+0100000US,,United States,1620000US4848072,4848072,210,"United States - Midland city, Texas","Midland city, Texas",111147,111127,111239,113885,119769,124127,128037
+0100000US,,United States,1620000US1214400,1214400,211,"United States - Coral Springs city, Florida","Coral Springs city, Florida",121096,121098,121456,123753,125586,126925,127952
+0100000US,,United States,1620000US0616000,0616000,212,"United States - Concord city, California","Concord city, California",122067,122282,122661,123764,125001,126294,127522
+0100000US,,United States,1620000US2071000,2071000,213,"United States - Topeka city, Kansas","Topeka city, Kansas",127473,127474,127692,128015,127893,127513,127215
+0100000US,,United States,1620000US0672016,0672016,214,"United States - Simi Valley city, California","Simi Valley city, California",124237,124239,124497,125184,125607,126359,126871
+0100000US,,United States,1620000US0471510,0471510,215,"United States - Surprise city, Arizona","Surprise city, Arizona",117517,117517,117665,119195,121372,123760,126275
+0100000US,,United States,1620000US2240735,2240735,216,"United States - Lafayette city, Louisiana","Lafayette city, Louisiana",120623,121131,121351,122172,123295,124735,126066
+0100000US,,United States,1620000US5335415,5335415,217,"United States - Kent city, Washington","Kent city, Washington",92411,118593,118992,120882,123026,124569,125560
+0100000US,,United States,1620000US0937000,0937000,218,"United States - Hartford city, Connecticut","Hartford city, Connecticut",124775,124775,125314,125492,125266,125161,124705
+0100000US,,United States,1620000US0669084,0669084,219,"United States - Santa Clara city, California","Santa Clara city, California",116468,116497,116861,118010,119592,120826,122192
+0100000US,,United States,1620000US0682590,0682590,220,"United States - Victorville city, California","Victorville city, California",115903,115921,116346,118134,120266,121339,121901
+0100000US,,United States,1620000US4801000,4801000,221,"United States - Abilene city, Texas","Abilene city, Texas",117063,117463,117792,118727,119906,119816,120958
+0100000US,,United States,1620000US4751560,4751560,222,"United States - Murfreesboro city, Tennessee","Murfreesboro city, Tennessee",108755,109046,109528,111704,113861,117260,120954
+0100000US,,United States,1620000US1822000,1822000,223,"United States - Evansville city, Indiana","Evansville city, Indiana",117429,120081,120074,120133,120161,120376,120346
+0100000US,,United States,1620000US0681666,0681666,224,"United States - Vallejo city, California","Vallejo city, California",115942,115940,116201,116908,117927,119020,120228
+0100000US,,United States,1620000US1303440,1303440,225,"United States - Athens-Clarke County unified government (balance), Georgia","Athens-Clarke County unified government (balance), Georgia",115452,115453,116229,117251,119003,119925,119648
+0100000US,,United States,1620000US4202000,4202000,226,"United States - Allentown city, Pennsylvania","Allentown city, Pennsylvania",118032,118161,118187,118878,119029,118900,119104
+0100000US,,United States,1620000US0606000,0606000,227,"United States - Berkeley city, California","Berkeley city, California",112580,112489,112910,114048,115456,117158,118853
+0100000US,,United States,1620000US4052500,4052500,228,"United States - Norman city, Oklahoma","Norman city, Oklahoma",110925,110925,111400,113968,115796,118381,118040
+0100000US,,United States,1620000US2603000,2603000,229,"United States - Ann Arbor city, Michigan","Ann Arbor city, Michigan",113934,113947,114008,115276,115879,116991,117770
+0100000US,,United States,1620000US4807000,4807000,230,"United States - Beaumont city, Texas","Beaumont city, Texas",118296,117267,117393,117833,116908,117935,117585
+0100000US,,United States,1620000US2935000,2935000,231,"United States - Independence city, Missouri","Independence city, Missouri",116830,116828,116916,116860,117292,117297,117494
+0100000US,,United States,1620000US2915670,2915670,232,"United States - Columbia city, Missouri","Columbia city, Missouri",108500,108835,109219,111128,113277,115311,116906
+0100000US,,United States,1620000US1772000,1772000,233,"United States - Springfield city, Illinois","Springfield city, Illinois",116250,116365,116546,117096,117235,117013,116809
+0100000US,,United States,1620000US0622230,0622230,234,"United States - El Monte city, California","El Monte city, California",113475,113475,113697,114354,115329,116195,116631
+0100000US,,United States,1620000US3825700,3825700,235,"United States - Fargo city, North Dakota","Fargo city, North Dakota",105549,105549,105933,107714,110254,113915,115863
+0100000US,,United States,1620000US1759000,1759000,236,"United States - Peoria city, Illinois","Peoria city, Illinois",115007,115021,114888,115279,115654,116545,115828
+0100000US,,United States,1620000US4962470,4962470,237,"United States - Provo city, Utah","Provo city, Utah",112488,112494,112876,114611,115419,116351,114801
+0100000US,,United States,1620000US2646000,2646000,238,"United States - Lansing city, Michigan","Lansing city, Michigan",114297,114299,114323,114270,114250,114282,114620
+0100000US,,United States,1620000US4853388,4853388,239,"United States - Odessa city, Texas","Odessa city, Texas",99940,99880,99879,102228,106223,110594,114597
+0100000US,,United States,1620000US0619766,0619766,240,"United States - Downey city, California","Downey city, California",111772,111791,111873,112541,113137,113709,114172
+0100000US,,United States,1620000US3774440,3774440,241,"United States - Wilmington city, North Carolina","Wilmington city, North Carolina",106476,106478,106820,108244,109826,111987,113657
+0100000US,,United States,1620000US0803455,0803455,242,"United States - Arvada city, Colorado","Arvada city, Colorado",106433,106474,106635,107578,109690,111600,113574
+0100000US,,United States,1620000US0616532,0616532,243,"United States - Costa Mesa city, California","Costa Mesa city, California",109960,109929,110055,111049,111831,112439,112784
+0100000US,,United States,1620000US4863500,4863500,244,"United States - Round Rock city, Texas","Round Rock city, Texas",99887,99990,100767,103929,106675,109725,112744
+0100000US,,United States,1620000US0611194,0611194,245,"United States - Carlsbad city, California","Carlsbad city, California",105328,105459,105850,107754,109383,111254,112299
+0100000US,,United States,1620000US1245060,1245060,246,"United States - Miami Gardens city, Florida","Miami Gardens city, Florida",107167,107163,107595,110414,111566,112331,112265
+0100000US,,United States,1620000US0883835,0883835,247,"United States - Westminster city, Colorado","Westminster city, Colorado",106114,106129,106446,107748,109261,110978,112090
+0100000US,,United States,1620000US0636546,0636546,248,"United States - Inglewood city, California","Inglewood city, California",109673,109673,109755,110834,111422,111805,111905
+0100000US,,United States,1620000US2754880,2754880,249,"United States - Rochester city, Minnesota","Rochester city, Minnesota",106769,106748,106960,108171,109079,110713,111402
+0100000US,,United States,1620000US0623182,0623182,250,"United States - Fairfield city, California","Fairfield city, California",105321,105318,105486,106254,107622,109396,111125
+0100000US,,United States,1620000US1723074,1723074,251,"United States - Elgin city, Illinois","Elgin city, Illinois",108188,108146,108304,109243,109749,110240,111117
+0100000US,,United States,1620000US4982950,4982950,252,"United States - West Jordan city, Utah","West Jordan city, Utah",103712,103708,104131,106575,108373,110184,110920
+0100000US,,United States,1620000US1212875,1212875,253,"United States - Clearwater city, Florida","Clearwater city, Florida",107685,108334,108288,108387,108884,109781,110703
+0100000US,,United States,1620000US3345140,3345140,254,"United States - Manchester city, New Hampshire","Manchester city, New Hampshire",109565,109571,109602,109797,110167,110197,110448
+0100000US,,United States,1620000US2537000,2537000,255,"United States - Lowell city, Massachusetts","Lowell city, Massachusetts",106519,106519,106659,107553,108564,109675,109945
+0100000US,,United States,1620000US4131250,4131250,256,"United States - Gresham city, Oregon","Gresham city, Oregon",105594,105590,105949,107498,108713,109266,109892
+0100000US,,United States,1620000US2511000,2511000,257,"United States - Cambridge city, Massachusetts","Cambridge city, Massachusetts",105162,105201,104955,105809,106046,107732,109694
+0100000US,,United States,1620000US0665042,0665042,258,"United States - San Buenaventura (Ventura) city, California","San Buenaventura (Ventura) city, California",106433,107231,107144,107800,108629,109128,109484
+0100000US,,United States,1620000US0678120,0678120,259,"United States - Temecula city, California","Temecula city, California",100097,100156,100892,102955,104755,106699,109428
+0100000US,,United States,1620000US0980000,0980000,260,"United States - Waterbury city, Connecticut","Waterbury city, Connecticut",110366,110331,110367,110080,109932,109709,109307
+0100000US,,United States,1620000US0602252,0602252,261,"United States - Antioch city, California","Antioch city, California",102372,102365,102734,103923,105357,107218,108930
+0100000US,,United States,1620000US3006550,3006550,262,"United States - Billings city, Montana","Billings city, Montana",104170,104224,104479,105534,107027,108913,108869
+0100000US,,United States,1620000US3731400,3731400,263,"United States - High Point city, North Carolina","High Point city, North Carolina",104371,104387,104568,105802,106636,107702,108629
+0100000US,,United States,1620000US4861796,4861796,264,"United States - Richardson city, Texas","Richardson city, Texas",99223,99223,99565,101676,103715,105251,108617
+0100000US,,United States,1620000US0660620,0660620,265,"United States - Richmond city, California","Richmond city, California",103701,103671,104082,105404,106612,107744,108565
+0100000US,,United States,1620000US0684200,0684200,266,"United States - West Covina city, California","West Covina city, California",106098,106098,106184,107006,107590,108139,108455
+0100000US,,United States,1620000US0862000,0862000,267,"United States - Pueblo city, Colorado","Pueblo city, Colorado",106595,106544,106887,107341,107813,108083,108423
+0100000US,,United States,1620000US0650076,0650076,268,"United States - Murrieta city, California","Murrieta city, California",103466,103429,103976,105253,106544,107566,108368
+0100000US,,United States,1620000US0812815,0812815,269,"United States - Centennial city, Colorado","Centennial city, Colorado",100377,100547,100871,102479,104074,106431,107201
+0100000US,,United States,1620000US0652526,0652526,270,"United States - Norwalk city, California","Norwalk city, California",105549,105549,105613,106188,106475,106897,107096
+0100000US,,United States,1620000US4550875,4550875,271,"United States - North Charleston city, South Carolina","North Charleston city, South Carolina",97471,97601,98017,99834,102031,104099,106749
+0100000US,,United States,1620000US5322640,5322640,272,"United States - Everett city, Washington","Everett city, Washington",103019,103022,103224,103593,104655,105420,106736
+0100000US,,United States,1620000US1258050,1258050,273,"United States - Pompano Beach city, Florida","Pompano Beach city, Florida",99845,99844,100122,101884,103274,104780,106105
+0100000US,,United States,1620000US0617918,0617918,274,"United States - Daly City city, California","Daly City city, California",101123,101146,101330,102640,104154,105256,106094
+0100000US,,United States,1620000US1254000,1254000,275,"United States - Palm Bay city, Florida","Palm Bay city, Florida",103190,103203,103352,103380,104216,104850,105838
+0100000US,,United States,1620000US0608954,0608954,276,"United States - Burbank city, California","Burbank city, California",103340,103340,103404,104003,104566,105119,105368
+0100000US,,United States,1620000US4879000,4879000,277,"United States - Wichita Falls city, Texas","Wichita Falls city, Texas",104553,104724,104831,104100,104767,105194,105114
+0100000US,,United States,1620000US0807850,0807850,278,"United States - Boulder city, Colorado","Boulder city, Colorado",97385,97468,98542,100852,101986,103470,105112
+0100000US,,United States,1620000US5531000,5531000,279,"United States - Green Bay city, Wisconsin","Green Bay city, Wisconsin",104057,103913,103983,104389,104819,104883,104891
+0100000US,,United States,1620000US4009050,4009050,280,"United States - Broken Arrow city, Oklahoma","Broken Arrow city, Oklahoma",98850,98832,99239,100093,102058,103470,104726
+0100000US,,United States,1620000US1276600,1276600,281,"United States - West Palm Beach city, Florida","West Palm Beach city, Florida",99919,100347,100553,101349,102537,103157,104031
+0100000US,,United States,1620000US4815976,4815976,282,"United States - College Station city, Texas","College Station city, Texas",93857,94061,94522,95703,97884,100863,103483
+0100000US,,United States,1620000US4856348,4856348,283,"United States - Pearland city, Texas","Pearland city, Texas",91252,89891,90862,93252,96387,100158,103441
+0100000US,,United States,1620000US0669196,0669196,284,"United States - Santa Maria city, California","Santa Maria city, California",99553,99597,99717,100422,101366,102405,103410
+0100000US,,United States,1620000US0621712,0621712,285,"United States - El Cajon city, California","El Cajon city, California",99478,99476,99756,100833,101689,102555,103091
+0100000US,,United States,1620000US0668252,0668252,286,"United States - San Mateo city, California","San Mateo city, California",97207,97207,97429,98669,100027,101578,102893
+0100000US,,United States,1620000US4842508,4842508,287,"United States - Lewisville city, Texas","Lewisville city, Texas",95290,95309,95803,97424,99555,101143,102889
+0100000US,,United States,1620000US0660466,0660466,288,"United States - Rialto city, California","Rialto city, California",99171,99150,99415,100799,101676,102109,102741
+0100000US,,United States,1620000US1919000,1919000,289,"United States - Davenport city, Iowa","Davenport city, Iowa",99685,99687,99951,100537,101437,102238,102448
+0100000US,,United States,1620000US1238250,1238250,290,"United States - Lakeland city, Florida","Lakeland city, Florida",97422,97433,97867,99088,99456,100935,102346
+0100000US,,United States,1620000US0614218,0614218,291,"United States - Clovis city, California","Clovis city, California",95631,95633,96109,97414,98593,99792,102189
+0100000US,,United States,1620000US1368516,1368516,292,"United States - Sandy Springs city, Georgia","Sandy Springs city, Georgia",93853,93852,94339,97011,99420,99771,101908
+0100000US,,United States,1620000US4874144,4874144,293,"United States - Tyler city, Texas","Tyler city, Texas",96900,96945,97291,98298,99418,100369,101421
+0100000US,,United States,1620000US3539380,3539380,294,"United States - Las Cruces city, New Mexico","Las Cruces city, New Mexico",97618,97636,98206,100032,101007,101181,101408
+0100000US,,United States,1620000US1871000,1871000,295,"United States - South Bend city, Indiana","South Bend city, Indiana",101168,101046,100990,101012,100815,100922,101190
+0100000US,,United States,1620000US5539225,5539225,296,"United States - Kenosha city, Wisconsin","Kenosha city, Wisconsin",99218,99228,99321,99525,99926,99855,99894
+0100000US,,United States,1620000US4224000,4224000,297,"United States - Erie city, Pennsylvania","Erie city, Pennsylvania",101786,101784,101746,101431,101104,100309,99452
+0100000US,,United States,1620000US5168000,5168000,298,"United States - Roanoke city, Virginia","Roanoke city, Virginia",97032,96919,96812,96810,97879,98815,99428
+0100000US,,United States,1620000US4134100,4134100,299,"United States - Hillsboro city, Oregon","Hillsboro city, Oregon",91611,92149,92462,94095,95403,97476,99393
+0100000US,,United States,1620000US2629000,2629000,300,"United States - Flint city, Michigan","Flint city, Michigan",102434,102400,102190,101376,100457,99791,99002
+0100000US,,United States,1620000US4864472,4864472,301,"United States - San Angelo city, Texas","San Angelo city, Texas",93200,93227,93641,94651,96121,97439,98975
+0100000US,,United States,1620000US1216475,1216475,302,"United States - Davie town, Florida","Davie town, Florida",91992,91992,92318,94283,95655,97461,98895
+0100000US,,United States,1620000US0637692,0637692,303,"United States - Jurupa Valley city, California","Jurupa Valley city, California",(X),95004,95462,96460,97338,98155,98842
+0100000US,,United States,1620000US0615044,0615044,304,"United States - Compton city, California","Compton city, California",96455,96412,96515,97207,97824,98328,98597
+0100000US,,United States,1620000US0832155,0832155,305,"United States - Greeley city, Colorado","Greeley city, Colorado",92889,92881,93203,94318,95411,96724,98596
+0100000US,,United States,1620000US3601000,3601000,306,"United States - Albany city, New York","Albany city, New York",97856,97856,97748,98012,98474,98628,98566
+0100000US,,United States,1620000US5357745,5357745,307,"United States - Renton city, Washington","Renton city, Washington",90927,91819,92218,94030,95822,97109,98404
+0100000US,,United States,1620000US0682996,0682996,308,"United States - Vista city, California","Vista city, California",93834,93854,94109,95168,96234,97239,98079
+0100000US,,United States,1620000US0648256,0648256,309,"United States - Mission Viejo city, California","Mission Viejo city, California",93305,93105,93281,94209,94965,96502,97209
+0100000US,,United States,1620000US4041850,4041850,310,"United States - Lawton city, Oklahoma","Lawton city, Oklahoma",96867,96867,97894,98283,98561,97169,97017
+0100000US,,United States,1620000US0673080,0673080,311,"United States - South Gate city, California","South Gate city, California",94396,94396,94481,95079,95613,96082,96312
+0100000US,,United States,1620000US0177256,0177256,312,"United States - Tuscaloosa city, Alabama","Tuscaloosa city, Alabama",90468,90524,90763,91739,93145,94714,96122
+0100000US,,United States,1620000US5164000,5164000,313,"United States - Portsmouth city, Virginia","Portsmouth city, Virginia",95535,95535,95495,95816,96546,96174,96004
+0100000US,,United States,1620000US0681554,0681554,314,"United States - Vacaville city, California","Vacaville city, California",92428,92422,92584,93356,93881,94356,95856
+0100000US,,United States,1620000US2621000,2621000,315,"United States - Dearborn city, Michigan","Dearborn city, Michigan",98153,98146,97863,97326,96826,96096,95535
+0100000US,,United States,1620000US4105350,4105350,316,"United States - Beaverton city, Oregon","Beaverton city, Oregon",89803,89779,90127,91406,92691,93611,95109
+0100000US,,United States,1620000US2649000,2649000,317,"United States - Livonia city, Michigan","Livonia city, Michigan",96942,96942,96726,96315,96018,95420,94958
+0100000US,,United States,1620000US2545000,2545000,318,"United States - New Bedford city, Massachusetts","New Bedford city, Massachusetts",95072,95072,95024,94798,94811,94973,94845
+0100000US,,United States,1620000US2509000,2509000,319,"United States - Brockton city, Massachusetts","Brockton city, Massachusetts",93810,93810,93838,94147,94045,94451,94779
+0100000US,,United States,1620000US3268400,3268400,320,"United States - Sparks city, Nevada","Sparks city, Nevada",90264,90258,90407,91010,92017,93199,94708
+0100000US,,United States,1620000US4841980,4841980,321,"United States - League City city, Texas","League City city, Texas",83560,83560,84097,86279,88335,91031,94403
+0100000US,,United States,1620000US4801924,4801924,322,"United States - Allen city, Texas","Allen city, Texas",84246,84290,84944,87798,89997,92339,94179
+0100000US,,United States,1620000US1367284,1367284,323,"United States - Roswell city, Georgia","Roswell city, Georgia",88346,88347,88844,91196,93689,93994,94089
+0100000US,,United States,1620000US2941348,2941348,324,"United States - Lee's Summit city, Missouri","Lee's Summit city, Missouri",91364,91388,91558,91920,92431,93093,93864
+0100000US,,United States,1620000US3563460,3563460,325,"United States - Rio Rancho city, New Mexico","Rio Rancho city, New Mexico",87521,87394,88023,89570,90646,91767,93820
+0100000US,,United States,1620000US5323515,5323515,326,"United States - Federal Way city, Washington","Federal Way city, Washington",89306,89306,89534,90694,91946,92818,93425
+0100000US,,United States,1620000US0485540,0485540,327,"United States - Yuma city, Arizona","Yuma city, Arizona",93064,90702,91380,94174,93637,92854,93400
+0100000US,,United States,1620000US2555745,2555745,328,"United States - Quincy city, Massachusetts","Quincy city, Massachusetts",92271,92271,92422,92551,92872,93327,93397
+0100000US,,United States,1620000US5380010,5380010,329,"United States - Yakima city, Washington","Yakima city, Washington",91067,91276,91619,92787,93040,93241,93357
+0100000US,,United States,1620000US0611530,0611530,330,"United States - Carson city, California","Carson city, California",91714,91714,91664,91940,92591,92965,93271
+0100000US,,United States,1620000US0670000,0670000,331,"United States - Santa Monica city, California","Santa Monica city, California",89736,89736,89821,90749,91798,92768,92987
+0100000US,,United States,1620000US0668196,0668196,332,"United States - San Marcos city, California","San Marcos city, California",83781,83650,83983,85152,87080,89799,92929
+0100000US,,United States,1620000US2038900,2038900,333,"United States - Lawrence city, Kansas","Lawrence city, Kansas",87643,87643,88037,89050,89888,91176,92763
+0100000US,,United States,1620000US0633434,0633434,334,"United States - Hesperia city, California","Hesperia city, California",90173,90173,90391,91418,91966,92327,92749
+0100000US,,United States,1620000US2537490,2537490,335,"United States - Lynn city, Massachusetts","Lynn city, Massachusetts",90329,90329,90492,90778,91275,91785,92137
+0100000US,,United States,1620000US0684550,0684550,336,"United States - Westminster city, California","Westminster city, California",89701,89614,89818,90878,91532,92077,92068
+0100000US,,United States,1620000US4957300,4957300,337,"United States - Orem city, Utah","Orem city, Utah",88328,88323,88668,89613,90652,91669,91781
+0100000US,,United States,1620000US1245025,1245025,338,"United States - Miami Beach city, Florida","Miami Beach city, Florida",87779,87784,88199,90416,91260,91831,91732
+0100000US,,United States,1620000US5367167,5367167,339,"United States - Spokane Valley city, Washington","Spokane Valley city, Washington",89755,89745,90040,90622,90602,91067,91729
+0100000US,,United States,1620000US0659920,0659920,340,"United States - Redding city, California","Redding city, California",89861,89861,89904,90367,90676,91150,91593
+0100000US,,United States,1620000US1257425,1257425,341,"United States - Plantation city, Florida","Plantation city, Florida",84955,84877,85368,86961,88236,90551,91457
+0100000US,,United States,1620000US1207300,1207300,342,"United States - Boca Raton city, Florida","Boca Raton city, Florida",84392,84401,85202,86622,87962,89812,91332
+0100000US,,United States,1620000US1269700,1269700,343,"United States - Sunrise city, Florida","Sunrise city, Florida",84439,84381,84669,86483,88995,90359,91256
+0100000US,,United States,1620000US0669070,0669070,344,"United States - Santa Barbara city, California","Santa Barbara city, California",88410,88411,88525,88757,89541,90428,91196
+0100000US,,United States,1620000US4967440,4967440,345,"United States - Sandy city, Utah","Sandy city, Utah",87461,87720,87769,88692,89571,90349,91148
+0100000US,,United States,1620000US0845970,0845970,346,"United States - Longmont city, Colorado","Longmont city, Colorado",86270,86303,86405,87427,88685,89938,90237
+0100000US,,United States,1620000US3728080,3728080,347,"United States - Greenville city, North Carolina","Greenville city, North Carolina",84554,84573,84976,86244,87660,89011,89852
+0100000US,,United States,1620000US0668084,0668084,348,"United States - San Leandro city, California","San Leandro city, California",84950,84950,85132,85989,87094,88256,89351
+0100000US,,United States,1620000US0613014,0613014,349,"United States - Chico city, California","Chico city, California",86187,86198,86171,86687,87477,88078,89180
+0100000US,,United States,1620000US1779293,1779293,350,"United States - Waukegan city, Illinois","Waukegan city, Illinois",89078,89099,89155,88940,88782,88940,88915
+0100000US,,United States,1620000US2523000,2523000,351,"United States - Fall River city, Massachusetts","Fall River city, Massachusetts",88857,88857,88842,88738,88674,88718,88712
+0100000US,,United States,1620000US4023200,4023200,352,"United States - Edmond city, Oklahoma","Edmond city, Oklahoma",81405,81399,81710,83020,84950,86996,88605
+0100000US,,United States,1620000US2545560,2545560,353,"United States - Newton city, Massachusetts","Newton city, Massachusetts",85146,85174,85403,85915,87249,87927,88287
+0100000US,,United States,1620000US1656260,1656260,354,"United States - Nampa city, Idaho","Nampa city, Idaho",81557,81748,81869,82645,83952,86571,88211
+0100000US,,United States,1620000US0955990,0955990,355,"United States - Norwalk city, Connecticut","Norwalk city, Connecticut",85603,85621,85992,86705,87285,87944,88145
+0100000US,,United States,1620000US3702140,3702140,356,"United States - Asheville city, North Carolina","Asheville city, North Carolina",83393,83417,83540,84697,85833,87085,87882
+0100000US,,United States,1620000US4263624,4263624,357,"United States - Reading city, Pennsylvania","Reading city, Pennsylvania",88082,88080,88083,88119,88047,88112,87812
+0100000US,,United States,1620000US1652120,1652120,358,"United States - Meridian city, Idaho","Meridian city, Idaho",75092,75130,75594,77855,80369,83515,87743
+0100000US,,United States,1620000US0632548,0632548,359,"United States - Hawthorne city, California","Hawthorne city, California",84293,84293,84354,85161,85774,86509,87583
+0100000US,,United States,1620000US0524550,0524550,360,"United States - Fort Smith city, Arkansas","Fort Smith city, Arkansas",86209,86261,86354,87189,87580,87489,87351
+0100000US,,United States,1620000US0685292,0685292,361,"United States - Whittier city, California","Whittier city, California",85331,85328,85391,85883,86397,86988,87318
+0100000US,,United States,1620000US0651182,0651182,362,"United States - Newport Beach city, California","Newport Beach city, California",85186,85199,85364,86229,86814,87310,87266
+0100000US,,United States,1620000US3350260,3350260,363,"United States - Nashua city, New Hampshire","Nashua city, New Hampshire",86494,86494,86567,86644,86617,86977,87259
+0100000US,,United States,1620000US1217200,1217200,364,"United States - Deltona city, Florida","Deltona city, Florida",85182,85182,85201,85138,85482,86099,86890
+0100000US,,United States,1620000US0641992,0641992,365,"United States - Livermore city, California","Livermore city, California",80968,81108,81319,82360,83653,85335,86870
+0100000US,,United States,1620000US5176432,5176432,366,"United States - Suffolk city, Virginia","Suffolk city, Virginia",84585,84596,84881,84768,85183,85749,86806
+0100000US,,United States,1620000US4870808,4870808,367,"United States - Sugar Land city, Texas","Sugar Land city, Texas",78817,78592,79109,80527,81863,83859,86777
+0100000US,,United States,1620000US1810342,1810342,368,"United States - Carmel city, Indiana","Carmel city, Indiana",79191,79191,79743,81633,83595,85929,86682
+0100000US,,United States,1620000US1823278,1823278,369,"United States - Fishers town, Indiana","Fishers town, Indiana",76794,76880,77364,79955,81781,83788,86325
+0100000US,,United States,1620000US2706616,2706616,370,"United States - Bloomington city, Minnesota","Bloomington city, Minnesota",82893,82893,83036,83917,86060,86397,86314
+0100000US,,United States,1620000US2717000,2717000,371,"United States - Duluth city, Minnesota","Duluth city, Minnesota",86265,86266,86226,86270,86255,86221,86238
+0100000US,,United States,1620000US0613588,0613588,372,"United States - Citrus Heights city, California","Citrus Heights city, California",83301,83255,83370,83960,84606,85326,86145
+0100000US,,United States,1620000US3413690,3413690,373,"United States - Clifton city, New Jersey","Clifton city, New Jersey",84136,84136,84188,84792,85100,85582,85927
+0100000US,,United States,1620000US0680238,0680238,374,"United States - Tracy city, California","Tracy city, California",82922,83101,83344,84114,84648,84900,85841
+0100000US,,United States,1620000US5335940,5335940,375,"United States - Kirkland city, Washington","Kirkland city, Washington",48787,80585,80840,82098,83416,84467,85763
+0100000US,,United States,1620000US0636448,0636448,376,"United States - Indio city, California","Indio city, California",76036,79116,79661,81167,82510,83756,85633
+0100000US,,United States,1620000US0600884,0600884,377,"United States - Alhambra city, California","Alhambra city, California",83089,83089,83186,83796,84496,84935,85569
+0100000US,,United States,1620000US3714100,3714100,378,"United States - Concord city, North Carolina","Concord city, North Carolina",79066,79195,79426,80620,82143,83565,85560
+0100000US,,United States,1620000US0646842,0646842,379,"United States - Menifee city, California","Menifee city, California",77519,77519,78102,79945,81428,83593,85182
+0100000US,,United States,1620000US0613210,0613210,380,"United States - Chino city, California","Chino city, California",77983,77972,78573,79620,80100,81083,84723
+0100000US,,United States,1620000US1712385,1712385,381,"United States - Champaign city, Illinois","Champaign city, Illinois",81055,81072,81199,81982,82816,83726,84513
+0100000US,,United States,1620000US1714351,1714351,382,"United States - Cicero town, Illinois","Cicero town, Illinois",83891,84241,84271,84395,84513,84577,84354
+0100000US,,United States,1620000US0135896,0135896,383,"United States - Hoover city, Alabama","Hoover city, Alabama",81619,81024,81191,81759,83124,83801,84353
+0100000US,,United States,1620000US4955980,4955980,384,"United States - Ogden city, Utah","Ogden city, Utah",82825,82827,83026,83316,83904,84223,84316
+0100000US,,United States,1620000US4105800,4105800,385,"United States - Bend city, Oregon","Bend city, Oregon",76639,76639,76683,77628,78845,81268,84080
+0100000US,,United States,1620000US3474000,3474000,386,"United States - Trenton city, New Jersey","Trenton city, New Jersey",84913,84910,84952,84476,84343,84470,84034
+0100000US,,United States,1620000US2954074,2954074,387,"United States - O'Fallon city, Missouri","O'Fallon city, Missouri",79329,79588,79922,81023,81991,82946,84009
+0100000US,,United States,1620000US0918430,0918430,388,"United States - Danbury city, Connecticut","Danbury city, Connecticut",80893,80897,81354,82176,82818,83814,83784
+0100000US,,United States,1620000US5305280,5305280,389,"United States - Bellingham city, Washington","Bellingham city, Washington",80885,80867,80964,81517,82059,82490,83365
+0100000US,,United States,1620000US1805860,1805860,390,"United States - Bloomington city, Indiana","Bloomington city, Indiana",80405,80307,80610,81710,82203,82607,83322
+0100000US,,United States,1620000US2680700,2680700,391,"United States - Troy city, Michigan","Troy city, Michigan",80980,80980,81001,81530,82114,82775,83107
+0100000US,,United States,1620000US0608786,0608786,392,"United States - Buena Park city, California","Buena Park city, California",80530,80613,80832,81709,82329,83133,83105
+0100000US,,United States,1620000US1342425,1342425,393,"United States - Johns Creek city, Georgia","Johns Creek city, Georgia",76728,76727,77200,79521,82296,82745,83102
+0100000US,,United States,1620000US0633182,0633182,394,"United States - Hemet city, California","Hemet city, California",78657,78658,79159,80400,81318,82127,83032
+0100000US,,United States,1620000US4822660,4822660,395,"United States - Edinburg city, Texas","Edinburg city, Texas",77100,74565,75040,77335,78725,80976,83014
+0100000US,,United States,1620000US0660102,0660102,396,"United States - Redwood City city, California","Redwood City city, California",76815,76802,77021,78066,79326,81215,82881
+0100000US,,United States,1620000US1973335,1973335,397,"United States - Sioux City city, Iowa","Sioux City city, Iowa",82684,82684,82808,83033,82698,82604,82517
+0100000US,,United States,1620000US4848768,4848768,398,"United States - Mission city, Texas","Mission city, Texas",77058,77665,78099,79690,80889,81599,82431
+0100000US,,United States,1620000US2686000,2686000,399,"United States - Westland city, Michigan","Westland city, Michigan",84094,84097,83921,83563,83318,82721,82314
+0100000US,,United States,1620000US4474300,4474300,400,"United States - Warwick city, Rhode Island","Warwick city, Rhode Island",82672,82670,82589,82083,81848,81834,81963
+0100000US,,United States,1620000US0646898,0646898,401,"United States - Merced city, California","Merced city, California",78958,78957,79132,79831,80527,81181,81743
+0100000US,,United States,1620000US0639892,0639892,402,"United States - Lakewood city, California","Lakewood city, California",80048,80048,80095,80599,81025,81448,81653
+0100000US,,United States,1620000US4843888,4843888,403,"United States - Longview city, Texas","Longview city, Texas",80455,80455,80605,81014,81295,81466,81593
+0100000US,,United States,1620000US2627440,2627440,404,"United States - Farmington Hills city, Michigan","Farmington Hills city, Michigan",79740,79740,79750,80196,80721,81253,81435
+0100000US,,United States,1620000US4419180,4419180,405,"United States - Cranston city, Rhode Island","Cranston city, Rhode Island",80387,80386,80421,80542,80698,80741,81037
+0100000US,,United States,1620000US4810912,4810912,406,"United States - Bryan city, Texas","Bryan city, Texas",76201,76218,76523,77255,77963,79181,80913
+0100000US,,United States,1620000US0523290,0523290,407,"United States - Fayetteville city, Arkansas","Fayetteville city, Arkansas",73580,73581,73966,75590,77033,79019,80621
+0100000US,,United States,1620000US0680854,0680854,407,"United States - Tustin city, California","Tustin city, California",75540,75314,75512,76371,77845,78519,80621
+0100000US,,United States,1620000US1254200,1254200,409,"United States - Palm Coast city, Florida","Palm Coast city, Florida",75180,75197,75494,76554,77508,78654,80600
+0100000US,,United States,1620000US0639496,0639496,410,"United States - Lake Forest city, California","Lake Forest city, California",77264,77448,77599,78454,79004,79513,80148
+0100000US,,United States,1620000US3961000,3961000,411,"United States - Parma city, Ohio","Parma city, Ohio",81601,81601,81471,80950,80642,80392,80015
+0100000US,,United States,1620000US0650258,0650258,412,"United States - Napa city, California","Napa city, California",76915,76989,77126,77777,78417,79198,80011
+0100000US,,United States,1620000US0404720,0404720,413,"United States - Avondale city, Arizona","Avondale city, Arizona",76238,76130,76195,76927,78072,78877,79646
+0100000US,,United States,1620000US3650617,3650617,414,"United States - New Rochelle city, New York","New Rochelle city, New York",77062,77062,77156,77709,78380,79500,79637
+0100000US,,United States,1620000US0649670,0649670,415,"United States - Mountain View city, California","Mountain View city, California",74066,74020,74286,75207,76654,78167,79378
+0100000US,,United States,1620000US5147672,5147672,416,"United States - Lynchburg city, Virginia","Lynchburg city, Virginia",75568,75613,75773,76813,77788,78710,79047
+0100000US,,United States,1620000US1239425,1239425,417,"United States - Largo city, Florida","Largo city, Florida",77648,78135,78054,77941,78137,78753,79019
+0100000US,,United States,1620000US2562535,2562535,418,"United States - Somerville city, Massachusetts","Somerville city, Massachusetts",75754,75635,75757,76666,77723,78857,78901
+0100000US,,United States,1620000US1216725,1216725,419,"United States - Deerfield Beach city, Florida","Deerfield Beach city, Florida",75018,75018,75221,76567,77622,78356,78881
+0100000US,,United States,1620000US1706613,1706613,420,"United States - Bloomington city, Illinois","Bloomington city, Illinois",76610,76616,76757,77120,77803,79043,78730
+0100000US,,United States,1620000US2707966,2707966,421,"United States - Brooklyn Park city, Minnesota","Brooklyn Park city, Minnesota",75781,75784,75970,76889,77769,78442,78728
+0100000US,,United States,1620000US4147000,4147000,422,"United States - Medford city, Oregon","Medford city, Oregon",74907,74943,75042,75670,76532,77431,78557
+0100000US,,United States,1620000US4965330,4965330,423,"United States - St. George city, Utah","St. George city, Utah",72897,72763,72860,73953,75308,76742,78505
+0100000US,,United States,1620000US1243975,1243975,424,"United States - Melbourne city, Florida","Melbourne city, Florida",76068,76196,76361,76583,77028,77676,78490
+0100000US,,United States,1620000US1831000,1831000,425,"United States - Hammond city, Indiana","Hammond city, Indiana",80830,80823,80752,80194,79641,78991,78384
+0100000US,,United States,1620000US0604982,0604982,426,"United States - Bellflower city, California","Bellflower city, California",76616,76610,76661,77134,77557,77959,78236
+0100000US,,United States,1620000US2534550,2534550,427,"United States - Lawrence city, Massachusetts","Lawrence city, Massachusetts",76377,76377,76521,76986,77353,77765,78197
+0100000US,,United States,1620000US5566000,5566000,428,"United States - Racine city, Wisconsin","Racine city, Wisconsin",78860,78860,78783,78505,78242,78183,78065
+0100000US,,United States,1620000US1827000,1827000,429,"United States - Gary city, Indiana","Gary city, Indiana",80294,80314,80243,79688,79147,78507,77909
+0100000US,,United States,1620000US4548535,4548535,430,"United States - Mount Pleasant town, South Carolina","Mount Pleasant town, South Carolina",67843,67854,68050,69411,71882,74735,77796
+0100000US,,United States,1620000US0657792,0657792,431,"United States - Pleasanton city, California","Pleasanton city, California",70285,70317,70448,71249,72254,74248,77682
+0100000US,,United States,1620000US0600562,0600562,432,"United States - Alameda city, California","Alameda city, California",73812,73812,73962,74753,75752,76658,77660
+0100000US,,United States,1620000US5335275,5335275,433,"United States - Kennewick city, Washington","Kennewick city, Washington",73917,73874,74332,75542,75929,76672,77421
+0100000US,,United States,1620000US3410000,3410000,434,"United States - Camden city, New Jersey","Camden city, New Jersey",77344,77346,77423,77567,77271,76783,77332
+0100000US,,United States,1620000US0603666,0603666,435,"United States - Baldwin Park city, California","Baldwin Park city, California",75390,75390,75465,75949,76540,76922,77119
+0100000US,,United States,1620000US0613214,0613214,436,"United States - Chino Hills city, California","Chino Hills city, California",74799,74799,74999,75788,76315,76684,77005
+0100000US,,United States,1620000US2964550,2964550,437,"United States - St. Joseph city, Missouri","St. Joseph city, Missouri",76780,76807,76699,77112,77251,77206,76967
+0100000US,,United States,1620000US0566080,0566080,438,"United States - Springdale city, Arkansas","Springdale city, Arkansas",69797,70747,71083,72322,73620,75295,76565
+0100000US,,United States,1620000US5303180,5303180,439,"United States - Auburn city, Washington","Auburn city, Washington",70180,70172,70391,71605,73496,75009,76347
+0100000US,,United States,1620000US4806128,4806128,440,"United States - Baytown city, Texas","Baytown city, Texas",71802,72024,72199,72973,73736,75740,76127
+0100000US,,United States,1620000US0681344,0681344,441,"United States - Upland city, California","Upland city, California",73732,73732,73929,74623,75209,75589,76043
+0100000US,,United States,1620000US1702154,1702154,442,"United States - Arlington Heights village, Illinois","Arlington Heights village, Illinois",75101,75101,75163,75394,75775,76006,76024
+0100000US,,United States,1620000US2642160,2642160,443,"United States - Kalamazoo city, Michigan","Kalamazoo city, Michigan",74262,74262,74332,74679,75254,75741,75922
+0100000US,,United States,1620000US1301052,1301052,444,"United States - Albany city, Georgia","Albany city, Georgia",77434,77434,77446,77746,77474,76270,75769
+0100000US,,United States,1620000US0428380,0428380,445,"United States - Goodyear city, Arizona","Goodyear city, Arizona",65275,65225,65495,67229,69451,72891,75664
+0100000US,,United States,1620000US1724582,1724582,446,"United States - Evanston city, Illinois","Evanston city, Illinois",74486,74486,74582,74993,75436,75666,75658
+0100000US,,United States,1620000US4857200,4857200,447,"United States - Pharr city, Texas","Pharr city, Texas",70400,70470,70789,72095,73223,74116,75382
+0100000US,,United States,1620000US0624638,0624638,448,"United States - Folsom city, California","Folsom city, California",72203,72199,72183,72682,73282,73117,75361
+0100000US,,United States,1620000US0668378,0668378,449,"United States - San Ramon city, California","San Ramon city, California",72148,72211,72410,73062,73792,74559,75332
+0100000US,,United States,1620000US4269000,4269000,450,"United States - Scranton city, Pennsylvania","Scranton city, Pennsylvania",76089,76089,76065,75981,76096,75808,75281
+0100000US,,United States,1620000US4206088,4206088,451,"United States - Bethlehem city, Pennsylvania","Bethlehem city, Pennsylvania",74982,74982,75001,75084,75100,74973,75135
+0100000US,,United States,1620000US2751730,2751730,452,"United States - Plymouth city, Minnesota","Plymouth city, Minnesota",70576,70561,70684,71658,72928,74023,75057
+0100000US,,United States,1620000US1768003,1768003,453,"United States - Schaumburg village, Illinois","Schaumburg village, Illinois",74227,74227,74282,74507,74729,74906,74896
+0100000US,,United States,1620000US2241155,2241155,454,"United States - Lake Charles city, Louisiana","Lake Charles city, Louisiana",71993,72033,72250,72679,73636,74017,74889
+0100000US,,United States,1620000US2688940,2688940,455,"United States - Wyoming city, Michigan","Wyoming city, Michigan",72125,72122,72122,72681,73403,74158,74826
+0100000US,,United States,1620000US1707133,1707133,456,"United States - Bolingbrook village, Illinois","Bolingbrook village, Illinois",73366,73366,73482,73783,73978,74007,74180
+0100000US,,United States,1620000US1718823,1718823,457,"United States - Decatur city, Illinois","Decatur city, Illinois",76122,76126,76089,75846,75375,74849,74010
+0100000US,,United States,1620000US5502375,5502375,458,"United States - Appleton city, Wisconsin","Appleton city, Wisconsin",72623,72628,72633,72835,73083,73558,73971
+0100000US,,United States,1620000US0656700,0656700,459,"United States - Perris city, California","Perris city, California",68386,68383,68853,70368,71278,72463,73756
+0100000US,,United States,1620000US3725580,3725580,460,"United States - Gastonia city, North Carolina","Gastonia city, North Carolina",71741,71741,71741,72013,72782,73131,73698
+0100000US,,United States,1620000US0647766,0647766,461,"United States - Milpitas city, California","Milpitas city, California",66790,66815,66756,67188,68979,70110,73672
+0100000US,,United States,1620000US0681204,0681204,462,"United States - Union City city, California","Union City city, California",69516,69524,69653,70666,71752,72716,73621
+0100000US,,United States,1620000US0645484,0645484,463,"United States - Manteca city, California","Manteca city, California",67096,67276,67699,69287,71030,72008,73494
+0100000US,,United States,1620000US1938595,1938595,464,"United States - Iowa City city, Iowa","Iowa City city, Iowa",67862,67894,68005,69183,70447,71861,73415
+0100000US,,United States,1620000US1380508,1380508,465,"United States - Warner Robins city, Georgia","Warner Robins city, Georgia",66588,68618,69066,70741,71782,72570,73271
+0100000US,,United States,1620000US2669035,2669035,466,"United States - Rochester Hills city, Michigan","Rochester Hills city, Michigan",70995,70995,71023,71573,72275,72915,73125
+0100000US,,United States,1620000US1207875,1207875,467,"United States - Boynton Beach city, Florida","Boynton Beach city, Florida",68217,68215,68370,68946,70206,71279,73124
+0100000US,,United States,1620000US2674900,2674900,468,"United States - Southfield city, Michigan","Southfield city, Michigan",71739,71739,71747,72109,72544,72967,73002
+0100000US,,United States,1620000US0950370,0950370,469,"United States - New Britain city, Connecticut","New Britain city, Connecticut",73206,73202,73240,73240,73115,73004,72878
+0100000US,,United States,1620000US0846465,0846465,470,"United States - Loveland city, Colorado","Loveland city, Colorado",66859,66824,66997,69153,70231,71373,72651
+0100000US,,United States,1620000US4652980,4652980,471,"United States - Rapid City city, South Dakota","Rapid City city, South Dakota",67956,67964,68171,68637,70021,71140,72638
+0100000US,,United States,1620000US3912000,3912000,472,"United States - Canton city, Ohio","Canton city, Ohio",73007,73017,73046,72759,72765,72564,72297
+0100000US,,United States,1620000US4943660,4943660,473,"United States - Layton city, Utah","Layton city, Utah",67311,67297,67550,68245,68632,70786,72231
+0100000US,,United States,1620000US0535710,0535710,474,"United States - Jonesboro city, Arkansas","Jonesboro city, Arkansas",67263,67388,67627,69069,70460,71654,72210
+0100000US,,United States,1620000US0644574,0644574,475,"United States - Lynwood city, California","Lynwood city, California",69772,69772,69650,69852,70909,71664,71839
+0100000US,,United States,1620000US1077580,1077580,476,"United States - Wilmington city, Delaware","Wilmington city, Delaware",70851,70852,70782,70978,71307,71489,71817
+0100000US,,United States,1620000US2829700,2829700,477,"United States - Gulfport city, Mississippi","Gulfport city, Mississippi",67793,67786,67939,68887,69954,71139,71750
+0100000US,,United States,1620000US4848804,4848804,478,"United States - Missouri City city, Texas","Missouri City city, Texas",67358,66825,67223,67922,68665,70053,71710
+0100000US,,United States,1620000US0602364,0602364,479,"United States - Apple Valley town, California","Apple Valley town, California",69135,69139,69330,70150,70620,71060,71595
+0100000US,,United States,1620000US3456550,3456550,480,"United States - Passaic city, New Jersey","Passaic city, New Jersey",69781,69781,69867,70270,70540,71024,71509
+0100000US,,United States,1620000US4454640,4454640,481,"United States - Pawtucket city, Rhode Island","Pawtucket city, Rhode Island",71148,71141,71160,71186,71304,71385,71499
+0100000US,,United States,1620000US5584250,5584250,482,"United States - Waukesha city, Wisconsin","Waukesha city, Wisconsin",70718,70706,70709,70709,71207,71263,71489
+0100000US,,United States,1620000US0680812,0680812,483,"United States - Turlock city, California","Turlock city, California",68549,68549,68704,69183,69786,70475,71245
+0100000US,,United States,1620000US1224125,1224125,484,"United States - Fort Myers city, Florida","Fort Myers city, Florida",62298,62202,62425,63838,65642,68096,70918
+0100000US,,United States,1620000US4872176,4872176,485,"United States - Temple city, Texas","Temple city, Texas",66102,66315,66850,67514,69140,70065,70765
+0100000US,,United States,1620000US1840788,1840788,486,"United States - Lafayette city, Indiana","Lafayette city, Indiana",67140,68867,68904,69795,69895,70673,70654
+0100000US,,United States,1620000US1239550,1239550,487,"United States - Lauderhill city, Florida","Lauderhill city, Florida",66887,66954,67142,68374,69342,70028,70626
+0100000US,,United States,1620000US0659962,0659962,488,"United States - Redlands city, California","Redlands city, California",68747,68667,68829,69441,69866,70144,70622
+0100000US,,United States,1620000US4727740,4727740,489,"United States - Franklin city, Tennessee","Franklin city, Tennessee",62487,62601,62861,64339,66321,68885,70612
+0100000US,,United States,1620000US3570500,3570500,490,"United States - Santa Fe city, New Mexico","Santa Fe city, New Mexico",67947,67968,68147,68736,69228,69789,70297
+0100000US,,United States,1620000US1851876,1851876,491,"United States - Muncie city, Indiana","Muncie city, Indiana",70085,70201,70188,70347,70064,70234,70211
+0100000US,,United States,1620000US4561405,4561405,492,"United States - Rock Hill city, South Carolina","Rock Hill city, South Carolina",66154,66474,66508,67339,68083,68922,69967
+0100000US,,United States,1620000US3050200,3050200,493,"United States - Missoula city, Montana","Missoula city, Montana",66788,66877,66967,67565,68484,69039,69821
+0100000US,,United States,1620000US0659444,0659444,494,"United States - Rancho Cordova city, California","Rancho Cordova city, California",64776,64805,65089,66058,66908,67999,69740
+0100000US,,United States,1620000US4826232,4826232,495,"United States - Flower Mound town, Texas","Flower Mound town, Texas",64669,64685,64895,66067,67893,68536,69650
+0100000US,,United States,1620000US1757225,1757225,496,"United States - Palatine village, Illinois","Palatine village, Illinois",68557,68555,68608,68841,69114,69352,69387
+0100000US,,United States,1620000US1276582,1276582,497,"United States - Weston city, Florida","Weston city, Florida",65333,65333,65533,66800,67805,68545,69100
+0100000US,,United States,1620000US3734200,3734200,498,"United States - Jacksonville city, North Carolina","Jacksonville city, North Carolina",70145,70145,70873,68161,69543,68953,69047
+0100000US,,United States,1620000US3807200,3807200,499,"United States - Bismarck city, North Dakota","Bismarck city, North Dakota",61272,61264,61528,62997,64992,67281,68896
+0100000US,,United States,1620000US0423620,0423620,500,"United States - Flagstaff city, Arizona","Flagstaff city, Arizona",65870,66067,66122,66066,67873,68210,68785
+0100000US,,United States,1620000US3474630,3474630,501,"United States - Union City city, New Jersey","Union City city, New Jersey",66455,66439,66599,67686,68367,68664,68668
+0100000US,,United States,1620000US5353545,5353545,502,"United States - Pasco city, Washington","Pasco city, Washington",59781,61083,61879,64568,66745,67533,68648
+0100000US,,United States,1620000US4852356,4852356,503,"United States - North Richland Hills city, Texas","North Richland Hills city, Texas",63343,63343,63498,64387,65357,67363,68529
+0100000US,,United States,1620000US3649121,3649121,504,"United States - Mount Vernon city, New York","Mount Vernon city, New York",67292,67290,67366,67746,67909,68349,68458
+0100000US,,United States,1620000US0121184,0121184,505,"United States - Dothan city, Alabama","Dothan city, Alabama",65496,65916,66106,66662,67368,67853,68409
+0100000US,,United States,1620000US2430325,2430325,506,"United States - Frederick city, Maryland","Frederick city, Maryland",65239,65287,65442,65965,66429,66921,68400
+0100000US,,United States,1620000US1982425,1982425,507,"United States - Waterloo city, Iowa","Waterloo city, Iowa",68406,68406,68399,68386,68328,68427,68364
+0100000US,,United States,1620000US0660018,0660018,508,"United States - Redondo Beach city, California","Redondo Beach city, California",66748,66748,66795,67193,67577,67944,68149
+0100000US,,United States,1620000US0657456,0657456,509,"United States - Pittsburg city, California","Pittsburg city, California",63264,63260,63545,64621,65639,66810,68140
+0100000US,,United States,1620000US2964082,2964082,510,"United States - St. Charles city, Missouri","St. Charles city, Missouri",65794,65846,66001,66159,66535,67680,68090
+0100000US,,United States,1620000US0686832,0686832,511,"United States - Yorba Linda city, California","Yorba Linda city, California",64234,64193,64451,65765,66544,67178,67826
+0100000US,,United States,1620000US5522300,5522300,512,"United States - Eau Claire city, Wisconsin","Eau Claire city, Wisconsin",65883,66190,66260,66797,67330,67875,67684
+0100000US,,United States,1620000US0683346,0683346,513,"United States - Walnut Creek city, California","Walnut Creek city, California",64173,64174,64353,64914,65656,66988,67673
+0100000US,,United States,1620000US2208920,2208920,514,"United States - Bossier City city, Louisiana","Bossier City city, Louisiana",61315,61631,61990,63441,65401,66196,67472
+0100000US,,United States,1620000US4737640,4737640,515,"United States - Jackson city, Tennessee","Jackson city, Tennessee",65211,66929,66941,66816,67211,67649,67319
+0100000US,,United States,1620000US2239475,2239475,516,"United States - Kenner city, Louisiana","Kenner city, Louisiana",66702,66705,66732,66875,66935,67074,67064
+0100000US,,United States,1620000US0673262,0673262,517,"United States - South San Francisco city, California","South San Francisco city, California",63632,63664,63775,64621,65796,66477,67009
+0100000US,,United States,1620000US0655282,0655282,518,"United States - Palo Alto city, California","Palo Alto city, California",64403,64409,64590,65442,66228,66804,66955
+0100000US,,United States,1620000US2740166,2740166,519,"United States - Maple Grove city, Minnesota","Maple Grove city, Minnesota",61567,61569,61799,63200,64431,65463,66945
+0100000US,,United States,1620000US0610046,0610046,520,"United States - Camarillo city, California","Camarillo city, California",65201,65221,65341,65670,65899,66208,66923
+0100000US,,United States,1620000US2431175,2431175,521,"United States - Gaithersburg city, Maryland","Gaithersburg city, Maryland",59933,59897,60168,61491,63071,65904,66816
+0100000US,,United States,1620000US0550450,0550450,522,"United States - North Little Rock city, Arkansas","North Little Rock city, Arkansas",62304,62368,62466,63525,64727,66092,66810
+0100000US,,United States,1620000US2771428,2771428,523,"United States - Woodbury city, Minnesota","Woodbury city, Minnesota",61961,61965,62239,63523,64512,65665,66807
+0100000US,,United States,1620000US0618100,0618100,524,"United States - Davis city, California","Davis city, California",65622,65611,65587,65741,65925,66421,66742
+0100000US,,United States,1620000US1236950,1236950,525,"United States - Kissimmee city, Florida","Kissimmee city, Florida",59682,59620,59774,61520,63700,65301,66722
+0100000US,,United States,1620000US2360545,2360545,526,"United States - Portland city, Maine","Portland city, Maine",66194,66194,66071,66147,66260,66404,66666
+0100000US,,United States,1620000US5560500,5560500,527,"United States - Oshkosh city, Wisconsin","Oshkosh city, Wisconsin",66083,66083,66044,66128,66650,66729,66621
+0100000US,,United States,1620000US4850820,4850820,528,"United States - New Braunfels city, Texas","New Braunfels city, Texas",57740,57727,58129,59422,61143,63365,66394
+0100000US,,United States,1620000US2756896,2756896,529,"United States - St. Cloud city, Minnesota","St. Cloud city, Minnesota",65842,65946,65955,65915,65963,66075,66389
+0100000US,,United States,1620000US4875428,4875428,530,"United States - Victoria city, Texas","Victoria city, Texas",62592,62601,62639,63066,64431,65138,66094
+0100000US,,United States,1620000US2717288,2717288,531,"United States - Eagan city, Minnesota","Eagan city, Minnesota",64206,64205,64258,64526,64853,65485,66084
+0100000US,,United States,1620000US3403580,3403580,532,"United States - Bayonne city, New Jersey","Bayonne city, New Jersey",63024,63010,63165,64212,64802,65556,65975
+0100000US,,United States,1620000US2467675,2467675,533,"United States - Rockville city, Maryland","Rockville city, Maryland",61209,61285,61513,62143,63353,64160,65937
+0100000US,,United States,1620000US3665508,3665508,534,"United States - Schenectady city, New York","Schenectady city, New York",66135,66134,66180,66041,66064,65929,65936
+0100000US,,United States,1620000US4832372,4832372,535,"United States - Harlingen city, Texas","Harlingen city, Texas",64849,64918,65092,65666,65853,65898,65914
+0100000US,,United States,1620000US4816432,4816432,536,"United States - Conroe city, Texas","Conroe city, Texas",56207,56992,57351,59120,61423,62591,65871
+0100000US,,United States,1620000US4738320,4738320,537,"United States - Johnson City city, Tennessee","Johnson City city, Tennessee",63152,63476,63635,64283,64738,65169,65813
+0100000US,,United States,1620000US0686972,0686972,538,"United States - Yuba City city, California","Yuba City city, California",64925,64925,64977,64845,64883,65362,65773
+0100000US,,United States,1620000US1232275,1232275,539,"United States - Homestead city, Florida","Homestead city, Florida",60512,60509,60823,62777,63627,64637,65524
+0100000US,,United States,1620000US0639248,0639248,540,"United States - Laguna Niguel city, California","Laguna Niguel city, California",62979,62985,63151,63893,64357,64707,65448
+0100000US,,United States,1620000US0665084,0665084,541,"United States - San Clemente city, California","San Clemente city, California",63522,63497,63638,64378,64837,65180,65326
+0100000US,,United States,1620000US1770122,1770122,542,"United States - Skokie village, Illinois","Skokie village, Illinois",64784,64784,64824,64972,65119,65223,65112
+0100000US,,United States,1620000US5343955,5343955,543,"United States - Marysville city, Washington","Marysville city, Washington",60020,60024,60188,61289,62388,63323,65087
+0100000US,,United States,1620000US3419390,3419390,544,"United States - East Orange city, New Jersey","East Orange city, New Jersey",64270,64107,64120,64403,64409,64743,65078
+0100000US,,United States,1620000US3988000,3988000,545,"United States - Youngstown city, Ohio","Youngstown city, Ohio",66982,66982,66912,66574,66113,65493,65062
+0100000US,,United States,1620000US1217100,1217100,546,"United States - Delray Beach city, Florida","Delray Beach city, Florida",60522,60601,60825,61598,62475,64233,65055
+0100000US,,United States,1620000US2064500,2064500,547,"United States - Shawnee city, Kansas","Shawnee city, Kansas",62209,62209,62319,63017,63626,64358,64599
+0100000US,,United States,1620000US0515190,0515190,548,"United States - Conway city, Arkansas","Conway city, Arkansas",58908,58906,59645,61666,62907,63610,64490
+0100000US,,United States,1620000US0656924,0656924,549,"United States - Pico Rivera city, California","Pico Rivera city, California",62942,62942,62987,63384,63724,64060,64235
+0100000US,,United States,1620000US5537825,5537825,550,"United States - Janesville city, Wisconsin","Janesville city, Wisconsin",63575,63606,63558,63449,63554,63779,64009
+0100000US,,United States,1620000US0642202,0642202,551,"United States - Lodi city, California","Lodi city, California",62134,62134,62300,62854,63240,63399,63950
+0100000US,,United States,1620000US0648816,0648816,552,"United States - Montebello city, California","Montebello city, California",62500,62500,62544,63090,63437,63760,63929
+0100000US,,United States,1620000US1270675,1270675,553,"United States - Tamarac city, Florida","Tamarac city, Florida",60427,60503,60678,61808,62699,63333,63793
+0100000US,,United States,1620000US3944856,3944856,554,"United States - Lorain city, Ohio","Lorain city, Ohio",64097,64097,64081,63968,63778,63748,63776
+0100000US,,United States,1620000US0645022,0645022,555,"United States - Madera city, California","Madera city, California",61416,61416,61560,61999,62583,62991,63605
+0100000US,,United States,1620000US4813552,4813552,556,"United States - Cedar Park city, Texas","Cedar Park city, Texas",48937,51743,52400,55360,57977,61292,63574
+0100000US,,United States,1620000US0669112,0669112,557,"United States - Santa Cruz city, California","Santa Cruz city, California",59946,59948,60595,61449,62009,62857,63364
+0100000US,,United States,1620000US1983910,1983910,558,"United States - West Des Moines city, Iowa","West Des Moines city, Iowa",56609,56700,57031,58373,59336,61250,63325
+0100000US,,United States,1620000US1901855,1901855,559,"United States - Ames city, Iowa","Ames city, Iowa",58965,58967,58993,60231,61194,62701,63266
+0100000US,,United States,1620000US2718116,2718116,560,"United States - Eden Prairie city, Minnesota","Eden Prairie city, Minnesota",60797,60751,60856,61610,62220,62596,63228
+0100000US,,United States,1620000US1301696,1301696,561,"United States - Alpharetta city, Georgia","Alpharetta city, Georgia",57551,57500,57827,59424,61977,62224,63038
+0100000US,,United States,1620000US2572600,2572600,562,"United States - Waltham city, Massachusetts","Waltham city, Massachusetts",60632,60632,60842,61377,62008,62424,63014
+0100000US,,United States,1620000US1216525,1216525,563,"United States - Daytona Beach city, Florida","Daytona Beach city, Florida",61005,61005,61076,61202,61799,62389,63011
+0100000US,,United States,1620000US5613900,5613900,564,"United States - Cheyenne city, Wyoming","Cheyenne city, Wyoming",59466,59631,59847,60339,61731,62565,62845
+0100000US,,United States,1620000US4970850,4970850,565,"United States - South Jordan city, Utah","South Jordan city, Utah",50418,50420,51253,53347,55941,59379,62781
+0100000US,,United States,1620000US2529405,2529405,566,"United States - Haverhill city, Massachusetts","Haverhill city, Massachusetts",60879,60879,60969,61463,61768,62159,62488
+0100000US,,United States,1620000US3933012,3933012,567,"United States - Hamilton city, Ohio","Hamilton city, Ohio",62477,62272,62325,62335,62278,62319,62486
+0100000US,,United States,1620000US2108902,2108902,568,"United States - Bowling Green city, Kentucky","Bowling Green city, Kentucky",58067,58888,59134,59395,60770,61636,62479
+0100000US,,United States,1620000US0622678,0622678,569,"United States - Encinitas city, California","Encinitas city, California",59518,59518,59701,60339,61025,61754,62254
+0100000US,,United States,1620000US4530850,4530850,570,"United States - Greenville city, South Carolina","Greenville city, South Carolina",58409,59153,59306,59947,60605,61217,62252
+0100000US,,United States,1620000US4846452,4846452,571,"United States - Mansfield city, Texas","Mansfield city, Texas",56368,56373,56811,58065,59398,60922,62246
+0100000US,,United States,1620000US1916860,1916860,572,"United States - Council Bluffs city, Iowa","Council Bluffs city, Iowa",62230,62228,62386,62500,62138,62089,62245
+0100000US,,United States,1620000US0809280,0809280,573,"United States - Broomfield city, Colorado","Broomfield city, Colorado",55889,55860,56266,57433,58992,60306,62138
+0100000US,,United States,1620000US2713114,2713114,574,"United States - Coon Rapids city, Minnesota","Coon Rapids city, Minnesota",61476,61476,61541,61506,61879,62027,62112
+0100000US,,United States,1620000US0639290,0639290,575,"United States - La Habra city, California","La Habra city, California",60239,60281,60406,61052,61466,61822,62066
+0100000US,,United States,1620000US0680644,0680644,576,"United States - Tulare city, California","Tulare city, California",59278,59312,59494,59948,60877,61235,61867
+0100000US,,United States,1620000US2708794,2708794,577,"United States - Burnsville city, Minnesota","Burnsville city, Minnesota",60306,60307,60408,60655,61128,61482,61630
+0100000US,,United States,1620000US2679000,2679000,578,"United States - Taylor city, Michigan","Taylor city, Michigan",63131,63131,62991,62636,62418,61955,61594
+0100000US,,United States,1620000US1275812,1275812,579,"United States - Wellington village, Florida","Wellington village, Florida",56508,56712,56873,57604,58771,60310,61485
+0100000US,,United States,1620000US0560410,0560410,580,"United States - Rogers city, Arkansas","Rogers city, Arkansas",55964,55983,56331,57780,59044,60091,61464
+0100000US,,United States,1620000US0648914,0648914,581,"United States - Monterey Park city, California","Monterey Park city, California",60269,60269,60303,60676,60987,61298,61458
+0100000US,,United States,1620000US1249450,1249450,582,"United States - North Miami city, Florida","North Miami city, Florida",58786,58896,59128,60593,61142,61530,61420
+0100000US,,United States,1620000US3676540,3676540,583,"United States - Utica city, New York","Utica city, New York",62235,62235,62231,62024,61889,61751,61332
+0100000US,,United States,1620000US2706382,2706382,584,"United States - Blaine city, Minnesota","Blaine city, Minnesota",57186,57177,57396,58128,59353,60386,61190
+0100000US,,United States,1620000US3476070,3476070,585,"United States - Vineland city, New Jersey","Vineland city, New Jersey",60724,60724,60798,60947,61015,61047,61171
+0100000US,,United States,1620000US1875428,1875428,586,"United States - Terre Haute city, Indiana","Terre Haute city, Indiana",60785,60785,60792,60985,61217,61027,60956
+0100000US,,United States,1620000US2537875,2537875,587,"United States - Malden city, Massachusetts","Malden city, Massachusetts",59450,59464,59548,59940,60360,60788,60859
+0100000US,,United States,1620000US1235875,1235875,588,"United States - Jupiter town, Florida","Jupiter town, Florida",55156,55266,55446,56240,57300,58428,60681
+0100000US,,United States,1620000US0617610,0617610,589,"United States - Cupertino city, California","Cupertino city, California",58302,58572,58732,59253,59888,60357,60668
+0100000US,,United States,1620000US5585300,5585300,590,"United States - West Allis city, Wisconsin","West Allis city, Wisconsin",60411,60419,60428,60507,60696,60729,60624
+0100000US,,United States,1620000US0908420,0908420,591,"United States - Bristol city, Connecticut","Bristol city, Connecticut",60477,60477,60479,60580,60617,60598,60570
+0100000US,,United States,1620000US4975360,4975360,592,"United States - Taylorsville city, Utah","Taylorsville city, Utah",58652,58644,58703,59755,60216,60599,60433
+0100000US,,United States,1620000US0628168,0628168,593,"United States - Gardena city, California","Gardena city, California",58829,58829,58874,59279,59651,60229,60395
+0100000US,,United States,1620000US1249675,1249675,594,"United States - North Port city, Florida","North Port city, Florida",57357,57333,57406,57626,58357,59135,60380
+0100000US,,United States,1620000US0662364,0662364,595,"United States - Rocklin city, California","Rocklin city, California",56974,57019,57393,58408,59042,59815,60344
+0100000US,,United States,1620000US0650398,0650398,596,"United States - National City city, California","National City city, California",58582,58578,58671,59145,59539,59992,60343
+0100000US,,United States,1620000US0946450,0946450,597,"United States - Meriden city, Connecticut","Meriden city, Connecticut",60868,60868,60874,60736,60660,60518,60293
+0100000US,,United States,1620000US4169600,4169600,598,"United States - Springfield city, Oregon","Springfield city, Oregon",59403,59361,59382,59728,59909,60076,60263
+0100000US,,United States,1620000US0103076,0103076,599,"United States - Auburn city, Alabama","Auburn city, Alabama",53380,53393,53753,54981,57049,58943,60258
+0100000US,,United States,1620000US0831660,0831660,600,"United States - Grand Junction city, Colorado","Grand Junction city, Colorado",58566,59005,59032,59581,59817,59930,60210
+0100000US,,United States,1620000US5613150,5613150,601,"United States - Casper city, Wyoming","Casper city, Wyoming",55316,55323,55278,56173,57894,59688,60086
+0100000US,,United States,1620000US2670760,2670760,602,"United States - St. Clair Shores city, Michigan","St. Clair Shores city, Michigan",59715,59730,59717,59671,59814,60083,60036
+0100000US,,United States,1620000US0639486,0639486,603,"United States - Lake Elsinore city, California","Lake Elsinore city, California",51821,52861,53201,54724,55769,57542,60029
+0100000US,,United States,1620000US1349756,1349756,604,"United States - Marietta city, Georgia","Marietta city, Georgia",56579,56605,56858,57604,58469,59167,60014
+0100000US,,United States,1620000US3974118,3974118,605,"United States - Springfield city, Ohio","Springfield city, Ohio",60608,60608,60566,60306,60177,60048,59956
+0100000US,,United States,1620000US0656784,0656784,606,"United States - Petaluma city, California","Petaluma city, California",57941,57941,58008,58262,58819,59490,59953
+0100000US,,United States,1620000US2735180,2735180,607,"United States - Lakeville city, Minnesota","Lakeville city, Minnesota",55954,55954,56106,56625,57334,58617,59866
+0100000US,,United States,1620000US2665440,2665440,608,"United States - Pontiac city, Michigan","Pontiac city, Michigan",59515,59515,59488,59627,59537,59856,59808
+0100000US,,United States,1620000US5338038,5338038,609,"United States - Lakewood city, Washington","Lakewood city, Washington",58163,58163,58237,58649,58934,59111,59610
+0100000US,,United States,1620000US0407940,0407940,610,"United States - Buckeye town, Arizona","Buckeye town, Arizona",50876,50891,51249,52419,54584,56899,59470
+0100000US,,United States,1620000US3711800,3711800,611,"United States - Chapel Hill town, North Carolina","Chapel Hill town, North Carolina",57233,57233,57447,57429,58720,58981,59376
+0100000US,,United States,1620000US0636056,0636056,612,"United States - Huntington Park city, California","Huntington Park city, California",58114,58114,58152,58486,58796,59120,59362
+0100000US,,United States,1620000US4241216,4241216,613,"United States - Lancaster city, Pennsylvania","Lancaster city, Pennsylvania",59322,59322,59329,59400,59366,59336,59302
+0100000US,,United States,1620000US5357535,5357535,614,"United States - Redmond city, Washington","Redmond city, Washington",54144,54313,54514,55501,56582,57558,59285
+0100000US,,United States,1620000US0668364,0668364,615,"United States - San Rafael city, California","San Rafael city, California",57713,57717,57815,58264,58487,59104,59237
+0100000US,,United States,1620000US4049200,4049200,616,"United States - Moore city, Oklahoma","Moore city, Oklahoma",55081,55081,55403,56754,57926,58476,59196
+0100000US,,United States,1620000US0640004,0640004,617,"United States - La Mesa city, California","La Mesa city, California",57065,57065,57222,57777,58299,58818,59177
+0100000US,,United States,1620000US3032800,3032800,618,"United States - Great Falls city, Montana","Great Falls city, Montana",58505,58631,58756,58971,58943,59278,59152
+0100000US,,United States,1620000US4829336,4829336,619,"United States - Georgetown city, Texas","Georgetown city, Texas",47400,47455,47995,50301,52547,54934,59102
+0100000US,,United States,1620000US2670040,2670040,620,"United States - Royal Oak city, Michigan","Royal Oak city, Michigan",57236,57236,57245,58138,58503,58912,59069
+0100000US,,United States,1620000US1719642,1719642,621,"United States - Des Plaines city, Illinois","Des Plaines city, Illinois",58364,58364,58425,58637,58849,58985,58947
+0100000US,,United States,1620000US4865600,4865600,622,"United States - San Marcos city, Texas","San Marcos city, Texas",44894,45068,45223,47695,50093,54567,58892
+0100000US,,United States,1620000US1258575,1258575,623,"United States - Port Orange city, Florida","Port Orange city, Florida",56048,56595,56594,56593,56829,57336,58742
+0100000US,,United States,1620000US1639700,1639700,624,"United States - Idaho Falls city, Idaho","Idaho Falls city, Idaho",56813,56891,57047,57595,58032,58270,58691
+0100000US,,United States,1620000US1756640,1756640,625,"United States - Orland Park village, Illinois","Orland Park village, Illinois",56767,56680,56735,57011,57274,58546,58666
+0100000US,,United States,1620000US1213275,1213275,626,"United States - Coconut Creek city, Florida","Coconut Creek city, Florida",52909,52934,53092,54221,55123,56994,58536
+0100000US,,United States,1620000US1922395,1922395,627,"United States - Dubuque city, Iowa","Dubuque city, Iowa",57637,57532,57589,57818,58066,58392,58436
+0100000US,,United States,1620000US2659440,2659440,628,"United States - Novi city, Michigan","Novi city, Michigan",55224,55224,55260,55933,56886,57929,58416
+0100000US,,United States,1620000US4863572,4863572,629,"United States - Rowlett city, Texas","Rowlett city, Texas",56199,56242,56350,57019,57745,58092,58407
+0100000US,,United States,1620000US2158620,2158620,630,"United States - Owensboro city, Kentucky","Owensboro city, Kentucky",57265,57412,57449,57774,58049,58320,58374
+0100000US,,United States,1620000US4703440,4703440,631,"United States - Bartlett city, Tennessee","Bartlett city, Tennessee",54613,56922,57028,57363,58194,58173,58264
+0100000US,,United States,1620000US0602462,0602462,632,"United States - Arcadia city, California","Arcadia city, California",56364,56364,56420,56812,57135,57706,58232
+0100000US,,United States,1620000US3681677,3681677,633,"United States - White Plains city, New York","White Plains city, New York",56853,56853,56930,57231,57375,57906,58035
+0100000US,,United States,1620000US2408775,2408775,634,"United States - Bowie city, Maryland","Bowie city, Maryland",54727,54930,55089,55725,56293,56955,57646
+0100000US,,United States,1620000US1250750,1250750,635,"United States - Ocala city, Florida","Ocala city, Florida",56315,56324,56382,56637,56888,57088,57586
+0100000US,,United States,1620000US1854180,1854180,636,"United States - Noblesville city, Indiana","Noblesville city, Indiana",51969,52135,52650,53972,55254,56580,57584
+0100000US,,United States,1620000US1263650,1263650,637,"United States - Sanford city, Florida","Sanford city, Florida",53570,53711,53740,54228,54796,56180,57525
+0100000US,,United States,1620000US2539835,2539835,638,"United States - Medford city, Massachusetts","Medford city, Massachusetts",56173,56253,56306,56676,57067,57385,57437
+0100000US,,United States,1620000US0686328,0686328,639,"United States - Woodland city, California","Woodland city, California",55468,55468,55557,55796,56332,56824,57432
+0100000US,,United States,1620000US1775484,1775484,640,"United States - Tinley Park village, Illinois","Tinley Park village, Illinois",56703,56736,56789,56967,57149,57284,57280
+0100000US,,United States,1620000US1840392,1840392,641,"United States - Kokomo city, Indiana","Kokomo city, Indiana",45468,56842,56855,56923,56955,57015,57085
+0100000US,,United States,1620000US3451210,3451210,642,"United States - New Brunswick city, New Jersey","New Brunswick city, New Jersey",55181,54578,54759,55466,55742,55936,57080
+0100000US,,United States,1620000US0670224,0670224,643,"United States - Santee city, California","Santee city, California",53413,53415,53658,54597,55517,56350,57052
+0100000US,,United States,1620000US4048350,4048350,644,"United States - Midwest City city, Oklahoma","Midwest City city, Oklahoma",54371,54371,54587,55310,56159,56786,57039
+0100000US,,United States,1620000US1754820,1754820,645,"United States - Oak Lawn village, Illinois","Oak Lawn village, Illinois",56690,56687,56723,56871,57007,57116,57034
+0100000US,,United States,1620000US0608142,0608142,646,"United States - Brentwood city, California","Brentwood city, California",51481,51624,51828,52774,53605,55060,57019
+0100000US,,United States,1620000US0621230,0621230,647,"United States - Eastvale city, California","Eastvale city, California",(X),53683,53960,54591,55160,55695,57016
+0100000US,,United States,1620000US0625380,0625380,648,"United States - Fountain Valley city, California","Fountain Valley city, California",55313,55371,55509,56072,56525,56898,57010
+0100000US,,United States,1620000US0619192,0619192,649,"United States - Diamond Bar city, California","Diamond Bar city, California",55544,55544,55598,55982,56332,56626,56784
+0100000US,,United States,1620000US1705573,1705573,650,"United States - Berwyn city, Illinois","Berwyn city, Illinois",56657,56657,56676,56748,56818,56853,56693
+0100000US,,United States,1620000US1378800,1378800,651,"United States - Valdosta city, Georgia","Valdosta city, Georgia",54518,54764,55009,56087,57634,56309,56595
+0100000US,,United States,1620000US2569170,2569170,652,"United States - Taunton city, Massachusetts","Taunton city, Massachusetts",55874,55874,55881,55902,55978,56051,56544
+0100000US,,United States,1620000US2621020,2621020,653,"United States - Dearborn Heights city, Michigan","Dearborn Heights city, Michigan",57774,57774,57648,57389,57173,56744,56415
+0100000US,,United States,1620000US3757500,3757500,654,"United States - Rocky Mount city, North Carolina","Rocky Mount city, North Carolina",57477,57719,57736,57533,56997,56702,56325
+0100000US,,United States,1620000US4944320,4944320,655,"United States - Lehi city, Utah","Lehi city, Utah",47407,47735,48111,49721,51456,54324,56275
+0100000US,,United States,1620000US2044250,2044250,656,"United States - Manhattan city, Kansas","Manhattan city, Kansas",52281,52297,52701,54245,56668,56525,56078
+0100000US,,United States,1620000US2965126,2965126,657,"United States - St. Peters city, Missouri","St. Peters city, Missouri",52575,52626,52813,53391,54089,54863,56076
+0100000US,,United States,1620000US1243125,1243125,658,"United States - Margate city, Florida","Margate city, Florida",53284,53284,53429,54394,55148,55677,56061
+0100000US,,United States,1620000US3832060,3832060,659,"United States - Grand Forks city, North Dakota","Grand Forks city, North Dakota",52838,52876,52965,52749,53645,55016,56057
+0100000US,,United States,1620000US2513660,2513660,660,"United States - Chicopee city, Massachusetts","Chicopee city, Massachusetts",55298,55298,55275,55551,55669,55714,55795
+0100000US,,United States,1620000US0812415,0812415,661,"United States - Castle Rock town, Colorado","Castle Rock town, Colorado",48231,48262,48584,50116,51416,53152,55747
+0100000US,,United States,1620000US3940040,3940040,662,"United States - Kettering city, Ohio","Kettering city, Ohio",56163,56161,56234,56100,56054,55924,55705
+0100000US,,United States,1620000US2578972,2578972,663,"United States - Weymouth Town city, Massachusetts","Weymouth Town city, Massachusetts",53743,53743,53784,54171,55008,55482,55643
+0100000US,,United States,1620000US0120104,0120104,664,"United States - Decatur city, Alabama","Decatur city, Alabama",55683,55704,55730,55834,55874,55622,55532
+0100000US,,United States,1620000US3633139,3633139,665,"United States - Hempstead village, New York","Hempstead village, New York",53891,53891,53951,54113,54934,55465,55527
+0100000US,,United States,1620000US0658240,0658240,666,"United States - Porterville city, California","Porterville city, California",54165,54165,54306,54756,55000,55256,55466
+0100000US,,United States,1620000US1801468,1801468,667,"United States - Anderson city, Indiana","Anderson city, Indiana",56129,56176,56180,55920,55592,55617,55455
+0100000US,,United States,1620000US0655618,0655618,668,"United States - Paramount city, California","Paramount city, California",54098,54098,54141,54477,54837,55252,55406
+0100000US,,United States,1620000US5363960,5363960,669,"United States - Shoreline city, Washington","Shoreline city, Washington",53007,53031,53157,53755,54437,54849,55174
+0100000US,,United States,1620000US4733280,4733280,670,"United States - Hendersonville city, Tennessee","Hendersonville city, Tennessee",51372,51328,51501,52407,53098,54071,55153
+0100000US,,United States,1620000US0631960,0631960,671,"United States - Hanford city, California","Hanford city, California",53967,54076,54138,54381,54354,54627,55065
+0100000US,,United States,1620000US0652582,0652582,672,"United States - Novato city, California","Novato city, California",51904,51904,52004,52729,53284,54280,55005
+0100000US,,United States,1620000US1371492,1371492,673,"United States - Smyrna city, Georgia","Smyrna city, Georgia",51271,51265,51383,51966,52708,53506,54958
+0100000US,,United States,1620000US4115800,4115800,674,"United States - Corvallis city, Oregon","Corvallis city, Oregon",54462,54488,54371,54567,54984,54707,54953
+0100000US,,United States,1620000US1751089,1751089,675,"United States - Mount Prospect village, Illinois","Mount Prospect village, Illinois",54167,54243,54283,54432,54578,54785,54951
+0100000US,,United States,1620000US0662896,0662896,676,"United States - Rosemead city, California","Rosemead city, California",53764,53764,53824,54165,54470,54795,54947
+0100000US,,United States,1620000US0982800,0982800,677,"United States - West Haven city, Connecticut","West Haven city, Connecticut",55564,55564,55565,55512,55248,55129,54905
+0100000US,,United States,1620000US0620018,0620018,678,"United States - Dublin city, California","Dublin city, California",46036,46036,45918,46851,48781,52162,54695
+0100000US,,United States,1620000US0633588,0633588,679,"United States - Highland city, California","Highland city, California",53104,53104,53235,53766,54121,54418,54651
+0100000US,,United States,1620000US4857176,4857176,680,"United States - Pflugerville city, Texas","Pflugerville city, Texas",46936,48356,48705,50294,51963,53812,54644
+0100000US,,United States,1620000US1753234,1753234,681,"United States - Normal town, Illinois","Normal town, Illinois",52497,52535,52638,53053,53878,54707,54594
+0100000US,,United States,1620000US4858820,4858820,682,"United States - Port Arthur city, Texas","Port Arthur city, Texas",53818,54376,54516,54926,54582,54765,54548
+0100000US,,United States,1620000US3209700,3209700,683,"United States - Carson City, Nevada","Carson City, Nevada",55274,55274,55260,54747,54578,54061,54522
+0100000US,,United States,1620000US1829898,1829898,684,"United States - Greenwood city, Indiana","Greenwood city, Indiana",49791,50979,51020,51889,52683,53654,54491
+0100000US,,United States,1620000US1664090,1664090,685,"United States - Pocatello city, Idaho","Pocatello city, Idaho",54255,54230,54319,54648,54770,54386,54292
+0100000US,,United States,1620000US1264175,1264175,686,"United States - Sarasota city, Florida","Sarasota city, Florida",51917,52056,52153,52371,52881,53269,54214
+0100000US,,United States,1620000US2556585,2556585,687,"United States - Revere city, Massachusetts","Revere city, Massachusetts",51755,51733,51857,52755,53524,54063,54157
+0100000US,,United States,1620000US1217935,1217935,688,"United States - Doral city, Florida","Doral city, Florida",45704,45709,45972,47648,48450,50594,54116
+0100000US,,United States,1620000US0614890,0614890,689,"United States - Colton city, California","Colton city, California",52154,52155,52290,52816,53136,53380,54053
+0100000US,,United States,1620000US3925256,3925256,690,"United States - Elyria city, Ohio","Elyria city, Ohio",54533,54533,54492,54322,54127,54044,53972
+0100000US,,United States,1620000US3103950,3103950,691,"United States - Bellevue city, Nebraska","Bellevue city, Nebraska",50137,51022,51381,51888,52650,53690,53936
+0100000US,,United States,1620000US1902305,1902305,692,"United States - Ankeny city, Iowa","Ankeny city, Iowa",45582,45582,45892,47166,49057,51551,53801
+0100000US,,United States,1620000US1781048,1781048,693,"United States - Wheaton city, Illinois","Wheaton city, Illinois",52894,52978,53024,53274,53420,53627,53644
+0100000US,,United States,1620000US4824768,4824768,694,"United States - Euless city, Texas","Euless city, Texas",51277,51295,51457,52152,52833,53252,53630
+0100000US,,United States,1620000US2906652,2906652,695,"United States - Blue Springs city, Missouri","Blue Springs city, Missouri",52575,52637,52706,52786,53044,53252,53573
+0100000US,,United States,1620000US0612048,0612048,696,"United States - Cathedral City city, California","Cathedral City city, California",51200,51200,51446,52132,52605,53054,53437
+0100000US,,United States,1620000US3432250,3432250,697,"United States - Hoboken city, New Jersey","Hoboken city, New Jersey",50005,50006,50117,51330,52295,52837,53312
+0100000US,,United States,1620000US0683668,0683668,698,"United States - Watsonville city, California","Watsonville city, California",51199,51199,51274,51582,51915,52504,53111
+0100000US,,United States,1620000US0439370,0439370,699,"United States - Lake Havasu City city, Arizona","Lake Havasu City city, Arizona",52527,52532,52638,52829,52800,52789,53103
+0100000US,,United States,1620000US0687042,0687042,700,"United States - Yucaipa city, California","Yucaipa city, California",51367,51371,51520,52081,52490,52846,53096
+0100000US,,United States,1620000US1255925,1255925,701,"United States - Pensacola city, Florida","Pensacola city, Florida",51923,51956,52034,52006,52748,52778,53068
+0100000US,,United States,1620000US4739560,4739560,702,"United States - Kingsport city, Tennessee","Kingsport city, Tennessee",48205,52777,52776,52796,52742,52918,53028
+0100000US,,United States,1620000US5358235,5358235,703,"United States - Richland city, Washington","Richland city, Washington",48058,48104,48491,50283,51465,52321,53019
+0100000US,,United States,1620000US1207950,1207950,704,"United States - Bradenton city, Florida","Bradenton city, Florida",49546,49283,49362,49753,50450,51556,52769
+0100000US,,United States,1620000US0618394,0618394,705,"United States - Delano city, California","Delano city, California",53041,53041,53135,53661,52489,52471,52651
+0100000US,,United States,1620000US3479610,3479610,706,"United States - West New York town, New Jersey","West New York town, New Jersey",49708,49708,49884,50773,51910,52387,52597
+0100000US,,United States,1620000US0629504,0629504,707,"United States - Gilroy city, California","Gilroy city, California",48821,48810,48958,49683,50735,51951,52533
+0100000US,,United States,1620000US5135624,5135624,708,"United States - Harrisonburg city, Virginia","Harrisonburg city, Virginia",48914,48907,49072,49811,51224,51518,52478
+0100000US,,United States,1620000US5540775,5540775,709,"United States - La Crosse city, Wisconsin","La Crosse city, Wisconsin",51320,51323,51357,51271,52106,52115,52440
+0100000US,,United States,1620000US0657526,0657526,710,"United States - Placentia city, California","Placentia city, California",50533,50893,51000,51582,51999,52350,52397
+0100000US,,United States,1620000US2552490,2552490,711,"United States - Peabody city, Massachusetts","Peabody city, Massachusetts",51251,51251,51365,51608,51856,52162,52376
+0100000US,,United States,1620000US1735411,1735411,712,"United States - Hoffman Estates village, Illinois","Hoffman Estates village, Illinois",51895,51890,51937,52118,52273,52398,52347
+0100000US,,United States,1620000US3458200,3458200,713,"United States - Perth Amboy city, New Jersey","Perth Amboy city, New Jersey",50814,50814,50933,51484,51848,52091,52328
+0100000US,,United States,1620000US2924778,2924778,714,"United States - Florissant city, Missouri","Florissant city, Missouri",52158,52291,52274,52417,52427,52372,52303
+0100000US,,United States,1620000US1754885,1754885,715,"United States - Oak Park village, Illinois","Oak Park village, Illinois",51878,51878,51895,51955,52009,52161,52008
+0100000US,,United States,1620000US4101000,4101000,716,"United States - Albany city, Oregon","Albany city, Oregon",50158,50158,50360,51053,51273,51384,51980
+0100000US,,United States,1620000US4820092,4820092,717,"United States - DeSoto city, Texas","DeSoto city, Texas",49047,49027,49324,50167,51173,51547,51934
+0100000US,,United States,1620000US1254075,1254075,718,"United States - Palm Beach Gardens city, Florida","Palm Beach Gardens city, Florida",48452,48567,48700,49278,50076,50803,51919
+0100000US,,United States,1620000US0947515,0947515,719,"United States - Milford city (balance), Connecticut","Milford city (balance), Connecticut",51271,51271,51310,51381,51521,51665,51857
+0100000US,,United States,1620000US0684816,0684816,720,"United States - West Sacramento city, California","West Sacramento city, California",48744,48744,48869,49199,49671,50174,51847
+0100000US,,United States,1620000US2605920,2605920,721,"United States - Battle Creek city, Michigan","Battle Creek city, Michigan",52347,52347,52289,52035,51871,51832,51833
+0100000US,,United States,1620000US2869280,2869280,722,"United States - Southaven city, Mississippi","Southaven city, Mississippi",48982,48976,49129,49713,50403,51004,51824
+0100000US,,United States,1620000US3709060,3709060,723,"United States - Burlington city, North Carolina","Burlington city, North Carolina",49963,50922,51043,51120,51285,51536,51812
+0100000US,,United States,1620000US0816495,0816495,724,"United States - Commerce City city, Colorado","Commerce City city, Colorado",45913,45917,46179,47549,48562,49907,51762
+0100000US,,United States,1620000US3733120,3733120,725,"United States - Huntersville town, North Carolina","Huntersville town, North Carolina",46773,46774,46968,48085,49303,50526,51567
+0100000US,,United States,1620000US2743252,2743252,726,"United States - Minnetonka city, Minnesota","Minnetonka city, Minnesota",49734,49723,49784,50626,51120,51402,51486
+0100000US,,United States,1620000US0410530,0410530,727,"United States - Casa Grande city, Arizona","Casa Grande city, Arizona",48571,48583,49762,49716,50185,50423,51478
+0100000US,,United States,1620000US0630014,0630014,728,"United States - Glendora city, California","Glendora city, California",50073,50073,50216,50565,50840,51301,51442
+0100000US,,United States,1620000US1820728,1820728,729,"United States - Elkhart city, Indiana","Elkhart city, Indiana",50949,50904,50844,50969,51058,51259,51421
+0100000US,,United States,1620000US4023950,4023950,730,"United States - Enid city, Oklahoma","Enid city, Oklahoma",49379,49379,49500,49458,49959,50920,51386
+0100000US,,United States,1620000US2937592,2937592,731,"United States - Joplin city, Missouri","Joplin city, Missouri",50150,50788,50946,51142,50244,50716,51316
+0100000US,,United States,1620000US3119595,3119595,732,"United States - Grand Island city, Nebraska","Grand Island city, Nebraska",48520,48645,48809,49464,50114,50705,51236
+0100000US,,United States,1620000US5361115,5361115,733,"United States - Sammamish city, Washington","Sammamish city, Washington",45780,46763,46927,47936,49083,50174,51229
+0100000US,,United States,1620000US1214250,1214250,734,"United States - Coral Gables city, Florida","Coral Gables city, Florida",46780,46776,47033,48271,49699,50413,51227
+0100000US,,United States,1620000US0655184,0655184,735,"United States - Palm Desert city, California","Palm Desert city, California",48445,48443,48700,49325,49917,50574,51202
+0100000US,,United States,1620000US1310944,1310944,736,"United States - Brookhaven city, Georgia","Brookhaven city, Georgia",(X),49219,49270,49609,50245,50712,51079
+0100000US,,United States,1620000US2039350,2039350,737,"United States - Lenexa city, Kansas","Lenexa city, Kansas",48190,48190,48269,48846,49384,50358,51042
+0100000US,,United States,1620000US3459190,3459190,738,"United States - Plainfield city, New Jersey","Plainfield city, New Jersey",49808,49808,49921,50057,50397,50703,50955
+0100000US,,United States,1620000US1256975,1256975,739,"United States - Pinellas Park city, Florida","Pinellas Park city, Florida",49079,49175,49150,49476,49759,50105,50946
+0100000US,,United States,1620000US3941664,3941664,740,"United States - Lakewood city, Ohio","Lakewood city, Ohio",52131,52131,52033,51638,51382,51172,50926
+0100000US,,United States,1620000US4830644,4830644,741,"United States - Grapevine city, Texas","Grapevine city, Texas",46334,46334,46617,47148,48520,50231,50844
+0100000US,,United States,1620000US4173650,4173650,742,"United States - Tigard city, Oregon","Tigard city, Oregon",48035,48085,48194,49031,49770,50429,50787
+0100000US,,United States,1620000US2642820,2642820,743,"United States - Kentwood city, Michigan","Kentwood city, Michigan",48707,48707,48726,49157,49688,50262,50764
+0100000US,,United States,1620000US2701900,2701900,744,"United States - Apple Valley city, Minnesota","Apple Valley city, Minnesota",49084,49084,49133,49790,49969,50233,50487
+0100000US,,United States,1620000US5414600,5414600,745,"United States - Charleston city, West Virginia","Charleston city, West Virginia",51400,51347,51327,51040,50983,50828,50404
+0100000US,,United States,1620000US0600947,0600947,746,"United States - Aliso Viejo city, California","Aliso Viejo city, California",47823,48053,48207,48953,49602,50189,50231
+0100000US,,United States,1620000US1612250,1612250,747,"United States - Caldwell city, Idaho","Caldwell city, Idaho",46237,46301,46486,47221,47670,49007,50224
+0100000US,,United States,1620000US5308850,5308850,748,"United States - Burien city, Washington","Burien city, Washington",33313,48072,48190,48758,49460,49921,50188
+0100000US,,United States,1620000US0612552,0612552,749,"United States - Cerritos city, California","Cerritos city, California",49041,49047,49079,49365,49627,49879,50004
+0100000US,,United States,1620000US3675484,3675484,750,"United States - Troy city, New York","Troy city, New York",50129,50129,50064,50024,49868,49911,49910
+0100000US,,United States,1620000US2670520,2670520,751,"United States - Saginaw city, Michigan","Saginaw city, Michigan",51508,51507,51413,51047,50790,50329,49844
+0100000US,,United States,1620000US3651055,3651055,752,"United States - Niagara Falls city, New York","Niagara Falls city, New York",50193,50172,50148,49892,49672,49472,49219
