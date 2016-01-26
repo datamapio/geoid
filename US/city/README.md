@@ -1,5 +1,12 @@
 # CITY
 
+## Proposal for simple city file (5 largest by state plus state capital)
+id         | placefp | place_name | capital (= 1) | state_code | state_fips | lat      | lon         | pop_census_2010 | pop_est_2014       
+
+Ex. Manchester        
+8403345140 | 45140   | Manchester | NA            | NH		   | 33         | 42.99564 |  -71.454789 | 109565          | 109565     
+
+
 ##Incorporated Places of 50,000 or More
 Annual Estimates of the Resident Population for Incorporated Places of 50,000 or More, Ranked by July 1, 2014 Population: April 1, 2010 to July 1, 2014
 http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
@@ -33,9 +40,6 @@ United States
 United States - Manchester city, New Hampshire   
 Manchester city, New Hampshire   
 
-
-## Proposal for simple city file (5 largest by state plus state capital)
-id | placefp | place_name | capital (= 1) | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014   
 
 
       
