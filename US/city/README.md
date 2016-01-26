@@ -34,7 +34,7 @@ United States - Manchester city, New Hampshire
 Manchester city, New Hampshire   
 
 
-## PROPOSAL FOR SIMPLE CITY FILE (5 most largest by state plus state capital)
+## Proposal for simple City File (5 most largest by state plus state capital)
 id | placefp | place_name | capital | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014   
 
 
