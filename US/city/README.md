@@ -1,14 +1,14 @@
 # CITY
 
-## Incorporated Places of 50,000 or More
+##Incorporated Places of 50,000 or More
 Annual Estimates of the Resident Population for Incorporated Places of 50,000 or More, Ranked by July 1, 2014 Population: April 1, 2010 to July 1, 2014
 http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
 
-## List of U.S. states' largest cities by population
+##List of U.S. states' largest cities by population
 https://en.wikipedia.org/wiki/List_of_U.S._states%27_largest_cities_by_population
 
 
-## GEOID FOR PLACES
+##GEOID FOR PLACES
 840 | 33 | 45140
 Ex. 8403345140
 
