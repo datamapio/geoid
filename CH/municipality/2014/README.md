@@ -63,7 +63,7 @@ Case A:
 a) Do not show results for A, as there are none. But they vote     
 b) Or use the same percentage color for both municipalities    
 
-Case B:
+Case B:    
 11 cantons do regroup the Swiss voters from abroad. The number of people is quite significant.     
 For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who did vote.     
 This is more than the size of several cantons.    
