@@ -34,13 +34,20 @@ United States - Manchester city, New Hampshire
 Manchester city, New Hampshire   
 
 
-## Proposal for simple City File (5 most largest by state plus state capital)
-id | placefp | place_name | capital | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014   
+## Proposal for simple city file (5 largest by state plus state capital)
+id | placefp | place_name | capital (= 1) | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014   
 
 
+      
 See also:
 Geographic Terms and Concepts - Place
 https://www.census.gov/geo/reference/gtc/gtc_place.html
 
 Major US Cities with Latitude/Longitude and DMA Codes (last revised on May 25, 2010.)
 https://gist.github.com/ecarter/413343
+
+Batch Geocoding
+http://www.findlatitudeandlongitude.com/batch-geocode/#.VqfzhFIqbl5
+Example Response:
+"original address",latitude,longitude
+"San Francisco",37.77493,-122.419416
