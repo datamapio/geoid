@@ -2,19 +2,16 @@
 
 ## Municipalities on February 9, 2014
  
-| Municipalites/Other    |           | 
-|------------------------|:---------:|     
-| Municipalities +       |           |    
-| Swiss from abroad  	 |      2953 |    
-|                        |           |    
-| Swiss from abroad (B)  |       -11 |     
-|						 |			 |   
-| Municipalities without |           |   
-| polling station (A)    |        10 |   
-|------------------------|:----------|   
-| Total 				 |      2952 |   
--------------------------|:----------|   
-
+| Municipalities/Other                       | Number    | 
+|--------------------------------------------|:---------:|     
+| Municipalities + Swiss from abroad         |    2953   |    
+|                                            |           |
+| Swiss from abroad (B)                      |     -11   |     
+|						 			         |           |
+| Municipalities without polling station (A) |      10   |   
+|                                            |           |
+| **Total** 				                 |  **2952** |   
+ 
 
 
 ###A: One municipality votes with another
