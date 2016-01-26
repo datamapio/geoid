@@ -17,19 +17,25 @@ dateDownloaded "Mon Jan 25 17:37:43 2016"
 install.packages("gdata")
 require(gdata)
 ext <- read.xls ("ext.xls", sheet = 1, header = TRUE, stringsAsFactors=FALSE)
+write.table(ext, file="extraw_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 ## without head
 ext_csv1 <- ext[-c(1:5), ]
 ## remove first two colums 
 ext_csv2 <- ext_csv1[, -c(1:2)] 
-ext_csv3 <- ext_csv2[-c(2373:2377), ]
+ext_csv3 <- ext_csv2[-c(2354:2377), ]
 ext_csv4 <- ext_csv3[, -c(10:13) ]
 dim(ext_csv4)
 head(ext_csv4)
 tail(ext_csv4)
-
 write.table(ext_csv4, file="ext_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+tail(ext_csv1, 30)
+ext_csv5 <- ext_csv1[c(2358:2367), (1:7)]
+ext_csv5$X.1 <- NULL
+ext_csv5$X.2 <- NULL
+dim(ext_csv5)
+names(ext_csv5) <- c("gdenr_without_polling_station", "gdename_without_polling_station", "gdenr", "gdename", "gdekt")
 
 
 
