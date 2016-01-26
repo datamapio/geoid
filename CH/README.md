@@ -15,4 +15,6 @@ See the [Lookup](https://github.com/datamapio/geoid/blob/master/lookup.md#ch) fo
 
 
 ##Source:
-http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html
+http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html    
+Upcoming Changes in 2016 (there are a lot)   
+http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.Document.112644.pdf

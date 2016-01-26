@@ -4,6 +4,9 @@ GeoID files, also called Reference files (REF), are the glue between a map and y
 REF files contain always the GeoID resp. id to reference the area unit on a map, e.g. a county. They also come with additional information like the FIPS code, the County Name, the State Code etc.
 You can match your data on any parameter you want and then get rid of anything besides the id.
 
+GeoID's follow the US Geoid2, but extend them internationally and make them unique:     
+See espeically GEOID Structure for Geographic Areas at https://www.census.gov/geo/reference/geoidentifiers.html
+
 
 ##Focus on the data
 [datamap](https://www.datamap.io) provides you with:
