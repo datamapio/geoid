@@ -27,15 +27,60 @@ ext_csv3 <- ext_csv2[-c(2354:2377), ]
 ext_csv4 <- ext_csv3[, -c(10:13) ]
 dim(ext_csv4)
 head(ext_csv4)
+## X.1 = Gemeindenummer (gdenr)
+## X.2. = Gemeindename (gdename)
+## X.3 = Stimmberechtigte = entitled_to_vote
+## X.4 = Abgegebene Stimmen = votes_cast
+## X.5 = Stimmbeteiligung = turnout
+## X.6 = Gültige Stimmen = valid_votes
+## X.7 = JA-Stimmen = yes
+## X.8 = NEIN-Stimmen = no
+## X.9 = JA-Stimmen in Prozent = yes_percentage
+
 tail(ext_csv4)
-write.table(ext_csv4, file="ext_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
+names(ext_csv4) <- c("gdenr", "gdename", "entitled_to_vote", "votes_cast", "turnout", "valid_votes", "yes", "no", "yes_percentage")
+write.table(ext_csv4, file="ext1_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 tail(ext_csv1, 30)
 ext_csv5 <- ext_csv1[c(2358:2367), (1:7)]
 ext_csv5$X.1 <- NULL
 ext_csv5$X.2 <- NULL
 dim(ext_csv5)
-names(ext_csv5) <- c("gdenr_without_polling_station", "gdename_without_polling_station", "gdenr", "gdename", "gdekt")
+names(ext_csv5) <- c("gdenr_without_polling_station", "gdename_without_polling_station", "gdenr_polling_station", "gdename_polling_station", "gdekt")
+write.table(ext_csv5, file="ext2_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+
+## EXT file (only metropolitan Switzerland, no Swiss Abroad)
+## Combine ext1 and ext2 and get rid of the Swiss abroad. Create a special file.
+
+## Create new gdenr
+ext_csv6 <- ext_csv5
+ext_csv6$gdenr <- ext_csv6$gdenr_without_polling_station
+ext_csv6$gdename <- ext_csv6$gdename_without_polling_station
+
+## Reduce to gdenr, gdename
+keep <- c("gdenr", "gdename")
+ext_csv6 <- ext_csv6[keep]  
+  
+ext_csv6$entitled_to_vote <- NA
+ext_csv6$votes_cast <- NA
+ext_csv6$turnout <- NA
+ext_csv6$valid_votes <- NA
+ext_csv6$yes  <- NA
+ext_csv6$no <- NA
+ext_csv6$yes_percentage <- NA
+
+## Delete Swiss Abroad
+tail(ext_csv4,11)
+ext_csv7 <- ext_csv4[-(2343:2353), ]
+## tail(ext_csv7)
+
+## Add non polling station municipalities
+ext_csv8 <- rbind(ext_csv7, ext_csv6)
+## Order
+ext_csv9 <- ext_csv8[order(as.numeric(ext_csv8$gdenr)), ] 
+
+## Final EXT File
+write.table(ext_csv9, file="ext_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
