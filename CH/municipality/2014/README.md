@@ -5,8 +5,8 @@
 | Municipalities/Other                       | Number    | 
 |--------------------------------------------|:---------:|     
 | Municipalities + Swiss from abroad         |    2953   |                                             
-| Swiss from abroad (B)                      |     -11   |     
-| Municipalities without polling station (A) |      10   |   
+| Municipalities without polling station (A) |      10   |  
+| Swiss from abroad (B)                      |     -11   |      
 | **Total** 				                 |  **2952** |   
  
 
@@ -14,7 +14,9 @@
 ###A: One municipality votes with another
 
 1) In der Wahl- und Abstimmungsstatistik werden Gemeinden mit so genannt „gemeinsamer Urne“ geführt. Dabei werden zwei oder mehrere Gemeinden zusammengefasst, deren Stimmzettel gemeinsam ausgezählt werden. 						
-Folgende Übersicht enthält die Gemeinden ohne Wahl-/Stimmbüro und die Gemeinde, wo die Stimmzettel ausgezählt werden, den sog. Urnenstandort.						
+Folgende Übersicht enthält die Gemeinden ohne Wahl-/Stimmbüro und die Gemeinde, wo die Stimmzettel ausgezählt werden, den sog. Urnenstandort.	
+
+``` 					
 Gemeinden ohne eigenes Wahl-/Stimmbüro:				 Urnenstandort  		
 Gemeinde-Nr.Gemeinde				Gemeinde-Nr. Gemeinde  	 Kanton  
 389	Meienried						383  	 Büren  	 		BE     
@@ -27,9 +29,11 @@ Gemeinde-Nr.Gemeinde				Gemeinde-Nr. Gemeinde  	 Kanton
 868	Jaberg							872  	 Kirchdorf  	 	BE    
 877	Niedermuhlern					888  	 Wald  	 			BE  
 878	Noflen							872  	 Kirchdorf  	 	BE      
-
+``` 
 
 ###B: Swiss from foreign countries
+
+``` 
 9030	LU-Ausland-CH		3,839	1,753	45.7	1,711	551		1,160	32.2        
 9040	UR-Ausland-CH		413		166		40.2	166		57		109		34.3       
 9100	FR-CH de l'étranger	4,349	1,765	40.6	1,738	596		1,142	34.3      
@@ -41,6 +45,7 @@ Gemeinde-Nr.Gemeinde				Gemeinde-Nr. Gemeinde  	 Kanton
 9220	VD-CH de l'étranger	15,211	5,615	36.9	5,529	1,706	3,823	30.9     
 9230	VS-CH de l'étranger	4,536	1,678	37.0	1,603	543		1,060	33.9        
 9250	GE-CH de l'étranger	21,299	9,507	44.6	9,366	2,684	6,682	28.7      
+``` 
 
 See also:
 How the vote of the Swiss from abroad can change the result
