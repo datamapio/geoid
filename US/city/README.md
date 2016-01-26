@@ -31,6 +31,8 @@ LSAD    25
 ALAND    85730215   
 AWATER    4822463   
 
+PS: Do we want the city just as a point or as an area?
+
 From https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv
 0100000US        
 United States    
