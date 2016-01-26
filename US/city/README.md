@@ -33,7 +33,8 @@ AWATER    4822463
 
 PS: Do we want the city just as a point or as an area?
 
-From https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv
+
+From https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv    
 0100000US        
 United States    
 1620000US3345140    
@@ -45,7 +46,7 @@ Manchester city, New Hampshire
 
 
       
-See also:
+###See also:
 Geographic Terms and Concepts - Place
 https://www.census.gov/geo/reference/gtc/gtc_place.html
 
@@ -54,6 +55,6 @@ https://gist.github.com/ecarter/413343
 
 Batch Geocoding
 http://www.findlatitudeandlongitude.com/batch-geocode/#.VqfzhFIqbl5
-Example Response:
-"original address",latitude,longitude
+Example Response:    
+"original address",latitude,longitude   
 "San Francisco",37.77493,-122.419416
