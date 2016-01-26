@@ -2,20 +2,21 @@
 
 ## Municipalities on February 9, 2014
  
------------------------|:---------:|     
-Municipalities +       |           |    
-Swiss from abroad  	   |      2953 |    
------------------------|:----------|    
-Swiss from abroad      |       -11 |     
------------------------|:----------|   
-Municipalities without |           |   
-polling station        |        10 |   
------------------------|:----------|   
-Total 				   |      2952 |   
------------------------|:----------|   
+|------------------------|:---------:|     
+| Municipalities +       |           |    
+| Swiss from abroad  	 |      2953 |    
+|------------------------|:----------|    
+| Swiss from abroad (B)  |       -11 |     
+|------------------------|:----------|   
+| Municipalities without |           |   
+| polling station (A)    |        10 |   
+|------------------------|:----------|   
+| Total 				 |      2952 |   
+-------------------------|:----------|   
 
 
-## Special Case A: One municipality votes with another
+
+###A: One municipality votes with another
 
 1) In der Wahl- und Abstimmungsstatistik werden Gemeinden mit so genannt „gemeinsamer Urne“ geführt. Dabei werden zwei oder mehrere Gemeinden zusammengefasst, deren Stimmzettel gemeinsam ausgezählt werden. 						
 Folgende Übersicht enthält die Gemeinden ohne Wahl-/Stimmbüro und die Gemeinde, wo die Stimmzettel ausgezählt werden, den sog. Urnenstandort.						
@@ -33,7 +34,7 @@ Gemeinde-Nr.Gemeinde				Gemeinde-Nr. Gemeinde  	 Kanton
 878	Noflen							872  	 Kirchdorf  	 	BE  
 
 
-## Special Case B: Swiss from foreign countries
+###B: Swiss from foreign countries
 9030	LU-Ausland-CH	3,839	1,753	45.7	1,711	551	1,160	32.2
 9040	UR-Ausland-CH	413	166	40.2	166	57	109	34.3
 9100	FR-CH de l'étranger	4,349	1,765	40.6	1,738	596	1,142	34.3
