@@ -69,7 +69,16 @@ For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who
 This is more than the size of several cantons.    
 
 ##REF File
-We will add the REF file from the votation and compare it to the shape files.
+We will compare the EXT file from the votation and compare it to the csv file from the shape [download](http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/generalisierte_gemeindegrenzen.html).
+
+### Shapefile + CSV files
+Year 2014   
+16195 KB    Generalisierte Gemeindegrenzen: Geodaten   
+(gd-b-00.03-877-gg14)   
+Bundesamt für Statistik BFS   
+
+The file [glg2014.csv](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/g1g14.csv) contains 2356 municipalities. 
+So let's figure out the difference and the reason for the difference.
 
 
 
