@@ -49,16 +49,21 @@ The number of Swiss living abroad:
 (BfS)[http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/schweizer_im_ausland.html
 (NZZ, 2015: 761‘930) [http://www.nzz.ch/schweiz/aktuelle-themen/im-vergangenen-jahr-wuchs-die-zahl-der-auslandschweizer-um-rund-2-prozent-auf-761930-personen-1.18683329]
 
+The city of Zurich has since Autumn 2014 a special Swiss abroad district:  
+https://www.stadt-zuerich.ch/prd/de/index/bevoelkerungsamt/Stab/SZZ/Auslandsschweizer.html
+
 
 ## How to visualize the two cases?
-Case A:
-a) Do not show results for A, as there are none. But they vote
-b) Or use the same percentage color for both municipalities 
+Case A:    
+a) Do not show results for A, as there are none. But they vote     
+b) Or use the same percentage color for both municipalities    
 
 Case B:
-11 cantons do regroup the Swiss voters from abroad. The number of people is quite significant.
-For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who did vote. 
-This is more than the size of several cantons.
+11 cantons do regroup the Swiss voters from abroad. The number of people is quite significant.     
+For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who did vote.     
+This is more than the size of several cantons.    
+
+##REF File
 
 
 
