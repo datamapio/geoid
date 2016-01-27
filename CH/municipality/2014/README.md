@@ -68,7 +68,7 @@ Case B:
 For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who did vote.     
 This is more than the size of several cantons.    
 
-##REF File
+##REF File with 2352 or 2356 Municipalities
 We will compare the EXT file from the votation and compare it to the csv file from the shape [download](http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/generalisierte_gemeindegrenzen.html).
 
 ### Shapefile + CSV files
@@ -80,7 +80,26 @@ Bundesamt für Statistik BFS
 The file [glg2014.csv](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/g1g14.csv) contains 2356 municipalities. 
 So let's figure out the difference and the reason for the difference.
 
+##THE DIFFERENCE: The Kommunanzen or Comunanzas
 
+The following are part of glg2014.csv, but not part of election data
 
+GeoID: 75610052391     
+2391 Staatswald Galm (O inhabitants)- not part of any municipality (Canton of Freiburg)    
+https://de.wikipedia.org/wiki/Staatswald_Galm   
+
+GeoID: 75621015391    
+5391 Comunanza Cadenazzo/Monteceneri (0 inhabitants), part of Cadenazzo & Monteceneri    
+https://it.wikipedia.org/wiki/Comunanza_Cadenazzo/Monteceneri    
+
+GeoID: 75621055394       
+5394 Comunanza Capriasca/Lugano (0 inhabitants) part of Capriasca and Lugano    
+https://de.wikipedia.org/wiki/Kommunanz_Capriasca/Lugano     
+
+GeoID: 75623046391    
+6391 Kommunanz Reckingen-Gluringen/Grafschaft (0 inhabitants), part of Reckingen-Gluringen and Grafschaft VS in Obergoms    
+https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft    
+
+We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
 
