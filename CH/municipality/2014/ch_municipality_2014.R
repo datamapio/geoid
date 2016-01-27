@@ -12,9 +12,9 @@ fileUrl <- "http://www.bfs.admin.ch/bfs/portal/de/index/themen/17/03/blank/key/2
 download.file(fileUrl, destfile = "ext.xls", method = "curl")
 
 dateDownloaded <- date()
-dateDownloaded "Mon Jan 25 17:37:43 2016"
+dateDownloaded # "Mon Jan 25 17:37:43 2016"
 
-install.packages("gdata")
+## install.packages("gdata")
 require(gdata)
 ext <- read.xls ("ext.xls", sheet = 1, header = TRUE, stringsAsFactors=FALSE)
 write.table(ext, file="extraw_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
@@ -84,7 +84,6 @@ ext_csv9 <- ext_csv8[order(as.numeric(ext_csv8$gdenr)), ]
 write.table(ext_csv9, file="ext_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
-
 ## Compare glg14 (from shapefile zip) with results (ext_csv9)
 
 ## If you don't have glg14.csv locally, use:
@@ -92,7 +91,7 @@ write.table(ext_csv9, file="ext_initiative_20140902.csv", sep="," , col.names=TR
 
 ## Just seeing that GDENR and GMDNR are both in use for municipality numbers
 ## GDENR
-https://github.com/datamapio/geoid/blob/master/CH/municipality/ch_municipality_2016_source.csv
+## https://github.com/datamapio/geoid/blob/master/CH/municipality/ch_municipality_2016_source.csv
 ## GMDNR
 ## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2014/g1g14.csv
 
@@ -100,19 +99,26 @@ glg14 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE)
 require(dplyr)
 
 ## Keep only two columns and rename
-glg14_s <- select(glg14, GMDNR, GMDNAME)
-names(glg14_s) <- c("gdenr", "gdename")
-ext_csv9_s <- select(ext_csv9, gdenr, gdename)
+glg14_s <- select(glg14, GMDNR)
+names(glg14_s) <- c("gdenr")
+ext_csv9_s <- select(ext_csv9, gdenr)
 ext_csv9_s$gdenr <- as.integer(ext_csv9_s$gdenr)
 
-dim(ext_csv9_s)
-dim(glg14_s)
-
-## Check the non-matching rows
-anti_join(ext_csv9_s, glg14_s, by="gdenr")
+## install.packages("daff")
+library("daff")
+diff_data(ext_csv9_s, glg14_s)
 
 
+## Make part of glg14, but not part of election data
+## +++,2391 Staatswald Galm (O inhabitants)- not part of any municipality (Canton of Freiburg)
+## https://de.wikipedia.org/wiki/Staatswald_Galm
 
+## +++,5391 Comunanza Cadenazzo/Monteceneri (0 inhabitants), part of Cadenazzo & Monteceneri
+## https://it.wikipedia.org/wiki/Comunanza_Cadenazzo/Monteceneri
 
+## +++,5394 Comunanza Capriasca/Lugano (0 inhabitants) part of Capriasca and Lugano
+## https://de.wikipedia.org/wiki/Kommunanz_Capriasca/Lugano
 
-
+## +++,6391 Kommunanz Reckingen-Gluringen/Grafschaft (0 inhabitants), part of Reckingen-Gluringen 
+## and Grafschaft VS in Obergoms
+## https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
