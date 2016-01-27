@@ -13,6 +13,12 @@ Delimiters in use:
 - PCT: Precinct
 
 
+##Country List
+- [CA](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
+- [CH](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+- [US](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
+
+
 
 ##Country
 Country (3, numeric, ISO)   
@@ -86,6 +92,12 @@ Type: Numeric, 8
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS)   
 840 | 06 | 001     
 Ex. 84006001 = Alameda County   
+
+###Place
+Type: Numeric, 10
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | Place (5, numeric, Census)   
+840 | 33 | 45140     
+Ex. 8403345140 = Manchester, New Hampshire  
 
 ###ZIP Code (ZIP Code Tabulation Area (ZCTA)) 
 Type: Alphanumeric, 10    
