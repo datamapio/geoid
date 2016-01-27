@@ -49,22 +49,22 @@ Switzerland
 ###Canton
 Type: Numeric, 4   
 Country (3, numeric, ISO) | State (2, numeric, BFS)    
-756 | 01   
+756 | 01      
 Ex. 75601 = Canton of Zurich      
 We add the leading zeros for cantons that have only one digit     
 
 ###District (Bezirk)
 Type: Numeric, 6   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS)   
-756 | 01 | 12   
+756 | 01 | 12      
 Ex. 7560112 = District of Zurich     
 We add the leading zeros for district that have only one digit      
 
 ###Municipality (Commune / Gemeinde)
 Type: Numeric, 11   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS)   
-756 | 01 | 12 | 0261
-Ex. 75601120261 = Municipality of Zurich     
+756 | 01 | 12 | 0261     
+Ex. 75601120261 = Municipality of Zurich       
 We add the leading zeros for municipalities with less then 4 digits      
 
 ###Postal Code (PLZ)
