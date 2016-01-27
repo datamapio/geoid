@@ -94,12 +94,12 @@ Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS
 Ex. 84006001 = Alameda County   
 
 ###Place
-Type: Numeric, 10
+Type: Numeric, 10    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | Place (5, numeric, Census)   
 840 | 33 | 45140     
 Ex. 8403345140 = Manchester, New Hampshire  
 
-###ZIP Code (ZIP Code Tabulation Area (ZCTA)) 
+###ZIP Code / ZIP Code Tabulation Area (ZCTA)
 Type: Alphanumeric, 10    
 Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)   
 840 | ZP | 94702    
