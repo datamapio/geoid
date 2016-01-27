@@ -37,9 +37,9 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (6, alphanumeric,
 Ex.  124ZPK1AOB1 = Postal Code K1A OB1    
 Note: There is no space between 3rd and 4th character for the GeoID (= id).      
 
-See: 
-http://www.statcan.gc.ca/eng/mgeo/geo   
-http://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/hierarch/p1-eng.htm
+Reference:     
+http://www.statcan.gc.ca/eng/mgeo/geo     
+http://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/hierarch/p1-eng.htm    
 
 
 ##CH
@@ -50,22 +50,22 @@ Switzerland
 Type: Numeric, 4   
 Country (3, numeric, ISO) | State (2, numeric, BFS)    
 756 | 01   
-Ex. 75601 = Canton of Zurich   
-We add the leading zeros for cantons that have only one digit   
+Ex. 75601 = Canton of Zurich      
+We add the leading zeros for cantons that have only one digit     
 
 ###District (Bezirk)
 Type: Numeric, 6   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS)   
 756 | 01 | 12   
-Ex. 7560112 = District Zurich 
-We add the leading zeros for district that have only one digit    
+Ex. 7560112 = District Zurich     
+We add the leading zeros for district that have only one digit      
 
 ###Municipality (Commune / Gemeinde)
 Type: Numeric, 11   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS)   
 756 | 01 | 12 | 0261
-Ex. 75601120261 = Municipality of Zurich  
-We add the leading zeros for municipalities with less then 4 digits    
+Ex. 75601120261 = Municipality of Zurich     
+We add the leading zeros for municipalities with less then 4 digits      
 
 ###Postal Code (PLZ)
 Type: Alphanumeric, 9     
@@ -73,8 +73,8 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)
 756 | ZP | 8004      
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
 
-Reference:   
-http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html   
+Reference:     
+http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html     
 
 
 ##US
@@ -115,9 +115,9 @@ Ex. 84006075PCT1117 = Precinct 1117 in San Francisco
 
 
 
-Standards:   
+##Standards:   
 
-GENC: https://nsgreg.nga.mil/genc/discovery
-ISO 3611-1: https://en.wikipedia.org/wiki/ISO_3166-1
-FIPS: http://quickfacts.census.gov/qfd/meta/long_fips.htm
-The World Factbook: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html
+GENC: https://nsgreg.nga.mil/genc/discovery   
+ISO 3611-1: https://en.wikipedia.org/wiki/ISO_3166-1   
+FIPS: http://quickfacts.census.gov/qfd/meta/long_fips.htm   
+The World Factbook: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html   
