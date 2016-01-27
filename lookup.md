@@ -14,9 +14,9 @@ Delimiters in use:
 
 
 ##Country List
-- [CA](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
-- [CH](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
-- [US](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
+- [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
+- [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+- [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 
 
 
@@ -57,7 +57,7 @@ We add the leading zeros for cantons that have only one digit
 Type: Numeric, 6   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS)   
 756 | 01 | 12   
-Ex. 7560112 = District Zurich     
+Ex. 7560112 = District of Zurich     
 We add the leading zeros for district that have only one digit      
 
 ###Municipality (Commune / Gemeinde)
