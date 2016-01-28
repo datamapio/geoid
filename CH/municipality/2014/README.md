@@ -67,7 +67,7 @@ The city of Zurich has since Autumn 2014 a special Swiss abroad district:
 https://www.stadt-zuerich.ch/prd/de/index/bevoelkerungsamt/Stab/SZZ/Auslandsschweizer.html
 
 
-## How to visualize the two cases?
+##How to visualize the two cases?
 Case A:    
 a) Do not show results for A, as there are none. But they vote     
 b) Or use the same percentage color for both municipalities    
@@ -80,7 +80,7 @@ This is more than the size of several cantons.
 ##REF File with 2352 or 2356 Municipalities?
 We will compare the EXT file from the votation and compare it to the csv file from the shape [download](http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/generalisierte_gemeindegrenzen.html).
 
-### Shapefile + CSV files
+###Shapefile + CSV files
 Year 2014   
 16195 KB    Generalisierte Gemeindegrenzen: Geodaten   
 (gd-b-00.03-877-gg14)   
@@ -112,7 +112,7 @@ https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
-## Conclusion: 3 REF Files with 2967, 2956 and 2952 GeoIDs
+##Conclusion: 3 REF Files with 2967, 2956 and 2952 GeoIDs
 So regarding the election data from February 2014, we will have:
 - 2956 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
 - 2942 municipalities with voting results, 10 municipalities which vote elsewhere
