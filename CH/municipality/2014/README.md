@@ -9,13 +9,14 @@
 | Swiss from abroad (B)                      |     -11   |      
 | **Total**                                  |  **2952** |   
  
-From [Excel: ext.xls](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext.xls)
+From [Excel: ext.xls](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext.xls)       
+[As CSV file](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext1_initiative_20140902.csv)     
+
 Original at: http://www.bfs.admin.ch/bfs/portal/de/index/themen/17/03/blank/key/2014/013.html   
 438 KB    Volksinitiative «Gegen Masseneinwanderung», nach Gemeinden   
 (je-d-17.03.02.04.cz.580.c)   
 Bundesamt für Statistik BFS   
 09.02.2014   
-[As CSV file](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext1_initiative_20140902.csv)  
 
 
 
