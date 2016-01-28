@@ -80,7 +80,8 @@ Bundesamt für Statistik BFS
 The file [glg2014.csv](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/g1g14.csv) contains 2356 municipalities. 
 So let's figure out the difference and the reason for the difference.
 
-##THE DIFFERENCE: The Kommunanzen or Comunanzas
+
+##The Difference: The Kommunanzen or Comunanzas
 
 The following are part of glg2014.csv, but not part of election data
 
@@ -101,5 +102,14 @@ GeoID: 75623046391
 https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft    
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
+
+## CONCLUSION
+So regarding the election data from February 2014, we will have:
+- 2356 polygons, representing 2352 municipalities and 4 "Kommunanzen"
+- 2342 municipalities with voting results, 14 which remain void (e.g. grey areas on a map)
+- 11 cantonal units for Swiss abroad (there are 26 cantons, but only 11 do show the Swiss abroad separately).    
+  One way to visualize the Swiss abroad could be to use the forms of the cantons proportionally smaller and show them under the map.
+
+
 
 
