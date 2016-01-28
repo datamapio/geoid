@@ -1,13 +1,16 @@
 # CITY
 
 ## Proposal for simple city file (5 largest by state plus state capital)
-id         | placefp | place_name | capital (= 1) | state_code | state_fips | lat      | lon         | pop_census_2010 | pop_est_2014       
+id         | geoid2 | place_fips | place_name | capital (= 1) | state_name | state_code | state_fips | lat      | lon         | pop_census_2010 | pop_est_2014       
 
 Ex. Manchester        
 8403345140 | 45140   | Manchester | NA            | NH		   | 33         | 42.99564 |  -71.454789 | 109565          | 109565     
 
-First Try / Work in Progress:     
-Missing: capital, state_code, lat, lon      
+First Try / Work in Progress:  
+Currently: 
+id	| geoid2 | place_name | state_name | state_fips	| pop_census_2010 | pop_est_2014      
+Missing: place_fips, capital, state_code, lat, lon      
+      
 Also Missing: 3 cities for New Hampshire      
 https://github.com/datamapio/geoid/blob/master/US/city/primaryfirst4_city_2010_2014.csv   
 

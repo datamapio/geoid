@@ -13,7 +13,7 @@ ext <- read.csv ("PEP_2014_PEPANNRSIP.US12A_with_ann.csv", header = TRUE, sep = 
 ## rescensus42010
 ## respop72014
 
-## id | geoid2 | placefp | place_name | capital (= 1) | state_name | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014
+## id | geoid2 | place_fips | place_name | capital (= 1) | state_name | state_code | state_fips | lat | lon | pop_census_2010 | pop_est_2014
 ## Ex. Manchester
 ## 8403345140 | 3345140 | 45140 | Manchester | NA | New Hampshire | NH | 33 | 42.99564 | -71.454789 | 109565 | 109565
 
@@ -29,7 +29,7 @@ ext_sub <- separate(ext_sub, place_name_state, into = c("place_name", "state_nam
 
 ## Split geoid2 into state_code and placefp
 ext_sub$geoid2copy <- ext_sub$geoid2
-ext_sub$state_code <- substr(ext_sub$geoid2, 1, nchar(ext_sub$geoid2)-5)
+ext_sub$state_fips <- substr(ext_sub$geoid2, 1, nchar(ext_sub$geoid2)-5)
 
 ## Trim leading and trailing spaces
 trim_state <- function (x) gsub("^\\s+|\\s+$", "", x)
@@ -120,6 +120,6 @@ south_carolina5 <- slice(south_carolina, 1:5)
 
 primary4 <- rbind_all(list(iowa5, nevada5, new_hampshire5, south_carolina5))
 primary4$id <- paste("840", primary4$geoid2, sep="")
-primary4 <- primary4[c("id", "geoid2", "place_name", "state_name", "state_code",  "pop_census_2010", "pop_est_2014")]
+primary4 <- primary4[c("id", "geoid2", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
 
 write.table(primary4, file="primaryfirst4_city_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)

@@ -1,4 +1,4 @@
-"id","geoid2","place_name","state_name","state_code","pop_census_2010","pop_est_2014"
+"id","geoid2","place_name","state_name","state_fips","pop_census_2010","pop_est_2014"
 "8401921000",1921000,"Des Moines","Iowa","19","203433",209220
 "8401912000",1912000,"Cedar Rapids","Iowa","19","126326",129195
 "8401919000",1919000,"Davenport","Iowa","19","99685",102448
