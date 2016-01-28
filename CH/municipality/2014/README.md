@@ -103,10 +103,10 @@ https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
-## CONCLUSION
+## Conclusion
 So regarding the election data from February 2014, we will have:
-- 2356 polygons, representing 2352 municipalities and 4 "Kommunanzen"
-- 2342 municipalities with voting results, 14 which remain void (e.g. grey areas on a map)
+- 2356 polygons, representing 2352 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
+- 2342 municipalities with voting results, 10 municipalities which vote elsewhere
 - 11 cantonal units for Swiss abroad (there are 26 cantons, but only 11 do show the Swiss abroad separately).    
   One way to visualize the Swiss abroad could be to use the forms of the cantons proportionally smaller and show them under the map.
 
