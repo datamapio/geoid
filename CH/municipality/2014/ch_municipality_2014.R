@@ -109,7 +109,7 @@ library("daff")
 diff_data(ext_csv9_s, glg14_s)
 
 
-## Make part of glg14, but not part of election data
+## Are part of glg14, but not part of election data
 ## +++,2391 Staatswald Galm (O inhabitants)- not part of any municipality (Canton of Freiburg)
 ## https://de.wikipedia.org/wiki/Staatswald_Galm
 
@@ -122,3 +122,7 @@ diff_data(ext_csv9_s, glg14_s)
 ## +++,6391 Kommunanz Reckingen-Gluringen/Grafschaft (0 inhabitants), part of Reckingen-Gluringen 
 ## and Grafschaft VS in Obergoms
 ## https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
+
+
+
+
