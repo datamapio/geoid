@@ -4,7 +4,7 @@
 id         | geoid2 | place_fips | place_name | capital (= 1) | state_name | state_code | state_fips | lat      | lon         | pop_census_2010 | pop_est_2014       
 
 Ex. Manchester        
-8403345140 | 45140   | Manchester | NA            | NH		   | 33         | 42.99564 |  -71.454789 | 109565          | 109565     
+8403345140 | 3345140 | 45140   | Manchester | NA            | New Hampshire | NH		   | 33         | 42.99564 |  -71.454789 | 109565          | 109565     
 
 First Try / Work in Progress:  
 Currently: 
