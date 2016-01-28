@@ -103,7 +103,7 @@ https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
-## Conclusion
+## Conclusion: 3 REF Files with 3007, 2956 and 2952 Entries
 So regarding the election data from February 2014, we will have:
 - 2956 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
 - 2942 municipalities with voting results, 10 municipalities which vote elsewhere
