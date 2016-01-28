@@ -105,10 +105,16 @@ We will keep them in the reference file, so that the polygons are referenced, bu
 
 ## Conclusion
 So regarding the election data from February 2014, we will have:
-- 2356 polygons, representing 2352 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
-- 2342 municipalities with voting results, 10 municipalities which vote elsewhere
+- 2956 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
+- 2942 municipalities with voting results, 10 municipalities which vote elsewhere
 - 11 cantonal units for Swiss abroad (there are 26 cantons, but only 11 do show the Swiss abroad separately).    
   One way to visualize the Swiss abroad could be to use the forms of the cantons proportionally smaller and show them under the map.
+
+
+3 REF Files:
+- Complete: 2952 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 3007 Units
+- Municipalities & Kommunanzen: 2956
+- Municipalities only: 2952
 
 
 
