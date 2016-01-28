@@ -68,7 +68,7 @@ Case B:
 For these 11 cantons the number is 73,102 people entitled to vote and 30,275 who did vote.     
 This is more than the size of several cantons.    
 
-##REF File with 2352 or 2356 Municipalities
+##REF File with 2352 or 2356 Municipalities?
 We will compare the EXT file from the votation and compare it to the csv file from the shape [download](http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/generalisierte_gemeindegrenzen.html).
 
 ### Shapefile + CSV files
@@ -103,7 +103,7 @@ https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
-## Conclusion: 3 REF Files with 3007, 2956 and 2952 Entries
+## Conclusion: 3 REF Files with 3007, 2956 and 2952 GeoIDs
 So regarding the election data from February 2014, we will have:
 - 2956 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
 - 2942 municipalities with voting results, 10 municipalities which vote elsewhere
@@ -112,7 +112,7 @@ So regarding the election data from February 2014, we will have:
 
 
 3 REF Files:
-- Complete: 2952 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 3007 Units
+- Complete: 2952 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 3007
 - Municipalities & Kommunanzen: 2956
 - Municipalities only: 2952
 
