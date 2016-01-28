@@ -9,6 +9,14 @@
 | Swiss from abroad (B)                      |     -11   |      
 | **Total**                                  |  **2952** |   
  
+From [Excel: ext.xls](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext.xls)
+Original at: http://www.bfs.admin.ch/bfs/portal/de/index/themen/17/03/blank/key/2014/013.html   
+438 KB    Volksinitiative «Gegen Masseneinwanderung», nach Gemeinden   
+(je-d-17.03.02.04.cz.580.c)   
+Bundesamt für Statistik BFS   
+09.02.2014   
+[As CSV file](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext1_initiative_20140902.csv)  
+
 
 
 ###A: One municipality votes with another
@@ -50,11 +58,11 @@ Gemeinde-Nr.Gemeinde                    Gemeinde-Nr. Gemeinde    Kanton
 See also:
 How the vote of the Swiss from abroad can change the result
 http://www.tagesanzeiger.ch/schweiz/standard/Auslandschweizer-kippten-Nein-in-ein-Ja/story/17574331
-The number of Swiss living abroad:
-[BfS](http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/schweizer_im_ausland.html)
-[NZZ, 2015: 761‘930] (http://www.nzz.ch/schweiz/aktuelle-themen/im-vergangenen-jahr-wuchs-die-zahl-der-auslandschweizer-um-rund-2-prozent-auf-761930-personen-1.18683329)
+The number of Swiss living abroad:    
+[BfS](http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/schweizer_im_ausland.html)   
+[NZZ, 2015: 761‘930] (http://www.nzz.ch/schweiz/aktuelle-themen/im-vergangenen-jahr-wuchs-die-zahl-der-auslandschweizer-um-rund-2-prozent-auf-761930-personen-1.18683329)     
 
-The city of Zurich has since Autumn 2014 a special Swiss abroad district:  
+The city of Zurich has since Autumn 2014 a special Swiss abroad district:     
 https://www.stadt-zuerich.ch/prd/de/index/bevoelkerungsamt/Stab/SZZ/Auslandsschweizer.html
 
 
