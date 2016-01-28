@@ -20,7 +20,7 @@ Bundesamt für Statistik BFS
 
 
 
-###A: One municipality votes with another
+###A: One municipality votes in another
 
 1) In der Wahl- und Abstimmungsstatistik werden Gemeinden mit so genannt „gemeinsamer Urne“ geführt. Dabei werden zwei oder mehrere Gemeinden zusammengefasst, deren Stimmzettel gemeinsam ausgezählt werden.                       
 Folgende Übersicht enthält die Gemeinden ohne Wahl-/Stimmbüro und die Gemeinde, wo die Stimmzettel ausgezählt werden, den sog. Urnenstandort.   
@@ -40,7 +40,7 @@ Gemeinde-Nr.Gemeinde                    Gemeinde-Nr. Gemeinde    Kanton
 878 Noflen                              872      Kirchdorf          BE      
 ``` 
 
-###B: Swiss from foreign countries
+###B: Swiss from abroad
 
 ``` 
 9030    LU-Ausland-CH           3,839   1,753   45.7    1,711   551     1,160   32.2        
