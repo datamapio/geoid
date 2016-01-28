@@ -1,6 +1,9 @@
 ## setwd("/Users/rogerfischer/datamap/geoid/US/city")
 ## getwd()
 
+## This is a work of progress. There is too much repetition for sure. 
+
+
 ## Download from: https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv
 ext <- read.csv ("PEP_2014_PEPANNRSIP.US12A_with_ann.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE)
 
