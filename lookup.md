@@ -1,7 +1,7 @@
 
 #GEOID LOOKUP
 ## Some Guidelines
-- Use numeric as much as possible (not always possible)
+- Use numeric as much as possible (it is not always possible nevertheless)
 - Use parent-children relationships when possible (country > state > county; country > canton > district > municipality).
 - Use delimiters between the numeric country code and what follows only if there is a possible clash
 - Use short delimiters
@@ -9,13 +9,14 @@
 
 Delimiters in use: 
 - No delimiter (country > state > county; country > canton > district > municipality etc)
-- ZP: for Z like ZIP and P like Postal Code. Only use when necessary.
+- ZP: for Z like ZIP and P like Postal Code.
 - PCT: Precinct
 
 
 ##Country List
 - [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+- [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 
 
@@ -77,6 +78,24 @@ Reference:
 http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html     
 
 
+##IN
+India
+356
+
+###State & Union Territories
+Type: Numeric, 5
+Country (3, numeric, ISO) | State (2, numeric, Census India)
+356 | 33
+Ex. 35633 = Tamil Nadu
+
+As of June 2, 2014 India has 29 States and seven Union Territories.
+
+Reference:
+http://www.censusindia.gov.in/2011census/maps/atlas/India%20map.html
+http://www.censusindia.gov.in/2011census/maps/atlas/00part2.pdf
+http://www.indianewsbulletin.com/2014-full-list-of-indian-states-capitals-and-their-chief-ministers
+
+
 ##US
 United States of America    
 840    
@@ -93,7 +112,7 @@ Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS
 840 | 06 | 001     
 Ex. 84006001 = Alameda County   
 
-###Place
+###Place (not definitive)
 Type: Numeric, 10    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | Place (5, numeric, Census)   
 840 | 33 | 45140     
@@ -120,4 +139,11 @@ Ex. 84006075PCT1117 = Precinct 1117 in San Francisco
 GENC: https://nsgreg.nga.mil/genc/discovery   
 ISO 3611-1: https://en.wikipedia.org/wiki/ISO_3166-1   
 FIPS: http://quickfacts.census.gov/qfd/meta/long_fips.htm   
-The World Factbook: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html   
+The World Factbook: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html 
+
+See also:
+Google API: Address Types and Address Component Types   
+https://developers.google.com/maps/documentation/geocoding/intro
+
+
+
