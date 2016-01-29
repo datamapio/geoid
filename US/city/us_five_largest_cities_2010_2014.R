@@ -1,8 +1,7 @@
 ## setwd("/Users/rogerfischer/datamap/geoid/US/city")
 ## getwd()
 
-## This is a work of progress. There is too much repetition for sure. 
-
+## This is a work of progress. There is too much repetition for sure and not enough functionss :)
 
 ## Download from: https://github.com/datamapio/geoid/blob/master/US/city/PEP_2014_PEPANNRSIP.US12A_with_ann.csv
 ext <- read.csv ("PEP_2014_PEPANNRSIP.US12A_with_ann.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE)
@@ -17,6 +16,7 @@ ext <- read.csv ("PEP_2014_PEPANNRSIP.US12A_with_ann.csv", header = TRUE, sep = 
 ## Ex. Manchester
 ## 8403345140 | 3345140 | 45140 | Manchester | NA | New Hampshire | NH | 33 | 42.99564 | -71.454789 | 109565 | 109565
 
+## Missing: capital, state_code (?), lat, lon
 
 library(dplyr)
 ext_sub <- select(ext, GC_RANK.target.geo.id2, GC_RANK.display.label.1, rescensus42010, respop72014)
@@ -28,8 +28,16 @@ library(tidyr)
 ext_sub <- separate(ext_sub, place_name_state, into = c("place_name", "state_name"), , sep = ",")
 
 ## Split geoid2 into state_code and placefp
-ext_sub$geoid2copy <- ext_sub$geoid2
 ext_sub$state_fips <- substr(ext_sub$geoid2, 1, nchar(ext_sub$geoid2)-5)
+
+# Use last 5 characters to create place_fips
+## Function, not used
+substrRight <- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+## Still a mistery why it is -4, not -5 ((nchar(x)-n+1))
+ext_sub$place_fips <- substr(ext_sub$geoid2, nchar(ext_sub$geoid2)-4, nchar(ext_sub$geoid2))
+
 
 ## Trim leading and trailing spaces
 trim_state <- function (x) gsub("^\\s+|\\s+$", "", x)
@@ -43,12 +51,15 @@ ext_sub$place_name <- trim_place2(ext_sub$place_name)
 
 ## For each state, take the first 5 largest cities in 2014
 
-## 84001  01	AL	Alabama 
-alabama <- filter(ext_sub, state_name == "Alabama")
-alabama5 <- slice(alabama, 1:5)
+cities5 <- function(x, name) {
+  y <- slice(filter(x, state_name == name), 1:5)  
+}  
 
+## 84001  01	AL	Alabama 
+alabama <- cities5(ext_sub, "Alabama")
 ## 84002  02	AK	Alaska
 ## 84004	04	AZ	Arizona
+arizona <- cities5(ext_sub, "Arizona")
 ## 84005	05	AR	Arkansas
 ## 84006	06	CA	California
 ## 84008	08	CO	Colorado	
@@ -63,8 +74,7 @@ alabama5 <- slice(alabama, 1:5)
 ## 84018	18	IN	Indiana	00448508
 
 ## 84019  19  IA	Iowa
-iowa <- filter(ext_sub, grepl("Iowa", state_name))
-iowa5 <- slice(iowa, 1:5)
+iowa <- cities5(ext_sub, "Iowa")
 
 ## 84020	20	KS	Kansas	00481813
 ## 84021	21	KY	Kentucky	01779786
@@ -80,13 +90,12 @@ iowa5 <- slice(iowa, 1:5)
 ## 84031	31	NE	Nebraska	01779792
 
 ## 84032	32	NV	Nevada
-nevada <- filter(ext_sub, state_name == "Nevada")
-nevada5 <- slice(nevada, 1:5)
+nevada <- cities5(ext_sub, "Nevada")
 
 ## 84033	33	NH	New Hampshire
 ## Only 2 have over 50K; Next 3 are: Concord, Derry, Rochester
-new_hampshire <- filter(ext_sub, state_name == "New Hampshire")
-new_hampshire5 <- slice(new_hampshire, 1:5)
+new_hampshire <- cities5(ext_sub, "New Hampshire")
+
 
 ## 84034	34	NJ	New Jersey	01779795
 ## 84035	35	NM	New Mexico	00897535
@@ -100,8 +109,8 @@ new_hampshire5 <- slice(new_hampshire, 1:5)
 ## 84044	44	RI	Rhode Island	01219835
 
 ## 84045	45	SC	South Carolina	01779799
-south_carolina <- filter(ext_sub, state_name == "South Carolina")
-south_carolina5 <- slice(south_carolina, 1:5)
+south_carolina <- cities5(ext_sub, "South Carolina")
+
 
 ## 84046	46	SD	South Dakota	01785534
 ## 84047	47	TN	Tennessee	01325873
@@ -118,8 +127,8 @@ south_carolina5 <- slice(south_carolina, 1:5)
 ## http://stackoverflow.com/questions/20937682/r-trying-to-find-latitude-longitude-data-for-cities-in-europe-and-getting-geocod
 ## http://www.r-bloggers.com/batch-geocoding-with-r-and-google-maps/
 
-primary4 <- rbind_all(list(iowa5, nevada5, new_hampshire5, south_carolina5))
-primary4$id <- paste("840", primary4$geoid2, sep="")
-primary4 <- primary4[c("id", "geoid2", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
+us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))
+us_cities$id <- paste("840", us_cities$geoid2, sep="")
+us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
 
-write.table(primary4, file="primaryfirst4_city_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)
+write.table(us_cities, file="us_city5_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)
