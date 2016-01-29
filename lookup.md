@@ -159,6 +159,13 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)
 840 | ZP | 94702    
 Ex. 840ZP94702 = ZIP Code 94702 
 
+###Congressional District
+Type: Alphanumeric, 12
+Country(3, numeric, ISO) | CD114 (5, alphanumeric) | State (2, numeric, FIPS) | Congressional District (2, numeric, Census)  
+840 | CD114 | 06 | 13 
+Ex. 840CD1140613 = 13th Congressional District in California for the 114th Congress 
+Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
+
 ###Precinct Code
 Type: Alphanumeric, 15    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)   
