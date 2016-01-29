@@ -87,13 +87,48 @@ Type: Numeric, 5
 Country (3, numeric, ISO) | State (2, numeric, Census India)
 356 | 33
 Ex. 35633 = Tamil Nadu
+As of June 2, 2014 India has 29 States and seven Union Territories. New: Telangana,36, TS (ISO: IN-TG)
+Reference: http://www.ddvat.gov.in/docs/List%20of%20State%20Code.pdf
 
-As of June 2, 2014 India has 29 States and seven Union Territories.
+###District (Zilla)
+Type: Numeric, 7
+Country (3, numeric, ISO) | State (2, numeric, Census India) | District (2, numeric, Census India)
+356 | 33 | 02
+Ex. 3563302 = Chennai, Tamil Nadu
+Updated: https://en.wikipedia.org/wiki/List_of_districts_in_India
+
+###Subdistrict (Taluk/Tehsil/Mandal/Circle)
+Type: Numeric, 10
+Country (3, numeric, ISO) | State (2, numeric, Census India) | District (2, numeric, Census India) | Subdistrict (3, numeric, Census India)
+356 | 33 | 07 | 001
+Ex. 3563307001 = Mettur, Salem, Tamil Nadu
+Reference for 2011: http://www.censusindia.gov.in/2011census/maps/atlas/00part2.pdf
+
+Throughout India, there is a three-tier local body/Panchayath Raj system within the state. 
+Tehsil/taluka/mandal is the second layer of this system. Above them are the districts/zilla and below them are the gram panchayats/villages.
+
+###DRDA
+
+###Block
+
+###Village
+
+### Postal Index Number (PIN)
+Type: Alphanumeric, 11
+Country (3, numeric, ISO) | ZP (2, alphabetic) | PIN (6, alphanumeric, Canadapost)    
+356 | ZP | 456001     
+Ex.  356ZP456001 = The PIN code of Ujjain in Madhya Pradesh
+
 
 Reference:
 http://www.censusindia.gov.in/2011census/maps/atlas/India%20map.html
 http://www.censusindia.gov.in/2011census/maps/atlas/00part2.pdf
+https://www.mail.nic.in/docs/MailService_e-mail_address_Policy_WithCodes.pdf
+https://data.gov.in/catalog/number-districts-drdas-blocks-villages-country
+https://www.iso.org/obp/ui/#iso:code:3166:IN
 http://www.indianewsbulletin.com/2014-full-list-of-indian-states-capitals-and-their-chief-ministers
+https://en.wikipedia.org/wiki/Postal_Index_Number
+http://datameet.org/wiki/indiangeospatialdata
 
 
 ##US
