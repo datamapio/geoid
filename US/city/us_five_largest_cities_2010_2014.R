@@ -55,6 +55,25 @@ cities5 <- function(x, name) {
   y <- slice(filter(x, state_name == name), 1:5)  
 }  
 
+states <- c("Colorado", "California", "Georgia") 
+
+## this must be the same type of dataframe than s, otherwise it will not work.
+cities = data.frame()
+
+uscities <- function(d) {  
+  for (i in d) {
+    s <- cities5(ext_sub, i)
+    ##cities <- rbind(cities,s)
+ 
+    ## us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))    
+    ##us_cities$id <- paste("840", us_cities$geoid2, sep="")
+    ##us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]    
+  } 
+}
+
+uscities(states)
+
+
 ## 84001  01	AL	Alabama 
 alabama <- cities5(ext_sub, "Alabama")
 ## 84002  02	AK	Alaska
@@ -127,8 +146,8 @@ south_carolina <- cities5(ext_sub, "South Carolina")
 ## http://stackoverflow.com/questions/20937682/r-trying-to-find-latitude-longitude-data-for-cities-in-europe-and-getting-geocod
 ## http://www.r-bloggers.com/batch-geocoding-with-r-and-google-maps/
 
-us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))
-us_cities$id <- paste("840", us_cities$geoid2, sep="")
-us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
+## us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))
+## us_cities$id <- paste("840", us_cities$geoid2, sep="")
+## us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
 
 write.table(us_cities, file="us_city5_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)

@@ -17,6 +17,7 @@ Delimiters in use:
 - [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
 - [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
+- [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 
 
@@ -107,11 +108,7 @@ Reference for 2011: http://www.censusindia.gov.in/2011census/maps/atlas/00part2.
 Throughout India, there is a three-tier local body/Panchayath Raj system within the state.     
 Tehsil/taluka/mandal is the second layer of this system. Above them are the districts/zilla and below them are the gram panchayats/villages.   
 
-###DRDA
-
-###Block
-
-###Village
+###DRDA / Block / Village
 
 ### Postal Index Number (PIN)
 Type: Alphanumeric, 11     
@@ -129,6 +126,16 @@ https://www.iso.org/obp/ui/#iso:code:3166:IN
 http://www.indianewsbulletin.com/2014-full-list-of-indian-states-capitals-and-their-chief-ministers    
 https://en.wikipedia.org/wiki/Postal_Index_Number    
 http://datameet.org/wiki/indiangeospatialdata    
+
+
+##TW
+Republic of China (ROC)/Taiwan
+158
+
+See more:
+http://eng.stat.gov.tw/
+https://en.wikipedia.org/wiki/List_of_administrative_divisions_of_Taiwan
+https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Republic_of_China
 
 
 ##US
