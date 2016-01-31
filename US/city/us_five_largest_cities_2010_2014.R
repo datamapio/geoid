@@ -146,8 +146,15 @@ south_carolina <- cities5(ext_sub, "South Carolina")
 ## http://stackoverflow.com/questions/20937682/r-trying-to-find-latitude-longitude-data-for-cities-in-europe-and-getting-geocod
 ## http://www.r-bloggers.com/batch-geocoding-with-r-and-google-maps/
 
-## us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))
-## us_cities$id <- paste("840", us_cities$geoid2, sep="")
-## us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
+us_cities <- rbind_all(list(alabama, arizona, iowa, nevada, new_hampshire, south_carolina))
+us_cities$id <- paste("840", us_cities$geoid2, sep="")
+us_cities <- us_cities[c("id", "geoid2", "place_fips", "place_name", "state_name", "state_fips",  "pop_census_2010", "pop_est_2014")]
 
-write.table(us_cities, file="us_city5_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)
+# Simple Geocoding
+library(ggmap)
+addresses = us_cities$place_name
+addresses = paste0(addresses, ",",us_cities$state_name)
+geocodes <- geocode(as.character(addresses))
+us_cities_geocodes <- data.frame(us_cities,geocodes)
+
+write.table(us_cities_geocodes, file="us_city5_geo_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)
