@@ -9,8 +9,13 @@
 
 Delimiters in use: 
 - No delimiter (country > state > county; country > canton > district > municipality etc)
-- ZP: for Z like ZIP and P like Postal Code.
+
+- AD: State Assembly District
+- SD: State Senate District
 - PCT: Precinct
+- ZP: for Z like ZIP and P like Postal Code.
+
+
 
 
 ##Country List
@@ -177,8 +182,24 @@ Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
 Type: Alphanumeric, 15    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)   
 840 | 06 | 075 | PCT | 1117   
-Ex. 84006075PCT1117 = Precinct 1117 in San Francisco   
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California 
+Ex. 84019001PCT1NW = Precinct 1NW, Adair County, Iowa 
 
+###State Senate District
+Type: Alphanumeric, 9    
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | SD (2, alphabetic) | Senate District (2, numeric, CA.gov)  
+840 | 06 | SD | 09 
+Ex. 84006SD09  = State Senate (District 9) in California (40 in total)
+Note: With trailing zeros
+See: http://senate.ca.gov/senatedistricts
+
+###State Assembly District
+Type: Alphanumeric, 9    
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | AD (2, alphabetic) | Assembly District (2, numeric, CA.gov)  
+840 | 06 | AD | 15 
+Ex. 84006AD15 = State Assembly (District 15) in California (80 in total)
+Note: With trailing zeros
+https://en.wikipedia.org/wiki/California_State_Assembly_districts
 
 
 
