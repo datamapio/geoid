@@ -157,4 +157,12 @@ addresses = paste0(addresses, ",",us_cities$state_name)
 geocodes <- geocode(as.character(addresses))
 us_cities_geocodes <- data.frame(us_cities,geocodes)
 
-write.table(us_cities_geocodes, file="us_city5_geo_2010_2014.csv", sep="," , col.names=TRUE, row.names=FALSE)
+#Map file 
+us_city_2010_2016_map <-us_cities_geocodes[c("id","lon","lat")]
+colnames(us_city_2010_2016_map)[2]<-"long"
+us_city_2010_2016_map <-us_city_2010_2016_map[c(1,3,2)]
+write.table(us_city_2010_2016_map, file="us_city_2010_2016_map.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+#Data file
+us_city_2010_2016_data <-us_cities_geocodes[c("id","geoid2","place_fips","place_name","state_name","state_fips","pop_census_2010","pop_est_2014" )]
+write.table(us_city_2010_2016_data, file="us_city_2010_2016_data.csv", sep="," , col.names=TRUE, row.names=FALSE)
