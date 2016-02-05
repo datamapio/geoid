@@ -27,4 +27,13 @@ data_people <- merge(ref, ext_people, by="fips")
 data_people <- data_people[, c(2:3, 8:19)]
 write.table(data_people, file="google_trends_new_hampshire_county_20160129-20160204.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+data_people[, 3:14] <- as.data.frame(sapply(data_people[, 3:14], as.numeric)) 
+summary(data_people)
+
+bplot <- boxplot(data_people[, 3:14], use.cols = TRUE, las = 2, ylab = "Search interest, 1 week") 
+
+png("candidates_boxplot.png")  
+bplot
+dev.off()
+
 ## NEXT: The same could be made by topic
