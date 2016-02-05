@@ -9,14 +9,22 @@
 
 Delimiters in use: 
 - No delimiter (country > state > county; country > canton > district > municipality etc)
-- ZP: for Z like ZIP and P like Postal Code.
+- AD: State Assembly District
+- SD: State Senate District
 - PCT: Precinct
+- ZP: for Z like ZIP and P like Postal Code.
+
+
+http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc
 
 
 ##Country List
 - [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+- [DK, Denmark](https://github.com/datamapio/geoid/blob/master/lookup.md#dk) 
+- [ET, Ethiopia](https://github.com/datamapio/geoid/blob/master/lookup.md#et)
 - [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
+- [KE, Kenya](https://github.com/datamapio/geoid/blob/master/lookup.md#ke)
 - [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 
@@ -79,6 +87,17 @@ Reference:
 http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html     
 
 
+##DK
+Denmark    
+208    
+
+
+##ET
+Ethiopia    
+231    
+http://africaopendata.org/dataset/ethiopia-shapefiles    
+
+
 ##IN
 India
 356
@@ -127,6 +146,22 @@ http://www.indianewsbulletin.com/2014-full-list-of-indian-states-capitals-and-th
 https://en.wikipedia.org/wiki/Postal_Index_Number    
 http://datameet.org/wiki/indiangeospatialdata    
 
+
+##KE
+Kenya     
+404 
+
+###County
+Type: Numeric, 5    
+Country (3, numeric, ISO) | County (2, numeric)         
+404 | 01        
+Ex. 40401 = Nairobi ???     
+
+Kenya is divided into 47 semi-autonomous counties that are headed by governors who were elected in the first general election under the new constitution in March 2013.     
+See more:        
+http://www.knbs.or.ke/      
+http://www.knbs.or.ke/index.php?option=com_phocadownload&view=category&id=99&Itemid=639        
+http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc      
 
 ##TW
 Republic of China (ROC)/Taiwan
@@ -177,8 +212,24 @@ Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
 Type: Alphanumeric, 15    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)   
 840 | 06 | 075 | PCT | 1117   
-Ex. 84006075PCT1117 = Precinct 1117 in San Francisco   
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California 
+Ex. 84019001PCT1NW = Precinct 1NW, Adair County, Iowa 
 
+###State Senate District
+Type: Alphanumeric, 9       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | SD (2, alphabetic) | Senate District (2, numeric, CA.gov)     
+840 | 06 | SD | 09     
+Ex. 84006SD09  = State Senate (District 9) in California (40 in total)    
+Note: With trailing zeros     
+See: http://senate.ca.gov/senatedistricts    
+
+###State Assembly District
+Type: Alphanumeric, 9       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | AD (2, alphabetic) | Assembly District (2, numeric, CA.gov)     
+840 | 06 | AD | 15    
+Ex. 84006AD15 = State Assembly (District 15) in California (80 in total)    
+Note: With trailing zeros   
+https://en.wikipedia.org/wiki/California_State_Assembly_districts   
 
 
 
