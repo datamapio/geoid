@@ -16,5 +16,25 @@ library(gdata)
 ## If the Excel has several sheets create ext1 for sheet=1, ext2 for sheet=2 etc.
 ext <- read.xls ("ext.xls", sheet = 1, header = FALSE, stringsAsFactors=FALSE)
 
-write.table(data, file="RAW_belgium_municipality_2013.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(ext, file="RAW_belgium_municipality_2013.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+Bruxelles: 8:26
+Province of Anvers
+Arr. Anvers: 33:62
+Arr. Malines: 65:77
+Arr. Turnhout: 80:106
+
+Province de Brabant Flamande
+Arr. Hal-Vilvorde: 111:145
+Arr. Louvain: 148:177
+
+Province de Flandre Occidentale
+Arr. de Bruges: 31003
+
+
+
+
+
+
+ext[, c(8:26, 33:62, ]
 
