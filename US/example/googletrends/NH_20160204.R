@@ -30,10 +30,8 @@ write.table(data_people, file="google_trends_new_hampshire_county_20160129-20160
 data_people[, 3:14] <- as.data.frame(sapply(data_people[, 3:14], as.numeric)) 
 summary(data_people)
 
-bplot <- boxplot(data_people[, 3:14], use.cols = TRUE, las = 2, ylab = "Search interest, 1 week") 
-
-png("candidates_boxplot.png")  
-bplot
+png("candidates_boxplot.png")
+boxplot(data_people[, 3:14], use.cols = TRUE, par(mar=c(6,6,2,2)), las = 2, ylab = "Search interest by candidate, Variation by NH county, 1 week ") 
 dev.off()
 
 ## NEXT: The same could be made by topic

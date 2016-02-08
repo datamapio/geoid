@@ -19,6 +19,7 @@ http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc
 
 
 ##Country List
+- [BE, Belgium](https://github.com/datamapio/geoid/blob/master/lookup.md#be)	
 - [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
 - [DK, Denmark](https://github.com/datamapio/geoid/blob/master/lookup.md#dk) 
@@ -35,6 +36,60 @@ Country (3, numeric, ISO)
 Type: Numeric     
 840    
 Ex. 840 = US   
+
+##BE  
+Belgium     
+056   
+
+###Regions
+Type: Alphanumeric, 4
+Country (3, numeric, ISO) | Region Code (1, alphabetic)
+056 | W
+Examples:
+056W = Wallonne Region
+056F = Flamand Region
+056B = Bruxelles Capital Region 
+NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
+
+
+###Provinces
+Type: Alphanumeric, 5
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Province Code (1, numeric)
+056 | W | 2
+Ex. 056W2 = Brabant wallon    
+Ex. 056F2 = Vlaams-Brabant   
+Ex. 056F4 = Flandres Orientale    
+Note: We use the alphabet to keep the link to the province numbers.   
+
+
+###Arrondissements
+Type: Numeric, 6     
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Arrondissement Code (2, numeric, INS)      
+056 | F | 23   
+Ex. 056F23 = Arrondissement de Hal-Vilvorde, Braband Flamand   
+Note: We drop the 3 trailing zeros   
+
+
+###Municipalities (Gemeenten, Communes, Gemeinden)
+Type: Numeric, 9    
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS)     
+056 | B | 21015    
+Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)    
+Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)    
+
+
+###Postal Code 
+Type: Alphanumeric, 9     
+Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (4, numeric) 
+056 | ZP | 1030
+Ex. 056ZP1030 = Postal Code 1030 for Schaerbeek/Schaarbeek, Bruxelles
+
+Reference:
+http://statbel.fgov.be/fr/modules/publications/statistiques/enquetes_et_methodologie/downloads/code_ins.jsp
+http://www.notrebelgique.be/fr/index.php?nv=37
+Municipalities for Flanders:
+http://www.geopunt.be/download?container=referentiebestand-gemeenten&title=Voorlopig%20referentiebestand%20gemeentegrenzen
+
 
 ##CA
 Canada      
