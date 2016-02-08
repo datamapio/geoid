@@ -141,31 +141,31 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
 
 ###City Districts (Kreise)
-Type: Numeric, 13   
+Type: Numeric, 13     
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | City District (2, numeric, BFS)      
 756 | 01 | 12 | 0261 | 01    
 Ex. 7560112026101 = Kreis 1 (City District 1), City/Municipality of Zurich    
 Note: Zurich has 12 City Districts   
 
 ###Neighborhoods (Quartiere)
-Type: Numeric, 14      
-Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | Neighborhood (3, numeric, BFS)     
+Type: Numeric, 14          
+Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | Neighborhood (3, numeric, BFS)       
 756 | 01 | 12 | 0261 | 014   
-Ex. 75601120261014 = Neighborhood "City", City District 1, Municipality of Zurich 
-Ex. 75601120261052 = Neighborhood "Escher Wyss", District 5, Municipality of Zurich      
-Note: Zurich has 34 Statistical Quartiere (https://de.wikipedia.org/wiki/Stadtteile_der_Stadt_Z%C3%BCrich)
+Ex. 75601120261014 = Neighborhood "City", City District 1, Municipality of Zurich     
+Ex. 75601120261052 = Neighborhood "Escher Wyss", District 5, Municipality of Zurich          
+Note: Zurich has 34 Statistical Quartiere (https://de.wikipedia.org/wiki/Stadtteile_der_Stadt_Z%C3%BCrich)    
 
 ###Statistical Zones (Statistische Zonen (SZ))
-Type: Numeric, 16
-Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | Neighborhood (3, numeric, BFS) | SZ (2, numeric, City of Zurich)    
-756 | 01 | 12 | 0261 | 014 | 04 
-Ex. 7560112026101404 = Statistical Zone "Paradeplatz", Neighborhood "City", City District 1, Municipality of Zurich 
-Ex. 7560112026105202 = Statistical Zone "Technopark", Neighborhood "Escher Wyss", District 5, Municipality of Zurich 
+Type: Numeric, 16     
+Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | Neighborhood (3, numeric, BFS) | SZ (2, numeric, City of Zurich)       
+756 | 01 | 12 | 0261 | 014 | 04         
+Ex. 7560112026101404 = Statistical Zone "Paradeplatz", Neighborhood "City", City District 1, Municipality of Zurich     
+Ex. 7560112026105202 = Statistical Zone "Technopark", Neighborhood "Escher Wyss", District 5, Municipality of Zurich     
 
-Note: Zurich https://data.stadt-zuerich.ch/storage/f/stat_zonen/statistische_zonen.json
+Note: Zurich https://data.stadt-zuerich.ch/storage/f/stat_zonen/statistische_zonen.json      
 
-Reference:     
-http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html  
+Reference:        
+http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html     
 
 
 ##DK
