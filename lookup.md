@@ -8,7 +8,8 @@
 - Use delimiters consistenly
 
 Delimiters in use: 
-- No delimiter (country > state > county; country > canton > district > municipality etc)
+- No delimiters if possible (country > state > county; country > canton > district > municipality etc)
+  Exceptions: Belgium    
 - AD: State Assembly District
 - SD: State Senate District
 - PCT: Precinct
@@ -42,13 +43,14 @@ Belgium
 056   
 
 ###Regions
-Type: Alphanumeric, 4
-Country (3, numeric, ISO) | Region Code (1, alphabetic)
-056 | W
-Examples:
-056W = Wallonne Region
-056F = Flamand Region
-056B = Bruxelles Capital Region 
+Type: Alphanumeric, 4      
+Country (3, numeric, ISO) | Region Code (1, alphabetic)     
+056 | W   
+
+Examples:     
+056W = Wallonne Region    
+056F = Flamand Region    
+056B = Bruxelles Capital Region    
 NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
 
 
