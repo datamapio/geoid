@@ -134,12 +134,6 @@ Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BF
 Ex. 75601120261 = Municipality of Zurich       
 We add the leading zeros for municipalities with less then 4 digits      
 
-###Postal Code (PLZ)
-Type: Alphanumeric, 9     
-Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)     
-756 | ZP | 8004      
-Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
-
 ###City Districts (Kreise)
 Type: Numeric, 13     
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | City District (2, numeric, BFS)      
@@ -151,8 +145,8 @@ Note: Zurich has 12 City Districts
 Type: Numeric, 14          
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS) | Municipality (4, numeric, BFS) | Neighborhood (3, numeric, BFS)       
 756 | 01 | 12 | 0261 | 014   
-Ex. 75601120261014 = Neighborhood "City", City District 1, Municipality of Zurich     
-Ex. 75601120261052 = Neighborhood "Escher Wyss", District 5, Municipality of Zurich          
+Ex. 75601120261014 = Neighborhood "City", City District 1, Municipality of Zurich           
+Ex. 75601120261052 = Neighborhood "Escher Wyss", District 5, Municipality of Zurich             
 Note: Zurich has 34 Statistical Quartiere (https://de.wikipedia.org/wiki/Stadtteile_der_Stadt_Z%C3%BCrich)    
 
 ###Statistical Zones (Statistische Zonen (SZ))
@@ -166,6 +160,13 @@ Note: Zurich https://data.stadt-zuerich.ch/storage/f/stat_zonen/statistische_zon
 
 Reference:        
 http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/03.html     
+
+###Postal Code (PLZ)
+Type: Alphanumeric, 9     
+Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)     
+756 | ZP | 8004      
+Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
+
 
 
 ##DK
