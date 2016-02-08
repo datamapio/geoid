@@ -43,7 +43,7 @@ Belgium
 056   
 
 ###Regions
-Type: Alphanumeric, 4      
+Type: Alphanumeric, 4          
 Country (3, numeric, ISO) | Region Code (1, alphabetic)     
 056 | W   
 
@@ -55,7 +55,7 @@ NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
 
 
 ###Provinces
-Type: Alphanumeric, 5
+Type: Alphanumeric, 5     
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Province Code (1, numeric)     
 056 | W | 2      
 Ex. 056W2 = Brabant wallon    
@@ -65,7 +65,7 @@ Note: We use the alphabet to keep the link to the province numbers.
 
 
 ###Arrondissements
-Type: Numeric, 6     
+Type: Numeric, 6           
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Arrondissement Code (2, numeric, INS)      
 056 | F | 23   
 Ex. 056F23 = Arrondissement de Hal-Vilvorde, Braband Flamand   
