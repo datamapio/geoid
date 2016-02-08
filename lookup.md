@@ -56,8 +56,8 @@ NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
 
 ###Provinces
 Type: Alphanumeric, 5
-Country (3, numeric, ISO) | Region Code (1, alphabetic) | Province Code (1, numeric)
-056 | W | 2
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Province Code (1, numeric)     
+056 | W | 2      
 Ex. 056W2 = Brabant wallon    
 Ex. 056F2 = Vlaams-Brabant   
 Ex. 056F4 = Flandres Orientale    
