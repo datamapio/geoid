@@ -30,10 +30,9 @@ NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
 - 70000: Limburg (Limbourg) dont le chef-lieu est Hasselt.    
 - 80000: Luxembourg dont le chef-lieu est Arlon (Aarlen).    
 - 90000: Namur dont le chef-lieu est Namur (Namen).    
-- 40000: Oost-Vlaanderen (Flandre orientale) dont le chef-lieu est Gent (Gand).   
+- 40000: Oost-Vlaanderen (Flandre orientale) dont le chef-lieu est Gent (Gand).
 - 30000: West-Vlaanderen (Flandre occidentale) dont le chef-lieu est Brugge (Bruges).   
-
-+ Bruxelles Capital   
+- & 4000 Bruxelles Capital   
 
 ###datamap Proposal
 Type: Alphanumeric, 5    
