@@ -32,7 +32,7 @@ NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)
 - 90000: Namur dont le chef-lieu est Namur (Namen).    
 - 40000: Oost-Vlaanderen (Flandre orientale) dont le chef-lieu est Gent (Gand).
 - 30000: West-Vlaanderen (Flandre occidentale) dont le chef-lieu est Brugge (Bruges).   
-- & 4000 Bruxelles Capital   
+- & 4000 Bruxelles Capital (the Capital is not a province)  
 
 ###datamap Proposal
 Type: Alphanumeric, 5    
@@ -50,15 +50,15 @@ Note: We use the alphabet to keep the link to the province numbers.
 RÉGION DE BRUXELLES-CAPITALE			4000
 - Arrondissement de Bruxelles-Capitale	21000
 
-RÉGION FLAMANDE							2000
-- Province d'Anvers						10000
+RÉGION FLAMANDE	(22)					2000
+- Province d'Anvers	(3)					10000
   - Arrondissement d'Anvers				11000
   - Arrondissement de Malines			12000
   - Arrondissement de Turnhout			13000
-- Province du Brabant Flamand			20001
+- Province du Brabant Flamand (2)		20001
   - Arrondissement de Hal-Vilvorde		23000
   - Arrondissement de Louvain			24000
-- Province de Flandre Occidentale		30000
+- Province de Flandre Occidentale (8)	30000
   - Arrondissement de Bruges			31000
   - Arrondissement de Courtrai			34000
   - Arrondissement de Dixmude			32000
@@ -67,22 +67,22 @@ RÉGION FLAMANDE							2000
   - Arrondissement de Roulers			36000
   - Arrondissement de Tielt				37000
   - Arrondissement d'Ypres				33000
-- Province de Flandre Orientale			40000
+- Province de Flandre Orientale (6)		40000
   - Arrondissement d'Alost				41000
   - Arrondissement d'Audenarde			45000
   - Arrondissement d'Eeklo				43000
   - Arrondissement de Gand				44000
   - Arrondissement de Saint-Nicolas		46000
   - Arrondissement de Termonde			42000
-- Province du Limbourg					70000
+- Province du Limbourg (3)				70000
   - Arrondissement de Hasselt			71000
   - Arrondissement de Maaseik			72000
   - Arrondissement de Tongres			73000
 
-RÉGION WALLONNE							3000
-- Province du Brabant Wallon			20002
+RÉGION WALLONNE	(20)					3000
+- Province du Brabant Wallon (1)		20002
   - Arrondissement de Nivelles			25000
-- Province du Hainaut					50000
+- Province du Hainaut (7)				50000
   - Arrondissement d'Ath				51000
   - Arrondissement de Charleroi			52000
   - Arrondissement de Mons				53000
@@ -90,23 +90,27 @@ RÉGION WALLONNE							3000
   - Arrondissement de Soignies			55000
   - Arrondissement de Thuin				56000
   - Arrondissement de Tournai			57000
-- Province de Liège						60000
+- Province de Liège	(4)					60000
   - Arrondissement de Huy				61000
   - Arrondissement de Liège	            62000
   - Arrondissement de Verviers			63000
   - Arrondissement de Waremme			64000
-- Province du Luxembourg				80000
+- Province du Luxembourg (5)			80000
   - Arrondissement d'Arlon				81000
   - Arrondissement de Bastogne			82000
   - Arrondissement de Marche-en-Famenne	83000
   - Arrondissement de Neufchâteau		84000
   - Arrondissement de Virton			85000
-Province de Namur						90000
+Province de Namur (3)					90000
   - Arrondissement de Dinant			91000
   - Arrondissement de Namur				92000
   - Arrondissement de Philippeville		93000
 
 ```
+According to Wikipedia, there are 43 arrondissements:
+https://en.wikipedia.org/wiki/Arrondissements_of_Belgium
+https://github.com/datamapio/geoid/blob/master/BE/arrondissement/be_arrondissement_wikipedia.csv
+
 
 ###datamap Proposal
 Type: Numeric, 6      
@@ -117,6 +121,9 @@ Note: We drop the 3 trailing zeros
 
 
 ##Municipalities
+According to Wikipedia there are 589 municipalities: 
+https://en.wikipedia.org/wiki/Municipalities_of_Belgium
+
 
 ###datamap Proposal     
 Type: Numeric, 9    
