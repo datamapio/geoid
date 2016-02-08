@@ -39,7 +39,7 @@ Type: Alphanumeric, 5
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Province Code (1, numeric)    
 056 | W | 2   
 Ex. 056W2 = Brabant wallon    
-Ex. O56F2 = Vlaams-Brabant   
+Ex. 056F2 = Vlaams-Brabant   
 Ex. 056F4 = Flandres Orientale   
 Note: We use the alphabet to keep the link to the province numbers.    
 
