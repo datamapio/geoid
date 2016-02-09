@@ -327,5 +327,8 @@ See also:
 Google API: Address Types and Address Component Types   
 https://developers.google.com/maps/documentation/geocoding/intro
 
+HASC, similar to GeoIDs, but with a different intent
+http://www.iscramlive.org/ISCRAM2013/files/198.pdf
+
 
 

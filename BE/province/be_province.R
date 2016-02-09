@@ -19,7 +19,6 @@
 ## Local copy
 ext <- read.xls("../municipality/ext.xls", sheet = 1, header = FALSE, stringsAsFactors=FALSE)
 
-
 ## PROVINCE
 ext_prov_v <- grepl(pattern = "Province", x = ext$V1)
 ext_province <- ext[ext_prov_v, ] # Liege is missing again
