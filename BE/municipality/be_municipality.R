@@ -29,12 +29,30 @@ Arr. Hal-Vilvorde: 111:145
 Arr. Louvain: 148:177
 
 Province de Flandre Occidentale
-Arr. de Bruges: 31003
+Arr. de Bruges: 182:191
+Arr. de Coutrai: 194:205
+Arr. de Dixmude: 208:212
+Arr. de Furnes: 215:219
+Arr. de Malines: 
 
+## ARRONDISSEMENT
+arr <- "Arrondissement"
+ext_arrondissement <- ext[grepl(arr, ext$V1),]
+dim(ext_arrondissement) ##41 not 43 => Liège (62), Neufchâteau (84) is missing
+#487 Arrondissement de Li\xe8ge 62000
+liege <- ext[grepl(62000, ext$V2), ]
+#583 Arrondissement de Neufch\xe2teau 84000
+neufchateau <- ext[grepl(84000, ext$V2), ]
+missvalues <- rbind(liege,neufchateau) 
+ext_arrondissement <- rbind(ext_arrondissement, missvalues)
+ext_arrondissement <- ext_arrondissement[order(ext_arrondissement$V2), ]
+write.table(ext_arrondissement, file="../arrondissement/RAW_belgium_arrondissement_2013.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
-
-
-
-
-ext[, c(8:26, 33:62, ]
+## PROVINCE
+ext_prov_v <- grepl(pattern = "Province", x = ext$V1)
+ext_province <- ext[ext_prov_v, ] # Liege is missing again
+liege_province <- ext[grepl(60000, ext$V2), ]
+ext_province <- rbind(ext_province, liege_province)
+ext_province <- ext_province[order(ext_province$V2), ]
+write.table(ext_province, file="../province/RAW_belgium_province_2013.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
