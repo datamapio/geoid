@@ -14,6 +14,6 @@
 ## library(gdata)
 ## Read first sheet in as data frame (df). 
 ## If the Excel has several sheets create ext1 for sheet=1, ext2 for sheet=2 etc.
-## ext <- read.xls("ext.xls", sheet = 1, header = FALSE, stringsAsFactors=FALSE)
+## ext <- read.xls("ext.xls", sheet = 1, header = TRUE, stringsAsFactors=FALSE)
 
-
+unique(ext$COUNTY_NAME, incomparables = FALSE, ...)
