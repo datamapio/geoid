@@ -4,10 +4,10 @@
  
 | Municipalities/Other                       | Number    | 
 |--------------------------------------------|:---------:|     
-| Municipalities + Swiss from abroad         |    2953   |                                             
+| Municipalities + Swiss from abroad         |    2353   |                                             
 | Municipalities without polling station (A) |      10   |  
 | Swiss from abroad (B)                      |     -11   |      
-| **Total**                                  |  **2952** |   
+| **Total**                                  |  **2352** |   
  
 From [Excel: ext.xls](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext.xls)       
 [As CSV file](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext1_initiative_20140902.csv)     
@@ -69,7 +69,7 @@ https://www.stadt-zuerich.ch/prd/de/index/bevoelkerungsamt/Stab/SZZ/Auslandsschw
 
 ##How to visualize the two cases?
 Case A:    
-a) Do not show results for A, as there are none. But they vote     
+a) Do not show results for A, as there are none. But they vote  (YES)   
 b) Or use the same percentage color for both municipalities    
 
 Case B:    
@@ -112,18 +112,18 @@ https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
 
 We will keep them in the reference file, so that the polygons are referenced, but they will not get data.
 
-##Conclusion: 3 REF Files with 2967, 2956 and 2952 GeoIDs
+##Conclusion: 3 REF Files with 2367, 2356 and 2352 GeoIDs
 So regarding the election data from February 2014, we will have:
-- 2956 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
-- 2942 municipalities with voting results, 10 municipalities which vote elsewhere
+- 2356 polygons, representing 2952 municipalities and 4 "Kommunanzen" (e.g. use grey or no color for the 4 "Kommunanzen")
+- 2342 municipalities with voting results, 10 municipalities which vote elsewhere
 - 11 cantonal units for Swiss abroad (there are 26 cantons, but only 11 do show the Swiss abroad separately).    
   One way to visualize the Swiss abroad could be to use the forms of the cantons proportionally smaller and show them under the map.
 
 ##TO DO:    
 **3 REF Files:**
-- For Elections with Swiss Abroad: 2952 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 2967
-- Municipalities & Kommunanzen: 2956
-- Municipalities only: 2952
+- For Elections with Swiss Abroad: 2352 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 2367
+- Municipalities & Kommunanzen: 2356
+- Municipalities only: 2352
 
 
 
