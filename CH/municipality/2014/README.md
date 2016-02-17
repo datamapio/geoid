@@ -119,10 +119,10 @@ So regarding the election data from February 2014, we will have:
 - 11 cantonal units for Swiss abroad (there are 26 cantons, but only 11 do show the Swiss abroad separately).    
   One way to visualize the Swiss abroad could be to use the forms of the cantons proportionally smaller and show them under the map.
 
-##TO DO:    
-**3 REF Files:**
+   
+##REF Files:**
 - For Elections with Swiss Abroad: 2352 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 2367
-- Municipalities & Kommunanzen: 2356
+- [Municipalities & Kommunanzen: 2356](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ch_municipality_2014_with_4_kommunanzen.csv)
 - Municipalities only: 2352
 
 
