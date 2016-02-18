@@ -3,7 +3,7 @@
 
 ## If you don't have glg14.csv locally, use:
 ## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2014/g1g14.csv
-glg14 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
+glg14 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE, encoding="utf-8") 
 
 ## glg14
 ## GMDNR      GMDNAME           BZNR   KTNR 
@@ -43,7 +43,7 @@ write.table(ref, file="ch_municipality_2014_with_4_kommunanzen.csv", sep="," ,co
 
 ## Include Swiss Abroad
 ## https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext1_initiative_20140902.csv
-ext1 <- read.csv("ext1_initiative_20140902.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
+ext1 <- read.csv("ext1_initiative_20140902.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE, encoding="utf-8") 
 ch_abroad <-  ext1[(2343:2353), ]
 ch_abroad$municipality_number <- ch_abroad$gdenr
 ch_abroad$municipality_name <- ch_abroad$gdename
@@ -56,7 +56,6 @@ ch_abroad$id <- paste("756", trim(ch_abroad$gdenr), "00", ch_abroad$municipality
 ch_abroad <- select(ch_abroad, id, municipality_number, municipality_name, gdenr, gdename)
 
 write.table(ch_abroad, file="ch_abroad_2014.csv", sep="," ,col.names=TRUE, row.names=FALSE)
-ch_abroad <- select(ch_abroad, id, municipality_number, municipality_name)
 
 ##Minimum REF File for February 2014 election
 ## id, gdenr, municipality_name
