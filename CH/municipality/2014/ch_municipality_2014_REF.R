@@ -64,4 +64,5 @@ ref_el <- select(ref, id, gdenr=GMDNR, municipality_name)
 ch_abroad_el <- select(ch_abroad, id, gdenr, municipality_name)
 ref_el2014 <- rbind(ref_el, ch_abroad_el)
 
-write.table(ref_el2014, file="ch_municipality_2014_with_swiss_abroad.csv", sep=",", col.names=TRUE, row.names=FALSE, fileEncoding="UTF-8")
+## Try fileEncoding="UTF-8"
+write.table(ref_el2014, file="ch_municipality_2014_with_swiss_abroad.csv", sep=",", col.names=TRUE, row.names=FALSE)
