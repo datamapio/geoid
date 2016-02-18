@@ -55,7 +55,7 @@ trim <- function (x) gsub("^9|0$", "", x)
 ch_abroad$id <- paste("756", trim(ch_abroad$gdenr), "00", ch_abroad$municipality_number, sep="")
 ch_abroad <- select(ch_abroad, id, municipality_number, municipality_name, gdenr, gdename)
 
-write.table(ch_abroad, file="ch_abroad_2014.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(ch_abroad, file="ch_abroad_2014.csv", sep=",", col.names=TRUE, row.names=FALSE)
 
 ##Minimum REF File for February 2014 election
 ## id, gdenr, municipality_name
