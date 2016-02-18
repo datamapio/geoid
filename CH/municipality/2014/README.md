@@ -121,9 +121,9 @@ So regarding the election data from February 2014, we will have:
 
    
 ##REF Files
-- For Elections with Swiss Abroad: 2352 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 2367
+- [For Elections with Swiss Abroad: 2352 Municipalities + 4 "Kommunanzen" + 11 Swiss Abroad Units/Entities = 2367](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ch_municipality_2014_with_swiss_abroad.csv)
 - [Municipalities & Kommunanzen: 2356](https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ch_municipality_2014_with_4_kommunanzen.csv)
-- Municipalities only: 2352
+- No REF File for Municipalities only: 2352
 
 
 
