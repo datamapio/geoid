@@ -46,22 +46,23 @@ write.table(ref, file="ch_municipality_2014_with_4_kommunanzen.csv", sep="," ,co
 ext1 <- read.csv("ext1_initiative_20140902.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
 ch_abroad <-  ext1[(2343:2353), ]
 ch_abroad$municipality_number <- ch_abroad$gdenr
+ch_abroad$municipality_name <- ch_abroad$gdename
 ## 75603  03	LU	Luzern
-## 75604  04	UR	Uri
-## 75610  10	FR	Fribourg / Freiburg
-## 75612  12	BS	Basel-Stadt
-## 75616  16	AI	Appenzell Innerrhoden
-## 75617  17	SG	St. Gallen
-## 75619  19	AG	Aargau
-## 75620  20	TG	Thurgau
-## 75622  22	VD	Vaud / Waadt
-## 75623  23	VS	Valais / Wallis
-## 75625  25	GE	Genève
+
 ## Construction of the GeoID: 
-## 756 | 03 | 00 | 9030 = 00 for the District, keep using the gdenr from the Stats Office
-ch_abroad$id[ch_abroad$gdenr == 9030] <- paste("756", "0300", ref$municipality_number, sep="")
+## 756 | 03 | 00 | 9030 ; 00 for the District, and we keep using the gdenr from the Stats Office
+trim <- function (x) gsub("^9|0$", "", x)
+ch_abroad$id <- paste("756", trim(ch_abroad$gdenr), "00", ch_abroad$municipality_number, sep="")
+ch_abroad <- select(ch_abroad, id, municipality_number, municipality_name, gdenr, gdename)
 
+write.table(ch_abroad, file="ch_abroad_2014.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+ch_abroad <- select(ch_abroad, id, municipality_number, municipality_name)
 
+##Minimum REF File for February 2014 election
+## id, gdenr, municipality_name
 
+ref_el <- select(ref, id, gdenr=GMDNR, municipality_name) 
+ch_abroad_el <- select(ch_abroad, id, gdenr, municipality_name)
+ref_el2014 <- rbind(ref_el, ch_abroad_el)
 
-
+write.table(ref_el2014, file="ch_municipality_2014_with_swiss_abroad.csv", sep="," ,col.names=TRUE, row.names=FALSE)
