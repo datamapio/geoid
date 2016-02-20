@@ -45,7 +45,12 @@ ext5 <- ext4[, -c(7)]
 
 
 names(ext5) <- c("gdenr", "gdename", "entitled_to_vote", "votes_cast", "turnout", "valid_votes", "yes", "no", "yes_percentage")
-write.table(ext5, file="ext_initiative_20101128.csv", sep="," , col.names=TRUE, row.names=FALSE, fileEncoding="UTF-8")
+write.table(ext5, file="ext_initiative_20101128.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+##NOT USED
+
+
 
 tail(ext_csv1, 30)
 ext_csv5 <- ext_csv1[c(2358:2367), (1:7)]
@@ -54,6 +59,11 @@ ext_csv5$X.2 <- NULL
 dim(ext_csv5)
 names(ext_csv5) <- c("gdenr_without_polling_station", "gdename_without_polling_station", "gdenr_polling_station", "gdename_polling_station", "gdekt")
 write.table(ext_csv5, file="ext2_initiative_20140902.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+
+
+
 
 
 ## EXT file (only metropolitan Switzerland, no Swiss Abroad)
