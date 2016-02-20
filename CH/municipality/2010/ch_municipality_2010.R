@@ -56,10 +56,26 @@ write.table(ext6, file="ext_initiative_20101128_without_swiss_abroad.csv", sep="
 
 ##NOT USED YET
 
-## Compare glg14 (from shapefile zip) with results (ext_csv9)
+## Compare g1, g2, g3 (from shapefiles) with results (ext6)
 
 ## If you don't have glg14.csv locally, use:
-## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2014/g1g14.csv
+## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G1G10.csv 
+## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G2G10.csv  
+## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G3G10.csv  
+
+file1 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G1G10.csv" 
+file2 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
+file3 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
+g1g10 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
+
+
+## Comparing G1, G2, G3 first
+## install.packages("daff")
+library("daff")
+diff_data(ext_csv9_s, glg14_s)
+
+
+
 
 ## Just seeing that GDENR and GMDNR are both in use for municipality numbers
 ## GDENR
