@@ -44,9 +44,7 @@ Initiative results (without Swiss Abroad)
 ```
 
 ###Initiative and Shapes
-2600 with K   
-2596 without K   
-2596 - 2573 = 23
+Between g2 and ext6
 ```
 @@,gdenr
 ...,...
@@ -219,15 +217,21 @@ Gambarogno is a municipality in the district of Locarno in the canton of Ticino 
 5127	2104	21	San Nazzaro
 5128	2104	21	Sant'Abbondio
 5134	2104	21	Vira (Gambarogno)
+```
 
-Shapes:
-2600
-2596 without Kommunanzen
-2596 - 6 (for Monteceneri) - 9 (for Gamborogno) = 2581
-2581 + Monteceneri + Gambarogno = 2583 
-2583
+###Comparing/Decounting
+g2 = 2637; 2600 if lakes and LI etc. is taken away    
+election: 2573    
 
 
+2573     
++  4 Kommunanzen       
++ 11 non polling municipalities     
++ 14 fusioned municipalities    
+-  2 new municipalities     
+= 2600    
+
+```
 ---,389
 ---,408
 ---,417
@@ -236,11 +240,11 @@ Shapes:
 ---,535
 ---,661
 ---,868
----,871 871	247	2	Kienersrüti (no polling station, they vote in 885 Uttigen)
+---,871 Kienersrüti (has no polling station, they vote in 885 Uttigen)
 http://www.bfs.admin.ch/bfs/portal/en/index/international/03/04/agglomerationen/daten.html
 ---,877
 ---,878  
-Like in 2014, the above, except 871, voted probably elsewhere. See:    
+Like in 2014, the above, except 871, voted elsewhere. See:    
 https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiative_20140902.csv
 
 
