@@ -47,8 +47,6 @@ ext5 <- ext4[, -c(7)]
 names(ext5) <- c("gdenr", "gdename", "entitled_to_vote", "votes_cast", "turnout", "valid_votes", "yes", "no", "yes_percentage")
 write.table(ext5, file="ext_initiative_20101128.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
-
-##NOT USED
 ## Delete Swiss Abroad
 tail(ext5,9)
 ext6 <- ext5[-(2574:2582), ]
