@@ -16,7 +16,7 @@ Municipalities (with Kommunanzen): 2600
 g3g10_shp_121130    
 G3G10.csv    
 https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G3G10.csv    
-Municipalities (with Kommunanzen): 2596     
+Municipalities (without Kommunanzen): 2596     
 
 ##Initiative   
 Initiative results (without Swiss Abroad)    
@@ -26,7 +26,7 @@ Initiative results (without Swiss Abroad)
 ##Difference
 ###Between g2 and g3
 ```
-## g3 has La Verrerie, Egerkingen, but not Staatswald Galm etc.
+## g3 doesn't contain Staatswald Galm and other Kommunanzen etc.
 ..,...,...,...,...
 ,2338,1007,10,"La Verrerie"
 ---,2391,1005,10,"Staatswald Galm"
@@ -44,6 +44,6 @@ Initiative results (without Swiss Abroad)
 ```
 
 ###Initiative and Shapes
-2596 with K   
-2592 without K   
-2592 - 2573 = 19   
+2600 with K   
+2596 without K   
+2596 - 2573 = 23  
