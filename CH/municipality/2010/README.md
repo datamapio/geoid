@@ -223,13 +223,16 @@ Gambarogno is a municipality in the district of Locarno in the canton of Ticino 
 g2 = 2637; 2600 if lakes and LI etc. is taken away    
 election: 2573    
 
-
+```
 2573     
 +  4 Kommunanzen       
 + 11 non polling municipalities     
 + 14 fusioned municipalities    
 -  2 new municipalities     
 = 2600    
+```
+
+Here is the detail:
 
 ```
 ---,389
