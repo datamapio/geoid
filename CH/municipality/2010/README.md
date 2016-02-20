@@ -26,6 +26,7 @@ Initiative results (without Swiss Abroad)
 ##Difference
 ###Between g2 and g3
 ```
+## g3 has La Verrerie, Egerkingen, but not Staatswald Galm etc.
 ..,...,...,...,...
 ,2338,1007,10,"La Verrerie"
 ---,2391,1005,10,"Staatswald Galm"

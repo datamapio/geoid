@@ -62,17 +62,22 @@ write.table(ext6, file="ext_initiative_20101128_without_swiss_abroad.csv", sep="
 ## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G1G10.csv 
 ## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G2G10.csv  
 ## https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/G3G10.csv  
+## file1 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G1G10.csv" 
+## file2 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
+## file3 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
 
-file1 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G1G10.csv" 
-file2 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
-file3 <- "https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2010/G2G10.csv"
-g1g10 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
-
+g1g10 <- read.csv("G1G10.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
+g2g10 <- read.csv("G2G10.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
+g3g10 <- read.csv("G3G10.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE)
 
 ## Comparing G1, G2, G3 first
 ## install.packages("daff")
 library("daff")
-diff_data(ext_csv9_s, glg14_s)
+diff1_2 <- diff_data(g1g10, g2g10)
+diff2_3 <- diff_data(g2g10, g3g10)
+
+diff
+
 
 
 
