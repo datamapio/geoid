@@ -192,6 +192,80 @@ Initiative results (without Swiss Abroad)
 ---,9757
 ```
 
+```
 Interesting find!   
-+++,5238 Monteceneri    
-+++,5398 Gambarogno   
+The election was on November 28, and on November 21 this happened:
+
++++,5238 Monteceneri
+https://en.wikipedia.org/wiki/Monteceneri
+Monteceneri is a municipality in the district of Lugano in the canton of Ticino in Switzerland. It was created on 21 November 2010 through the merger of the municipalities of Medeglia, Bironico, Camignolo, Rivera and Sigirino.  
+5011	2101	21	Medeglia
+(5391	2101	21	Comunanza Medeglia/Cadenazzo => no one votes here, so this doesn't appear in the election results)
+5153	2105	21	Bironico
+5165	2105	21	Camignolo
+5217	2105	21	Rivera
+5223	2105	21	Sigirino
+
+
++++,5398 Gambarogno
+https://en.wikipedia.org/wiki/Gambarogno  
+Gambarogno is a municipality in the district of Locarno in the canton of Ticino in Switzerland. It was created on 25 April 2010 through the merger of the municipalities of Caviano, Contone, Gerra, Indemini, Magadino, Piazzogna, San Nazzaro, Sant'Abbondio and Vira.
+5098	2104	21	Caviano
+5101	2104	21	Contone
+5106	2104	21	Gerra (Gambarogno)
+5110	2104	21	Indemini
+5116	2104	21	Magadino
+5123	2104	21	Piazzogna
+5127	2104	21	San Nazzaro
+5128	2104	21	Sant'Abbondio
+5134	2104	21	Vira (Gambarogno)
+
+Shapes:
+2600
+2596 without Kommunanzen
+2596 - 6 (for Monteceneri) - 9 (for Gamborogno) = 2581
+2581 + Monteceneri + Gambarogno = 2583 
+2583
+
+
+---,389
+---,408
+---,417
+---,419
+---,422
+---,535
+---,661
+---,868
+---,871 871	247	2	Kienersrüti (no polling station, they vote in 885 Uttigen)
+http://www.bfs.admin.ch/bfs/portal/en/index/international/03/04/agglomerationen/daten.html
+---,877
+---,878  
+Like in 2014, the above, except 871, voted probably elsewhere. See:    
+https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiative_20140902.csv
+
+
+---,2391 Staatswald Galm
+---,5011 Fusion with 5238
+---,5098 Fusion with 5398
+---,5101 Fusion with 5398
+---,5106 Fusion with 5398
+---,5110 Fusion with 5398
+---,5116 Fusion with 5398
+---,5123 Fusion with 5398
+---,5127 Fusion with 5398
+---,5128 Fusion with 5398
+---,5134 Fusion with 5398
+---,5153 Fusion with 5238
+---,5165 Fusion with 5238
+---,5217 Fusion with 5238
+---,5223 Fusion with 5238, Monteceneri
++++,5238 NEW: Monteceneri
+---,5391 Comunanza Medeglia/Cadenazzo
+---,5394 Comunanza Capriasca/Valcolla
++++,5398 NEW: Gambarogno
+---,6391 Kommunanz
+
+```
+
+
+
