@@ -273,6 +273,22 @@ https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiat
 ---,6391 Kommunanz
 
 ```
+## REF File on November 21, 2010:
+Municipalities + Kommunanzen 
+```
+2573     
++  4 Kommunanzen       
++ 11 non polling municipalities       
+= 2588    
+```
+With Swiss Abroad:
+```
+2582 (including 9 Swiss Abroad)    
++  4 Kommunanzen       
++ 11 non polling municipalities       
+= 2597    
+```
+
 
 
 

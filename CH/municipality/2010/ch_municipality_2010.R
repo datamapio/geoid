@@ -76,46 +76,9 @@ library("daff")
 diff1_2 <- diff_data(g1g10, g2g10)
 diff2_3 <- diff_data(g2g10, g3g10)
 
-diff
-
-
-
-
-
-## Just seeing that GDENR and GMDNR are both in use for municipality numbers
-## GDENR
-## https://github.com/datamapio/geoid/blob/master/CH/municipality/ch_municipality_2016_source.csv
-## GMDNR
-## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2014/g1g14.csv
-
-glg14 <- read.csv("g1g14.csv", header = TRUE, sep = ",", stringsAsFactors=FALSE) 
-require(dplyr)
-
-## Keep only two columns and rename
-glg14_s <- select(glg14, GMDNR)
-names(glg14_s) <- c("gdenr")
-ext_csv9_s <- select(ext_csv9, gdenr)
-ext_csv9_s$gdenr <- as.integer(ext_csv9_s$gdenr)
-
-## install.packages("daff")
-library("daff")
-diff_data(ext_csv9_s, glg14_s)
-
-
-## Are part of glg14, but not part of election data
-## +++,2391 Staatswald Galm (O inhabitants)- not part of any municipality (Canton of Freiburg)
-## https://de.wikipedia.org/wiki/Staatswald_Galm
-
-## +++,5391 Comunanza Cadenazzo/Monteceneri (0 inhabitants), part of Cadenazzo & Monteceneri
-## https://it.wikipedia.org/wiki/Comunanza_Cadenazzo/Monteceneri
-
-## +++,5394 Comunanza Capriasca/Lugano (0 inhabitants) part of Capriasca and Lugano
-## https://de.wikipedia.org/wiki/Kommunanz_Capriasca/Lugano
-
-## +++,6391 Kommunanz Reckingen-Gluringen/Grafschaft (0 inhabitants), part of Reckingen-Gluringen 
-## and Grafschaft VS in Obergoms
-## https://de.wikipedia.org/wiki/Kommunanz_Reckingen-Gluringen/Grafschaft
-
-
+library(dplyr)
+g2g10_col <- select(g2g10, gdenr=GMDE)
+ext6_col <- select(ext6, gdenr)
+diff_g2_ext6 <- diff_data(g2g10_col, ext6_col)
 
 
