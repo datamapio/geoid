@@ -56,4 +56,28 @@ ref_nov <- rbind(ref_nov, new5238_5398)
 ref_nov <- ref_nov[order(ref_nov$id), ] 
 ## Check: ref_nov[(1818:1878), ]
 
+##November REF File
+write.table(ref_nov, file="ch_municipality_20101121_with_kommunanzen.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+##November REF File with Swiss Abroad
+ext <- read.csv("ext_initiative_20101128.csv", header = TRUE, stringsAsFactors=FALSE) 
+swiss_abroad <- slice(ext, 2574:2582)
+swiss_abroad <- select(swiss_abroad, municipality_number=gdenr, municipality_name=gdename)
+
+id <-  c(75603009030, 75604009040, 75612009120, 75616009160, 75617009170, 75619009190, 75620009200, 75622009220, 75625009250)
+swiss_abroad$id <- id
+swiss_abroad$district_number <- NA
+swiss_abroad$canton_number <- NA
+swiss_abroad$GMDE <- swiss_abroad$municipality_number
+swiss_abroad$BEZIRK <- NA
+swiss_abroad$KT <- NA
+swiss_abroad$NAME <- NA
+swiss_abroad <- select(swiss_abroad, id, municipality_number, municipality_name, district_number, canton_number, GMDE, BEZIRK, KT, NAME)
+
+ref_nov_with_swiss_abroad <- rbind(ref_nov, swiss_abroad)
+
+write.table(ref_nov_with_swiss_abroad, file="ch_municipality_20101121_with_kommunanzen_and_swiss_abroad.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+
 
