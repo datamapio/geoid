@@ -274,7 +274,8 @@ https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiat
 
 ```
 ## REF File on November 21, 2010:
-Municipalities + Kommunanzen 
+Municipalities + Kommunanzen
+https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/ch_municipality_20101121_with_kommunanzen.csv 
 ```
 2573     
 +  4 Kommunanzen       
