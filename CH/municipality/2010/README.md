@@ -248,8 +248,9 @@ http://www.bfs.admin.ch/bfs/portal/en/index/international/03/04/agglomerationen/
 ---,877
 ---,878  
 Like in 2014, the above, except 871, voted elsewhere. See:    
-https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiative_20140902.csv
-
+https://github.com/datamapio/geoid/blob/master/CH/municipality/2014/ext2_initiative_20140902.csv    
+See also (scroll to the bottom):    
+http://www.bfs.admin.ch/bfs/portal/en/index/international/03/04/agglomerationen/daten.html   
 
 ---,2391 Staatswald Galm
 ---,5011 Fusion with 5238
