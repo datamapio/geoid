@@ -76,7 +76,7 @@ swiss_abroad <- select(swiss_abroad, id, municipality_number, municipality_name,
 
 ref_nov_with_swiss_abroad <- rbind(ref_nov, swiss_abroad)
 
-write.table(ref_nov_with_swiss_abroad, file="ch_municipality_20101121_with_kommunanzen_and_swiss_abroad.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(ref_nov_with_swiss_abroad, file="ch_municipality_20101121_with_kommunanzen_and_swiss_abroad.csv", sep="," ,col.names=TRUE, row.names=FALSE, fileEncoding="UTF-8")
 
 
 
