@@ -284,6 +284,7 @@ https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/ch_municipal
 = 2588    
 ```
 With Swiss Abroad:
+https://github.com/datamapio/geoid/blob/master/CH/municipality/2010/ch_municipality_20101121_with_kommunanzen_and_swiss_abroad.csv
 ```
 2582 (including 9 Swiss Abroad)    
 +  4 Kommunanzen       
