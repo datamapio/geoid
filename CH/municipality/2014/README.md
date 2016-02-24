@@ -1,5 +1,8 @@
 # Municipalities in 2014
 
+![CH Election, February 9, 2014](https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2014/election_ch_municipality_city_name_20140209.png)
+
+
 ## Municipalities on February 9, 2014
  
 | Municipalities/Other                       | Number    | 
