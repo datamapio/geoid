@@ -75,21 +75,21 @@ Note: We drop the 3 trailing zeros
 ###Municipalities (Gemeenten, Communes, Gemeinden)
 Type: Numeric, 9    
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS)     
-056 | B | 21015    
-Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)    
-Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)    
+056 | B | 21015      
+Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)       
+Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)      
 
 
-###Postal Code 
-Type: Alphanumeric, 9     
-Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (4, numeric) 
-056 | ZP | 1030
-Ex. 056ZP1030 = Postal Code 1030 for Schaerbeek/Schaarbeek, Bruxelles
+###Postal Code   
+Type: Alphanumeric, 9         
+Country (3, numeric, ISO) | ZP (2, alphabetic) | Postal Code (4, numeric)       
+056 | ZP | 1030       
+Ex. 056ZP1030 = Postal Code 1030 for Schaerbeek/Schaarbeek, Bruxelles    
 
-Reference:
-http://statbel.fgov.be/fr/modules/publications/statistiques/enquetes_et_methodologie/downloads/code_ins.jsp
-http://www.notrebelgique.be/fr/index.php?nv=37
-Municipalities for Flanders:
+Reference:    
+http://statbel.fgov.be/fr/modules/publications/statistiques/enquetes_et_methodologie/downloads/code_ins.jsp     
+http://www.notrebelgique.be/fr/index.php?nv=37    
+Municipalities for Flanders:    
 http://www.geopunt.be/download?container=referentiebestand-gemeenten&title=Voorlopig%20referentiebestand%20gemeentegrenzen
 
 
@@ -234,16 +234,19 @@ Kenya
 404 
 
 ###County
-Type: Numeric, 5    
-Country (3, numeric, ISO) | County (2, numeric)         
-404 | 01        
-Ex. 40401 = Nairobi ???     
+Type: Numeric, 6    
+Country (3, numeric, ISO) | County (3, numeric)         
+404 | 101        
+Ex. 404101 = Nairobi      
 
-Kenya is divided into 47 semi-autonomous counties that are headed by governors who were elected in the first general election under the new constitution in March 2013.     
+Kenya is divided into 47 semi-autonomous counties that are headed by governors who were elected in the first general election under the new constitution in March 2013.  
+In August 2009, the High Court of Kenya declared all districts created after 1992 illegal. The judge stated that the districts were created "in complete disregard of the law". As a result, Kenya had only 46 legal districts (excluding Nairobi with its special constitutional status as the capital of the country). Following the March 2013 elections, these 46 districts - together with the City of Nairobi - constitute the 47 counties into which Kenya is now divided administratively, and they are also the 47 constituencies for the elections to the national senate.   
 See more:        
 http://www.knbs.or.ke/      
 http://www.knbs.or.ke/index.php?option=com_phocadownload&view=category&id=99&Itemid=639        
-http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc      
+http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc   
+https://en.wikipedia.org/wiki/Sub-Counties_of_Kenya   
+
 
 ##TW
 Republic of China (ROC)/Taiwan
