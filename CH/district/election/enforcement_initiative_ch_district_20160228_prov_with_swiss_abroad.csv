@@ -1,0 +1,156 @@
+"id","district_name","valid_votes","yes","no","yes_percentage"
+"7560101","Bezirk Affoltern",23864,8898,14966,37.3
+"7560102","Bezirk Andelfingen",15283,6922,8361,45.3
+"7560103","Bezirk Bülach",52262,22941,29321,43.9
+"7560104","Bezirk Dielsdorf",31952,15693,16259,49.1
+"7560105","Bezirk Hinwil",39722,18070,21652,45.5
+"7560106","Bezirk Horgen",50407,17659,32748,35
+"7560107","Bezirk Meilen",46985,15619,31366,33.2
+"7560108","Bezirk Pfäffikon",26133,11641,14492,44.5
+"7560109","Bezirk Uster",51069,19474,31595,38.1
+"7560110","Bezirk Winterthur",71416,24539,46877,34.4
+"7560111","Bezirk Dietikon",29552,11843,17709,40.1
+"7560112","Bezirk Zürich",158549,35797,122752,22.6
+"7560241","Arrondissement administratif Jura bernois",19444,8563,10881,44
+"7560242","Verwaltungskreis Biel/Bienne",34970,12854,22116,36.8
+"7560243","Verwaltungskreis Seeland",31894,14648,17246,45.9
+"7560244","Verwaltungskreis Oberaargau",33707,16286,17421,48.3
+"7560245","Verwaltungskreis Emmental",42298,19965,22333,47.2
+"7560246","Verwaltungskreis Bern-Mittelland",187471,58455,129016,31.2
+"7560247","Verwaltungskreis Thun",49805,23745,26060,47.7
+"7560248","Verwaltungskreis Obersimmental-Saanen",7036,3950,3086,56.1
+"7560249","Verwaltungskreis Frutigen-Niedersimmental",18993,10484,8509,55.2
+"7560250","Verwaltungskreis Interlaken-Oberhasli",19682,9797,9885,49.8
+"7560311","Wahlkreis Luzern-Stadt",35289,10190,25099,28.9
+"7560312","Wahlkreis Luzern-Land",46050,19574,26476,42.5
+"7560313","Wahlkreis Hochdorf",30009,14190,15819,47.3
+"7560314","Wahlkreis Sursee",34131,15670,18461,45.9
+"7560315","Wahlkreis Willisau",23419,12489,10930,53.3
+"7560316","Wahlkreis Entlebuch",11469,6955,4514,60.6
+"7560400","Kanton Uri",18870,9732,9138,51.6
+"7560501","Bezirk Einsiedeln",7471,3958,3513,53
+"7560502","Bezirk Gersau",1055,495,560,46.9
+"7560503","Bezirk Höfe",12506,6352,6154,50.8
+"7560504","Bezirk Küssnacht (SZ)",5923,2723,3200,46
+"7560505","Bezirk March",17527,9804,7723,55.9
+"7560506","Bezirk Schwyz",25890,14610,11280,56.4
+"7560600","Kanton Obwalden",18633,9789,8844,52.5
+"7560700","Kanton Nidwalden",22247,11267,10980,50.6
+"7560800","Kanton Glarus",15145,7381,7764,48.7
+"7560900","Kanton Zug",52284,22289,29995,42.6
+"7561001","District de la Broye",12344,5922,6422,48
+"7561002","District de la Glâne",9529,4600,4929,48.3
+"7561003","District de la Gruyère",19433,8303,11130,42.7
+"7561004","District de la Sarine",37984,12329,25655,32.5
+"7561005","Bezirk See / District du Lac",14877,6135,8742,41.2
+"7561006","Bezirk Sense",20705,9466,11239,45.7
+"7561007","District de la Veveyse",6940,3068,3872,44.2
+"7561101","Bezirk Gäu",8345,4289,4056,51.4
+"7561102","Bezirk Thal",6347,3389,2958,53.4
+"7561103","Bezirk Bucheggberg",4044,1820,2224,45
+"7561104","Bezirk Dorneck",9385,3700,5685,39.4
+"7561105","Bezirk Gösgen",10030,4472,5558,44.6
+"7561106","Bezirk Wasseramt",20682,9045,11637,43.7
+"7561107","Bezirk Lebern",18711,8312,10399,44.4
+"7561108","Bezirk Olten",21968,8809,13159,40.1
+"7561109","Bezirk Solothurn",8145,1929,6216,23.7
+"7561110","Bezirk Thierstein",6411,3282,3129,51.2
+"7561200","Kanton Basel-Stadt",75222,22439,52783,29.8
+"7561301","Bezirk Arlesheim",63870,23996,39874,37.6
+"7561302","Bezirk Laufen",8388,4147,4241,49.4
+"7561303","Bezirk Liestal",21847,8671,13176,39.7
+"7561304","Bezirk Sissach",16291,6965,9326,42.8
+"7561305","Bezirk Waldenburg",6901,3354,3547,48.6
+"7561401","Bezirk Oberklettgau",2374,1155,1219,48.7
+"7561402","Bezirk Reiat",4542,2397,2145,52.8
+"7561403","Bezirk Schaffhausen",23827,9822,14005,41.2
+"7561404","Bezirk Schleitheim",1648,891,757,54.1
+"7561405","Bezirk Stein",2750,1356,1394,49.3
+"7561406","Bezirk Unterklettgau",2630,1410,1220,53.6
+"7561501","Bezirk Hinterland",10489,5163,5326,49.2
+"7561502","Bezirk Mittelland",8826,3385,5441,38.4
+"7561503","Bezirk Vorderland",6314,2905,3409,46
+"7561600","Kanton Appenzell Innerrhoden",6787,3684,3103,54.3
+"7561721","Wahlkreis St. Gallen",48313,17649,30664,36.5
+"7561722","Wahlkreis Rorschach",16064,7176,8888,44.7
+"7561723","Wahlkreis Rheintal",25332,13495,11837,53.3
+"7561724","Wahlkreis Werdenberg",13489,6486,7003,48.1
+"7561725","Wahlkreis Sarganserland",15985,8351,7634,52.2
+"7561726","Wahlkreis See-Gaster",27626,13034,14592,47.2
+"7561727","Wahlkreis Toggenburg",19292,10247,9045,53.1
+"7561728","Wahlkreis Wil",28864,13167,15697,45.6
+"7561821","Bezirk Albula",3410,1288,2122,37.8
+"7561822","Distretto di Bernina",2113,1097,1016,51.9
+"7561823","Bezirk Hinterrhein",6063,2460,3603,40.6
+"7561824","Bezirk Imboden",8583,3343,5240,38.9
+"7561825","Bezirk Inn",3687,1425,2262,38.6
+"7561826","Bezirk Landquart",11048,4713,6335,42.7
+"7561827","Bezirk Maloja / Distretto di Maloggia",6731,2607,4124,38.7
+"7561828","Distretto di Moesa",3745,2447,1298,65.3
+"7561829","Bezirk Plessur",17354,6439,10915,37.1
+"7561830","Bezirk Prättigau-Davos",10488,4934,5554,47
+"7561831","Bezirk Surselva",9526,3870,5656,40.6
+"7561901","Bezirk Aarau",32582,12742,19840,39.1
+"7561902","Bezirk Baden",54585,20502,34083,37.6
+"7561903","Bezirk Bremgarten",30462,14283,16179,46.9
+"7561904","Bezirk Brugg",20881,8935,11946,42.8
+"7561905","Bezirk Kulm",15398,8617,6781,56
+"7561906","Bezirk Laufenburg",13147,6291,6856,47.9
+"7561907","Bezirk Lenzburg",24462,11198,13264,45.8
+"7561908","Bezirk Muri",15083,7565,7518,50.2
+"7561909","Bezirk Rheinfelden",17146,7400,9746,43.2
+"7561910","Bezirk Zofingen",26883,13060,13823,48.6
+"7561911","Bezirk Zurzach",12688,6287,6401,49.6
+"7562011","Bezirk Arbon",18531,8788,9743,47.4
+"7562012","Bezirk Frauenfeld",26526,11937,14589,45
+"7562013","Bezirk Kreuzlingen",14157,5817,8340,41.1
+"7562014","Bezirk Münchwilen",18004,9185,8819,51
+"7562015","Bezirk Weinfelden",21102,10714,10388,50.8
+"7562101","Distretto di Bellinzona",20970,12416,8554,59.2
+"7562102","Distretto di Blenio",3087,2117,970,68.6
+"7562103","Distretto di Leventina",4564,2962,1602,64.9
+"7562104","Distretto di Locarno",27453,15759,11694,57.4
+"7562105","Distretto di Lugano",58967,34240,24727,58.1
+"7562106","Distretto di Mendrisio",23535,14485,9050,61.5
+"7562107","Distretto di Riviera",4974,3282,1692,66
+"7562108","Distretto di Vallemaggia",3068,1856,1212,60.5
+"7562221","District d'Aigle",14498,5624,8874,38.8
+"7562222","District de la Broye-Vully",14533,6400,8133,44
+"7562223","District du Gros-de-Vaud",18144,7085,11059,39
+"7562224","District du Jura-Nord vaudois",32878,12714,20164,38.7
+"7562225","District de Lausanne",46062,11830,34232,25.7
+"7562226","District de Lavaux-Oron",23906,7140,16766,29.9
+"7562227","District de Morges",30516,9819,20697,32.2
+"7562228","District de Nyon",31729,10257,21472,32.3
+"7562229","District de l'Ouest lausannois",18294,6190,12104,33.8
+"7562230","District de la Riviera-Pays-d'Enhaut",26400,8313,18087,31.5
+"7562301","Bezirk Brig",12133,6069,6064,50
+"7562302","District de Conthey",10499,4796,5703,45.7
+"7562303","District d'Entremont",5533,2255,3278,40.8
+"7562304","Bezirk Goms",2143,1007,1136,47
+"7562305","District d'Hérens",5466,2341,3125,42.8
+"7562306","Bezirk Leuk",6017,3143,2874,52.2
+"7562307","District de Martigny",17123,7492,9631,43.8
+"7562308","District de Monthey",15531,7154,8377,46.1
+"7562309","Bezirk Raron",5508,2700,2808,49
+"7562310","District de Saint-Maurice",5241,2095,3146,40
+"7562311","District de Sierre",18215,7898,10317,43.4
+"7562312","District de Sion",18305,7198,11107,39.3
+"7562313","Bezirk Visp",11627,5889,5738,50.6
+"7562401","District de Boudry",15357,5213,10144,33.9
+"7562402","District de la Chaux-de-Fonds",12433,4260,8173,34.3
+"7562403","District du Locle",5544,2317,3227,41.8
+"7562404","District de Neuchâtel",18967,5540,13427,29.2
+"7562405","District du Val-de-Ruz",7123,2858,4265,40.1
+"7562406","District du Val-de-Travers",4171,1882,2289,45.1
+"7562500","Canton de Genève",136947,48567,88380,35.5
+"7562601","District de Delémont",14102,5435,8667,38.5
+"7562602","District des Franches-Montagnes",4341,1550,2791,35.7
+"7562603","District de Porrentruy",9882,4252,5630,43
+"75603009030","LU-Ausland-CH",1984,698,1286,35.2
+"75610009100","FR-CH de l'Ã©tranger",1702,729,973,42.8
+"75617009170","SG-Ausland-CH",2692,1110,1582,41.2
+"75619009190","AG-Ausland-CH",2667,965,1702,36.2
+"75620009200","TG-Ausland-CH",1167,468,699,40.1
+"75622009220","VD-CH de l'Ã©tranger",5985,2469,3516,41.3
+"75623009230","VS-CH de l'Ã©tranger",1703,749,954,44
