@@ -38,6 +38,7 @@ temp  <- strsplit(ext_be1$column1, ";")
 ncol = max(sapply(temp,length))
 library(data.table)
 ext_be2 <- as.data.table(lapply(1:ncol,function(i)sapply(temp,"[",i)))
+ext_be2 <- as.data.frame(ext_be2)
 names(ext_be2) <- i
 
 write.table(ext_be1, file="ext_be2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
