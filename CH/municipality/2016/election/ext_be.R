@@ -12,13 +12,29 @@ dateDownloaded <- date()
 dateDownloaded # "Tue Mar  1 14:10:57 2016"
 
 ext_be <- read.csv("ext_be.csv", stringsAsFactors=FALSE)
+
+library(dplyr)
+jura_be <- c(28:67)
+biel <- c(76:94)
+seeland <- c(103:143)
+oberaargau <- c(152:197)
+emmental <- c(206:243)
+bern <- c(252:333) 
+# +2
+thun <- c(342:373)
+obersi <- c(382:388)
+frutigen <- c(397:409)
+interlaken <- c(418:445)
+
+x <- c(jura_be, biel, seeland, oberaargau, emmental, bern, thun, obersi, frutigen, interlaken)
+ext_be1 <- slice(ext_be, x)
 names(ext_be1) <- "column1"
 library(tidyr)
 # m = mariage = Volksinitiative «Für Ehe und Familie - gegen die Heiratsstrafe» ; 
 # e = enforcement = Volksinitiative «Zur Durchsetzung der Ausschaffung krimineller Ausländer (Durchsetzungsinitiative)» 
 # f = food = Volksinitiative «Keine Spekulation mit Nahrungsmitteln!» 
 # r = road = Änderung des Bundesgesetzes über den Strassentransitverkehr im Alpengebiet (Sanierung Gotthard-Strassentunnel)
-#Verwaltungskreis;Stimmber.;Stimmbet.; Ja;Nein;Ja;Nein;             Ja;Nein;Ja;Nein;             Ja;Nein;Ja;Nein;            Ja;Nein;Ja;Nein ;  	
+#Verwaltungskreis;Stimmber.;Stimmbet.; Ja;Nein;Ja;Nein;             Ja;Nein;Ja;Nein;             Ja;Nein;Ja;Nein;            Ja;Nein;Ja;Nein ;    
 # Biel/Bienne; 62'590; 55.9%;            15'881;18'399;46.3%;53.7%;   12'854;22'116;36.8%;63.2%;   15'888;17'948;47.0%;53.0%;   19'456;15'036;56.4%;43.6% ;
 
 i <- c("municipality_name", "entitled_to_vote","turnout", "yes_m", "no_m", "yes_m_pct", "no_m_pct", "yes_e", "no_e", "yes_e_pct", "no_e_pct", "yes_f", "no_f", "yes_f_pct", "no_f_pct", "yes_r", "no_r", "yes_r_pct", "no_r_pct")
@@ -31,16 +47,16 @@ ext_be2 <- as.data.table(lapply(1:ncol,function(i)sapply(temp,"[",i)))
 ext_be2 <- as.data.frame(ext_be2)
 names(ext_be2) <- i
 
-
-
-
-ext_be2 <- slice(ext_be2, 11:354) # without the first totals
-
-
-
-## There are some other totals and NAs to clean out. 
-
+## Jaberg and Noflen vote in Kirchdorf; => We have to swap Noflen with Kirchdorf
+## 868 Jaberg                              872      Kirchdorf          BE    
+## 878 Noflen                              872      Kirchdorf          BE      
+kirchdorf <- ext_be2[214, ]
+ext_be2[214, 1] <- "Noflen"
+noflen <- ext_be2[216, ]
+ext_be2[216, 1] <- "Kirchdorf"
+    
 write.table(ext_be2, file="ext_be2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 
 
 
