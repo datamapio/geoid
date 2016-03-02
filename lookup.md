@@ -28,6 +28,7 @@ Delimiters in use:
 - [KE, Kenya](https://github.com/datamapio/geoid/blob/master/lookup.md#ke)
 - [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
+- [ZA, South Africa](https://github.com/datamapio/geoid/blob/master/lookup.md#za)
 
 
 
@@ -308,13 +309,26 @@ Note: With trailing zeros
 See: http://senate.ca.gov/senatedistricts    
 
 ###State Assembly District
-Type: Alphanumeric, 9       
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | AD (2, alphabetic) | Assembly District (2, numeric, CA.gov)     
-840 | 06 | AD | 15    
-Ex. 84006AD15 = State Assembly (District 15) in California (80 in total)    
+Type: Alphanumeric, 10       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | AD (2, alphabetic) | Assembly District (3, numeric)     
+840 | 06 | AD | 015    
+Ex. 84006AD015 = State Assembly (District 15) in California (80 in total); Texas has 150  
 Note: With trailing zeros   
 https://en.wikipedia.org/wiki/California_State_Assembly_districts   
 
+
+##ZA
+South Africa
+710
+
+###Province
+
+###Municipality
+
+###Ward
+
+https://en.wikipedia.org/wiki/Administrative_divisions_of_South_Africa
+https://github.com/capesean/electionmap.co.za
 
 
 

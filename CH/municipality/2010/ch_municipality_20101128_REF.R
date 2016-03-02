@@ -19,6 +19,8 @@ library(dplyr)
 ref <- select(ref, id, municipality_number, municipality_name, district_number, canton_number, GMDE, BEZIRK, KT, NAME)
 ref_reduced <- ref[(1:2600), ]
 
+write.table(ref, file="ch_municipality_2010_with_kommunanzen_and_liechtenstein_and_lakes.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
 write.table(ref_reduced, file="ch_municipality_2010_with_kommunanzen.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 ## THE REF FILE FOR THE ELECTION, NOVEMBER 28, 2010
