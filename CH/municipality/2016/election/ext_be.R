@@ -12,10 +12,6 @@ dateDownloaded <- date()
 dateDownloaded # "Tue Mar  1 14:10:57 2016"
 
 ext_be <- read.csv("ext_be.csv", stringsAsFactors=FALSE)
-
-library(dplyr)
-x <- c(11:20, 29:68, 77:95, 104:144, 153:198, 207:244, 253:332, 341:372, 381:387, 396:408, 417:444)
-ext_be1 <- slice(ext_be, x)
 names(ext_be1) <- "column1"
 library(tidyr)
 # m = mariage = Volksinitiative «Für Ehe und Familie - gegen die Heiratsstrafe» ; 
@@ -34,7 +30,13 @@ library(data.table)
 ext_be2 <- as.data.table(lapply(1:ncol,function(i)sapply(temp,"[",i)))
 ext_be2 <- as.data.frame(ext_be2)
 names(ext_be2) <- i
+
+
+
+
 ext_be2 <- slice(ext_be2, 11:354) # without the first totals
+
+
 
 ## There are some other totals and NAs to clean out. 
 
