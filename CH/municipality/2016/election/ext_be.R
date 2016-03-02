@@ -54,8 +54,51 @@ kirchdorf <- ext_be2[214, ]
 ext_be2[214, 1] <- "Noflen"
 noflen <- ext_be2[216, ]
 ext_be2[216, 1] <- "Kirchdorf"
-    
-write.table(ext_be2, file="ext_be2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+
+z <- ext_be2[, c(2:19)] 
+## Check for NA's with => which (is.na(z))
+percent <- z[, c(2, 5:6, 9:10, 13:14, 17:18)]
+percent <- apply(percent, 2, function(y) as.numeric(gsub("%", "", y)))
+z[, c(2, 5:6, 9:10, 13:14, 17:18)] <- percent
+
+highcomma <- z[, c(1, 3:4, 7:8, 11:12, 15:16)]
+highcomma <- apply(highcomma, 2, function(y) as.numeric(gsub("'", "", y)))
+z[, c(1, 3:4, 7:8, 11:12, 15:16)] <- highcomma
+ext_be2[, c(2:19)] <- z
+
+## dim(ext_be2)
+346  19
+## summary(ext_be2) regarding Enforcement Initiative
+#yes_e              no_e           yes_e_pct        no_e_pct         
+#Min.   :   11.0   Min.   :    8.0   Min.   :17.30   Min.   : 9.80     
+#1st Qu.:  138.8   1st Qu.:  110.0   1st Qu.:44.50   1st Qu.:42.25   
+#Median :  288.5   Median :  245.0   Median :51.05   Median :48.95    
+#Mean   :  519.6   Mean   :  774.9   Mean   :51.28   Mean   :48.72    
+#3rd Qu.:  600.5   3rd Qu.:  619.5   3rd Qu.:57.75   3rd Qu.:55.50    
+#Max.   :10193.0   Max.   :48602.0   Max.   :90.20   Max.   :82.70    
+#NA's   :2         NA's   :2         NA's   :2       NA's   :2  
+
+write.table(ext_be2, file="ext_be_final.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+## MERGE ON MUNICIPALITY NAME
+## We reread the file (=ext_be2)
+
+ext_bern <- read.csv("ext_be_final.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
+ref <- read.csv("../ch_municipality_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
+ref_bern <- ref[ref$canton_code == "BE", ]
+
+## install.packages("stringi")
+library(stringi)
+ref_bern$municipality_name <-  stri_enc_toutf8(ref_bern$municipality_name,  is_unknown_8bit = TRUE)
+ref_bern <- ref_bern[order(ref_bern$municipality_name, na.last = TRUE), ]
+
+ext_bern$municipality_name <- stri_enc_toutf8(ext_bern$municipality_name, is_unknown_8bit = TRUE)
+ext_bern <- ext_bern[order(ext_bern$municipality_name, na.last = TRUE), ]
+
+test <- merge(ref_bern, ext_bern, by="municipality_name", all=TRUE)
+
+
 
 
 
