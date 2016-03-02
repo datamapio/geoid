@@ -81,12 +81,17 @@ ext_be2[, c(2:19)] <- z
 
 write.table(ext_be2, file="ext_be_final.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
-## MERGE ON MUNICIPALITY NAME
+
+## MERGE ON MUNICIPALITY NAME (NOT GREAT!!!)
 ## We reread the file (=ext_be2)
 
 ext_bern <- read.csv("ext_be_final.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 ref <- read.csv("../ch_municipality_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 ref_bern <- ref[ref$canton_code == "BE", ]
+
+## Checking if I can force the conversion from ISO-8859-1 to UTF-8
+write.table(ref_bern, file="bern_municipality_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+ref_bern2 <- read.csv("bern_municipality_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 
 ## install.packages("stringi")
 library(stringi)
