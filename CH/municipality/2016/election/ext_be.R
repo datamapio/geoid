@@ -11,12 +11,6 @@ download.file(fileUrl, destfile = "ext_be.csv", method = "curl")
 dateDownloaded <- date()
 dateDownloaded # "Tue Mar  1 14:10:57 2016"
 
-## Install gdata
-## install.packages("gdata")
-library(gdata)
-## Read first sheet in as data frame (df). 
-## If the Excel has several sheets create ext1 for sheet=1, ext2 for sheet=2 etc.
-## ext_be <- read.csv("ext_be.csv", sep=";", header = TRUE, stringsAsFactors=FALSE)
 ext_be <- read.csv("ext_be.csv", stringsAsFactors=FALSE)
 
 library(dplyr)
@@ -40,8 +34,11 @@ library(data.table)
 ext_be2 <- as.data.table(lapply(1:ncol,function(i)sapply(temp,"[",i)))
 ext_be2 <- as.data.frame(ext_be2)
 names(ext_be2) <- i
+ext_be2 <- slice(ext_be2, 11:354) # without the first totals
 
-write.table(ext_be1, file="ext_be2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+## There are some other totals and NAs to clean out. 
+
+write.table(ext_be2, file="ext_be2.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
 
 
