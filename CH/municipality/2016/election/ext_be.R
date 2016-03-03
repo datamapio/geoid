@@ -91,6 +91,7 @@ ref_bern <- ref[ref$canton_code == "BE", ]
 
 ## Checking if I can force the conversion from ISO-8859-1 to UTF-8
 write.table(ref_bern, file="bern_municipality_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 ref_bern2 <- read.csv("bern_municipality_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 ref_bern2 <- select(ref_bern2, id, municipality_name)
 ref_bern2 <- ref_bern2[order(ref_bern2$municipality_name, na.last = TRUE), ]
@@ -99,17 +100,14 @@ write.table(ref_bern2, file="bern_municipality_2016_minimal.csv", sep="," ,col.n
 ext_bern <- ext_bern[order(ext_bern$municipality_name, na.last = TRUE), ]
 ext_bern2 <- ext_bern[-1, ]
 
-##test2 <- cbind(ref_bern2, ext_bern2)
+ref_bern3 <- read.csv("bern_municipality_2016_minimal.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 
+test <- merge(ref_bern2, ext_bern3, by="municipality_name", all=TRUE)
+write.table(test, file="first_version_REAL_election_bern_municipality_20160228.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
-## install.packages("stringi")
-library(stringi)
-ref_bern$municipality_name <-  stri_enc_toutf8(ref_bern$municipality_name,  is_unknown_8bit = TRUE)
-ref_bern <- ref_bern[order(ref_bern$municipality_name, na.last = TRUE), ]
+## LAST CORRECTIONS
+## Read in hand corrected file
+## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2016/election/second_version_REAL_election_bern_municipality_20160228.csv
+data_be <- read.csv("second_version_REAL_election_bern_municipality_20160228.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 
-ext_bern$municipality_name <- stri_enc_toutf8(ext_bern$municipality_name, is_unknown_8bit = TRUE)
-ext_bern <- ext_bern[order(ext_bern$municipality_name, na.last = TRUE), ]
-
-test <- merge(ref_bern2, ext_bern, by="municipality_name", all=TRUE)
-
-
+data_be <- select(data_be, id, municipality_name, entitled_to_vote, yes_e, no_e, yes_e_pct, no_e_pct)
