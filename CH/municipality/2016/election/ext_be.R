@@ -92,6 +92,15 @@ ref_bern <- ref[ref$canton_code == "BE", ]
 ## Checking if I can force the conversion from ISO-8859-1 to UTF-8
 write.table(ref_bern, file="bern_municipality_2016.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 ref_bern2 <- read.csv("bern_municipality_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
+ref_bern2 <- select(ref_bern2, id, municipality_name)
+ref_bern2 <- ref_bern2[order(ref_bern2$municipality_name, na.last = TRUE), ]
+write.table(ref_bern2, file="bern_municipality_2016_minimal.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
+ext_bern <- ext_bern[order(ext_bern$municipality_name, na.last = TRUE), ]
+ext_bern2 <- ext_bern[-1, ]
+
+##test2 <- cbind(ref_bern2, ext_bern2)
+
 
 ## install.packages("stringi")
 library(stringi)
@@ -101,14 +110,6 @@ ref_bern <- ref_bern[order(ref_bern$municipality_name, na.last = TRUE), ]
 ext_bern$municipality_name <- stri_enc_toutf8(ext_bern$municipality_name, is_unknown_8bit = TRUE)
 ext_bern <- ext_bern[order(ext_bern$municipality_name, na.last = TRUE), ]
 
-test <- merge(ref_bern, ext_bern, by="municipality_name", all=TRUE)
-
-
-
-
-
-
-
-
+test <- merge(ref_bern2, ext_bern, by="municipality_name", all=TRUE)
 
 
