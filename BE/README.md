@@ -133,19 +133,26 @@ Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)
 Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)    
 
 
-###Municipality Parts, City Districts, Municipality Sections (Deelgemeenten, Districts (Antwerpen), Ancienne commune, Section de commune)
+##Municipality Parts/Sections, City Districts (Deelgemeenten, Districts (Antwerpen), Ancienne commune, Section de commune)
 Type: Alphanumeric, 10      
-Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic)    
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | M. Part (1, alphabetic)    
 056 | F | 71053 | B      
 Ex. 056F71053B = Halmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg     
 
 
-###Statistical Sectors (Statistische Sector)
+##Statistical Sectors (Statistische Sector)
 Type: Alphanumeric, 13     
-Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic) | Subsection (3, alphanumeric)        
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | M. Part (1, alphabetic) | Stat. Sector (3, alphanumeric)        
 056 | F | 71053 | B | 180     
 Ex. 056F71053B180 = Overhalmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg      
-See: http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf
-
+See: [Sint-Truiden](http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf)    
+See also pages [13 and 62 in Statistic Sectors](http://statbel.fgov.be/en/binaries/Secteur%20stat-FR_tcm327-174181.pdf):
+```
+Example : 52011B1NR
+Example : 52011B170
+52011                     B (A à Z, 0 à 9)     1 (0,9)       N (0 à 9,A à V) R(-,0 à 9, lettre)
+Code INS commune          ancienne commune     section       utilisation du sol modification par
+                          ou assimilé                        rapport à la situation antérieure 
+```     
 
 
