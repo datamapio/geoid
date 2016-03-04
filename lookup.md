@@ -92,7 +92,7 @@ Type: Alphanumeric, 13
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic) | Subsection (3, alphanumeric)        
 056 | F | 71053 | B | 180     
 Ex. 056F71053B180 = Overhalmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg      
-See: http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf
+See: [Sint-Truiden](http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf)    
 See also page [13 and 62](http://statbel.fgov.be/en/binaries/Secteur%20stat-FR_tcm327-174181.pdf):
 ```
 Example : 52011B1NR
