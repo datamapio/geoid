@@ -113,7 +113,7 @@ https://github.com/datamapio/geoid/blob/master/BE/arrondissement/be_arrondisseme
 
 
 ###datamap Proposal
-Type: Numeric, 6      
+Type: Alphanumeric, 6      
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Arrondissement Code (2, numeric, INS)     
 056 | F | 23     
 Ex. 056F23 = Arrondissement de Hal-Vilvorde, Braband Flamand    
@@ -126,11 +126,26 @@ https://en.wikipedia.org/wiki/Municipalities_of_Belgium
 
 
 ###datamap Proposal     
-Type: Numeric, 9    
+Type: Alphanumeric, 9    
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS)    
 056 | B | 21015    
 Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)    
 Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)    
+
+
+###Municipality Parts, City Districts, Municipality Sections (Deelgemeenten, Districts (Antwerpen), Ancienne commune, Section de commune)
+Type: Alphanumeric, 10      
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic)    
+056 | F | 71053 | B      
+Ex. 056F71053B = Halmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg     
+
+
+###Statistical Sectors (Statistische Sector)
+Type: Alphanumeric, 13     
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic) | Subsection (3, alphanumeric)        
+056 | F | 71053 | B | 180     
+Ex. 056F71053B180 = Overhalmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg      
+See: http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf
 
 
 
