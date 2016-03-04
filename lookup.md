@@ -82,14 +82,14 @@ Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)
 
 ###Municipality Parts/Sections, City Districts (Deelgemeenten, Districts (Antwerpen), Ancienne commune, Section de commune)
 Type: Alphanumeric, 10      
-Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic)    
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | M. Part (1, alphabetic)    
 056 | F | 71053 | B      
 Ex. 056F71053B = Halmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg     
 
 
 ###Statistical Sectors (Statistische Sector)
 Type: Alphanumeric, 13     
-Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | Section (1, alphabetic) | Subsection (3, alphanumeric)        
+Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS) | M. Part (1, alphabetic) | Stat. Sector (3, alphanumeric)        
 056 | F | 71053 | B | 180     
 Ex. 056F71053B180 = Overhalmaal, Sint-Truiden (Saint-Trond), Hasselt, Limbourg      
 See: [Sint-Truiden](http://limburg.be/webfiles/limburg/loketdienst/cijfers/cijferkorf_demografie/gemeenten/11b_c_sinttruiden.pdf)    
