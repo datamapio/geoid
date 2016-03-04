@@ -1,9 +1,12 @@
 #Vote Enforcement Initiative
 
+##Switzerland
+2015: 2,328 municipalities
+2014: [2,294 municipalities](https://github.com/datamapio/geoid/blob/master/CH/municipality/2016/ch_municipality_2016.csv)
+
 ##Bern
 REF File with 352 municipalities     
 https://github.com/datamapio/geoid/blob/master/CH/municipality/2016/election/enforcement_intiative_bern_municipality_20160228.csv
-
 
 ###Niederösch and Oberösch fusion with Ersingen
 From Wikipedia       
