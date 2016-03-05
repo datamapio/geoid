@@ -16,7 +16,8 @@ Examples:
 056B = Bruxelles Capital Region    
 NOTE: Does not conform to codes used in Belgium (2000, 3000, 4000)     
 
-
+####REF File
+https://github.com/datamapio/geoid/blob/master/BE/region/be_region_2013.csv
 
 ##10 Provinces & Bruxelles Capital (since 1995)
 
@@ -43,6 +44,8 @@ Ex. 056F2 = Vlaams-Brabant
 Ex. 056F4 = Flandres Orientale   
 Note: We use the alphabet to keep the link to the province numbers.    
 
+###REF File
+https://github.com/datamapio/geoid/blob/master/BE/province/be_province_2013.csv
 
 ##Arrondissments
 
