@@ -1,0 +1,44 @@
+"code_nis","arr_name_nl","arr_name_fr","arrondissement_name_fr","code_hasc","code_nuts","code_nis_5"
+"11","Antwerpen","Anvers","Arrondissement d'Anvers","BE.AN.AW","BE211",11000
+"12","Mechelen","Malines","Arrondissement de Malines","BE.AN.MH","BE212",12000
+"13","Turnhout","-","Arrondissement de Turnhout","BE.AN.TH","BE213",13000
+"21","Brussel-Hoofdstad","Bruxelles-Capitale","Arrondissement de Bruxelles-Capitale","BE.BU.BR","BE100",21000
+"23","Halle-Vilvoorde","Hal-Vilvorde","Arrondissement de Hal-Vilvorde","BE.VB.HV","BE241",23000
+"24","Leuven","Louvain","Arrondissement de Louvain","BE.VB.LV","BE242",24000
+"25","Nijvel","Nivelles","Arrondissement de Nivelles","BE.BW.NV","BE310",25000
+"31","Brugge","Bruges","Arrondissement de Bruges","BE.WV.BG","BE251",31000
+"32","Diksmuide","Dixmude","Arrondissement de Dixmude","BE.WV.DK","BE252",32000
+"33","Ieper","Ypres","Arrondissement d'Ypres","BE.WV.IP","BE253",33000
+"34","Kortrijk","Courtrai","Arrondissement de Courtrai","BE.WV.KR","BE254",34000
+"35","Oostende","Ostende","Arrondissement d'Ostende","BE.WV.OS","BE255",35000
+"36","Roeselare","Roulers","Arrondissement de Roulers","BE.WV.RS","BE256",36000
+"37","Tielt","-","Arrondissement de Tielt","BE.WV.TL","BE257",37000
+"38","Veurne","Furnes","Arrondissement de Furnes","BE.WV.VR","BE258",38000
+"41","Aalst","Alost","Arrondissement d'Alost","BE.OV.AL","BE231",41000
+"42","Dendermonde","Termonde","Arrondissement de Termonde","BE.OV.DM","BE232",42000
+"43","Eeklo","-","Arrondissement d'Eeklo","BE.OV.EK","BE233",43000
+"44","Gent","Gand","Arrondissement de Gand","BE.OV.GT","BE234",44000
+"45","Oudenaarde","Audenarde","Arrondissement d'Audenarde","BE.OV.OD","BE235",45000
+"46","Sint-Niklaas","Saint-Nicolas","Arrondissement de Saint-Nicolas","BE.OV.SN","BE236",46000
+"51","Aat","Ath","Arrondissement d'Ath","BE.HT.AT","BE321",51000
+"52","-","Charleroi","Arrondissement de Charleroi","BE.HT.CR","BE322",52000
+"53","Bergen","Mons","Arrondissement de Mons","BE.HT.MN","BE323",53000
+"54","Moeskroen","Mouscron","Arrondissement de Mouscron","BE.HT.MC","BE324",54000
+"55","Zinnik","Soignies","Arrondissement de Soignies","BE.HT.SG","BE325",55000
+"56","-","Thuin","Arrondissement de Thuin","BE.HT.TN","BE326",56000
+"57","Doornik","Tournai","Arrondissement de Tournai","BE.HT.TR","BE327",57000
+"61","Hoei","Huy","Arrondissement de Huy","BE.LG.HY","BE331",61000
+"62","Luik","Li¬ège","Arrondissement de LiËge","BE.LG.LG","BE332",62000
+"63","","Verviers","Arrondissement de Verviers","BE.LG.VV","BE335, BE336",63000
+"64","Borgworm","Waremme","Arrondissement de Waremme","BE.LG.WR","BE334",64000
+"71","Hasselt","-","Arrondissement de Hasselt","BE.LI.HS","BE221",71000
+"72","Maaseik","-","Arrondissement de Maaseik","BE.LI.MS","BE222",72000
+"73","Tongeren","Tongres","Arrondissement de Tongres","BE.LI.TG","BE223",73000
+"81","Aarlen","Arlon","Arrondissement d'Arlon","BE.LX.AR","BE341",81000
+"82","Bastenaken","Bastogne","Arrondissement de Bastogne","BE.LX.BS","BE342",82000
+"83","-","Marche-en-Famenne","Arrondissement de Marche-en-Famenne","BE.LX.MR","BE343",83000
+"84","-","Neufch√¢teau","Arrondissement de Neufch‚teau","BE.LX.NC","BE344",84000
+"85","-","Virton","Arrondissement de Virton","BE.LX.VT","BE345",85000
+"91","-","Dinant","Arrondissement de Dinant","BE.NA.DN","BE351",91000
+"92","Namen","Namur","Arrondissement de Namur","BE.NA.NM","BE352",92000
+"93","-","Philippeville","Arrondissement de Philippeville","BE.NA.PV","BE353",93000
