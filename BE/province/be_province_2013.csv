@@ -1,0 +1,11 @@
+"id","province_name","province_name_fr","province_name_nl","province_name_de","code_ins"
+"056F1","Antwerp","Anvers","Antwerpen","Antwerpen",10000
+"056F2","Flemish Brabant","Brabant Flamand","Vlaams-Brabant","Flämisch-Brabant",20001
+"056W2","Walloon Brabant","Brabant Wallon","Waals-Brabant","Wallonisch-Brabant",20002
+"056F3","West Flanders","Flandre Occidentale","West-Vlaanderen","Westflandern",30000
+"056F4","East Flanders","Flandre Orientale","Oost-Vlaanderen","Ostflandern",40000
+"056W5","Hainaut","Hainaut","Henegouwen","Hennegau",50000
+"056W6","Liège","Liège","Luik","Lüttich",60000
+"056F7","Limburg","Limbourg","Limburg","Limburg",70000
+"056W8","Luxembourg","Luxembourg","Luxemburg","Luxemburg",80000
+"056W9","Namur","Namur","Namen","Namür",90000
