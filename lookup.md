@@ -233,8 +233,8 @@ Ex. 826E7 = London;  826E2 = North West;
 
 ###County
 
-See: [Counties England, Wikipedia](https://en.wikipedia.org/wiki/Counties_of_England)
-See: [Counties UK, Wikipedia](https://en.wikipedia.org/wiki/List_of_counties_of_the_United_Kingdom)
+See: [Counties England, Wikipedia](https://en.wikipedia.org/wiki/Counties_of_England)        
+See: [Counties UK, Wikipedia](https://en.wikipedia.org/wiki/List_of_counties_of_the_United_Kingdom)      
 
 ###Constituency
 
