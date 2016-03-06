@@ -232,15 +232,15 @@ Ex. 826E7 = London;  826E2 = North West;
 [England](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/geography/beginner-s-guide/administrative/england/index.html)
 
 ###County
-         
+
 See: [Counties England, Wikipedia](https://en.wikipedia.org/wiki/Counties_of_England)
 See: [Counties UK, Wikipedia](https://en.wikipedia.org/wiki/List_of_counties_of_the_United_Kingdom)
 
-###Constituency (As of 2015: 650)
+###Constituency
 
-Note: The 591 constituencies in England, Northern Ireland and Wales (533 in England; 40 in Wales; and 18 in Northern Ireland) came into force at the May 2010 General Election. In Scotland, the 72 constituencies were reduced to 59 in May 2005.                  
+Note: 650. The 591 constituencies in England, Northern Ireland and Wales (533 in England; 40 in Wales; and 18 in Northern Ireland) came into force at the May 2010 General Election. In Scotland, the 72 constituencies were reduced to 59 in May 2005.                  
 See: [The Economist Map](http://www.economist.com/node/21648856)             
-See: [](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies)         
+See: [Constituencies, Wikipedia](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies)         
 See: [UK parliamentary constituencies](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/user-guidance/parliamentary-constituencies/index.html)          
 
 ###Districts
