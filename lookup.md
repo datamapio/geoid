@@ -245,7 +245,7 @@ http://opendatacommunities.org/data/ons-geography-administration
 
 
 ###Postcode
-Type: Alphanumeric: 
+Type: Alphanumeric, 11-13
 Country (3, numeric, ISO) | ZP (2, alphabetic) | Postcode (6-8, numeric, Swiss Post)     
 826 | ZP | SW1W0NY
 Example: 826ZPSW1W0NY for Postcode SW1W 0NY in Ward Warwick E05000647; District Westminster: E09000033; County Greater London: E11000009;
