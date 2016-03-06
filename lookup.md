@@ -217,7 +217,17 @@ England E92000001;  Wales W92000004 ; Scotland S92000003 ; Northern Ireland N920
 
 
 ###England: Regions
-London E12000007      
+Type: Alphanumeric, 5     
+Kingdom (3, numeric) | Country or Province (1, alphabetic) | Region (1, numeric, last digit of Region Code) 
+826 | E | 7
+Ex. 826E7 = London;  826E2 = North West;
+826E9 = South West; 
+826E5 = West Midlands; 
+826E6 = East of England; 
+826E4 = East Midlands; 
+826E3 = Yorkshire and The Humber; 
+826E1 = North East; 
+826E8 = South East         
 [Region Codes](http://opendatacommunities.org/resources?dataset=ons-geography-administration&type_uri=http%3A%2F%2Fopendatacommunities.org%2Fdef%2Fontology%2Fadmingeo%2FRegion)       
 [England](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/geography/beginner-s-guide/administrative/england/index.html)
 
