@@ -21,12 +21,10 @@ write.table(ref3, "RAW_MERGE_be_arr_2013.csv", sep="," , col.names=TRUE, row.nam
 ## TO DO FROM DOWN HERE
 #fla <- c(11, 12, 13, 23, 24, 31, 32, 33, 34, 35, 36, 37, 38, 41, 42, 43, 44, 45, 46, 71, 72, 73)
 #
-#
-#createid <- function (x) ref3$id[ref3$code_nis == x] <- paste("056F", ref3$code_nis, sep="")
+#createid <- function (x) ref3$id[ref3$code_nis == apply(x)] <- paste("056F", ref3$code_nis, sep="")
 #for(i in fla) {
 #  createid(i)
 #}
-
 
 
 ref$id <- c("056F1", "056F2", "056W2", "056F3", "056F4", "056W5", "056W6", "056F7", "056W8", "056W9")

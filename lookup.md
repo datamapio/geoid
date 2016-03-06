@@ -24,12 +24,12 @@ Delimiters in use:
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
 - [DK, Denmark](https://github.com/datamapio/geoid/blob/master/lookup.md#dk) 
 - [ET, Ethiopia](https://github.com/datamapio/geoid/blob/master/lookup.md#et)
+- [GB, United Kingdom of Great Britain and Northern Ireland](https://github.com/datamapio/geoid/blob/master/lookup.md#gb)
 - [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
 - [KE, Kenya](https://github.com/datamapio/geoid/blob/master/lookup.md#ke)
 - [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 - [ZA, South Africa](https://github.com/datamapio/geoid/blob/master/lookup.md#za)
-
 
 
 ##Country
@@ -200,7 +200,59 @@ Denmark
 ##ET
 Ethiopia    
 231    
-http://africaopendata.org/dataset/ethiopia-shapefiles    
+http://africaopendata.org/dataset/ethiopia-shapefiles   
+
+##GB
+United Kingdom of Great Britain and Northern Ireland
+826 
+
+###3 Countries and a Province
+Type: Alphanumeric, 4     
+Kingdom (3, numeric) | Country or Province (1, alphabetic)   
+826 | E    
+Ex. 826E = England; 826W = Wales; 826S = Scotland; 826N = Northern Ireland    
+   
+Note: Does not conform to:     
+England E92000001;  Wales W92000004 ; Scotland S92000003 ; Northern Ireland N92000002     
+
+
+###England: Regions
+London E12000007      
+[Region Codes](http://opendatacommunities.org/resources?dataset=ons-geography-administration&type_uri=http%3A%2F%2Fopendatacommunities.org%2Fdef%2Fontology%2Fadmingeo%2FRegion)       
+[England](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/geography/beginner-s-guide/administrative/england/index.html)
+
+###County
+
+###Ward
+
+###Electoral Wards
+
+###Scotland: Council Areas
+
+###Electoral Wards & Communities
+
+###Wales: Unitary Authorities
+
+###Electoral Wards & Communities
+
+###Northern Ireland: District Council Areas
+
+###Electoral Wards
+
+See:  
+[Administrative Geography](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/geography/beginner-s-guide/administrative/index.html)
+http://opendatacommunities.org/data/ons-geography-administration
+
+
+###Postcode
+Type: Alphanumeric: 
+Country (3, numeric, ISO) | ZP (2, alphabetic) | Postcode (6-8, numeric, Swiss Post)     
+826 | ZP | SW1W0NY
+Example: 826ZPSW1W0NY for Postcode SW1W 0NY in Ward Warwick E05000647; District Westminster: E09000033; County Greater London: E11000009;
+                                               Constituency Cities of London and Westminster: E14000639, Region: London, Country: England
+Note: No spaces between the postcode parts                                                 
+
+The postcodes are alphanumeric, and are variable in length: ranging from six to eight characters (including a space) long. Each post code is divided into two parts separated by a single space: the outward code and the inward code respectively. The outward code includes the postcode area and the postcode district, respectively. The inward code includes the postcode sector and the postcode unit respectively. Examples of postcodes include "SW1W 0NY", "PO16 7GZ", "GU16 7HF", or "L1 8JQ".     
 
 
 ##IN

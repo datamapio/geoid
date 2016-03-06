@@ -105,9 +105,10 @@ ref_bern3 <- read.csv("bern_municipality_2016_minimal.csv", header = TRUE, strin
 test <- merge(ref_bern2, ext_bern3, by="municipality_name", all=TRUE)
 write.table(test, file="first_version_REAL_election_bern_municipality_20160228.csv", sep="," ,col.names=TRUE, row.names=FALSE)
 
-## LAST CORRECTIONS
+## EXPORT ONLY FOR ENFORCEMENT INITIATIVE
 ## Read in hand corrected file
 ## https://raw.githubusercontent.com/datamapio/geoid/master/CH/municipality/2016/election/second_version_REAL_election_bern_municipality_20160228.csv
 data_be <- read.csv("second_version_REAL_election_bern_municipality_20160228.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
 
-data_be <- select(data_be, id, municipality_name, entitled_to_vote, yes_e, no_e, yes_e_pct, no_e_pct)
+data_be <- select(data_be, id, municipality_name, entitled_to_vote, turnout, yes=yes_e, no=no_e, yes_percentage=yes_e_pct)
+write.table(data_be, file="enforcement_intiative_bern_municipality_20160228.csv", sep="," ,col.names=TRUE, row.names=FALSE)
