@@ -217,9 +217,9 @@ England E92000001;  Wales W92000004 ; Scotland S92000003 ; Northern Ireland N920
 
 
 ###England: Regions
-Type: Alphanumeric, 5     
-Kingdom (3, numeric) | Country or Province (1, alphabetic) | Region (1, numeric, last digit of Region Code) 
-826 | E | 7
+Type: Alphanumeric, 5           
+Kingdom (3, numeric) | Country or Province (1, alphabetic) | Region (1, numeric, last digit of Region Code)       
+826 | E | 7         
 Ex. 826E7 = London;  826E2 = North West;
 826E9 = South West; 
 826E5 = West Midlands; 
@@ -258,10 +258,10 @@ http://opendatacommunities.org/data/ons-geography-administration
 Type: Alphanumeric, 11-13              
 Country (3, numeric, ISO) | ZP (2, alphabetic) | Postcode (6-8, numeric)                   
 826 | ZP | SW1W0NY             
-Example: 826ZPSW1W0NY for Postcode SW1W 0NY in Ward Warwick E05000647; District Westminster: E09000033; County Greater London: E11000009;        
-                                               Constituency Cities of London and Westminster: E14000639, Region: London, Country: England        
-Note: No spaces between the postcode parts                                                       
-                 
+Example: 826ZPSW1W0NY for Postcode SW1W 0NY in Warwick, Greater London            
+                                                 
+Note: No spaces between the postcode parts 
+
 The postcodes are alphanumeric, and are variable in length: ranging from six to eight characters (including a space) long. Each post code is divided into two parts separated by a single space: the outward code and the inward code respectively. The outward code includes the postcode area and the postcode district, respectively. The inward code includes the postcode sector and the postcode unit respectively. Examples of postcodes include "SW1W 0NY", "PO16 7GZ", "GU16 7HF", or "L1 8JQ".     
 
 
