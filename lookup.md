@@ -227,14 +227,26 @@ Ex. 826E7 = London;  826E2 = North West;
 826E4 = East Midlands; 
 826E3 = Yorkshire and The Humber; 
 826E1 = North East; 
-826E8 = South East         
-[Region Codes](http://opendatacommunities.org/resources?dataset=ons-geography-administration&type_uri=http%3A%2F%2Fopendatacommunities.org%2Fdef%2Fontology%2Fadmingeo%2FRegion)       
+826E8 = South East  
+
+Note: Does not conform to: [Region Codes](http://opendatacommunities.org/resources?dataset=ons-geography-administration&type_uri=http%3A%2F%2Fopendatacommunities.org%2Fdef%2Fontology%2Fadmingeo%2FRegion)         
+
+See also:
+[Subdivisions of England](https://en.wikipedia.org/wiki/Subdivisions_of_England)     
 [England](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/geography/beginner-s-guide/administrative/england/index.html)
 
-###County
 
+###County (Not Definitive)
+Type: Alphanumeric, 7              
+Kingdom (3, numeric) | Country or Province (1, alphabetic) | Region (1, numeric) | County (2, numeric, last two digits of County Code)            
+826 | E | 2 | 06       
+Ex. 826E206 = Cumbria, North West England;  826E424 = Nothinghamshire, East Midlands, England       
+
+See: [Administrative Divisions in England since 2009, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/England_administrative_divisions_since_2009.svg)
 See: [Counties England, Wikipedia](https://en.wikipedia.org/wiki/Counties_of_England)        
 See: [Counties UK, Wikipedia](https://en.wikipedia.org/wiki/List_of_counties_of_the_United_Kingdom)      
+
+###Districts
 
 ###Constituency
 
@@ -243,7 +255,6 @@ See: [The Economist Map](http://www.economist.com/node/21648856)
 See: [Constituencies, Wikipedia](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies)         
 See: [UK parliamentary constituencies](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/guide-method/user-guidance/parliamentary-constituencies/index.html)          
 
-###Districts
 
 ###Electoral Wards
 
