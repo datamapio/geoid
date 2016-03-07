@@ -201,6 +201,23 @@ arr_huy$id <- paste("056W", arr_huy$code_ins, sep="")
 arr_huy <- select(arr_huy, id, municipality_name_fr, code_ins)
 write.table(arr_huy, "arrondissement_huy_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Liège, Province de Liège, Région Wallonne
+arr_liege <- slice(ref, 488:511)
+arr_liege$id <- paste("056W", arr_liege$code_ins, sep="")
+arr_liege <- select(arr_liege, id, municipality_name_fr, code_ins)
+write.table(arr_liege, "arrondissement_liege_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Verviers, Province de Liège, Région Wallonne
+arr_verviers <- slice(ref, 513:541)
+arr_verviers$id <- paste("056W", arr_verviers$code_ins, sep="")
+arr_verviers <- select(arr_verviers, id, municipality_name_fr, code_ins)
+write.table(arr_verviers, "arrondissement_verviers_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Waremme, Province de Liège, Région Wallonne
+arr_waremme <- slice(ref, 543:556)
+arr_waremme$id <- paste("056W", arr_waremme$code_ins, sep="")
+arr_waremme <- select(arr_waremme, id, municipality_name_fr, code_ins)
+write.table(arr_waremme, "arrondissement_waremme_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
 
