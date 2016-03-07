@@ -75,9 +75,40 @@ arr_ostende$id <- paste("056F", arr_ostende$code_ins, sep="")
 arr_ostende <- select(arr_ostende, id, municipality_name_fr, code_ins)
 write.table(arr_ostende, "arrondissement_ostende_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Roulers, Province de Flandre Occidentale, Région Flamande
+arr_roulers <- slice(ref, 213:220)
+arr_roulers$id <- paste("056F", arr_roulers$code_ins, sep="")
+arr_roulers <- select(arr_roulers, id, municipality_name_fr, code_ins)
+write.table(arr_roulers, "arrondissement_roulers_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Tielt, Province de Flandre Occidentale, Région Flamande
+arr_tielt <- slice(ref, 222:230)
+arr_tielt$id <- paste("056F", arr_tielt$code_ins, sep="")
+arr_tielt <- select(arr_tielt, id, municipality_name_fr, code_ins)
+write.table(arr_tielt, "arrondissement_tielt_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Ypres, Province de Flandre Occidentale, Région Flamande
+arr_ypres <- slice(ref, 232:239)
+arr_ypres$id <- paste("056F", arr_ypres$code_ins, sep="")
+arr_ypres <- select(arr_ypres, id, municipality_name_fr, code_ins)
+write.table(arr_ypres, "arrondissement_ypres_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Alost, Province de Flandre Orientale, Région Flamande
+arr_alost <- slice(ref, 242:251)
+arr_alost$id <- paste("056F", arr_alost$code_ins, sep="")
+arr_alost <- select(arr_alost, id, municipality_name_fr, code_ins)
+write.table(arr_alost, "arrondissement_alost_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Audenarde, Province de Flandre Orientale, Région Flamande
+arr_audenarde <- slice(ref, 253:263)
+arr_audenarde$id <- paste("056F", arr_audenarde$code_ins, sep="")
+arr_audenarde <- select(arr_audenarde, id, municipality_name_fr, code_ins)
+write.table(arr_audenarde, "arrondissement_audenarde_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Eeklo, Province de Flandre Orientale, Région Flamande
+arr_eeklo <- slice(ref, 265:270)
+arr_eeklo$id <- paste("056F", arr_eeklo$code_ins, sep="")
+arr_eeklo <- select(arr_eeklo, id, municipality_name_fr, code_ins)
+write.table(arr_eeklo, "arrondissement_eeklo_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
