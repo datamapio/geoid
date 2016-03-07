@@ -111,4 +111,10 @@ arr_eeklo$id <- paste("056F", arr_eeklo$code_ins, sep="")
 arr_eeklo <- select(arr_eeklo, id, municipality_name_fr, code_ins)
 write.table(arr_eeklo, "arrondissement_eeklo_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Gand, Province de Flandre Orientale, Région Flamande
+arr_gand <- slice(ref, 272:292)
+arr_gand$id <- paste("056F", arr_gand$code_ins, sep="")
+arr_gand <- select(arr_gand, id, municipality_name_fr, code_ins)
+write.table(arr_gand, "arrondissement_gand_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
 
