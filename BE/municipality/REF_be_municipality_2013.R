@@ -171,7 +171,35 @@ arr_mons$id <- paste("056W", arr_mons$code_ins, sep="")
 arr_mons <- select(arr_mons, id, municipality_name_fr, code_ins)
 write.table(arr_mons, "arrondissement_mons_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Mouscron, Province du Hainaut, Région Wallonne
+arr_mouscron <- slice(ref, 431:432)
+arr_mouscron$id <- paste("056W", arr_mouscron$code_ins, sep="")
+arr_mouscron <- select(arr_mouscron, id, municipality_name_fr, code_ins)
+write.table(arr_mouscron, "arrondissement_mouscron_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Soignies, Province du Hainaut, Région Wallonne
+arr_soignies <- slice(ref, 434:441)
+arr_soignies$id <- paste("056W", arr_soignies$code_ins, sep="")
+arr_soignies <- select(arr_soignies, id, municipality_name_fr, code_ins)
+write.table(arr_soignies, "arrondissement_soignies_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Thuin, Province du Hainaut, Région Wallonne
+arr_thuin <- slice(ref, 443:456)
+arr_thuin$id <- paste("056W", arr_thuin$code_ins, sep="")
+arr_thuin <- select(arr_thuin, id, municipality_name_fr, code_ins)
+write.table(arr_thuin, "arrondissement_thuin_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Tournai, Province du Hainaut, Région Wallonne
+arr_tournai <- slice(ref, 458:467)
+arr_tournai$id <- paste("056W", arr_tournai$code_ins, sep="")
+arr_tournai <- select(arr_tournai, id, municipality_name_fr, code_ins)
+write.table(arr_tournai, "arrondissement_tournai_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Huy, Province de Liège, Région Wallonne
+arr_huy <- slice(ref, 470:486)
+arr_huy$id <- paste("056W", arr_huy$code_ins, sep="")
+arr_huy <- select(arr_huy, id, municipality_name_fr, code_ins)
+write.table(arr_huy, "arrondissement_huy_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
 
