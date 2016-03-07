@@ -219,5 +219,18 @@ arr_waremme$id <- paste("056W", arr_waremme$code_ins, sep="")
 arr_waremme <- select(arr_waremme, id, municipality_name_fr, code_ins)
 write.table(arr_waremme, "arrondissement_waremme_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Arlon, Province du Luxembourg, Région Wallonne
+arr_arlon <- slice(ref, 559:563)
+arr_arlon$id <- paste("056W", arr_arlon$code_ins, sep="")
+arr_arlon <- select(arr_arlon, id, municipality_name_fr, code_ins)
+write.table(arr_arlon, "arrondissement_arlon_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Bastogne, Province du Luxembourg, Région Wallonne
+arr_bastogne <- slice(ref, 565:572)
+arr_bastogne$id <- paste("056W", arr_bastogne$code_ins, sep="")
+arr_bastogne <- select(arr_bastogne, id, municipality_name_fr, code_ins)
+write.table(arr_bastogne, "arrondissement_bastogne_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
 
 
