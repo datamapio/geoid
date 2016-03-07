@@ -165,6 +165,14 @@ arr_charleroi$id <- paste("056W", arr_charleroi$code_ins, sep="")
 arr_charleroi <- select(arr_charleroi, id, municipality_name_fr, code_ins)
 write.table(arr_charleroi, "arrondissement_charleroi_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Mons, Province du Hainaut, Région Wallonne
+arr_mons <- slice(ref, 417:429)
+arr_mons$id <- paste("056W", arr_mons$code_ins, sep="")
+arr_mons <- select(arr_mons, id, municipality_name_fr, code_ins)
+write.table(arr_mons, "arrondissement_mons_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+
 
 
 
