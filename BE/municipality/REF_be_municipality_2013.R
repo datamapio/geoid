@@ -147,5 +147,13 @@ arr_tongres$id <- paste("056F", arr_tongres$code_ins, sep="")
 arr_tongres <- select(arr_tongres, id, municipality_name_fr, code_ins)
 write.table(arr_tongres, "arrondissement_tongres_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Nivelles, Province du Brabant Wallon, Région Wallonne
+arr_nivelles <- slice(ref, 364:390)
+arr_nivelles$id <- paste("056W", arr_nivelles$code_ins, sep="")
+arr_nivelles <- select(arr_nivelles, id, municipality_name_fr, code_ins)
+write.table(arr_nivelles, "arrondissement_nivelles_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+
 
 
