@@ -117,4 +117,35 @@ arr_gand$id <- paste("056F", arr_gand$code_ins, sep="")
 arr_gand <- select(arr_gand, id, municipality_name_fr, code_ins)
 write.table(arr_gand, "arrondissement_gand_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Saint-Nicolas, Province de Flandre Orientale, Région Flamande
+arr_saintnicolas <- slice(ref, 294:300)
+arr_saintnicolas$id <- paste("056F", arr_saintnicolas$code_ins, sep="")
+arr_saintnicolas <- select(arr_saintnicolas, id, municipality_name_fr, code_ins)
+write.table(arr_saintnicolas, "arrondissement_saintnicolas_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Termonde, Province de Flandre Orientale, Région Flamande
+arr_termonde <- slice(ref, 302:311)
+arr_termonde$id <- paste("056F", arr_termonde$code_ins, sep="")
+arr_termonde <- select(arr_termonde, id, municipality_name_fr, code_ins)
+write.table(arr_termonde, "arrondissement_termonde_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Hasselt, Province du Limbourg, Région Flamande
+arr_hasselt <- slice(ref, 314:331)
+arr_hasselt$id <- paste("056F", arr_hasselt$code_ins, sep="")
+arr_hasselt <- select(arr_hasselt, id, municipality_name_fr, code_ins)
+write.table(arr_hasselt, "arrondissement_hasselt_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Maaseik, Province du Limbourg, Région Flamande
+arr_maaseik <- slice(ref, 333:345)
+arr_maaseik$id <- paste("056F", arr_maaseik$code_ins, sep="")
+arr_maaseik <- select(arr_maaseik, id, municipality_name_fr, code_ins)
+write.table(arr_maaseik, "arrondissement_maaseik_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Tongres, Province du Limbourg, Région Flamande
+arr_tongres <- slice(ref, 347:359)
+arr_tongres$id <- paste("056F", arr_tongres$code_ins, sep="")
+arr_tongres <- select(arr_tongres, id, municipality_name_fr, code_ins)
+write.table(arr_tongres, "arrondissement_tongres_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
 
