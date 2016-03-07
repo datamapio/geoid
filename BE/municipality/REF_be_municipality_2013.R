@@ -153,6 +153,17 @@ arr_nivelles$id <- paste("056W", arr_nivelles$code_ins, sep="")
 arr_nivelles <- select(arr_nivelles, id, municipality_name_fr, code_ins)
 write.table(arr_nivelles, "arrondissement_nivelles_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Ath, Province du Hainaut, Région Wallonne
+arr_ath <- slice(ref, 393:400)
+arr_ath$id <- paste("056W", arr_ath$code_ins, sep="")
+arr_ath <- select(arr_ath, id, municipality_name_fr, code_ins)
+write.table(arr_ath, "arrondissement_ath_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Charleroi, Province du Hainaut, Région Wallonne
+arr_charleroi <- slice(ref, 402:415)
+arr_charleroi$id <- paste("056W", arr_charleroi$code_ins, sep="")
+arr_charleroi <- select(arr_charleroi, id, municipality_name_fr, code_ins)
+write.table(arr_charleroi, "arrondissement_charleroi_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
 
