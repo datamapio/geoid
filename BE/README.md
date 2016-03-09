@@ -133,7 +133,10 @@ Type: Alphanumeric, 9
 Country (3, numeric, ISO) | Region Code (1, alphabetic) | Municipality Code (5, numeric, INS)    
 056 | B | 21015    
 Ex. 056B21015 = SCHAERBEEK, Région Bruxelles-Capitale (21015)    
-Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)    
+Ex. 056F23027 = Hal, Hal-Vilvorde, Brabant Flamand (23027)   
+
+###REF File
+https://github.com/datamapio/geoid/blob/master/BE/municipality/be_municipality_2013.csv 
 
 
 ##Municipality Parts/Sections, City Districts (Deelgemeenten, Districts (Antwerpen), Ancienne commune, Section de commune)
