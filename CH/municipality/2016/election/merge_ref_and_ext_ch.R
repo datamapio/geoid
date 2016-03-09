@@ -74,11 +74,12 @@ difference <- diff_data(check_ext, check_ref)
 # ---,9200
 # ---,9220
 # ---,9230
-#---,9250
+# ---,9250
 
 
 ext1$gdename <- NULL ## we don't need the gdenr
 
 data <- merge(ref, ext1, by="gdenr", all=TRUE)
+data <- select(data, id, municipality_name, valid_votes, yes,	no,	yes_percentage)
 write.table(data, "enforcement_initiative_ch_municipality_20160228.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
