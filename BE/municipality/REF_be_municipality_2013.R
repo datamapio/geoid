@@ -249,6 +249,34 @@ arr_virton$id <- paste("056W", arr_virton$code_ins, sep="")
 arr_virton <- select(arr_virton, id, municipality_name_fr, code_ins)
 write.table(arr_virton, "arrondissement_virton_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Dinant, Province de Namur, Région Wallonne
+arr_dinant <- slice(ref, 609:623)
+arr_dinant$id <- paste("056W", arr_dinant$code_ins, sep="")
+arr_dinant <- select(arr_dinant, id, municipality_name_fr, code_ins)
+write.table(arr_dinant, "arrondissement_dinant_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Namur, Province de Namur, Région Wallonne
+arr_namur <- slice(ref, 625:640)
+arr_namur$id <- paste("056W", arr_namur$code_ins, sep="")
+arr_namur <- select(arr_namur, id, municipality_name_fr, code_ins)
+write.table(arr_namur, "arrondissement_namur_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Philippeville, Province de Namur, Région Wallonne
+arr_philippeville <- slice(ref, 642:648)
+arr_philippeville$id <- paste("056W", arr_philippeville$code_ins, sep="")
+arr_philippeville <- select(arr_philippeville, id, municipality_name_fr, code_ins)
+write.table(arr_philippeville, "arrondissement_philippeville_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+arr_list <- list()
+arr_list <- ls()
+arr_list <- arr_list[-c(45, 46)] 
+arr_list <- lapply(arr_list, function(x) as.name(x))
+
+
+library(data.table)
+be_municipality <- rbindlist(arr_list)
+be_municipality <- rbind_all(arr_list)
+
 
 
 
