@@ -267,15 +267,13 @@ arr_philippeville$id <- paste("056W", arr_philippeville$code_ins, sep="")
 arr_philippeville <- select(arr_philippeville, id, municipality_name_fr, code_ins)
 write.table(arr_philippeville, "arrondissement_philippeville_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
-arr_list <- list()
-arr_list <- ls()
-arr_list <- arr_list[-c(45, 46)] 
-arr_list <- lapply(arr_list, function(x) as.name(x))
 
-
+## First check with ls(), then remove objects you don't want with rm(); You should have 43 in the end
 library(data.table)
-be_municipality <- rbindlist(arr_list)
-be_municipality <- rbind_all(arr_list)
+be_municipality <- rbindlist(mget(ls()))
+be_municipality <- be_municipality[order(code_ins)]
+
+write.table(be_municipality, "be_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
 
 
