@@ -231,6 +231,27 @@ arr_bastogne$id <- paste("056W", arr_bastogne$code_ins, sep="")
 arr_bastogne <- select(arr_bastogne, id, municipality_name_fr, code_ins)
 write.table(arr_bastogne, "arrondissement_bastogne_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+## Arrondissement Marche-en-Famenne, Province du Luxembourg, Région Wallonne
+arr_marcheenfamenne <- slice(ref, 574:582)
+arr_marcheenfamenne$id <- paste("056W", arr_marcheenfamenne$code_ins, sep="")
+arr_marcheenfamenne <- select(arr_marcheenfamenne, id, municipality_name_fr, code_ins)
+write.table(arr_marcheenfamenne, "arrondissement_marcheenfamenne_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement Neufchâteau, Province du Luxembourg, Région Wallonne
+arr_neufchateau <- slice(ref, 584:595)
+arr_neufchateau$id <- paste("056W", arr_neufchateau$code_ins, sep="")
+arr_neufchateau <- select(arr_neufchateau, id, municipality_name_fr, code_ins)
+write.table(arr_neufchateau, "arrondissement_neufchateau_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+## Arrondissement  Virton, Province du Luxembourg, Région Wallonne
+arr_virton <- slice(ref, 597:606)
+arr_virton$id <- paste("056W", arr_virton$code_ins, sep="")
+arr_virton <- select(arr_virton, id, municipality_name_fr, code_ins)
+write.table(arr_virton, "arrondissement_virton_municipality_2013.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+
+
 
 
 
