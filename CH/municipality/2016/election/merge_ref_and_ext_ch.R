@@ -77,9 +77,33 @@ difference <- diff_data(check_ext, check_ref)
 # ---,9250
 
 
-ext1$gdename <- NULL ## we don't need the gdenr
+swabroad <- read.csv("../../2010/ch_municipality_20101121_with_kommunanzen_and_swiss_abroad.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
+swabroad <- slice(swabroad, 2589:2597)
+swiabroad <- rbind(swabroad, c(75610009100, 9100, "FR-CH de l'étranger", NA,  NA,	9120,	NA,	NA,	NA))
+swisabroad <- rbind(swiabroad, c(75623009230, 9230, "VS-CH de l'étranger", NA,  NA,  9230,	NA,	NA,	NA))
+swissabroad <- swisabroad[order(swisabroad$GMDE), ]
+swiss_abroad <- select(swissabroad, id, municipality_number, municipality_name, district_number) 
+swiss_abroad$canton_code <- NA 
+swiss_abroad$gdekt <- NA   
+swiss_abroad$gdebznr <- NA
+swiss_abroad$gdenr <- swiss_abroad$municipality_number
+swiss_abroad$gdename <- NA
+swiss_abroad$gdenamk <- NA
+swiss_abroad$gdebzna <- NA
+swiss_abroad$gdektna <- NA
+swiss_abroad$gdemutdat <- NA                        
 
-data <- merge(ref, ext1, by="gdenr", all=TRUE)
+ref_with_swiss_abroad <- rbind(ref, swiss_abroad)
+write.table(ref_with_swiss_abroad, "../ch_municipality_with_swiss_abroad_2016.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+
+## Read in REF with Swiss Abroad because of Umlauts
+new_ref <- read.csv("../ch_municipality_with_swiss_abroad_2016.csv", header = TRUE, stringsAsFactors=FALSE, encoding = "UTF-8")
+     
+
+ext1$gdename <- NULL ## we don't need the gdename
+
+data <- merge(new_ref, ext1, by="gdenr", all=TRUE)
 data <- select(data, id, municipality_name, valid_votes, yes,	no,	yes_percentage)
 write.table(data, "enforcement_initiative_ch_municipality_20160228.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
