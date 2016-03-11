@@ -107,3 +107,5 @@ data <- merge(new_ref, ext1, by="gdenr", all=TRUE)
 data <- select(data, id, municipality_name, valid_votes, yes,	no,	yes_percentage)
 write.table(data, "enforcement_initiative_ch_municipality_20160228.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
+
+
