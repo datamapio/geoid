@@ -38,7 +38,9 @@ Graubünden: -11
 Neuchâtel: -1
 Zurich: -1
 = -30
-``
+
+
+```
 Bern
 1.1.2016: -2, -1, -1 = -4
 der Gemeinden Ersigen, Niederösch und Oberösch zur Gemeinde Ersigen zusammengeschlossen.
