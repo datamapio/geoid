@@ -32,12 +32,12 @@ Canton of Neuchâtel: Rochefort
 Canton of Zurich: Illnau-Effretikon
 ```
 
-Bern: -4
-Fribourg: -13
-Graubünden: -11
-Neuchâtel: -1
-Zurich: -1
-= -30
+Bern: -4    
+Fribourg: -13     
+Graubünden: -11     
+Neuchâtel: -1      
+Zurich: -1      
+= -30    
 
 
 ```
@@ -47,7 +47,6 @@ der Gemeinden Ersigen, Niederösch und Oberösch zur Gemeinde Ersigen zusammenge
 der Gemeinden Bangerten und Rapperswil zur Gemeinde Rapperswil zusammengeschlossen.
 der Gemeinden Seeberg und Hermiswil zur Gemeinde Seeberg zusammengeschlossen.
 
-
 Fribourg/Freiburg
 1.1.2016: -1, -1, -4, -4, -3 = -13
 - die Gemeinden Autafond und Belfaux zur Gemeinde Belfaux zusammengeschlossen.
@@ -56,13 +55,12 @@ Fribourg/Freiburg
 - die Gemeinden Courlevon, Jeuss, Lurtigen, Murten und Salvenach zur Gemeinde Murten zusammengeschlossen.
 - die Gemeinden Domdidier, Dompierre, Léchelles und Russy zur Gemeinde Belmont-Broye zusammengeschlossen.
 
-
+Graubünden
 1.1.2016: -8, -1, -1, -1 = -11 
 - die Gemeinden Bivio, Cunter, Marmorera, Mulegns, Riom-Parsonz, Salouf, Savognin, Sur und Tinizong-Rona zur Gemeinde Surses zusammengeschlossen.
 - die Gemeinden Luzein und St. Antönien zur Gemeinde Luzein zusammengeschlossen.
 - die Gemeinden Klosters-Serneus und Saas im Prättigau zur Gemeinde Klosters-Serneus zusammengeschlossen.
 - die Gemeinden Obersaxen und Mundaun zur Gemeinde Obersaxen Mundaun zusammengeschlossen.
-
 
 Neuchâtel
 1.1.2016: -1
@@ -81,7 +79,3 @@ Zurich
 REF File with 352 municipalities     
 https://github.com/datamapio/geoid/blob/master/CH/municipality/2016/election/enforcement_intiative_bern_municipality_20160228.csv
 
-###Niederösch and Oberösch fusion with Ersingen
-From Wikipedia       
-https://de.wikipedia.org/wiki/Nieder%C3%B6sch       
-Niederösch war bis am 31. Dezember 2015 eine politische Gemeinde im Verwaltungskreis Emmental des Kantons Bern in der Schweiz. Am 1. Januar 2016 fusionierte sie mit Ersigen und Oberösch zur Gemeinde Ersigen.
