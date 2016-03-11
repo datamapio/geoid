@@ -53,7 +53,7 @@ difference <- diff_data(check_ext, check_ref)
 # 878 Noflen                              872      Kirchdorf          BE     
 # 
 #
-# In 2015  
+# In 2016  
 # +++,389 Meienried
 # +++,408 Hellsau
 # +++,422 Rüti bei Lyssach
