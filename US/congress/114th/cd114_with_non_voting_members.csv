@@ -1,442 +1,442 @@
-"id","cd114_name","geoid2","state_fips","cd114_fips","lsad","cdsessn","cd114_code"
-"840CD1140101","Alabama Congressional District 1","0101",1,"01","C2",114,"AL-01"
-"840CD1140102","Alabama Congressional District 2","0102",1,"02","C2",114,"AL-02"
-"840CD1140103","Alabama Congressional District 3","0103",1,"03","C2",114,"AL-03"
-"840CD1140104","Alabama Congressional District 4","0104",1,"04","C2",114,"AL-04"
-"840CD1140105","Alabama Congressional District 5","0105",1,"05","C2",114,"AL-05"
-"840CD1140106","Alabama Congressional District 6","0106",1,"06","C2",114,"AL-06"
-"840CD1140107","Alabama Congressional District 7","0107",1,"07","C2",114,"AL-07"
-"840CD1140200","Alaska Congressional District (at Large)","0200",2,"00","C1",114,"AK-AL"
-"840CD1140401","Arizona Congressional District 1","0401",4,"01","C2",114,"AZ-01"
-"840CD1140402","Arizona Congressional District 2","0402",4,"02","C2",114,"AZ-02"
-"840CD1140403","Arizona Congressional District 3","0403",4,"03","C2",114,"AZ-03"
-"840CD1140404","Arizona Congressional District 4","0404",4,"04","C2",114,"AZ-04"
-"840CD1140405","Arizona Congressional District 5","0405",4,"05","C2",114,"AZ-05"
-"840CD1140406","Arizona Congressional District 6","0406",4,"06","C2",114,"AZ-06"
-"840CD1140407","Arizona Congressional District 7","0407",4,"07","C2",114,"AZ-07"
-"840CD1140408","Arizona Congressional District 8","0408",4,"08","C2",114,"AZ-08"
-"840CD1140409","Arizona Congressional District 9","0409",4,"09","C2",114,"AZ-09"
-"840CD1140501","Arkansas Congressional District 1","0501",5,"01","C2",114,"AR-01"
-"840CD1140502","Arkansas Congressional District 2","0502",5,"02","C2",114,"AR-02"
-"840CD1140503","Arkansas Congressional District 3","0503",5,"03","C2",114,"AR-03"
-"840CD1140504","Arkansas Congressional District 4","0504",5,"04","C2",114,"AR-04"
-"840CD1140601","California Congressional District 1","0601",6,"01","C2",114,"CA-01"
-"840CD1140602","California Congressional District 2","0602",6,"02","C2",114,"CA-02"
-"840CD1140603","California Congressional District 3","0603",6,"03","C2",114,"CA-03"
-"840CD1140604","California Congressional District 4","0604",6,"04","C2",114,"CA-04"
-"840CD1140605","California Congressional District 5","0605",6,"05","C2",114,"CA-05"
-"840CD1140606","California Congressional District 6","0606",6,"06","C2",114,"CA-06"
-"840CD1140607","California Congressional District 7","0607",6,"07","C2",114,"CA-07"
-"840CD1140608","California Congressional District 8","0608",6,"08","C2",114,"CA-08"
-"840CD1140609","California Congressional District 9","0609",6,"09","C2",114,"CA-09"
-"840CD1140610","California Congressional District 10","0610",6,"10","C2",114,"CA-10"
-"840CD1140611","California Congressional District 11","0611",6,"11","C2",114,"CA-11"
-"840CD1140612","California Congressional District 12","0612",6,"12","C2",114,"CA-12"
-"840CD1140613","California Congressional District 13","0613",6,"13","C2",114,"CA-13"
-"840CD1140614","California Congressional District 14","0614",6,"14","C2",114,"CA-14"
-"840CD1140615","California Congressional District 15","0615",6,"15","C2",114,"CA-15"
-"840CD1140616","California Congressional District 16","0616",6,"16","C2",114,"CA-16"
-"840CD1140617","California Congressional District 17","0617",6,"17","C2",114,"CA-17"
-"840CD1140618","California Congressional District 18","0618",6,"18","C2",114,"CA-18"
-"840CD1140619","California Congressional District 19","0619",6,"19","C2",114,"CA-19"
-"840CD1140620","California Congressional District 20","0620",6,"20","C2",114,"CA-20"
-"840CD1140621","California Congressional District 21","0621",6,"21","C2",114,"CA-21"
-"840CD1140622","California Congressional District 22","0622",6,"22","C2",114,"CA-22"
-"840CD1140623","California Congressional District 23","0623",6,"23","C2",114,"CA-23"
-"840CD1140624","California Congressional District 24","0624",6,"24","C2",114,"CA-24"
-"840CD1140625","California Congressional District 25","0625",6,"25","C2",114,"CA-25"
-"840CD1140626","California Congressional District 26","0626",6,"26","C2",114,"CA-26"
-"840CD1140627","California Congressional District 27","0627",6,"27","C2",114,"CA-27"
-"840CD1140628","California Congressional District 28","0628",6,"28","C2",114,"CA-28"
-"840CD1140629","California Congressional District 29","0629",6,"29","C2",114,"CA-29"
-"840CD1140630","California Congressional District 30","0630",6,"30","C2",114,"CA-30"
-"840CD1140631","California Congressional District 31","0631",6,"31","C2",114,"CA-31"
-"840CD1140632","California Congressional District 32","0632",6,"32","C2",114,"CA-32"
-"840CD1140633","California Congressional District 33","0633",6,"33","C2",114,"CA-33"
-"840CD1140634","California Congressional District 34","0634",6,"34","C2",114,"CA-34"
-"840CD1140635","California Congressional District 35","0635",6,"35","C2",114,"CA-35"
-"840CD1140636","California Congressional District 36","0636",6,"36","C2",114,"CA-36"
-"840CD1140637","California Congressional District 37","0637",6,"37","C2",114,"CA-37"
-"840CD1140638","California Congressional District 38","0638",6,"38","C2",114,"CA-38"
-"840CD1140639","California Congressional District 39","0639",6,"39","C2",114,"CA-39"
-"840CD1140640","California Congressional District 40","0640",6,"40","C2",114,"CA-40"
-"840CD1140641","California Congressional District 41","0641",6,"41","C2",114,"CA-41"
-"840CD1140642","California Congressional District 42","0642",6,"42","C2",114,"CA-42"
-"840CD1140643","California Congressional District 43","0643",6,"43","C2",114,"CA-43"
-"840CD1140644","California Congressional District 44","0644",6,"44","C2",114,"CA-44"
-"840CD1140645","California Congressional District 45","0645",6,"45","C2",114,"CA-45"
-"840CD1140646","California Congressional District 46","0646",6,"46","C2",114,"CA-46"
-"840CD1140647","California Congressional District 47","0647",6,"47","C2",114,"CA-47"
-"840CD1140648","California Congressional District 48","0648",6,"48","C2",114,"CA-48"
-"840CD1140649","California Congressional District 49","0649",6,"49","C2",114,"CA-49"
-"840CD1140650","California Congressional District 50","0650",6,"50","C2",114,"CA-50"
-"840CD1140651","California Congressional District 51","0651",6,"51","C2",114,"CA-51"
-"840CD1140652","California Congressional District 52","0652",6,"52","C2",114,"CA-52"
-"840CD1140653","California Congressional District 53","0653",6,"53","C2",114,"CA-53"
-"840CD1140801","Colorado Congressional District 1","0801",8,"01","C2",114,"CO-01"
-"840CD1140802","Colorado Congressional District 2","0802",8,"02","C2",114,"CO-02"
-"840CD1140803","Colorado Congressional District 3","0803",8,"03","C2",114,"CO-03"
-"840CD1140804","Colorado Congressional District 4","0804",8,"04","C2",114,"CO-04"
-"840CD1140805","Colorado Congressional District 5","0805",8,"05","C2",114,"CO-05"
-"840CD1140806","Colorado Congressional District 6","0806",8,"06","C2",114,"CO-06"
-"840CD1140807","Colorado Congressional District 7","0807",8,"07","C2",114,"CO-07"
-"840CD1140901","Connecticut Congressional District 1","0901",9,"01","C2",114,"CT-01"
-"840CD1140902","Connecticut Congressional District 2","0902",9,"02","C2",114,"CT-02"
-"840CD1140903","Connecticut Congressional District 3","0903",9,"03","C2",114,"CT-03"
-"840CD1140904","Connecticut Congressional District 4","0904",9,"04","C2",114,"CT-04"
-"840CD1140905","Connecticut Congressional District 5","0905",9,"05","C2",114,"CT-05"
-"840CD1141000","Delaware Congressional District (at Large)","1000",10,"00","C1",114,"DE-AL"
-"840CD1141198","DC Delegate District (at Large)","1198",11,"98","C4",114,"Non Voting Member"
-"840CD1141201","Florida Congressional District 1","1201",12,"01","C2",114,"FL-01"
-"840CD1141202","Florida Congressional District 2","1202",12,"02","C2",114,"FL-02"
-"840CD1141203","Florida Congressional District 3","1203",12,"03","C2",114,"FL-03"
-"840CD1141204","Florida Congressional District 4","1204",12,"04","C2",114,"FL-04"
-"840CD1141205","Florida Congressional District 5","1205",12,"05","C2",114,"FL-05"
-"840CD1141206","Florida Congressional District 6","1206",12,"06","C2",114,"FL-06"
-"840CD1141207","Florida Congressional District 7","1207",12,"07","C2",114,"FL-07"
-"840CD1141208","Florida Congressional District 8","1208",12,"08","C2",114,"FL-08"
-"840CD1141209","Florida Congressional District 9","1209",12,"09","C2",114,"FL-09"
-"840CD1141210","Florida Congressional District 10","1210",12,"10","C2",114,"FL-10"
-"840CD1141211","Florida Congressional District 11","1211",12,"11","C2",114,"FL-11"
-"840CD1141212","Florida Congressional District 12","1212",12,"12","C2",114,"FL-12"
-"840CD1141213","Florida Congressional District 13","1213",12,"13","C2",114,"FL-13"
-"840CD1141214","Florida Congressional District 14","1214",12,"14","C2",114,"FL-14"
-"840CD1141215","Florida Congressional District 15","1215",12,"15","C2",114,"FL-15"
-"840CD1141216","Florida Congressional District 16","1216",12,"16","C2",114,"FL-16"
-"840CD1141217","Florida Congressional District 17","1217",12,"17","C2",114,"FL-17"
-"840CD1141218","Florida Congressional District 18","1218",12,"18","C2",114,"FL-18"
-"840CD1141219","Florida Congressional District 19","1219",12,"19","C2",114,"FL-19"
-"840CD1141220","Florida Congressional District 20","1220",12,"20","C2",114,"FL-20"
-"840CD1141221","Florida Congressional District 21","1221",12,"21","C2",114,"FL-21"
-"840CD1141222","Florida Congressional District 22","1222",12,"22","C2",114,"FL-22"
-"840CD1141223","Florida Congressional District 23","1223",12,"23","C2",114,"FL-23"
-"840CD1141224","Florida Congressional District 24","1224",12,"24","C2",114,"FL-24"
-"840CD1141225","Florida Congressional District 25","1225",12,"25","C2",114,"FL-25"
-"840CD1141226","Florida Congressional District 26","1226",12,"26","C2",114,"FL-26"
-"840CD1141227","Florida Congressional District 27","1227",12,"27","C2",114,"FL-27"
-"840CD1141301","Georgia Congressional District 1","1301",13,"01","C2",114,"GA-01"
-"840CD1141302","Georgia Congressional District 2","1302",13,"02","C2",114,"GA-02"
-"840CD1141303","Georgia Congressional District 3","1303",13,"03","C2",114,"GA-03"
-"840CD1141304","Georgia Congressional District 4","1304",13,"04","C2",114,"GA-04"
-"840CD1141305","Georgia Congressional District 5","1305",13,"05","C2",114,"GA-05"
-"840CD1141306","Georgia Congressional District 6","1306",13,"06","C2",114,"GA-06"
-"840CD1141307","Georgia Congressional District 7","1307",13,"07","C2",114,"GA-07"
-"840CD1141308","Georgia Congressional District 8","1308",13,"08","C2",114,"GA-08"
-"840CD1141309","Georgia Congressional District 9","1309",13,"09","C2",114,"GA-09"
-"840CD1141310","Georgia Congressional District 10","1310",13,"10","C2",114,"GA-10"
-"840CD1141311","Georgia Congressional District 11","1311",13,"11","C2",114,"GA-11"
-"840CD1141312","Georgia Congressional District 12","1312",13,"12","C2",114,"GA-12"
-"840CD1141313","Georgia Congressional District 13","1313",13,"13","C2",114,"GA-13"
-"840CD1141314","Georgia Congressional District 14","1314",13,"14","C2",114,"GA-14"
-"840CD1141501","Hawaii Congressional District 1","1501",15,"01","C2",114,"HI-01"
-"840CD1141502","Hawaii Congressional District 2","1502",15,"02","C2",114,"HI-02"
-"840CD1141601","Idaho Congressional District 1","1601",16,"01","C2",114,"ID-01"
-"840CD1141602","Idaho Congressional District 2","1602",16,"02","C2",114,"ID-02"
-"840CD1141701","Illinois Congressional District 1","1701",17,"01","C2",114,"IL-01"
-"840CD1141702","Illinois Congressional District 2","1702",17,"02","C2",114,"IL-02"
-"840CD1141703","Illinois Congressional District 3","1703",17,"03","C2",114,"IL-03"
-"840CD1141704","Illinois Congressional District 4","1704",17,"04","C2",114,"IL-04"
-"840CD1141705","Illinois Congressional District 5","1705",17,"05","C2",114,"IL-05"
-"840CD1141706","Illinois Congressional District 6","1706",17,"06","C2",114,"IL-06"
-"840CD1141707","Illinois Congressional District 7","1707",17,"07","C2",114,"IL-07"
-"840CD1141708","Illinois Congressional District 8","1708",17,"08","C2",114,"IL-08"
-"840CD1141709","Illinois Congressional District 9","1709",17,"09","C2",114,"IL-09"
-"840CD1141710","Illinois Congressional District 10","1710",17,"10","C2",114,"IL-10"
-"840CD1141711","Illinois Congressional District 11","1711",17,"11","C2",114,"IL-11"
-"840CD1141712","Illinois Congressional District 12","1712",17,"12","C2",114,"IL-12"
-"840CD1141713","Illinois Congressional District 13","1713",17,"13","C2",114,"IL-13"
-"840CD1141714","Illinois Congressional District 14","1714",17,"14","C2",114,"IL-14"
-"840CD1141715","Illinois Congressional District 15","1715",17,"15","C2",114,"IL-15"
-"840CD1141716","Illinois Congressional District 16","1716",17,"16","C2",114,"IL-16"
-"840CD1141717","Illinois Congressional District 17","1717",17,"17","C2",114,"IL-17"
-"840CD1141718","Illinois Congressional District 18","1718",17,"18","C2",114,"IL-18"
-"840CD1141801","Indiana Congressional District 1","1801",18,"01","C2",114,"IN-01"
-"840CD1141802","Indiana Congressional District 2","1802",18,"02","C2",114,"IN-02"
-"840CD1141803","Indiana Congressional District 3","1803",18,"03","C2",114,"IN-03"
-"840CD1141804","Indiana Congressional District 4","1804",18,"04","C2",114,"IN-04"
-"840CD1141805","Indiana Congressional District 5","1805",18,"05","C2",114,"IN-05"
-"840CD1141806","Indiana Congressional District 6","1806",18,"06","C2",114,"IN-06"
-"840CD1141807","Indiana Congressional District 7","1807",18,"07","C2",114,"IN-07"
-"840CD1141808","Indiana Congressional District 8","1808",18,"08","C2",114,"IN-08"
-"840CD1141809","Indiana Congressional District 9","1809",18,"09","C2",114,"IN-09"
-"840CD1141901","Iowa Congressional District 1","1901",19,"01","C2",114,"IA-01"
-"840CD1141902","Iowa Congressional District 2","1902",19,"02","C2",114,"IA-02"
-"840CD1141903","Iowa Congressional District 3","1903",19,"03","C2",114,"IA-03"
-"840CD1141904","Iowa Congressional District 4","1904",19,"04","C2",114,"IA-04"
-"840CD1142001","Kansas Congressional District 1","2001",20,"01","C2",114,"KS-01"
-"840CD1142002","Kansas Congressional District 2","2002",20,"02","C2",114,"KS-02"
-"840CD1142003","Kansas Congressional District 3","2003",20,"03","C2",114,"KS-03"
-"840CD1142004","Kansas Congressional District 4","2004",20,"04","C2",114,"KS-04"
-"840CD1142101","Kentucky Congressional District 1","2101",21,"01","C2",114,"KY-01"
-"840CD1142102","Kentucky Congressional District 2","2102",21,"02","C2",114,"KY-02"
-"840CD1142103","Kentucky Congressional District 3","2103",21,"03","C2",114,"KY-03"
-"840CD1142104","Kentucky Congressional District 4","2104",21,"04","C2",114,"KY-04"
-"840CD1142105","Kentucky Congressional District 5","2105",21,"05","C2",114,"KY-05"
-"840CD1142106","Kentucky Congressional District 6","2106",21,"06","C2",114,"KY-06"
-"840CD1142201","Louisiana Congressional District 1","2201",22,"01","C2",114,"LA-01"
-"840CD1142202","Louisiana Congressional District 2","2202",22,"02","C2",114,"LA-02"
-"840CD1142203","Louisiana Congressional District 3","2203",22,"03","C2",114,"LA-03"
-"840CD1142204","Louisiana Congressional District 4","2204",22,"04","C2",114,"LA-04"
-"840CD1142205","Louisiana Congressional District 5","2205",22,"05","C2",114,"LA-05"
-"840CD1142206","Louisiana Congressional District 6","2206",22,"06","C2",114,"LA-06"
-"840CD1142301","Maine Congressional District 1","2301",23,"01","C2",114,"ME-01"
-"840CD1142302","Maine Congressional District 2","2302",23,"02","C2",114,"ME-02"
-"840CD1142401","Maryland Congressional District 1","2401",24,"01","C2",114,"MD-01"
-"840CD1142402","Maryland Congressional District 2","2402",24,"02","C2",114,"MD-02"
-"840CD1142403","Maryland Congressional District 3","2403",24,"03","C2",114,"MD-03"
-"840CD1142404","Maryland Congressional District 4","2404",24,"04","C2",114,"MD-04"
-"840CD1142405","Maryland Congressional District 5","2405",24,"05","C2",114,"MD-05"
-"840CD1142406","Maryland Congressional District 6","2406",24,"06","C2",114,"MD-06"
-"840CD1142407","Maryland Congressional District 7","2407",24,"07","C2",114,"MD-07"
-"840CD1142408","Maryland Congressional District 8","2408",24,"08","C2",114,"MD-08"
-"840CD1142501","Massachusetts Congressional District 1","2501",25,"01","C2",114,"MA-01"
-"840CD1142502","Massachusetts Congressional District 2","2502",25,"02","C2",114,"MA-02"
-"840CD1142503","Massachusetts Congressional District 3","2503",25,"03","C2",114,"MA-03"
-"840CD1142504","Massachusetts Congressional District 4","2504",25,"04","C2",114,"MA-04"
-"840CD1142505","Massachusetts Congressional District 5","2505",25,"05","C2",114,"MA-05"
-"840CD1142506","Massachusetts Congressional District 6","2506",25,"06","C2",114,"MA-06"
-"840CD1142507","Massachusetts Congressional District 7","2507",25,"07","C2",114,"MA-07"
-"840CD1142508","Massachusetts Congressional District 8","2508",25,"08","C2",114,"MA-08"
-"840CD1142509","Massachusetts Congressional District 9","2509",25,"09","C2",114,"MA-09"
-"840CD1142601","Michigan Congressional District 1","2601",26,"01","C2",114,"MI-01"
-"840CD1142602","Michigan Congressional District 2","2602",26,"02","C2",114,"MI-02"
-"840CD1142603","Michigan Congressional District 3","2603",26,"03","C2",114,"MI-03"
-"840CD1142604","Michigan Congressional District 4","2604",26,"04","C2",114,"MI-04"
-"840CD1142605","Michigan Congressional District 5","2605",26,"05","C2",114,"MI-05"
-"840CD1142606","Michigan Congressional District 6","2606",26,"06","C2",114,"MI-06"
-"840CD1142607","Michigan Congressional District 7","2607",26,"07","C2",114,"MI-07"
-"840CD1142608","Michigan Congressional District 8","2608",26,"08","C2",114,"MI-08"
-"840CD1142609","Michigan Congressional District 9","2609",26,"09","C2",114,"MI-09"
-"840CD1142610","Michigan Congressional District 10","2610",26,"10","C2",114,"MI-10"
-"840CD1142611","Michigan Congressional District 11","2611",26,"11","C2",114,"MI-11"
-"840CD1142612","Michigan Congressional District 12","2612",26,"12","C2",114,"MI-12"
-"840CD1142613","Michigan Congressional District 13","2613",26,"13","C2",114,"MI-13"
-"840CD1142614","Michigan Congressional District 14","2614",26,"14","C2",114,"MI-14"
-"840CD1142701","Minnesota Congressional District 1","2701",27,"01","C2",114,"MN-01"
-"840CD1142702","Minnesota Congressional District 2","2702",27,"02","C2",114,"MN-02"
-"840CD1142703","Minnesota Congressional District 3","2703",27,"03","C2",114,"MN-03"
-"840CD1142704","Minnesota Congressional District 4","2704",27,"04","C2",114,"MN-04"
-"840CD1142705","Minnesota Congressional District 5","2705",27,"05","C2",114,"MN-05"
-"840CD1142706","Minnesota Congressional District 6","2706",27,"06","C2",114,"MN-06"
-"840CD1142707","Minnesota Congressional District 7","2707",27,"07","C2",114,"MN-07"
-"840CD1142708","Minnesota Congressional District 8","2708",27,"08","C2",114,"MN-08"
-"840CD1142801","Mississippi Congressional District 1","2801",28,"01","C2",114,"MS-01"
-"840CD1142802","Mississippi Congressional District 2","2802",28,"02","C2",114,"MS-02"
-"840CD1142803","Mississippi Congressional District 3","2803",28,"03","C2",114,"MS-03"
-"840CD1142804","Mississippi Congressional District 4","2804",28,"04","C2",114,"MS-04"
-"840CD1142901","Missouri Congressional District 1","2901",29,"01","C2",114,"MO-01"
-"840CD1142902","Missouri Congressional District 2","2902",29,"02","C2",114,"MO-02"
-"840CD1142903","Missouri Congressional District 3","2903",29,"03","C2",114,"MO-03"
-"840CD1142904","Missouri Congressional District 4","2904",29,"04","C2",114,"MO-04"
-"840CD1142905","Missouri Congressional District 5","2905",29,"05","C2",114,"MO-05"
-"840CD1142906","Missouri Congressional District 6","2906",29,"06","C2",114,"MO-06"
-"840CD1142907","Missouri Congressional District 7","2907",29,"07","C2",114,"MO-07"
-"840CD1142908","Missouri Congressional District 8","2908",29,"08","C2",114,"MO-08"
-"840CD1143000","Montana Congressional District (at Large)","3000",30,"00","C1",114,"MT-AL"
-"840CD1143101","Nebraska Congressional District 1","3101",31,"01","C2",114,"NE-01"
-"840CD1143102","Nebraska Congressional District 2","3102",31,"02","C2",114,"NE-02"
-"840CD1143103","Nebraska Congressional District 3","3103",31,"03","C2",114,"NE-03"
-"840CD1143201","Nevada Congressional District 1","3201",32,"01","C2",114,"NV-01"
-"840CD1143202","Nevada Congressional District 2","3202",32,"02","C2",114,"NV-02"
-"840CD1143203","Nevada Congressional District 3","3203",32,"03","C2",114,"NV-03"
-"840CD1143204","Nevada Congressional District 4","3204",32,"04","C2",114,"NV-04"
-"840CD1143301","New Hampshire Congressional District 1","3301",33,"01","C2",114,"NH-01"
-"840CD1143302","New Hampshire Congressional District 2","3302",33,"02","C2",114,"NH-02"
-"840CD1143401","New Jersey Congressional District 1","3401",34,"01","C2",114,"NJ-01"
-"840CD1143402","New Jersey Congressional District 2","3402",34,"02","C2",114,"NJ-02"
-"840CD1143403","New Jersey Congressional District 3","3403",34,"03","C2",114,"NJ-03"
-"840CD1143404","New Jersey Congressional District 4","3404",34,"04","C2",114,"NJ-04"
-"840CD1143405","New Jersey Congressional District 5","3405",34,"05","C2",114,"NJ-05"
-"840CD1143406","New Jersey Congressional District 6","3406",34,"06","C2",114,"NJ-06"
-"840CD1143407","New Jersey Congressional District 7","3407",34,"07","C2",114,"NJ-07"
-"840CD1143408","New Jersey Congressional District 8","3408",34,"08","C2",114,"NJ-08"
-"840CD1143409","New Jersey Congressional District 9","3409",34,"09","C2",114,"NJ-09"
-"840CD1143410","New Jersey Congressional District 10","3410",34,"10","C2",114,"NJ-10"
-"840CD1143411","New Jersey Congressional District 11","3411",34,"11","C2",114,"NJ-11"
-"840CD1143412","New Jersey Congressional District 12","3412",34,"12","C2",114,"NJ-12"
-"840CD1143501","New Mexico Congressional District 1","3501",35,"01","C2",114,"NM-01"
-"840CD1143502","New Mexico Congressional District 2","3502",35,"02","C2",114,"NM-02"
-"840CD1143503","New Mexico Congressional District 3","3503",35,"03","C2",114,"NM-03"
-"840CD1143601","New York Congressional District 1","3601",36,"01","C2",114,"NY-01"
-"840CD1143602","New York Congressional District 2","3602",36,"02","C2",114,"NY-02"
-"840CD1143603","New York Congressional District 3","3603",36,"03","C2",114,"NY-03"
-"840CD1143604","New York Congressional District 4","3604",36,"04","C2",114,"NY-04"
-"840CD1143605","New York Congressional District 5","3605",36,"05","C2",114,"NY-05"
-"840CD1143606","New York Congressional District 6","3606",36,"06","C2",114,"NY-06"
-"840CD1143607","New York Congressional District 7","3607",36,"07","C2",114,"NY-07"
-"840CD1143608","New York Congressional District 8","3608",36,"08","C2",114,"NY-08"
-"840CD1143609","New York Congressional District 9","3609",36,"09","C2",114,"NY-09"
-"840CD1143610","New York Congressional District 10","3610",36,"10","C2",114,"NY-10"
-"840CD1143611","New York Congressional District 11","3611",36,"11","C2",114,"NY-11"
-"840CD1143612","New York Congressional District 12","3612",36,"12","C2",114,"NY-12"
-"840CD1143613","New York Congressional District 13","3613",36,"13","C2",114,"NY-13"
-"840CD1143614","New York Congressional District 14","3614",36,"14","C2",114,"NY-14"
-"840CD1143615","New York Congressional District 15","3615",36,"15","C2",114,"NY-15"
-"840CD1143616","New York Congressional District 16","3616",36,"16","C2",114,"NY-16"
-"840CD1143617","New York Congressional District 17","3617",36,"17","C2",114,"NY-17"
-"840CD1143618","New York Congressional District 18","3618",36,"18","C2",114,"NY-18"
-"840CD1143619","New York Congressional District 19","3619",36,"19","C2",114,"NY-19"
-"840CD1143620","New York Congressional District 20","3620",36,"20","C2",114,"NY-20"
-"840CD1143621","New York Congressional District 21","3621",36,"21","C2",114,"NY-21"
-"840CD1143622","New York Congressional District 22","3622",36,"22","C2",114,"NY-22"
-"840CD1143623","New York Congressional District 23","3623",36,"23","C2",114,"NY-23"
-"840CD1143624","New York Congressional District 24","3624",36,"24","C2",114,"NY-24"
-"840CD1143625","New York Congressional District 25","3625",36,"25","C2",114,"NY-25"
-"840CD1143626","New York Congressional District 26","3626",36,"26","C2",114,"NY-26"
-"840CD1143627","New York Congressional District 27","3627",36,"27","C2",114,"NY-27"
-"840CD1143701","North Carolina Congressional District 1","3701",37,"01","C2",114,"NC-01"
-"840CD1143702","North Carolina Congressional District 2","3702",37,"02","C2",114,"NC-02"
-"840CD1143703","North Carolina Congressional District 3","3703",37,"03","C2",114,"NC-03"
-"840CD1143704","North Carolina Congressional District 4","3704",37,"04","C2",114,"NC-04"
-"840CD1143705","North Carolina Congressional District 5","3705",37,"05","C2",114,"NC-05"
-"840CD1143706","North Carolina Congressional District 6","3706",37,"06","C2",114,"NC-06"
-"840CD1143707","North Carolina Congressional District 7","3707",37,"07","C2",114,"NC-07"
-"840CD1143708","North Carolina Congressional District 8","3708",37,"08","C2",114,"NC-08"
-"840CD1143709","North Carolina Congressional District 9","3709",37,"09","C2",114,"NC-09"
-"840CD1143710","North Carolina Congressional District 10","3710",37,"10","C2",114,"NC-10"
-"840CD1143711","North Carolina Congressional District 11","3711",37,"11","C2",114,"NC-11"
-"840CD1143712","North Carolina Congressional District 12","3712",37,"12","C2",114,"NC-12"
-"840CD1143713","North Carolina Congressional District 13","3713",37,"13","C2",114,"NC-13"
-"840CD1143800","North Dakota Congressional District (at Large)","3800",38,"00","C1",114,"ND-AL"
-"840CD1143901","Ohio Congressional District 1","3901",39,"01","C2",114,"OH-01"
-"840CD1143902","Ohio Congressional District 2","3902",39,"02","C2",114,"OH-02"
-"840CD1143903","Ohio Congressional District 3","3903",39,"03","C2",114,"OH-03"
-"840CD1143904","Ohio Congressional District 4","3904",39,"04","C2",114,"OH-04"
-"840CD1143905","Ohio Congressional District 5","3905",39,"05","C2",114,"OH-05"
-"840CD1143906","Ohio Congressional District 6","3906",39,"06","C2",114,"OH-06"
-"840CD1143907","Ohio Congressional District 7","3907",39,"07","C2",114,"OH-07"
-"840CD1143908","Ohio Congressional District 8","3908",39,"08","C2",114,"OH-08"
-"840CD1143909","Ohio Congressional District 9","3909",39,"09","C2",114,"OH-09"
-"840CD1143910","Ohio Congressional District 10","3910",39,"10","C2",114,"OH-10"
-"840CD1143911","Ohio Congressional District 11","3911",39,"11","C2",114,"OH-11"
-"840CD1143912","Ohio Congressional District 12","3912",39,"12","C2",114,"OH-12"
-"840CD1143913","Ohio Congressional District 13","3913",39,"13","C2",114,"OH-13"
-"840CD1143914","Ohio Congressional District 14","3914",39,"14","C2",114,"OH-14"
-"840CD1143915","Ohio Congressional District 15","3915",39,"15","C2",114,"OH-15"
-"840CD1143916","Ohio Congressional District 16","3916",39,"16","C2",114,"OH-16"
-"840CD1144001","Oklahoma Congressional District 1","4001",40,"01","C2",114,"OK-01"
-"840CD1144002","Oklahoma Congressional District 2","4002",40,"02","C2",114,"OK-02"
-"840CD1144003","Oklahoma Congressional District 3","4003",40,"03","C2",114,"OK-03"
-"840CD1144004","Oklahoma Congressional District 4","4004",40,"04","C2",114,"OK-04"
-"840CD1144005","Oklahoma Congressional District 5","4005",40,"05","C2",114,"OK-05"
-"840CD1144101","Oregon Congressional District 1","4101",41,"01","C2",114,"OR-01"
-"840CD1144102","Oregon Congressional District 2","4102",41,"02","C2",114,"OR-02"
-"840CD1144103","Oregon Congressional District 3","4103",41,"03","C2",114,"OR-03"
-"840CD1144104","Oregon Congressional District 4","4104",41,"04","C2",114,"OR-04"
-"840CD1144105","Oregon Congressional District 5","4105",41,"05","C2",114,"OR-05"
-"840CD1144201","Pennsylvania Congressional District 1","4201",42,"01","C2",114,"PA-01"
-"840CD1144202","Pennsylvania Congressional District 2","4202",42,"02","C2",114,"PA-02"
-"840CD1144203","Pennsylvania Congressional District 3","4203",42,"03","C2",114,"PA-03"
-"840CD1144204","Pennsylvania Congressional District 4","4204",42,"04","C2",114,"PA-04"
-"840CD1144205","Pennsylvania Congressional District 5","4205",42,"05","C2",114,"PA-05"
-"840CD1144206","Pennsylvania Congressional District 6","4206",42,"06","C2",114,"PA-06"
-"840CD1144207","Pennsylvania Congressional District 7","4207",42,"07","C2",114,"PA-07"
-"840CD1144208","Pennsylvania Congressional District 8","4208",42,"08","C2",114,"PA-08"
-"840CD1144209","Pennsylvania Congressional District 9","4209",42,"09","C2",114,"PA-09"
-"840CD1144210","Pennsylvania Congressional District 10","4210",42,"10","C2",114,"PA-10"
-"840CD1144211","Pennsylvania Congressional District 11","4211",42,"11","C2",114,"PA-11"
-"840CD1144212","Pennsylvania Congressional District 12","4212",42,"12","C2",114,"PA-12"
-"840CD1144213","Pennsylvania Congressional District 13","4213",42,"13","C2",114,"PA-13"
-"840CD1144214","Pennsylvania Congressional District 14","4214",42,"14","C2",114,"PA-14"
-"840CD1144215","Pennsylvania Congressional District 15","4215",42,"15","C2",114,"PA-15"
-"840CD1144216","Pennsylvania Congressional District 16","4216",42,"16","C2",114,"PA-16"
-"840CD1144217","Pennsylvania Congressional District 17","4217",42,"17","C2",114,"PA-17"
-"840CD1144218","Pennsylvania Congressional District 18","4218",42,"18","C2",114,"PA-18"
-"840CD1144401","Rhode Island Congressional District 1","4401",44,"01","C2",114,"RI-01"
-"840CD1144402","Rhode Island Congressional District 2","4402",44,"02","C2",114,"RI-02"
-"840CD1144501","South Carolina Congressional District 1","4501",45,"01","C2",114,"SC-01"
-"840CD1144502","South Carolina Congressional District 2","4502",45,"02","C2",114,"SC-02"
-"840CD1144503","South Carolina Congressional District 3","4503",45,"03","C2",114,"SC-03"
-"840CD1144504","South Carolina Congressional District 4","4504",45,"04","C2",114,"SC-04"
-"840CD1144505","South Carolina Congressional District 5","4505",45,"05","C2",114,"SC-05"
-"840CD1144506","South Carolina Congressional District 6","4506",45,"06","C2",114,"SC-06"
-"840CD1144507","South Carolina Congressional District 7","4507",45,"07","C2",114,"SC-07"
-"840CD1144600","South Dakota Congressional District (at Large)","4600",46,"00","C1",114,"SD-AL"
-"840CD1144701","Tennessee Congressional District 1","4701",47,"01","C2",114,"TN-01"
-"840CD1144702","Tennessee Congressional District 2","4702",47,"02","C2",114,"TN-02"
-"840CD1144703","Tennessee Congressional District 3","4703",47,"03","C2",114,"TN-03"
-"840CD1144704","Tennessee Congressional District 4","4704",47,"04","C2",114,"TN-04"
-"840CD1144705","Tennessee Congressional District 5","4705",47,"05","C2",114,"TN-05"
-"840CD1144706","Tennessee Congressional District 6","4706",47,"06","C2",114,"TN-06"
-"840CD1144707","Tennessee Congressional District 7","4707",47,"07","C2",114,"TN-07"
-"840CD1144708","Tennessee Congressional District 8","4708",47,"08","C2",114,"TN-08"
-"840CD1144709","Tennessee Congressional District 9","4709",47,"09","C2",114,"TN-09"
-"840CD1144801","Texas Congressional District 1","4801",48,"01","C2",114,"TX-01"
-"840CD1144802","Texas Congressional District 2","4802",48,"02","C2",114,"TX-02"
-"840CD1144803","Texas Congressional District 3","4803",48,"03","C2",114,"TX-03"
-"840CD1144804","Texas Congressional District 4","4804",48,"04","C2",114,"TX-04"
-"840CD1144805","Texas Congressional District 5","4805",48,"05","C2",114,"TX-05"
-"840CD1144806","Texas Congressional District 6","4806",48,"06","C2",114,"TX-06"
-"840CD1144807","Texas Congressional District 7","4807",48,"07","C2",114,"TX-07"
-"840CD1144808","Texas Congressional District 8","4808",48,"08","C2",114,"TX-08"
-"840CD1144809","Texas Congressional District 9","4809",48,"09","C2",114,"TX-09"
-"840CD1144810","Texas Congressional District 10","4810",48,"10","C2",114,"TX-10"
-"840CD1144811","Texas Congressional District 11","4811",48,"11","C2",114,"TX-11"
-"840CD1144812","Texas Congressional District 12","4812",48,"12","C2",114,"TX-12"
-"840CD1144813","Texas Congressional District 13","4813",48,"13","C2",114,"TX-13"
-"840CD1144814","Texas Congressional District 14","4814",48,"14","C2",114,"TX-14"
-"840CD1144815","Texas Congressional District 15","4815",48,"15","C2",114,"TX-15"
-"840CD1144816","Texas Congressional District 16","4816",48,"16","C2",114,"TX-16"
-"840CD1144817","Texas Congressional District 17","4817",48,"17","C2",114,"TX-17"
-"840CD1144818","Texas Congressional District 18","4818",48,"18","C2",114,"TX-18"
-"840CD1144819","Texas Congressional District 19","4819",48,"19","C2",114,"TX-19"
-"840CD1144820","Texas Congressional District 20","4820",48,"20","C2",114,"TX-20"
-"840CD1144821","Texas Congressional District 21","4821",48,"21","C2",114,"TX-21"
-"840CD1144822","Texas Congressional District 22","4822",48,"22","C2",114,"TX-22"
-"840CD1144823","Texas Congressional District 23","4823",48,"23","C2",114,"TX-23"
-"840CD1144824","Texas Congressional District 24","4824",48,"24","C2",114,"TX-24"
-"840CD1144825","Texas Congressional District 25","4825",48,"25","C2",114,"TX-25"
-"840CD1144826","Texas Congressional District 26","4826",48,"26","C2",114,"TX-26"
-"840CD1144827","Texas Congressional District 27","4827",48,"27","C2",114,"TX-27"
-"840CD1144828","Texas Congressional District 28","4828",48,"28","C2",114,"TX-28"
-"840CD1144829","Texas Congressional District 29","4829",48,"29","C2",114,"TX-29"
-"840CD1144830","Texas Congressional District 30","4830",48,"30","C2",114,"TX-30"
-"840CD1144831","Texas Congressional District 31","4831",48,"31","C2",114,"TX-31"
-"840CD1144832","Texas Congressional District 32","4832",48,"32","C2",114,"TX-32"
-"840CD1144833","Texas Congressional District 33","4833",48,"33","C2",114,"TX-33"
-"840CD1144834","Texas Congressional District 34","4834",48,"34","C2",114,"TX-34"
-"840CD1144835","Texas Congressional District 35","4835",48,"35","C2",114,"TX-35"
-"840CD1144836","Texas Congressional District 36","4836",48,"36","C2",114,"TX-36"
-"840CD1144901","Utah Congressional District 1","4901",49,"01","C2",114,"UT-01"
-"840CD1144902","Utah Congressional District 2","4902",49,"02","C2",114,"UT-02"
-"840CD1144903","Utah Congressional District 3","4903",49,"03","C2",114,"UT-03"
-"840CD1144904","Utah Congressional District 4","4904",49,"04","C2",114,"UT-04"
-"840CD1145000","Vermont Congressional District (at Large)","5000",50,"00","C1",114," VT-AL"
-"840CD1145101","Virginia Congressional District 1","5101",51,"01","C2",114,"VA-01"
-"840CD1145102","Virginia Congressional District 2","5102",51,"02","C2",114,"VA-02"
-"840CD1145103","Virginia Congressional District 3","5103",51,"03","C2",114,"VA-03"
-"840CD1145104","Virginia Congressional District 4","5104",51,"04","C2",114,"VA-04"
-"840CD1145105","Virginia Congressional District 5","5105",51,"05","C2",114,"VA-05"
-"840CD1145106","Virginia Congressional District 6","5106",51,"06","C2",114,"VA-06"
-"840CD1145107","Virginia Congressional District 7","5107",51,"07","C2",114,"VA-07"
-"840CD1145108","Virginia Congressional District 8","5108",51,"08","C2",114,"VA-08"
-"840CD1145109","Virginia Congressional District 9","5109",51,"09","C2",114,"VA-09"
-"840CD1145110","Virginia Congressional District 10","5110",51,"10","C2",114,"VA-10"
-"840CD1145111","Virginia Congressional District 11","5111",51,"11","C2",114,"VA-11"
-"840CD1145301","Washington Congressional District 1","5301",53,"01","C2",114,"WA-01"
-"840CD1145302","Washington Congressional District 2","5302",53,"02","C2",114,"WA-02"
-"840CD1145303","Washington Congressional District 3","5303",53,"03","C2",114,"WA-03"
-"840CD1145304","Washington Congressional District 4","5304",53,"04","C2",114,"WA-04"
-"840CD1145305","Washington Congressional District 5","5305",53,"05","C2",114,"WA-05"
-"840CD1145306","Washington Congressional District 6","5306",53,"06","C2",114,"WA-06"
-"840CD1145307","Washington Congressional District 7","5307",53,"07","C2",114,"WA-07"
-"840CD1145308","Washington Congressional District 8","5308",53,"08","C2",114,"WA-08"
-"840CD1145309","Washington Congressional District 9","5309",53,"09","C2",114,"WA-09"
-"840CD1145310","Washington Congressional District 10","5310",53,"10","C2",114,"WA-10"
-"840CD1145401","West Virginia Congressional District 1","5401",54,"01","C2",114,"WV-01"
-"840CD1145402","West Virginia Congressional District 2","5402",54,"02","C2",114,"WV-02"
-"840CD1145403","West Virginia Congressional District 3","5403",54,"03","C2",114,"WV-03"
-"840CD1145501","Wisconsin Congressional District 1","5501",55,"01","C2",114,"WI-01"
-"840CD1145502","Wisconsin Congressional District 2","5502",55,"02","C2",114,"WI-02"
-"840CD1145503","Wisconsin Congressional District 3","5503",55,"03","C2",114,"WI-03"
-"840CD1145504","Wisconsin Congressional District 4","5504",55,"04","C2",114,"WI-04"
-"840CD1145505","Wisconsin Congressional District 5","5505",55,"05","C2",114,"WI-05"
-"840CD1145506","Wisconsin Congressional District 6","5506",55,"06","C2",114,"WI-06"
-"840CD1145507","Wisconsin Congressional District 7","5507",55,"07","C2",114,"WI-07"
-"840CD1145508","Wisconsin Congressional District 8","5508",55,"08","C2",114,"WI-08"
-"840CD1145600","Wyoming Congressional District (at Large)","5600",56,"00","C1",114,"WY-AL"
-"840CD1146098","American Samoa Delegate District (at Large)","6098",60,"98","C4",114,"Non Voting Member"
-"840CD1146698","Guam Delegate District (at Large)","6698",66,"98","C4",114,"Non Voting Member"
-"840CD1146998","Northern Mariana Islands Delegate District (at Large)","6998",69,"98","C4",114,"Non Voting Member"
-"840CD1147298","Puerto Rico Resident Commissioner District (at Large)","7298",72,"98","C3",114,"Non Voting Member"
-"840CD1147898","U.S. Virgin Islands Delegate District (at Large)","7898",78,"98","C4",114,"Non Voting Member"
+"id","cd114_code","cd114_name","geoid2","state_fips","cd114_fips","lsad","cdsessn"
+"840CD1140101","AL-01","Alabama Congressional District 1","0101",1,"01","C2",114
+"840CD1140102","AL-02","Alabama Congressional District 2","0102",1,"02","C2",114
+"840CD1140103","AL-03","Alabama Congressional District 3","0103",1,"03","C2",114
+"840CD1140104","AL-04","Alabama Congressional District 4","0104",1,"04","C2",114
+"840CD1140105","AL-05","Alabama Congressional District 5","0105",1,"05","C2",114
+"840CD1140106","AL-06","Alabama Congressional District 6","0106",1,"06","C2",114
+"840CD1140107","AL-07","Alabama Congressional District 7","0107",1,"07","C2",114
+"840CD1140200","AK-AL","Alaska Congressional District (at Large)","0200",2,"00","C1",114
+"840CD1140401","AZ-01","Arizona Congressional District 1","0401",4,"01","C2",114
+"840CD1140402","AZ-02","Arizona Congressional District 2","0402",4,"02","C2",114
+"840CD1140403","AZ-03","Arizona Congressional District 3","0403",4,"03","C2",114
+"840CD1140404","AZ-04","Arizona Congressional District 4","0404",4,"04","C2",114
+"840CD1140405","AZ-05","Arizona Congressional District 5","0405",4,"05","C2",114
+"840CD1140406","AZ-06","Arizona Congressional District 6","0406",4,"06","C2",114
+"840CD1140407","AZ-07","Arizona Congressional District 7","0407",4,"07","C2",114
+"840CD1140408","AZ-08","Arizona Congressional District 8","0408",4,"08","C2",114
+"840CD1140409","AZ-09","Arizona Congressional District 9","0409",4,"09","C2",114
+"840CD1140501","AR-01","Arkansas Congressional District 1","0501",5,"01","C2",114
+"840CD1140502","AR-02","Arkansas Congressional District 2","0502",5,"02","C2",114
+"840CD1140503","AR-03","Arkansas Congressional District 3","0503",5,"03","C2",114
+"840CD1140504","AR-04","Arkansas Congressional District 4","0504",5,"04","C2",114
+"840CD1140601","CA-01","California Congressional District 1","0601",6,"01","C2",114
+"840CD1140602","CA-02","California Congressional District 2","0602",6,"02","C2",114
+"840CD1140603","CA-03","California Congressional District 3","0603",6,"03","C2",114
+"840CD1140604","CA-04","California Congressional District 4","0604",6,"04","C2",114
+"840CD1140605","CA-05","California Congressional District 5","0605",6,"05","C2",114
+"840CD1140606","CA-06","California Congressional District 6","0606",6,"06","C2",114
+"840CD1140607","CA-07","California Congressional District 7","0607",6,"07","C2",114
+"840CD1140608","CA-08","California Congressional District 8","0608",6,"08","C2",114
+"840CD1140609","CA-09","California Congressional District 9","0609",6,"09","C2",114
+"840CD1140610","CA-10","California Congressional District 10","0610",6,"10","C2",114
+"840CD1140611","CA-11","California Congressional District 11","0611",6,"11","C2",114
+"840CD1140612","CA-12","California Congressional District 12","0612",6,"12","C2",114
+"840CD1140613","CA-13","California Congressional District 13","0613",6,"13","C2",114
+"840CD1140614","CA-14","California Congressional District 14","0614",6,"14","C2",114
+"840CD1140615","CA-15","California Congressional District 15","0615",6,"15","C2",114
+"840CD1140616","CA-16","California Congressional District 16","0616",6,"16","C2",114
+"840CD1140617","CA-17","California Congressional District 17","0617",6,"17","C2",114
+"840CD1140618","CA-18","California Congressional District 18","0618",6,"18","C2",114
+"840CD1140619","CA-19","California Congressional District 19","0619",6,"19","C2",114
+"840CD1140620","CA-20","California Congressional District 20","0620",6,"20","C2",114
+"840CD1140621","CA-21","California Congressional District 21","0621",6,"21","C2",114
+"840CD1140622","CA-22","California Congressional District 22","0622",6,"22","C2",114
+"840CD1140623","CA-23","California Congressional District 23","0623",6,"23","C2",114
+"840CD1140624","CA-24","California Congressional District 24","0624",6,"24","C2",114
+"840CD1140625","CA-25","California Congressional District 25","0625",6,"25","C2",114
+"840CD1140626","CA-26","California Congressional District 26","0626",6,"26","C2",114
+"840CD1140627","CA-27","California Congressional District 27","0627",6,"27","C2",114
+"840CD1140628","CA-28","California Congressional District 28","0628",6,"28","C2",114
+"840CD1140629","CA-29","California Congressional District 29","0629",6,"29","C2",114
+"840CD1140630","CA-30","California Congressional District 30","0630",6,"30","C2",114
+"840CD1140631","CA-31","California Congressional District 31","0631",6,"31","C2",114
+"840CD1140632","CA-32","California Congressional District 32","0632",6,"32","C2",114
+"840CD1140633","CA-33","California Congressional District 33","0633",6,"33","C2",114
+"840CD1140634","CA-34","California Congressional District 34","0634",6,"34","C2",114
+"840CD1140635","CA-35","California Congressional District 35","0635",6,"35","C2",114
+"840CD1140636","CA-36","California Congressional District 36","0636",6,"36","C2",114
+"840CD1140637","CA-37","California Congressional District 37","0637",6,"37","C2",114
+"840CD1140638","CA-38","California Congressional District 38","0638",6,"38","C2",114
+"840CD1140639","CA-39","California Congressional District 39","0639",6,"39","C2",114
+"840CD1140640","CA-40","California Congressional District 40","0640",6,"40","C2",114
+"840CD1140641","CA-41","California Congressional District 41","0641",6,"41","C2",114
+"840CD1140642","CA-42","California Congressional District 42","0642",6,"42","C2",114
+"840CD1140643","CA-43","California Congressional District 43","0643",6,"43","C2",114
+"840CD1140644","CA-44","California Congressional District 44","0644",6,"44","C2",114
+"840CD1140645","CA-45","California Congressional District 45","0645",6,"45","C2",114
+"840CD1140646","CA-46","California Congressional District 46","0646",6,"46","C2",114
+"840CD1140647","CA-47","California Congressional District 47","0647",6,"47","C2",114
+"840CD1140648","CA-48","California Congressional District 48","0648",6,"48","C2",114
+"840CD1140649","CA-49","California Congressional District 49","0649",6,"49","C2",114
+"840CD1140650","CA-50","California Congressional District 50","0650",6,"50","C2",114
+"840CD1140651","CA-51","California Congressional District 51","0651",6,"51","C2",114
+"840CD1140652","CA-52","California Congressional District 52","0652",6,"52","C2",114
+"840CD1140653","CA-53","California Congressional District 53","0653",6,"53","C2",114
+"840CD1140801","CO-01","Colorado Congressional District 1","0801",8,"01","C2",114
+"840CD1140802","CO-02","Colorado Congressional District 2","0802",8,"02","C2",114
+"840CD1140803","CO-03","Colorado Congressional District 3","0803",8,"03","C2",114
+"840CD1140804","CO-04","Colorado Congressional District 4","0804",8,"04","C2",114
+"840CD1140805","CO-05","Colorado Congressional District 5","0805",8,"05","C2",114
+"840CD1140806","CO-06","Colorado Congressional District 6","0806",8,"06","C2",114
+"840CD1140807","CO-07","Colorado Congressional District 7","0807",8,"07","C2",114
+"840CD1140901","CT-01","Connecticut Congressional District 1","0901",9,"01","C2",114
+"840CD1140902","CT-02","Connecticut Congressional District 2","0902",9,"02","C2",114
+"840CD1140903","CT-03","Connecticut Congressional District 3","0903",9,"03","C2",114
+"840CD1140904","CT-04","Connecticut Congressional District 4","0904",9,"04","C2",114
+"840CD1140905","CT-05","Connecticut Congressional District 5","0905",9,"05","C2",114
+"840CD1141000","DE-AL","Delaware Congressional District (at Large)","1000",10,"00","C1",114
+"840CD1141198","Non Voting Member","DC Delegate District (at Large)","1198",11,"98","C4",114
+"840CD1141201","FL-01","Florida Congressional District 1","1201",12,"01","C2",114
+"840CD1141202","FL-02","Florida Congressional District 2","1202",12,"02","C2",114
+"840CD1141203","FL-03","Florida Congressional District 3","1203",12,"03","C2",114
+"840CD1141204","FL-04","Florida Congressional District 4","1204",12,"04","C2",114
+"840CD1141205","FL-05","Florida Congressional District 5","1205",12,"05","C2",114
+"840CD1141206","FL-06","Florida Congressional District 6","1206",12,"06","C2",114
+"840CD1141207","FL-07","Florida Congressional District 7","1207",12,"07","C2",114
+"840CD1141208","FL-08","Florida Congressional District 8","1208",12,"08","C2",114
+"840CD1141209","FL-09","Florida Congressional District 9","1209",12,"09","C2",114
+"840CD1141210","FL-10","Florida Congressional District 10","1210",12,"10","C2",114
+"840CD1141211","FL-11","Florida Congressional District 11","1211",12,"11","C2",114
+"840CD1141212","FL-12","Florida Congressional District 12","1212",12,"12","C2",114
+"840CD1141213","FL-13","Florida Congressional District 13","1213",12,"13","C2",114
+"840CD1141214","FL-14","Florida Congressional District 14","1214",12,"14","C2",114
+"840CD1141215","FL-15","Florida Congressional District 15","1215",12,"15","C2",114
+"840CD1141216","FL-16","Florida Congressional District 16","1216",12,"16","C2",114
+"840CD1141217","FL-17","Florida Congressional District 17","1217",12,"17","C2",114
+"840CD1141218","FL-18","Florida Congressional District 18","1218",12,"18","C2",114
+"840CD1141219","FL-19","Florida Congressional District 19","1219",12,"19","C2",114
+"840CD1141220","FL-20","Florida Congressional District 20","1220",12,"20","C2",114
+"840CD1141221","FL-21","Florida Congressional District 21","1221",12,"21","C2",114
+"840CD1141222","FL-22","Florida Congressional District 22","1222",12,"22","C2",114
+"840CD1141223","FL-23","Florida Congressional District 23","1223",12,"23","C2",114
+"840CD1141224","FL-24","Florida Congressional District 24","1224",12,"24","C2",114
+"840CD1141225","FL-25","Florida Congressional District 25","1225",12,"25","C2",114
+"840CD1141226","FL-26","Florida Congressional District 26","1226",12,"26","C2",114
+"840CD1141227","FL-27","Florida Congressional District 27","1227",12,"27","C2",114
+"840CD1141301","GA-01","Georgia Congressional District 1","1301",13,"01","C2",114
+"840CD1141302","GA-02","Georgia Congressional District 2","1302",13,"02","C2",114
+"840CD1141303","GA-03","Georgia Congressional District 3","1303",13,"03","C2",114
+"840CD1141304","GA-04","Georgia Congressional District 4","1304",13,"04","C2",114
+"840CD1141305","GA-05","Georgia Congressional District 5","1305",13,"05","C2",114
+"840CD1141306","GA-06","Georgia Congressional District 6","1306",13,"06","C2",114
+"840CD1141307","GA-07","Georgia Congressional District 7","1307",13,"07","C2",114
+"840CD1141308","GA-08","Georgia Congressional District 8","1308",13,"08","C2",114
+"840CD1141309","GA-09","Georgia Congressional District 9","1309",13,"09","C2",114
+"840CD1141310","GA-10","Georgia Congressional District 10","1310",13,"10","C2",114
+"840CD1141311","GA-11","Georgia Congressional District 11","1311",13,"11","C2",114
+"840CD1141312","GA-12","Georgia Congressional District 12","1312",13,"12","C2",114
+"840CD1141313","GA-13","Georgia Congressional District 13","1313",13,"13","C2",114
+"840CD1141314","GA-14","Georgia Congressional District 14","1314",13,"14","C2",114
+"840CD1141501","HI-01","Hawaii Congressional District 1","1501",15,"01","C2",114
+"840CD1141502","HI-02","Hawaii Congressional District 2","1502",15,"02","C2",114
+"840CD1141601","ID-01","Idaho Congressional District 1","1601",16,"01","C2",114
+"840CD1141602","ID-02","Idaho Congressional District 2","1602",16,"02","C2",114
+"840CD1141701","IL-01","Illinois Congressional District 1","1701",17,"01","C2",114
+"840CD1141702","IL-02","Illinois Congressional District 2","1702",17,"02","C2",114
+"840CD1141703","IL-03","Illinois Congressional District 3","1703",17,"03","C2",114
+"840CD1141704","IL-04","Illinois Congressional District 4","1704",17,"04","C2",114
+"840CD1141705","IL-05","Illinois Congressional District 5","1705",17,"05","C2",114
+"840CD1141706","IL-06","Illinois Congressional District 6","1706",17,"06","C2",114
+"840CD1141707","IL-07","Illinois Congressional District 7","1707",17,"07","C2",114
+"840CD1141708","IL-08","Illinois Congressional District 8","1708",17,"08","C2",114
+"840CD1141709","IL-09","Illinois Congressional District 9","1709",17,"09","C2",114
+"840CD1141710","IL-10","Illinois Congressional District 10","1710",17,"10","C2",114
+"840CD1141711","IL-11","Illinois Congressional District 11","1711",17,"11","C2",114
+"840CD1141712","IL-12","Illinois Congressional District 12","1712",17,"12","C2",114
+"840CD1141713","IL-13","Illinois Congressional District 13","1713",17,"13","C2",114
+"840CD1141714","IL-14","Illinois Congressional District 14","1714",17,"14","C2",114
+"840CD1141715","IL-15","Illinois Congressional District 15","1715",17,"15","C2",114
+"840CD1141716","IL-16","Illinois Congressional District 16","1716",17,"16","C2",114
+"840CD1141717","IL-17","Illinois Congressional District 17","1717",17,"17","C2",114
+"840CD1141718","IL-18","Illinois Congressional District 18","1718",17,"18","C2",114
+"840CD1141801","IN-01","Indiana Congressional District 1","1801",18,"01","C2",114
+"840CD1141802","IN-02","Indiana Congressional District 2","1802",18,"02","C2",114
+"840CD1141803","IN-03","Indiana Congressional District 3","1803",18,"03","C2",114
+"840CD1141804","IN-04","Indiana Congressional District 4","1804",18,"04","C2",114
+"840CD1141805","IN-05","Indiana Congressional District 5","1805",18,"05","C2",114
+"840CD1141806","IN-06","Indiana Congressional District 6","1806",18,"06","C2",114
+"840CD1141807","IN-07","Indiana Congressional District 7","1807",18,"07","C2",114
+"840CD1141808","IN-08","Indiana Congressional District 8","1808",18,"08","C2",114
+"840CD1141809","IN-09","Indiana Congressional District 9","1809",18,"09","C2",114
+"840CD1141901","IA-01","Iowa Congressional District 1","1901",19,"01","C2",114
+"840CD1141902","IA-02","Iowa Congressional District 2","1902",19,"02","C2",114
+"840CD1141903","IA-03","Iowa Congressional District 3","1903",19,"03","C2",114
+"840CD1141904","IA-04","Iowa Congressional District 4","1904",19,"04","C2",114
+"840CD1142001","KS-01","Kansas Congressional District 1","2001",20,"01","C2",114
+"840CD1142002","KS-02","Kansas Congressional District 2","2002",20,"02","C2",114
+"840CD1142003","KS-03","Kansas Congressional District 3","2003",20,"03","C2",114
+"840CD1142004","KS-04","Kansas Congressional District 4","2004",20,"04","C2",114
+"840CD1142101","KY-01","Kentucky Congressional District 1","2101",21,"01","C2",114
+"840CD1142102","KY-02","Kentucky Congressional District 2","2102",21,"02","C2",114
+"840CD1142103","KY-03","Kentucky Congressional District 3","2103",21,"03","C2",114
+"840CD1142104","KY-04","Kentucky Congressional District 4","2104",21,"04","C2",114
+"840CD1142105","KY-05","Kentucky Congressional District 5","2105",21,"05","C2",114
+"840CD1142106","KY-06","Kentucky Congressional District 6","2106",21,"06","C2",114
+"840CD1142201","LA-01","Louisiana Congressional District 1","2201",22,"01","C2",114
+"840CD1142202","LA-02","Louisiana Congressional District 2","2202",22,"02","C2",114
+"840CD1142203","LA-03","Louisiana Congressional District 3","2203",22,"03","C2",114
+"840CD1142204","LA-04","Louisiana Congressional District 4","2204",22,"04","C2",114
+"840CD1142205","LA-05","Louisiana Congressional District 5","2205",22,"05","C2",114
+"840CD1142206","LA-06","Louisiana Congressional District 6","2206",22,"06","C2",114
+"840CD1142301","ME-01","Maine Congressional District 1","2301",23,"01","C2",114
+"840CD1142302","ME-02","Maine Congressional District 2","2302",23,"02","C2",114
+"840CD1142401","MD-01","Maryland Congressional District 1","2401",24,"01","C2",114
+"840CD1142402","MD-02","Maryland Congressional District 2","2402",24,"02","C2",114
+"840CD1142403","MD-03","Maryland Congressional District 3","2403",24,"03","C2",114
+"840CD1142404","MD-04","Maryland Congressional District 4","2404",24,"04","C2",114
+"840CD1142405","MD-05","Maryland Congressional District 5","2405",24,"05","C2",114
+"840CD1142406","MD-06","Maryland Congressional District 6","2406",24,"06","C2",114
+"840CD1142407","MD-07","Maryland Congressional District 7","2407",24,"07","C2",114
+"840CD1142408","MD-08","Maryland Congressional District 8","2408",24,"08","C2",114
+"840CD1142501","MA-01","Massachusetts Congressional District 1","2501",25,"01","C2",114
+"840CD1142502","MA-02","Massachusetts Congressional District 2","2502",25,"02","C2",114
+"840CD1142503","MA-03","Massachusetts Congressional District 3","2503",25,"03","C2",114
+"840CD1142504","MA-04","Massachusetts Congressional District 4","2504",25,"04","C2",114
+"840CD1142505","MA-05","Massachusetts Congressional District 5","2505",25,"05","C2",114
+"840CD1142506","MA-06","Massachusetts Congressional District 6","2506",25,"06","C2",114
+"840CD1142507","MA-07","Massachusetts Congressional District 7","2507",25,"07","C2",114
+"840CD1142508","MA-08","Massachusetts Congressional District 8","2508",25,"08","C2",114
+"840CD1142509","MA-09","Massachusetts Congressional District 9","2509",25,"09","C2",114
+"840CD1142601","MI-01","Michigan Congressional District 1","2601",26,"01","C2",114
+"840CD1142602","MI-02","Michigan Congressional District 2","2602",26,"02","C2",114
+"840CD1142603","MI-03","Michigan Congressional District 3","2603",26,"03","C2",114
+"840CD1142604","MI-04","Michigan Congressional District 4","2604",26,"04","C2",114
+"840CD1142605","MI-05","Michigan Congressional District 5","2605",26,"05","C2",114
+"840CD1142606","MI-06","Michigan Congressional District 6","2606",26,"06","C2",114
+"840CD1142607","MI-07","Michigan Congressional District 7","2607",26,"07","C2",114
+"840CD1142608","MI-08","Michigan Congressional District 8","2608",26,"08","C2",114
+"840CD1142609","MI-09","Michigan Congressional District 9","2609",26,"09","C2",114
+"840CD1142610","MI-10","Michigan Congressional District 10","2610",26,"10","C2",114
+"840CD1142611","MI-11","Michigan Congressional District 11","2611",26,"11","C2",114
+"840CD1142612","MI-12","Michigan Congressional District 12","2612",26,"12","C2",114
+"840CD1142613","MI-13","Michigan Congressional District 13","2613",26,"13","C2",114
+"840CD1142614","MI-14","Michigan Congressional District 14","2614",26,"14","C2",114
+"840CD1142701","MN-01","Minnesota Congressional District 1","2701",27,"01","C2",114
+"840CD1142702","MN-02","Minnesota Congressional District 2","2702",27,"02","C2",114
+"840CD1142703","MN-03","Minnesota Congressional District 3","2703",27,"03","C2",114
+"840CD1142704","MN-04","Minnesota Congressional District 4","2704",27,"04","C2",114
+"840CD1142705","MN-05","Minnesota Congressional District 5","2705",27,"05","C2",114
+"840CD1142706","MN-06","Minnesota Congressional District 6","2706",27,"06","C2",114
+"840CD1142707","MN-07","Minnesota Congressional District 7","2707",27,"07","C2",114
+"840CD1142708","MN-08","Minnesota Congressional District 8","2708",27,"08","C2",114
+"840CD1142801","MS-01","Mississippi Congressional District 1","2801",28,"01","C2",114
+"840CD1142802","MS-02","Mississippi Congressional District 2","2802",28,"02","C2",114
+"840CD1142803","MS-03","Mississippi Congressional District 3","2803",28,"03","C2",114
+"840CD1142804","MS-04","Mississippi Congressional District 4","2804",28,"04","C2",114
+"840CD1142901","MO-01","Missouri Congressional District 1","2901",29,"01","C2",114
+"840CD1142902","MO-02","Missouri Congressional District 2","2902",29,"02","C2",114
+"840CD1142903","MO-03","Missouri Congressional District 3","2903",29,"03","C2",114
+"840CD1142904","MO-04","Missouri Congressional District 4","2904",29,"04","C2",114
+"840CD1142905","MO-05","Missouri Congressional District 5","2905",29,"05","C2",114
+"840CD1142906","MO-06","Missouri Congressional District 6","2906",29,"06","C2",114
+"840CD1142907","MO-07","Missouri Congressional District 7","2907",29,"07","C2",114
+"840CD1142908","MO-08","Missouri Congressional District 8","2908",29,"08","C2",114
+"840CD1143000","MT-AL","Montana Congressional District (at Large)","3000",30,"00","C1",114
+"840CD1143101","NE-01","Nebraska Congressional District 1","3101",31,"01","C2",114
+"840CD1143102","NE-02","Nebraska Congressional District 2","3102",31,"02","C2",114
+"840CD1143103","NE-03","Nebraska Congressional District 3","3103",31,"03","C2",114
+"840CD1143201","NV-01","Nevada Congressional District 1","3201",32,"01","C2",114
+"840CD1143202","NV-02","Nevada Congressional District 2","3202",32,"02","C2",114
+"840CD1143203","NV-03","Nevada Congressional District 3","3203",32,"03","C2",114
+"840CD1143204","NV-04","Nevada Congressional District 4","3204",32,"04","C2",114
+"840CD1143301","NH-01","New Hampshire Congressional District 1","3301",33,"01","C2",114
+"840CD1143302","NH-02","New Hampshire Congressional District 2","3302",33,"02","C2",114
+"840CD1143401","NJ-01","New Jersey Congressional District 1","3401",34,"01","C2",114
+"840CD1143402","NJ-02","New Jersey Congressional District 2","3402",34,"02","C2",114
+"840CD1143403","NJ-03","New Jersey Congressional District 3","3403",34,"03","C2",114
+"840CD1143404","NJ-04","New Jersey Congressional District 4","3404",34,"04","C2",114
+"840CD1143405","NJ-05","New Jersey Congressional District 5","3405",34,"05","C2",114
+"840CD1143406","NJ-06","New Jersey Congressional District 6","3406",34,"06","C2",114
+"840CD1143407","NJ-07","New Jersey Congressional District 7","3407",34,"07","C2",114
+"840CD1143408","NJ-08","New Jersey Congressional District 8","3408",34,"08","C2",114
+"840CD1143409","NJ-09","New Jersey Congressional District 9","3409",34,"09","C2",114
+"840CD1143410","NJ-10","New Jersey Congressional District 10","3410",34,"10","C2",114
+"840CD1143411","NJ-11","New Jersey Congressional District 11","3411",34,"11","C2",114
+"840CD1143412","NJ-12","New Jersey Congressional District 12","3412",34,"12","C2",114
+"840CD1143501","NM-01","New Mexico Congressional District 1","3501",35,"01","C2",114
+"840CD1143502","NM-02","New Mexico Congressional District 2","3502",35,"02","C2",114
+"840CD1143503","NM-03","New Mexico Congressional District 3","3503",35,"03","C2",114
+"840CD1143601","NY-01","New York Congressional District 1","3601",36,"01","C2",114
+"840CD1143602","NY-02","New York Congressional District 2","3602",36,"02","C2",114
+"840CD1143603","NY-03","New York Congressional District 3","3603",36,"03","C2",114
+"840CD1143604","NY-04","New York Congressional District 4","3604",36,"04","C2",114
+"840CD1143605","NY-05","New York Congressional District 5","3605",36,"05","C2",114
+"840CD1143606","NY-06","New York Congressional District 6","3606",36,"06","C2",114
+"840CD1143607","NY-07","New York Congressional District 7","3607",36,"07","C2",114
+"840CD1143608","NY-08","New York Congressional District 8","3608",36,"08","C2",114
+"840CD1143609","NY-09","New York Congressional District 9","3609",36,"09","C2",114
+"840CD1143610","NY-10","New York Congressional District 10","3610",36,"10","C2",114
+"840CD1143611","NY-11","New York Congressional District 11","3611",36,"11","C2",114
+"840CD1143612","NY-12","New York Congressional District 12","3612",36,"12","C2",114
+"840CD1143613","NY-13","New York Congressional District 13","3613",36,"13","C2",114
+"840CD1143614","NY-14","New York Congressional District 14","3614",36,"14","C2",114
+"840CD1143615","NY-15","New York Congressional District 15","3615",36,"15","C2",114
+"840CD1143616","NY-16","New York Congressional District 16","3616",36,"16","C2",114
+"840CD1143617","NY-17","New York Congressional District 17","3617",36,"17","C2",114
+"840CD1143618","NY-18","New York Congressional District 18","3618",36,"18","C2",114
+"840CD1143619","NY-19","New York Congressional District 19","3619",36,"19","C2",114
+"840CD1143620","NY-20","New York Congressional District 20","3620",36,"20","C2",114
+"840CD1143621","NY-21","New York Congressional District 21","3621",36,"21","C2",114
+"840CD1143622","NY-22","New York Congressional District 22","3622",36,"22","C2",114
+"840CD1143623","NY-23","New York Congressional District 23","3623",36,"23","C2",114
+"840CD1143624","NY-24","New York Congressional District 24","3624",36,"24","C2",114
+"840CD1143625","NY-25","New York Congressional District 25","3625",36,"25","C2",114
+"840CD1143626","NY-26","New York Congressional District 26","3626",36,"26","C2",114
+"840CD1143627","NY-27","New York Congressional District 27","3627",36,"27","C2",114
+"840CD1143701","NC-01","North Carolina Congressional District 1","3701",37,"01","C2",114
+"840CD1143702","NC-02","North Carolina Congressional District 2","3702",37,"02","C2",114
+"840CD1143703","NC-03","North Carolina Congressional District 3","3703",37,"03","C2",114
+"840CD1143704","NC-04","North Carolina Congressional District 4","3704",37,"04","C2",114
+"840CD1143705","NC-05","North Carolina Congressional District 5","3705",37,"05","C2",114
+"840CD1143706","NC-06","North Carolina Congressional District 6","3706",37,"06","C2",114
+"840CD1143707","NC-07","North Carolina Congressional District 7","3707",37,"07","C2",114
+"840CD1143708","NC-08","North Carolina Congressional District 8","3708",37,"08","C2",114
+"840CD1143709","NC-09","North Carolina Congressional District 9","3709",37,"09","C2",114
+"840CD1143710","NC-10","North Carolina Congressional District 10","3710",37,"10","C2",114
+"840CD1143711","NC-11","North Carolina Congressional District 11","3711",37,"11","C2",114
+"840CD1143712","NC-12","North Carolina Congressional District 12","3712",37,"12","C2",114
+"840CD1143713","NC-13","North Carolina Congressional District 13","3713",37,"13","C2",114
+"840CD1143800","ND-AL","North Dakota Congressional District (at Large)","3800",38,"00","C1",114
+"840CD1143901","OH-01","Ohio Congressional District 1","3901",39,"01","C2",114
+"840CD1143902","OH-02","Ohio Congressional District 2","3902",39,"02","C2",114
+"840CD1143903","OH-03","Ohio Congressional District 3","3903",39,"03","C2",114
+"840CD1143904","OH-04","Ohio Congressional District 4","3904",39,"04","C2",114
+"840CD1143905","OH-05","Ohio Congressional District 5","3905",39,"05","C2",114
+"840CD1143906","OH-06","Ohio Congressional District 6","3906",39,"06","C2",114
+"840CD1143907","OH-07","Ohio Congressional District 7","3907",39,"07","C2",114
+"840CD1143908","OH-08","Ohio Congressional District 8","3908",39,"08","C2",114
+"840CD1143909","OH-09","Ohio Congressional District 9","3909",39,"09","C2",114
+"840CD1143910","OH-10","Ohio Congressional District 10","3910",39,"10","C2",114
+"840CD1143911","OH-11","Ohio Congressional District 11","3911",39,"11","C2",114
+"840CD1143912","OH-12","Ohio Congressional District 12","3912",39,"12","C2",114
+"840CD1143913","OH-13","Ohio Congressional District 13","3913",39,"13","C2",114
+"840CD1143914","OH-14","Ohio Congressional District 14","3914",39,"14","C2",114
+"840CD1143915","OH-15","Ohio Congressional District 15","3915",39,"15","C2",114
+"840CD1143916","OH-16","Ohio Congressional District 16","3916",39,"16","C2",114
+"840CD1144001","OK-01","Oklahoma Congressional District 1","4001",40,"01","C2",114
+"840CD1144002","OK-02","Oklahoma Congressional District 2","4002",40,"02","C2",114
+"840CD1144003","OK-03","Oklahoma Congressional District 3","4003",40,"03","C2",114
+"840CD1144004","OK-04","Oklahoma Congressional District 4","4004",40,"04","C2",114
+"840CD1144005","OK-05","Oklahoma Congressional District 5","4005",40,"05","C2",114
+"840CD1144101","OR-01","Oregon Congressional District 1","4101",41,"01","C2",114
+"840CD1144102","OR-02","Oregon Congressional District 2","4102",41,"02","C2",114
+"840CD1144103","OR-03","Oregon Congressional District 3","4103",41,"03","C2",114
+"840CD1144104","OR-04","Oregon Congressional District 4","4104",41,"04","C2",114
+"840CD1144105","OR-05","Oregon Congressional District 5","4105",41,"05","C2",114
+"840CD1144201","PA-01","Pennsylvania Congressional District 1","4201",42,"01","C2",114
+"840CD1144202","PA-02","Pennsylvania Congressional District 2","4202",42,"02","C2",114
+"840CD1144203","PA-03","Pennsylvania Congressional District 3","4203",42,"03","C2",114
+"840CD1144204","PA-04","Pennsylvania Congressional District 4","4204",42,"04","C2",114
+"840CD1144205","PA-05","Pennsylvania Congressional District 5","4205",42,"05","C2",114
+"840CD1144206","PA-06","Pennsylvania Congressional District 6","4206",42,"06","C2",114
+"840CD1144207","PA-07","Pennsylvania Congressional District 7","4207",42,"07","C2",114
+"840CD1144208","PA-08","Pennsylvania Congressional District 8","4208",42,"08","C2",114
+"840CD1144209","PA-09","Pennsylvania Congressional District 9","4209",42,"09","C2",114
+"840CD1144210","PA-10","Pennsylvania Congressional District 10","4210",42,"10","C2",114
+"840CD1144211","PA-11","Pennsylvania Congressional District 11","4211",42,"11","C2",114
+"840CD1144212","PA-12","Pennsylvania Congressional District 12","4212",42,"12","C2",114
+"840CD1144213","PA-13","Pennsylvania Congressional District 13","4213",42,"13","C2",114
+"840CD1144214","PA-14","Pennsylvania Congressional District 14","4214",42,"14","C2",114
+"840CD1144215","PA-15","Pennsylvania Congressional District 15","4215",42,"15","C2",114
+"840CD1144216","PA-16","Pennsylvania Congressional District 16","4216",42,"16","C2",114
+"840CD1144217","PA-17","Pennsylvania Congressional District 17","4217",42,"17","C2",114
+"840CD1144218","PA-18","Pennsylvania Congressional District 18","4218",42,"18","C2",114
+"840CD1144401","RI-01","Rhode Island Congressional District 1","4401",44,"01","C2",114
+"840CD1144402","RI-02","Rhode Island Congressional District 2","4402",44,"02","C2",114
+"840CD1144501","SC-01","South Carolina Congressional District 1","4501",45,"01","C2",114
+"840CD1144502","SC-02","South Carolina Congressional District 2","4502",45,"02","C2",114
+"840CD1144503","SC-03","South Carolina Congressional District 3","4503",45,"03","C2",114
+"840CD1144504","SC-04","South Carolina Congressional District 4","4504",45,"04","C2",114
+"840CD1144505","SC-05","South Carolina Congressional District 5","4505",45,"05","C2",114
+"840CD1144506","SC-06","South Carolina Congressional District 6","4506",45,"06","C2",114
+"840CD1144507","SC-07","South Carolina Congressional District 7","4507",45,"07","C2",114
+"840CD1144600","SD-AL","South Dakota Congressional District (at Large)","4600",46,"00","C1",114
+"840CD1144701","TN-01","Tennessee Congressional District 1","4701",47,"01","C2",114
+"840CD1144702","TN-02","Tennessee Congressional District 2","4702",47,"02","C2",114
+"840CD1144703","TN-03","Tennessee Congressional District 3","4703",47,"03","C2",114
+"840CD1144704","TN-04","Tennessee Congressional District 4","4704",47,"04","C2",114
+"840CD1144705","TN-05","Tennessee Congressional District 5","4705",47,"05","C2",114
+"840CD1144706","TN-06","Tennessee Congressional District 6","4706",47,"06","C2",114
+"840CD1144707","TN-07","Tennessee Congressional District 7","4707",47,"07","C2",114
+"840CD1144708","TN-08","Tennessee Congressional District 8","4708",47,"08","C2",114
+"840CD1144709","TN-09","Tennessee Congressional District 9","4709",47,"09","C2",114
+"840CD1144801","TX-01","Texas Congressional District 1","4801",48,"01","C2",114
+"840CD1144802","TX-02","Texas Congressional District 2","4802",48,"02","C2",114
+"840CD1144803","TX-03","Texas Congressional District 3","4803",48,"03","C2",114
+"840CD1144804","TX-04","Texas Congressional District 4","4804",48,"04","C2",114
+"840CD1144805","TX-05","Texas Congressional District 5","4805",48,"05","C2",114
+"840CD1144806","TX-06","Texas Congressional District 6","4806",48,"06","C2",114
+"840CD1144807","TX-07","Texas Congressional District 7","4807",48,"07","C2",114
+"840CD1144808","TX-08","Texas Congressional District 8","4808",48,"08","C2",114
+"840CD1144809","TX-09","Texas Congressional District 9","4809",48,"09","C2",114
+"840CD1144810","TX-10","Texas Congressional District 10","4810",48,"10","C2",114
+"840CD1144811","TX-11","Texas Congressional District 11","4811",48,"11","C2",114
+"840CD1144812","TX-12","Texas Congressional District 12","4812",48,"12","C2",114
+"840CD1144813","TX-13","Texas Congressional District 13","4813",48,"13","C2",114
+"840CD1144814","TX-14","Texas Congressional District 14","4814",48,"14","C2",114
+"840CD1144815","TX-15","Texas Congressional District 15","4815",48,"15","C2",114
+"840CD1144816","TX-16","Texas Congressional District 16","4816",48,"16","C2",114
+"840CD1144817","TX-17","Texas Congressional District 17","4817",48,"17","C2",114
+"840CD1144818","TX-18","Texas Congressional District 18","4818",48,"18","C2",114
+"840CD1144819","TX-19","Texas Congressional District 19","4819",48,"19","C2",114
+"840CD1144820","TX-20","Texas Congressional District 20","4820",48,"20","C2",114
+"840CD1144821","TX-21","Texas Congressional District 21","4821",48,"21","C2",114
+"840CD1144822","TX-22","Texas Congressional District 22","4822",48,"22","C2",114
+"840CD1144823","TX-23","Texas Congressional District 23","4823",48,"23","C2",114
+"840CD1144824","TX-24","Texas Congressional District 24","4824",48,"24","C2",114
+"840CD1144825","TX-25","Texas Congressional District 25","4825",48,"25","C2",114
+"840CD1144826","TX-26","Texas Congressional District 26","4826",48,"26","C2",114
+"840CD1144827","TX-27","Texas Congressional District 27","4827",48,"27","C2",114
+"840CD1144828","TX-28","Texas Congressional District 28","4828",48,"28","C2",114
+"840CD1144829","TX-29","Texas Congressional District 29","4829",48,"29","C2",114
+"840CD1144830","TX-30","Texas Congressional District 30","4830",48,"30","C2",114
+"840CD1144831","TX-31","Texas Congressional District 31","4831",48,"31","C2",114
+"840CD1144832","TX-32","Texas Congressional District 32","4832",48,"32","C2",114
+"840CD1144833","TX-33","Texas Congressional District 33","4833",48,"33","C2",114
+"840CD1144834","TX-34","Texas Congressional District 34","4834",48,"34","C2",114
+"840CD1144835","TX-35","Texas Congressional District 35","4835",48,"35","C2",114
+"840CD1144836","TX-36","Texas Congressional District 36","4836",48,"36","C2",114
+"840CD1144901","UT-01","Utah Congressional District 1","4901",49,"01","C2",114
+"840CD1144902","UT-02","Utah Congressional District 2","4902",49,"02","C2",114
+"840CD1144903","UT-03","Utah Congressional District 3","4903",49,"03","C2",114
+"840CD1144904","UT-04","Utah Congressional District 4","4904",49,"04","C2",114
+"840CD1145000"," VT-AL","Vermont Congressional District (at Large)","5000",50,"00","C1",114
+"840CD1145101","VA-01","Virginia Congressional District 1","5101",51,"01","C2",114
+"840CD1145102","VA-02","Virginia Congressional District 2","5102",51,"02","C2",114
+"840CD1145103","VA-03","Virginia Congressional District 3","5103",51,"03","C2",114
+"840CD1145104","VA-04","Virginia Congressional District 4","5104",51,"04","C2",114
+"840CD1145105","VA-05","Virginia Congressional District 5","5105",51,"05","C2",114
+"840CD1145106","VA-06","Virginia Congressional District 6","5106",51,"06","C2",114
+"840CD1145107","VA-07","Virginia Congressional District 7","5107",51,"07","C2",114
+"840CD1145108","VA-08","Virginia Congressional District 8","5108",51,"08","C2",114
+"840CD1145109","VA-09","Virginia Congressional District 9","5109",51,"09","C2",114
+"840CD1145110","VA-10","Virginia Congressional District 10","5110",51,"10","C2",114
+"840CD1145111","VA-11","Virginia Congressional District 11","5111",51,"11","C2",114
+"840CD1145301","WA-01","Washington Congressional District 1","5301",53,"01","C2",114
+"840CD1145302","WA-02","Washington Congressional District 2","5302",53,"02","C2",114
+"840CD1145303","WA-03","Washington Congressional District 3","5303",53,"03","C2",114
+"840CD1145304","WA-04","Washington Congressional District 4","5304",53,"04","C2",114
+"840CD1145305","WA-05","Washington Congressional District 5","5305",53,"05","C2",114
+"840CD1145306","WA-06","Washington Congressional District 6","5306",53,"06","C2",114
+"840CD1145307","WA-07","Washington Congressional District 7","5307",53,"07","C2",114
+"840CD1145308","WA-08","Washington Congressional District 8","5308",53,"08","C2",114
+"840CD1145309","WA-09","Washington Congressional District 9","5309",53,"09","C2",114
+"840CD1145310","WA-10","Washington Congressional District 10","5310",53,"10","C2",114
+"840CD1145401","WV-01","West Virginia Congressional District 1","5401",54,"01","C2",114
+"840CD1145402","WV-02","West Virginia Congressional District 2","5402",54,"02","C2",114
+"840CD1145403","WV-03","West Virginia Congressional District 3","5403",54,"03","C2",114
+"840CD1145501","WI-01","Wisconsin Congressional District 1","5501",55,"01","C2",114
+"840CD1145502","WI-02","Wisconsin Congressional District 2","5502",55,"02","C2",114
+"840CD1145503","WI-03","Wisconsin Congressional District 3","5503",55,"03","C2",114
+"840CD1145504","WI-04","Wisconsin Congressional District 4","5504",55,"04","C2",114
+"840CD1145505","WI-05","Wisconsin Congressional District 5","5505",55,"05","C2",114
+"840CD1145506","WI-06","Wisconsin Congressional District 6","5506",55,"06","C2",114
+"840CD1145507","WI-07","Wisconsin Congressional District 7","5507",55,"07","C2",114
+"840CD1145508","WI-08","Wisconsin Congressional District 8","5508",55,"08","C2",114
+"840CD1145600","WY-AL","Wyoming Congressional District (at Large)","5600",56,"00","C1",114
+"840CD1146098","Non Voting Member","American Samoa Delegate District (at Large)","6098",60,"98","C4",114
+"840CD1146698","Non Voting Member","Guam Delegate District (at Large)","6698",66,"98","C4",114
+"840CD1146998","Non Voting Member","Northern Mariana Islands Delegate District (at Large)","6998",69,"98","C4",114
+"840CD1147298","Non Voting Member","Puerto Rico Resident Commissioner District (at Large)","7298",72,"98","C3",114
+"840CD1147898","Non Voting Member","U.S. Virgin Islands Delegate District (at Large)","7898",78,"98","C4",114
