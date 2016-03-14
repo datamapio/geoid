@@ -1,8 +1,8 @@
 #114th Congress
 
 435 Congress    
-+ 1 DC     
-+ 5 Territories    
+plus 1 DC     
+plus 5 Territories    
 = 441
 
 Compare with: https://en.wikipedia.org/wiki/114th_United_States_Congress
@@ -19,7 +19,6 @@ Original ext.csv (from Census Shapefile)
 84009	09	CT	Connecticut	5
 
 Check: 840CD11409ZZ          9         ZZ  09ZZ Congressional Districts not defined   00     114
-
 
 84010	10	DE	Delaware	         1 - DE-AL
 84011	11	DC	District of Columbia 1 (not part of Congress)
