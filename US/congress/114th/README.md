@@ -5,6 +5,14 @@ plus 1 DC
 plus 5 Territories    
 = 441
 
+##REF Files
+441  (with Non Voting Members)     
+https://github.com/datamapio/geoid/blob/master/US/congress/114th/cd114_with_non_voting_members.csv    
+         
+435 (only Congress)     
+https://github.com/datamapio/geoid/blob/master/US/congress/114th/cd114.csv
+
+##Checking Shapefile
 Compare with: https://en.wikipedia.org/wiki/114th_United_States_Congress
 ```
 Original ext.csv (from Census Shapefile)
