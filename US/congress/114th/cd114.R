@@ -147,3 +147,162 @@ missouri$cd114_name <- paste("Missouri", missouri$cd114_name, sep=" ")
 missouri$cd114_code <- paste("MO", missouri$cd114_fips, sep="-" )
 ext[226:233, ] <- missouri
 
+montana  <- ext[ext$state_fips == "30", ] 
+montana$cd114_name <- paste("Montana", montana$cd114_name, sep=" ")
+montana$cd114_code <- "MT-AL"
+ext[234, ] <- montana
+
+nebraska  <- ext[ext$state_fips == "31", ] 
+nebraska$cd114_name <- paste("Nebraska", nebraska$cd114_name, sep=" ")
+nebraska$cd114_code <- paste("NE", nebraska$cd114_fips, sep="-" )
+ext[235:237, ] <- nebraska
+
+nevada  <- ext[ext$state_fips == "32", ] 
+nevada$cd114_name <- paste("Nevada", nevada$cd114_name, sep=" ")
+nevada$cd114_code <- paste("NV", nevada$cd114_fips, sep="-" )
+ext[238:241, ] <- nevada
+
+newhampshire  <- ext[ext$state_fips == "33", ] 
+newhampshire$cd114_name <- paste("New Hampshire", newhampshire$cd114_name, sep=" ")
+newhampshire$cd114_code <- paste("NH", newhampshire$cd114_fips, sep="-" )
+ext[242:243, ] <- newhampshire
+
+newjersey  <- ext[ext$state_fips == "34", ] 
+newjersey$cd114_name <- paste("New Jersey", newjersey$cd114_name, sep=" ")
+newjersey$cd114_code <- paste("NJ", newjersey$cd114_fips, sep="-" )
+ext[244:255, ] <- newjersey
+
+newmexico  <- ext[ext$state_fips == "35", ] 
+newmexico$cd114_name <- paste("New Mexico", newmexico$cd114_name, sep=" ")
+newmexico$cd114_code <- paste("NM", newmexico$cd114_fips, sep="-" )
+ext[256:258, ] <- newmexico
+
+newyork  <- ext[ext$state_fips == "36", ] 
+newyork$cd114_name <- paste("New York", newyork$cd114_name, sep=" ")
+newyork$cd114_code <- paste("NY", newyork$cd114_fips, sep="-" )
+ext[259:285, ] <- newyorkwisconsin
+
+northcarolina  <- ext[ext$state_fips == "37", ] 
+northcarolina$cd114_name <- paste("North Carolina", northcarolina$cd114_name, sep=" ")
+northcarolina$cd114_code <- paste("NC", northcarolina$cd114_fips, sep="-" )
+ext[286:298, ] <- northcarolina
+
+northdakota  <- ext[ext$state_fips == "38", ] 
+northdakota$cd114_name <- paste("North Dakota", northdakota$cd114_name, sep=" ")
+northdakota$cd114_code <- "ND-AL"
+ext[299, ] <- northdakota
+
+ohio  <- ext[ext$state_fips == "39", ] 
+ohio$cd114_name <- paste("Ohio", ohio$cd114_name, sep=" ")
+ohio$cd114_code <- paste("OH", ohio$cd114_fips, sep="-" )
+ext[300:315, ] <- ohio
+
+oklahoma  <- ext[ext$state_fips == "40", ] 
+oklahoma$cd114_name <- paste("Oklahoma", oklahoma$cd114_name, sep=" ")
+oklahoma$cd114_code <- paste("OK", oklahoma$cd114_fips, sep="-" )
+ext[316:320, ] <- oklahoma
+
+oregon  <- ext[ext$state_fips == "41", ] 
+oregon$cd114_name <- paste("Oregon", oregon$cd114_name, sep=" ")
+oregon$cd114_code <- paste("OR", oregon$cd114_fips, sep="-" )
+ext[321:325, ] <- oregon
+
+pennsylvania  <- ext[ext$state_fips == "42", ] 
+pennsylvania$cd114_name <- paste("Pennsylvania", pennsylvania$cd114_name, sep=" ")
+pennsylvania$cd114_code <- paste("PA", pennsylvania$cd114_fips, sep="-" )
+ext[326:343, ] <- pennsylvania
+
+rhodeisland  <- ext[ext$state_fips == "44", ] 
+rhodeisland$cd114_name <- paste("Rhode Island", rhodeisland$cd114_name, sep=" ")
+rhodeisland$cd114_code <- paste("RI", rhodeisland$cd114_fips, sep="-" )
+ext[344:345, ] <- rhodeisland
+
+southcarolina  <- ext[ext$state_fips == "45", ] 
+southcarolina$cd114_name <- paste("South Carolina", southcarolina$cd114_name, sep=" ")
+southcarolina$cd114_code <- paste("SC", southcarolina$cd114_fips, sep="-" )
+ext[346:352, ] <- southcarolina
+
+southdakota <- ext[353, ]
+southdakota$id <- "840CD1144600"
+southdakota$cd114_name <- "South Dakota Congressional District (at Large)"
+southdakota$geoid2 <- 4600
+southdakota$state_fips <- 46
+southdakota$cd114_fips <- "00"
+southdakota$lsad  <- "C1"
+southdakota$cdsessn
+southdakota$cd114_code <- "SD-AL"
+ext[353, ] <- southdakota
+
+tennessee  <- ext[ext$state_fips == "47", ] 
+tennessee$cd114_name <- paste("Tennessee", tennessee$cd114_name, sep=" ")
+tennessee$cd114_code <- paste("TN", tennessee$cd114_fips, sep="-" )
+ext[354:362, ] <- tennessee
+
+texas  <- ext[ext$state_fips == "48", ] 
+texas$cd114_name <- paste("Texas", texas$cd114_name, sep=" ")
+texas$cd114_code <- paste("TX", texas$cd114_fips, sep="-" )
+ext[363:398, ] <- texas 
+
+utah  <- ext[ext$state_fips == "49", ] 
+utah$cd114_name <- paste("Utah", utah$cd114_name, sep=" ")
+utah$cd114_code <- paste("UT", utah$cd114_fips, sep="-" )
+ext[399:402, ] <- utah 
+
+vermont  <- ext[ext$state_fips == "50", ] 
+vermont$cd114_name <- paste("Vermont", vermont$cd114_name, sep=" ")
+vermont$cd114_code <- " VT-AL"
+ext[403, ] <- vermont
+
+virginia  <- ext[ext$state_fips == "51", ] 
+virginia$cd114_name <- paste("Virginia", virginia$cd114_name, sep=" ")
+virginia$cd114_code <- paste("VA", virginia$cd114_fips, sep="-" )
+ext[404:414, ] <- virginia
+
+washington  <- ext[ext$state_fips == "53", ] 
+washington$cd114_name <- paste("Washington", washington$cd114_name, sep=" ")
+washington$cd114_code <- paste("WA", washington$cd114_fips, sep="-" )
+ext[415:424, ] <- washington
+
+westvirginia  <- ext[ext$state_fips == "54", ] 
+westvirginia$cd114_name <- paste("West Virginia", westvirginia$cd114_name, sep=" ")
+westvirginia$cd114_code <- paste("WV", westvirginia$cd114_fips, sep="-" )
+ext[425:427, ] <- westvirginia
+
+wisconsin  <- ext[ext$state_fips == "55", ] 
+wisconsin$cd114_name <- paste("Wisconsin", wisconsin$cd114_name, sep=" ")
+wisconsin$cd114_code <- paste("WI", wisconsin$cd114_fips, sep="-" )
+ext[428:435, ] <- wisconsin
+
+wyoming  <- ext[ext$state_fips == "56", ] 
+wyoming$cd114_name <- paste("Wyoming", wyoming$cd114_name, sep=" ")
+wyoming$cd114_code <- "WY-AL"
+ext[436, ] <- wyoming
+
+## Not Voting 
+americansamoa  <- ext[ext$state_fips == "60", ] 
+americansamoa$cd114_name <- paste("American Samoa", americansamoa$cd114_name, sep=" ")
+americansamoa$cd114_code <- "Non Voting Member"
+ext[437, ] <- americansamoa
+
+guam <- ext[ext$state_fips == "66", ] 
+guam$cd114_name <- paste("Guam", guam$cd114_name, sep=" ")
+guam$cd114_code <- "Non Voting Member"
+ext[438, ] <- guam
+
+nmi <- ext[ext$state_fips == "69", ] 
+nmi$cd114_name <- paste("Northern Mariana Islands", nmi$cd114_name, sep=" ")
+nmi$cd114_code <- "Non Voting Member"
+ext[439, ] <- nmi
+
+pr <- ext[ext$state_fips == "72", ] 
+pr$cd114_name <- paste("Puerto Rico", pr$cd114_name, sep=" ")
+pr$cd114_code <- "Non Voting Member"
+ext[440, ] <- pr
+
+vi <- ext[ext$state_fips == "78", ] 
+vi$cd114_name <- paste("U.S. Virgin Islands", vi$cd114_name, sep=" ")
+vi$cd114_code <- "Non Voting Member"
+ext[441, ] <- vi
+
+write.table(ext, "cd114_with_non_voting_members.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
