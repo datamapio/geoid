@@ -1,12 +1,14 @@
 #114th Congress
 
-435 Congress
-1 DC
-5 Territories
-=
-441
+435 Congress    
++ 1 DC     
++ 5 Territories    
+= 441
 
 Compare with: https://en.wikipedia.org/wiki/114th_United_States_Congress
+```
+Original ext.csv (from Census Shapefile)
+
 
 84001	01	AL	Alabama	7 
 84002	02	AK	Alaska	1
@@ -74,9 +76,9 @@ Check 840CD11426ZZ         26         ZZ  26ZZ       Congressional Districts not
 84069	69	MP	Northern Mariana Islands 1
 84072	72	PR	Puerto Rico	1
 84078	78	VI	U.S. Virgin Islands	1
-
-Only Congress : 435
-With DC, Samoa, Guam, Northern Mariana Islands, Puerto Rico and Virgin Islands: 441
+```
+Only Congress : 435            
+With DC, Samoa, Guam, Northern Mariana Islands, Puerto Rico and Virgin Islands: 441        
 
 
 
