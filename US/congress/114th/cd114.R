@@ -304,5 +304,9 @@ vi$cd114_name <- paste("U.S. Virgin Islands", vi$cd114_name, sep=" ")
 vi$cd114_code <- "Non Voting Member"
 ext[441, ] <- vi
 
-write.table(ext, "cd114_with_non_voting_members.csv", sep="," , col.names=TRUE, row.names=FALSE)
+ext1 <- select(ext, id,  cd114_code, cd114_name,	geoid2,	state_fips,	cd114_fips,	lsad,	cdsessn)
+write.table(ext1, "cd114_with_non_voting_members.csv", sep="," , col.names=TRUE, row.names=FALSE)
+
+ext2 <-ext1[!(ext1$cd114_code =="Non Voting Member"),]
+write.table(ext2, "cd114.csv", sep="," , col.names=TRUE, row.names=FALSE)
 
