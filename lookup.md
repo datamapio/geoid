@@ -11,7 +11,9 @@ Delimiters in use:
 - No delimiters if possible (country > state > county; country > canton > district > municipality etc)
   Exceptions: Belgium    
 - AD: State Assembly District
+- CT: Census Tract (US)
 - SD: State Senate District
+- P: Place (see US)
 - PCT: Precinct
 - ZP: for Z like ZIP and P like Postal Code.
 
@@ -382,17 +384,56 @@ Ex. 84006 = California
 Type: Numeric, 8    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS)   
 840 | 06 | 001     
-Ex. 84006001 = Alameda County   
+Ex. 84006001 = Alameda County
 
-###Place (not definitive)
-Type: Numeric, 10    
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | Place (5, numeric, Census)   
-840 | 33 | 45140     
-Ex. 8403345140 = Manchester, New Hampshire  
+
+###County Subdivision (MCD, CCD, UT)     
+Type: Numeric, 13       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | Sub County (5, numeric, FIPS)      
+840 | 33 | 007 | 05140       
+Ex. 8403300705140 = Berlin city, NH     
+See also: 
+http://www.census.gov/geo/reference/gtc/gtc_cousub.html    
+http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf    
+Figure 2-3. Small Area Geography in the 1990 Census    
+
+
+###Place (not definitive)     
+Type: Numeric, 10       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | P (1, alphabetic | Place (5, numeric, Census)       
+840 | 33 | P | 45140       
+Ex. 84033P45140 = Manchester, New Hampshire     
+See:      
+http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf         
+Figure 2-3. Small Area Geography in the 1990 Census          
+
+
+###Census Tract or Block Numbering Area (BNA) (not definitive)    
+Type: Numeric, 16       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic)| Census Tract (6, numeric)              
+840 | 06 | 001 | CT | ......            
+Ex. 84006001CT...... = Census Tract .... in Alameda County  
+The dot is not existing, but we add leading and trailing zeros (always 6)         
+
+See:          
+http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf           
+Figure 2-3. Small Area Geography in the 1990 Census            
+
+
+###Block (not definitive)
+Type: Alphanumeric, 21           
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic) | Census Tract (6, numeric) | Block (5, alphanumeric)
+840 | 06 | 001 | CT | ...... | .....
+Ex.      
+
+See:              
+http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf             
+Figure 2-3. Small Area Geography in the 1990 Census  
+
 
 ###ZIP Code / ZIP Code Tabulation Area (ZCTA)
 Type: Alphanumeric, 10    
-Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)   
+Country (3, numeric, ISO) | ZP (2, alphabetic) | ZIP Code (5, numeric, USPS)      
 840 | ZP | 94702    
 Ex. 840ZP94702 = ZIP Code 94702 
 
