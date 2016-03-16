@@ -448,7 +448,7 @@ Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
 Type: Alphanumeric, 15    
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4, numeric)   
 840 | 06 | 075 | PCT | 1117   
-Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California 
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California          
 Ex. 84019001PCT1NW = Precinct 1NW, Adair County, Iowa 
 
 ###State Senate District
