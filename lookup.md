@@ -464,7 +464,7 @@ Type: Alphanumeric, 10
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | AD (2, alphabetic) | Assembly District (3, numeric)     
 840 | 06 | AD | 015    
 Ex. 84006AD015 = State Assembly (District 15) in California (80 in total); Texas has 150  
-Note: With trailing zeros   
+Note: With leading zeros   
 https://en.wikipedia.org/wiki/California_State_Assembly_districts   
 
 
