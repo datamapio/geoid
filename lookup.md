@@ -411,9 +411,10 @@ Figure 2-3. Small Area Geography in the 1990 Census
 ###Census Tract or Block Numbering Area (BNA) (not definitive)    
 Type: Numeric, 16       
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic)| Census Tract (6, numeric)              
-840 | 06 | 001 | CT | ......            
-Ex. 84006001CT...... = Census Tract .... in Alameda County  
-The dot is not existing, but we add leading and trailing zeros (always 6)         
+840 | 06 | 001 | CT | 422200            
+Ex. 84006001CT422200 = Census Tract 4222 in Alameda County 
+The dot is not existing, but we add leading and trailing zeros (always 6). 
+Example Census Tracts: 21 = 002100; 2.02 = 000202; 1210 = 121000; 1220.02 = 122002        
 
 See:          
 http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf           
@@ -421,14 +422,13 @@ Figure 2-3. Small Area Geography in the 1990 Census
 
 
 ###Block (not definitive)
-Type: Alphanumeric, 21           
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic) | Census Tract (6, numeric) | Block (5, alphanumeric)
-840 | 06 | 001 | CT | ...... | .....
-Ex.      
-
-See:              
-http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf             
-Figure 2-3. Small Area Geography in the 1990 Census  
+Type: Alphanumeric, 21              
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic) | Census Tract (6, numeric) | Block (5, alphanumeric)       
+840 | 06 | 001 | CT | 422200 | 10290              
+E.g. 84006001CT42220010290 = Block 1029, in Census Tract 4222 in Alameda County         
+See:                     
+http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf                    
+Figure 2-3. Small Area Geography in the 1990 Census         
 
 
 ###ZIP Code / ZIP Code Tabulation Area (ZCTA)
