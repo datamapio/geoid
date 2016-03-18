@@ -412,8 +412,8 @@ Figure 2-3. Small Area Geography in the 1990 Census
 Type: Numeric, 16       
 Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic)| Census Tract (6, numeric)              
 840 | 06 | 001 | CT | 422200            
-Ex. 84006001CT422200 = Census Tract 4222 in Alameda County 
-The dot is not existing, but we add leading and trailing zeros (always 6). 
+Ex. 84006001CT422200 = Census Tract 4222 in Alameda County     
+The dot is not existing, but we add leading and trailing zeros (always 6).         
 Example Census Tracts: 21 = 002100; 2.02 = 000202; 1210 = 121000; 1220.02 = 122002        
 
 See:          
@@ -423,10 +423,10 @@ Figure 2-3. Small Area Geography in the 1990 Census
 
 ###Block (not definitive)
 Type: Alphanumeric, 21              
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic) | Census Tract (6, numeric) | Block (5, alphanumeric)       
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | CT (2, alphabetic) | Census Tract (6, numeric) | Block (5, alphanumeric)             
 840 | 06 | 001 | CT | 422200 | 10290              
 E.g. 84006001CT42220010290 = Block 1029, in Census Tract 4222 in Alameda County         
-See:                     
+See:                         
 http://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf                    
 Figure 2-3. Small Area Geography in the 1990 Census         
 
@@ -446,14 +446,13 @@ Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
 
 ###Precinct Code
 Type: Alphanumeric, 15-21   
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS)| PCT (3, alphabetic) | Precinct Number (4-5, numeric)   
-840 | 06 | 075 | PCT | 1117          
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4-5, alphanumeric) 840 | 06 | 075 | PCT | 1117          
 840 | 26| 107 | 00400 | PCT | 00001            
 Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California                 
 Ex. 8402610700400PCT00001  = Precint 1 in Addison township, Oakland County, Michigan, USA             
 Ex. 84019001PCT1NW = Precinct 1NW, Adair County, Iowa               
-Sometimes there are combinations of ward and precinct info into one (eg. 2, Ward + 3, Precinct = 5, Precinct).              
-As Precinct is clearly delimited and not followed by anything else, we do not have to keep the same number of digits.             
+Sometimes there are combinations of ward and precinct info into one (eg. 2, Ward + 3, Precinct = 5, Precinct).                 
+As Precinct is clearly delimited and not followed by anything else, we do not have to keep the same number of digits.               
 
 ###State Senate District
 Type: Alphanumeric, 9       
