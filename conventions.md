@@ -5,6 +5,11 @@ Proposal as of March 22nd
 
 ##REF: File Name
 
+au = Area Unit    
+
+REF_location_au_addtionalinfo_date.csv     
+E.g. REF_ch_municipality_with_swiss_abroad_20160228.csv   
+
 ##REF: Column Order
 
 ###Naming
@@ -21,7 +26,7 @@ id | au_name | au_name_lg (none, 1 or more) | au_code (none, 1 or more) | matc
 Explanation:
 id followed by the english version of the area unit name (if available), followed by names in other languages.     
 This in turn is followed by one or more area unit codes like for example: AL, AK, CA etc.    
-This is turn is followed by the matching code, first as complete as possible: e.g. county fips 06001. always with leading zeroes, 
+This is turn is followed by the matching code, first as complete as possible: e.g. county fips 06001, always with leading zeroes, 
 then separated: e.g. state_fips 06, county_fips 001.      
 After that come additional higher up area units, always the highest first.     
 
