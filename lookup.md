@@ -12,9 +12,9 @@ Delimiters in use:
   Exceptions: Belgium    
 - AD: State Assembly District
 - CT: Census Tract (see US)
-- SD: State Senate District
 - P: Place (see US)
 - PCT: Precinct
+- SD: State Senate District
 - ZP: for Z like ZIP and P like Postal Code.
 
 
