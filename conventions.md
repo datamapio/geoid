@@ -7,8 +7,11 @@ Proposal as of March 22nd
 
 au = Area Unit    
 
-REF_location_au_addtionalinfo_date.csv     
-E.g. REF_ch_municipality_with_swiss_abroad_20160228.csv   
+REF_location_au_date.csv or     
+REF_location_au_additionalinfo_date.csv     
+E.g. 
+REF_ch_municipality_20160228.csv
+REF_ch_municipality_with_swiss_abroad_20160228.csv   
 
 ##REF: Column Order
 
