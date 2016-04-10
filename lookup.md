@@ -446,7 +446,7 @@ Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.
 
 ###Precinct Code
 Type: Alphanumeric, 16-22   
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS) | PREC (4, alphabetic) | Precinct Number (4-5, alphanumeric) 
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS) | PREC (4, alphabetic) | Precinct Number (4-5, alphanumeric)       
 840 | 06 | 075 | PREC | 1117                
 840 | 26| 107 | 00400 | PREC | 00001              
 Ex. 84006075PREC1117 = Precinct 1117 in San Francisco, California                 
