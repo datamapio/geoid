@@ -445,13 +445,13 @@ Ex. 840CD1140613 = 13th Congressional District in California for the 114th Congr
 Note: The Census uses: STATEFP: 06, CD114FP: 13, GEOID2: 0613.    
 
 ###Precinct Code
-Type: Alphanumeric, 16-22   
-Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS) | PREC (4, alphabetic) | Precinct Number (4-5, alphanumeric)       
-840 | 06 | 075 | PREC | 1117                
-840 | 26| 107 | 00400 | PREC | 00001              
-Ex. 84006075PREC1117 = Precinct 1117 in San Francisco, California                 
-Ex. 8402610700400PREC00001  = Precint 1 in Addison township, Oakland County, Michigan, USA             
-Ex. 84019001PREC1NW = Precinct 1NW, Adair County, Iowa               
+Type: Alphanumeric, 15-21   
+Country(3, numeric, ISO) | State (2, numeric, FIPS) | County (3, numeric, FIPS) | (Sub County (5, numeric, FIPS) | PCT (3, alphabetic) | Precinct Number (4-5, alphanumeric)       
+840 | 06 | 075 | PCT | 1117                
+840 | 26| 107 | 00400 | PCT | 00001              
+Ex. 84006075PCT1117 = Precinct 1117 in San Francisco, California                 
+Ex. 8402610700400PCT00001  = Precint 1 in Addison township, Oakland County, Michigan, USA             
+Ex. 84019001PCT1NW = Precinct 1NW, Adair County, Iowa               
 Sometimes there are combinations of ward and precinct info into one (eg. 2, Ward + 3, Precinct = 5, Precinct).                 
 As Precinct is clearly delimited and not followed by anything else, we do not have to keep the same number of digits.               
 
