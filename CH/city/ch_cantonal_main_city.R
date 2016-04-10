@@ -12,8 +12,8 @@
 ## http://www.bfs.admin.ch/bfs/portal/de/index/regionen/11/geo/raeumliche_typologien/02.Document.188799.xls
 
 
-Cantonal Main Cities
-
+## Cantonal Main Cities
+## https://github.com/datamapio/geoid/blob/master/CH/municipality/ch_municipality_2016.csv
 75601120261 Zürich
 75609001711 Zug
 75623126266 Sion/Sitten
@@ -44,14 +44,15 @@ Cantonal Main Cities
 75616003101 Appenzell
 75619014001 Aarau
 
+ext_file <- "../municipality/ch_municipality_2016.csv"
+ext <- read.csv(ext_file, header = TRUE, sep = ",", stringsAsFactors=FALSE) 
 
+capitals  <- c("75601120261", "75609001711", "75623126266", "75622255586", "75604001201", "75621015002", "75620124566", "75605061372", "75611092601", "75614032939", "75617213203", "75606001407", "75607001509", "75624046458", "75603111061", "75626016711", "75618293901", "75608001632", "75625006621", "75610042196", "75612002701", "75613032829", "75602460351", "75615013001", "75616003101", "75619014001")
 
-capitals  <- c("75601120261", "75609001711", "75623126266", "75622255586", "75604001201", "75621015002", 
-              "75620124566", "75605061372", "75611092601", "75614032939", "75617213203", "75606001407",  
-              "75607001509", "75624046458", "75603111061", "75626016711", "75618293901", "75608001632",
-              "75625006621", "75610042196", "75612002701", "75613032829", "75602460351", "75615013001",
-              "75616003101", "75619014001")
-Delete the specific rows from your data frame
+ext_capitals <-ext[(ext$id %in% capitals), ] 
+library(dplyr)
+capitals <- select(ext_capitals, id, municipality_number, municipality_name, canton_code)
 
-ref_nov <-ref_reduced[!(ref_reduced$municipality_number %in% del_muni), ] 
+write.table(capitals, file="ch_canton_capital.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
 
