@@ -14,4 +14,4 @@ data <- merge(ref, ext, by.x="pct_2012", by.y="polling_precinct", all=TRUE)
 
 library(dplyr)
 data <- select(data, id, pct_2012, precinct_names, neighborhood, yes_percentage)
-write.table(data, file="DATA_prop_f_election_day_no_percentage_20151103_20151119.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+write.table(data, file="DATA_prop_f_election_day_yes_percentage_20151103_20151119.csv", sep="," ,col.names=TRUE, row.names=FALSE)
