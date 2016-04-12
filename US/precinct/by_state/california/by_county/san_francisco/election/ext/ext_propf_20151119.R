@@ -11,3 +11,21 @@ propf <- read.csv("ext_propf_20151119.csv", header = TRUE, sep = ",", stringsAsF
 
 library(dplyr)
 ext <- slice(propf, 4:797)
+
+Turnout (%)	Yes	No	Under Vote	Over Vote
+#PrecinctName  ReportingType	PrecinctID	Precincts	Registration	Ballots Cast	Turnout (%)	Yes	No	Under Vote	Over Vote
+names(ext) <- c("precinct_names", "reporting_type", "polling_precinct", "no_of_precincts", "registered_to_vote", "ballots_cast", "turnout", "yes", "no", "under_vote", "over_vote")
+
+ext$yes <- as.numeric(ext$yes)
+ext$no <- as.numeric(ext$no)
+
+vbm <- filter(ext, grepl('VBM', reporting_type))
+elecday <- filter(ext, grepl('Election Day', reporting_type))
+
+eld <- mutate(elecday,
+       total = yes + no,
+       yes_percentage = round((yes / total), 2),
+       no_percentage = round((no / total), 2) )
+
+write.table(eld, file="prop_f_election_day_20151103_20151119.csv", sep="," ,col.names=TRUE, row.names=FALSE)
+
