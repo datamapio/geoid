@@ -250,8 +250,17 @@ See: [Counties UK, Wikipedia](https://en.wikipedia.org/wiki/List_of_counties_of_
 
 ###Districts
 
-###Constituency
-
+###Constituency (Westminster Lower House, similar to Congressional Districts)   
+Type: Alphanumeric, 7                 
+Kingdom (3, numeric) | Country or Province (1, alphabetic) | CD (2, alphabetic) | Constituency (4, numeric, last four digits of Constituency Code)               
+826 | E | CD | 0533               
+Ex. 826ECD0533 = E14000533          
+Ex. 826SCD0001 = S14000001   
+Ex. 826WCD0041 = W07000041   
+Ex. 826NCD0001 = N06000001      
+      
+Note: Does not conform to Const Codes         
+         
 Note: 650. The 591 constituencies in England, Northern Ireland and Wales (533 in England; 40 in Wales; and 18 in Northern Ireland) came into force at the May 2010 General Election. In Scotland, the 72 constituencies were reduced to 59 in May 2005.                  
 See: [The Economist Map](http://www.economist.com/node/21648856)             
 See: [Constituencies, Wikipedia](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies)         
