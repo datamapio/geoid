@@ -11,6 +11,7 @@ Delimiters in use:
 - No delimiters if possible (country > state > county; country > canton > district > municipality etc)
   Exceptions: Belgium    
 - AD: State Assembly District
+- CD, CD114: (US) Congressional District; (GB) Constituency Division (= Westminster Constituency)  
 - CT: Census Tract (see US)
 - P: Place (see US)
 - PCT: Precinct
@@ -258,8 +259,9 @@ Ex. 826ECD0533 = E14000533
 Ex. 826SCD0001 = S14000001   
 Ex. 826WCD0041 = W07000041   
 Ex. 826NCD0001 = N06000001      
-      
-Note: Does not conform to Const Codes         
+
+Note: We use CD as a delimiter for Constituency Division, as it is similar to the US Congressional District          
+Note: Does not conform to Const Codes            
          
 Note: 650. The 591 constituencies in England, Northern Ireland and Wales (533 in England; 40 in Wales; and 18 in Northern Ireland) came into force at the May 2010 General Election. In Scotland, the 72 constituencies were reduced to 59 in May 2005.                  
 See: [The Economist Map](http://www.economist.com/node/21648856)             
