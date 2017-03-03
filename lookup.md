@@ -25,6 +25,7 @@ Delimiters in use:
 - [BE, Belgium](https://github.com/datamapio/geoid/blob/master/lookup.md#be)	
 - [CA, Canada](https://github.com/datamapio/geoid/blob/master/lookup.md#ca)
 - [CH, Switzerland](https://github.com/datamapio/geoid/blob/master/lookup.md#ch)
+- [DE, Germany](https://github.com/datamapio/geoid/blob/master/lookup.md#de)
 - [DK, Denmark](https://github.com/datamapio/geoid/blob/master/lookup.md#dk) 
 - [ET, Ethiopia](https://github.com/datamapio/geoid/blob/master/lookup.md#et)
 - [GB, United Kingdom of Great Britain and Northern Ireland](https://github.com/datamapio/geoid/blob/master/lookup.md#gb)
@@ -140,18 +141,18 @@ Switzerland
 756
 
 ###Canton
-Type: Numeric, 4   
+Type: Numeric, 5   
 Country (3, numeric, ISO) | State (2, numeric, BFS)    
 756 | 01      
 Ex. 75601 = Canton of Zurich      
 We add the leading zeros for cantons that have only one digit     
 
 ###District (Bezirk)
-Type: Numeric, 6   
+Type: Numeric, 7   
 Country (3, numeric, ISO) | State (2, numeric, BFS) | District (2, numeric, BFS)   
 756 | 01 | 12      
 Ex. 7560112 = District of Zurich     
-We add the leading zeros for district that have only one digit      
+We add the leading zeros for districts that have only one digit      
 
 ###Municipality (Commune / Gemeinde)
 Type: Numeric, 11   
@@ -193,6 +194,24 @@ Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)
 756 | ZP | 8004      
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
 
+
+##DE
+Germany    
+276 
+
+###States (16 Länder)
+Type: Numeric, 4   
+Country (3, numeric, ISO) | State (2, numeric)    
+276 | 11      
+Ex. 27611 = Berlin
+Ex. 27602 = Hamburg       
+We add the leading zeros for cantons that have only one digit     
+
+###Municipality (Gemeinde)
+Type: Numeric, 11   
+Country (3, numeric, ISO) | Municipality (8, numeric)    
+276 | 04012000 
+Ex. 27604012000 = Bremerhaven
 
 
 ##DK
