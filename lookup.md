@@ -199,14 +199,30 @@ Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich
 Germany    
 276 
 
-###States (16 Länder)
+###State (16 Länder)
 Type: Numeric, 5  
 Country (3, numeric, ISO) | State (2, numeric)    
 276 | 11      
 Ex. 27611 = Berlin          
-Ex. 27602 = Hamburg                       
+Ex. 27602 = Hamburg      
+See: https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Aufbau     
+     https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Regionalschl.C3.BCssel  
 
-###Municipality (Gemeinde)
+###Government Districts (Regierungsbezirk)
+Type: Numeric, 6
+Country (3, numeric, ISO) | State (2, numeric) | Government District (1, numeric)   
+Examples with Kreis:      
+276 | 03 | 1 | 53		        
+Ex. 27603153 = Goslar         
+
+###District (Kreis)
+Type: Numeric, 8
+Country (3, numeric, ISO) | State (2, numeric) | Government District (1, numeric) | District (2, numeric)
+276 | 03 | 1 | 53		        
+Ex. 27603153 = Goslar         
+
+
+###Municipality (Gemeinde) - Not definitive
 Type: Numeric, 11   
 Country (3, numeric, ISO) | Municipality (8, numeric)    
 276 | 04012000         
