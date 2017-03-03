@@ -31,7 +31,7 @@ Delimiters in use:
 - [GB, United Kingdom of Great Britain and Northern Ireland](https://github.com/datamapio/geoid/blob/master/lookup.md#gb)
 - [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
 - [KE, Kenya](https://github.com/datamapio/geoid/blob/master/lookup.md#ke)
-- [NL, Netherlands](https://github.com/datamapio/geoid/blob/master/lookup.md#ne)
+- [NL, Netherlands](https://github.com/datamapio/geoid/blob/master/lookup.md#nl)
 - [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 - [ZA, South Africa](https://github.com/datamapio/geoid/blob/master/lookup.md#za)
@@ -437,10 +437,10 @@ Ex.  528GR = Groningen
 
 ###Municipality
 Type: Numeric, 9    
-Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric)         
-528 | GR | 1651     
-Ex.  528GR1651 = Eemsmond, Groningen
-Ex.  528FR0080 = Leeuwarden, Friesland
+Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric)                      
+528 | GR | 1651          
+Ex.  528GR1651 = Eemsmond, Groningen           
+Ex.  528FR0080 = Leeuwarden, Friesland              
 
 
 
