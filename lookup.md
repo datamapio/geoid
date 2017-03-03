@@ -204,8 +204,7 @@ Type: Numeric, 5
 Country (3, numeric, ISO) | State (2, numeric)    
 276 | 11      
 Ex. 27611 = Berlin          
-Ex. 27602 = Hamburg                 
-We add the leading zeros for cantons that have only one digit       
+Ex. 27602 = Hamburg                       
 
 ###Municipality (Gemeinde)
 Type: Numeric, 11   
