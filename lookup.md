@@ -31,6 +31,7 @@ Delimiters in use:
 - [GB, United Kingdom of Great Britain and Northern Ireland](https://github.com/datamapio/geoid/blob/master/lookup.md#gb)
 - [IN, India](https://github.com/datamapio/geoid/blob/master/lookup.md#in)
 - [KE, Kenya](https://github.com/datamapio/geoid/blob/master/lookup.md#ke)
+- [NL, Netherlands](https://github.com/datamapio/geoid/blob/master/lookup.md#ne)
 - [TW, Republic of China(ROC)/Taiwan](https://github.com/datamapio/geoid/blob/master/lookup.md#tw)
 - [US, United States of America](https://github.com/datamapio/geoid/blob/master/lookup.md#us)
 - [ZA, South Africa](https://github.com/datamapio/geoid/blob/master/lookup.md#za)
@@ -193,6 +194,21 @@ Type: Alphanumeric, 9
 Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post)     
 756 | ZP | 8004      
 Ex. 756ZP8004 = PLZ 8004 = Kreis 4, City of Zurich   
+Ex. 756ZP3436 = PLZ 3436 = Zollbrück
+
+See also (CH has 9 Leitkreise):      
+3 = Leitkreis (Bern)       
+34 = Leitgebiet (Burgdorf)        
+343 = Strecke (Burgdorf–Langnau)         
+3436 = Nummer der Poststelle (Zollbrück)       
+        
+or with Postleitzahl-Zusatzziffer (PLZ_ZZ)        
+         
+Type: Alphanumeric, 11     
+Country (3, numeric, ISO) | ZP (2, alphabetic) | PLZ (4, numeric, Swiss Post) | PLZ_ZZ (2, numeric, Swiss Post)        
+756 | ZP | 443600          
+Ex. 756ZP443600 = Oberdorf BL     
+
 
 
 ##DE
@@ -403,6 +419,41 @@ http://www.knbs.or.ke/
 http://www.knbs.or.ke/index.php?option=com_phocadownload&view=category&id=99&Itemid=639        
 http://www.arcgis.com/home/item.html?id=5f83ca29e5b849b8b05bc0b281ae27bc   
 https://en.wikipedia.org/wiki/Sub-Counties_of_Kenya   
+
+##NL
+Netherlands     
+528 
+
+###Province (12 Provincies)
+Type: Numeric, 6    
+Country (3, numeric, ISO) | GR (5, numeric)         
+528 | GR   
+Ex.  528GR = Groningen
+
+http://www.statoids.com/unl.html
+Drenthe			DR	
+Flevoland		FL	
+Friesland		FR	
+Gelderland		GE	
+Groningen		GR	
+Limburg			LI	
+North Brabant	NB	
+North Holland	NH	
+Overijssel		OV	
+Utrecht			UT	
+Zeeland			ZE	
+South Holland	ZH
+
+
+###Water Boards (24 Waterschappen)
+
+###Municipality
+Type: Numeric, 6    
+Country (3, numeric, ISO) | Municipality (4, numeric)         
+528 | ...     
+Ex.  1651 = Eemsmond
+Ex.  0080 = Leeuwarden 	F
+
 
 
 ##TW
