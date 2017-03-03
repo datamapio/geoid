@@ -200,18 +200,18 @@ Germany
 276 
 
 ###States (16 Länder)
-Type: Numeric, 4   
+Type: Numeric, 5  
 Country (3, numeric, ISO) | State (2, numeric)    
 276 | 11      
-Ex. 27611 = Berlin
-Ex. 27602 = Hamburg       
-We add the leading zeros for cantons that have only one digit     
+Ex. 27611 = Berlin          
+Ex. 27602 = Hamburg                 
+We add the leading zeros for cantons that have only one digit       
 
 ###Municipality (Gemeinde)
 Type: Numeric, 11   
 Country (3, numeric, ISO) | Municipality (8, numeric)    
-276 | 04012000 
-Ex. 27604012000 = Bremerhaven
+276 | 04012000         
+Ex. 27604012000 = Bremerhaven       
 
 
 ##DK
