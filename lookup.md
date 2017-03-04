@@ -232,17 +232,17 @@ Examples with Kreis:
 Ex. 27603153 = Goslar         
 
 ###District (Kreis)
-Type: Numeric, 8
-Country (3, numeric, ISO) | State (2, numeric) | Government District (1, numeric) | District (2, numeric)
+Type: Numeric, 8             
+Country (3, numeric, ISO) | State (2, numeric) | Government District (1, numeric) | District (2, numeric)        
 276 | 03 | 1 | 53		        
 Ex. 27603153 = Goslar         
 
 
 ###Municipality (Gemeinde) - Not definitive
-Type: Numeric, 11   
-Country (3, numeric, ISO) | Municipality (8, numeric)    
-276 | 04012000         
-Ex. 27604012000 = Bremerhaven       
+Type: Numeric, 11      
+Country (3, numeric, ISO) | Municipality (8, numeric)       
+276 | 04012000           
+Ex. 27604012000 = Bremerhaven        
 
 
 ##DK
