@@ -424,36 +424,36 @@ https://en.wikipedia.org/wiki/Sub-Counties_of_Kenya
 Netherlands     
 528 
 
-###BQ: Bonaire-Saba-Sint Eustatius
+###BQ: Bonaire-Saba-Sint Eustatius (Dutch Caribbean)
 528BQ
 
 ###Province (12 Provincies)
 Type: Numeric, 5    
-Country (3, numeric, ISO) | Province (2, alphabetic)         
-528 | GR   
-Ex.  528GR = Groningen
+Country (3, numeric, ISO) | Province (2, numeric, CBS)         
+528 | 20   
+Ex.  52820 = Groningen
 
 ###Water Boards (24 Waterschappen)
 
 ###Municipality (Gemeente, GM)
 Type: Numeric, 9    
-Country (3, numeric, ISO) | Province (2, alphabetic) | Municipality (4, numeric)                      
-528 | GR | 1651          
-Ex.  528GR1651 = Eemsmond, Groningen            
-Ex.  528FR0080 = Leeuwarden, Friesland     
-Ex.  528NH0363 = Amsterdam, North Holland       
+Country (3, numeric, ISO) | Province (2, numeric, CBS) | Municipality (4, numeric, CBS)                      
+528 | 20 | 1651          
+Ex.  528201651 = Eemsmond, Groningen            
+Ex.  528210080 = Leeuwarden, Friesland     
+Ex.  528270363 = Amsterdam, North Holland       
 
 ###District (Wijk, WK)
 Type: Numeric, 11        
-Country (3, numeric, ISO) | Province (2, alphabetic) | Municipality (4, numeric) | District (2, numeric)                      
-528 | NH | 0363 | 00         
-Ex. 528NH036300 = Stadsdeel Centrum, Amsterdam, North Holland           
+Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric) | District (2, numeric, CBS)                      
+528 | 27 | 0363 | 00         
+Ex. 52827036300 = Stadsdeel Centrum, Amsterdam, North Holland           
 
 ###Neighborhood (Buurt, BU)       
 Type: Numeric, 13        
-Country (3, numeric, ISO) | Province (2, alphabetic) | Municipality (4, numeric) | District (2, numeric) | Neighborhood (2, numeric)                    
-528 | NH | 0363 | 00 | 05             
-Ex. 528NH03630005 = Haarlemmerbuurt, Stadsdeel Centrum, Amsterdam, North Holland          
+Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric) | District (2, numeric) | Neighborhood (2, numeric, CBS)                    
+528 | 27 | 0363 | 00 | 05             
+Ex. 5282703630005 = Haarlemmerbuurt, Stadsdeel Centrum, Amsterdam, North Holland          
 
 
 
