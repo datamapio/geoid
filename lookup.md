@@ -425,7 +425,16 @@ Netherlands
 528 
 
 ###BQ: Bonaire-Saba-Sint Eustatius (Dutch Caribbean)
-528BQ
+528BQ    
+Typ: Alphanumeric, 11    
+Country (3, numeric, ISO) | Dutch Caribbean (2, alphabetic, ISO) | Corop (2, numeric, CBS) | Municipality (4, numeric, CBS)          
+
+528BQ009001 = Bonaire              
+528BQ009002 = Sint Eustatius         
+528BQ009003 = Saba            
+
+NOTE: After the dissolution of the Netherlands Antilles, three islands in the Caribbean, Bonaire, Saba, and Sint Eustatius, were offered to join the province, though the offer has been neither accepted nor rejected.       
+
 
 ###Province (12 Provincies)
 Type: Numeric, 5    
@@ -436,7 +445,7 @@ Ex.  52820 = Groningen
 ###Water Boards (24 Waterschappen)
 
 ###COROP Regions (40 COROPs)
-Type: Numeric, 7
+Type: Numeric, 7              
 Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS)        
 528 | 20 | 01     
 5282001 = Oost-Groningen   
