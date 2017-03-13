@@ -435,25 +435,35 @@ Ex.  52820 = Groningen
 
 ###Water Boards (24 Waterschappen)
 
+###COROP Regions (40 COROPs)
+Type: Numeric, 7
+Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS)
+528 | 20 | 01
+5282001 = Oost-Groningen
+
+###Nodal Area (Nodaal gebied; 80 nodale gebieden)
+A nodal area is a demarcated area for the planning of distribution patterns of secondary education schools (similar to school districts).
+
+
 ###Municipality (Gemeente, GM)
-Type: Numeric, 9    
-Country (3, numeric, ISO) | Province (2, numeric, CBS) | Municipality (4, numeric, CBS)                      
-528 | 20 | 1651          
-Ex.  528201651 = Eemsmond, Groningen            
-Ex.  528210080 = Leeuwarden, Friesland     
-Ex.  528270363 = Amsterdam, North Holland       
+Type: Numeric, 11        
+Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS) | Municipality (4, numeric, CBS)                           
+528 | 20 | 03 | 1651          
+Ex.  52820031651 = Eemsmond, Overig Groningen, Groningen            
+Ex.  52821040080 = Leeuwarden, Noord-Friesland, Friesland     
+Ex.  52827230363 = Amsterdam, Groot Amsterdam, North Holland       
 
 ###District (Wijk, WK)
-Type: Numeric, 11        
-Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric) | District (2, numeric, CBS)                      
-528 | 27 | 0363 | 00         
-Ex. 52827036300 = Stadsdeel Centrum, Amsterdam, North Holland           
+Type: Numeric, 13        
+Country (3, numeric, ISO) | Province (2, numeric) | Corop (2, numeric, CBS) | Municipality (4, numeric) | District (2, numeric, CBS)                            
+528 | 27 | 23 | 0363 | 00            
+Ex. 5282723036300 = Stadsdeel Centrum, Amsterdam, Groot Amsterdam, North Holland             
 
 ###Neighborhood (Buurt, BU)       
-Type: Numeric, 13        
-Country (3, numeric, ISO) | Province (2, numeric) | Municipality (4, numeric) | District (2, numeric) | Neighborhood (2, numeric, CBS)                    
-528 | 27 | 0363 | 00 | 05             
-Ex. 5282703630005 = Haarlemmerbuurt, Stadsdeel Centrum, Amsterdam, North Holland          
+Type: Numeric, 15        
+Country (3, numeric, ISO) | Province (2, numeric) | Corop (2, numeric, CBS) | Municipality (4, numeric) | District (2, numeric) | Neighborhood (2, numeric, CBS)                          
+528 | 27 | 23 | 0363 | 00 | 05             
+Ex. 528272303630005 = Haarlemmerbuurt, Stadsdeel Centrum, Amsterdam, Groot Amsterdam, North Holland          
 
 
 
