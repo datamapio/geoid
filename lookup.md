@@ -437,17 +437,17 @@ Ex.  52820 = Groningen
 
 ###COROP Regions (40 COROPs)
 Type: Numeric, 7
-Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS)
-528 | 20 | 01
-5282001 = Oost-Groningen
+Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS)        
+528 | 20 | 01     
+5282001 = Oost-Groningen   
 
-###Nodal Area (Nodaal gebied; 80 nodale gebieden)
-A nodal area is a demarcated area for the planning of distribution patterns of secondary education schools (similar to school districts).
+###Nodal Area (Nodaal gebied; 80 nodale gebieden)          
+A nodal area is a demarcated area for the planning of distribution patterns of secondary education schools (similar to school districts).       
 
 
 ###Municipality (Gemeente, GM)
-Type: Numeric, 11        
-Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS) | Municipality (4, numeric, CBS)                           
+Type: Numeric, 11          
+Country (3, numeric, ISO) | Province (2, numeric, CBS) | Corop (2, numeric, CBS) | Municipality (4, numeric, CBS)                             
 528 | 20 | 03 | 1651          
 Ex.  52820031651 = Eemsmond, Overig Groningen, Groningen            
 Ex.  52821040080 = Leeuwarden, Noord-Friesland, Friesland     
