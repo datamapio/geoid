@@ -8,7 +8,7 @@
 - Use delimiters consistenly
 
 Delimiters in use: 
-- No delimiters if possible (country > state > county; country > canton > district > municipality etc)
+- No delimiters if possible (country > state > county; country > canton > district > municipality etc)        
   Exceptions: Belgium    
 - AD: State Assembly District
 - CD, CD114: (US) Congressional District; (GB) Constituency Division (= Westminster Constituency)  
