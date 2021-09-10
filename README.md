@@ -1,4 +1,4 @@
-#GeoID aka REF Files
+# GeoID aka REF Files
 
 GeoID files, also called Reference files (REF), are the glue between a map and your data.
 REF files contain always the GeoID resp. id to reference the area unit on a map, e.g. a county. They also come with additional information like the FIPS code, the County Name, the State Code etc.
@@ -8,18 +8,18 @@ GeoID's follow the US Geoid2, but extend them internationally and make them uniq
 See espeically GEOID Structure for Geographic Areas at https://www.census.gov/geo/reference/geoidentifiers.html
 
 
-##Focus on the data
+## Focus on the data
 [datamap](https://www.datamap.io) provides you with:
 * MAP
 * DATA, more precisely with the REF. You then merge your external data EXT with our REF
 * VIZ    
 This way, when having similarly structured new data, the only thing you have to do, is to merge your external data (EXT) to the REF. 
 
-##GeoID Data as Reference
+## GeoID Data as Reference
 Finding the current number of counties in the US or in 2010, 2011 etc. is not easy. What is the right number 3142, 3144? All sort of numbers can be found on the Web, but none is dated. Or do you know if Puerto Rico is part of the US? Can they vote at a Presidential Election? 
 The REF should make that clear for every year. 
 
-##GeoID Files use International Standards (GENC/ISO 3166-1)
+## GeoID Files use International Standards (GENC/ISO 3166-1)
 We want to make GeoIDs usable internationally that's why the id always starts with the numeric country code (ISO 3166-1 numeric). After that we use the established codes inside a country. 
 
 ## Process
@@ -32,7 +32,7 @@ We want to make GeoIDs usable internationally that's why the id always starts wi
 
 
 
-##Examples
+## Examples
 
 Here is the REF for US Counties and similar being able to vote at the Presidential Election 2012
 https://github.com/datamapio/geoid/blob/master/US/county/us_county_congressionalvote_2012.csv
