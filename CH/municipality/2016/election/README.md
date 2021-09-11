@@ -1,6 +1,6 @@
-#Vote Enforcement Initiative
+# Vote Enforcement Initiative
 
-##Switzerland
+## Switzerland
 2015: 2,328 municipalities
 2016: 
 - [2,294 municipalities](https://github.com/datamapio/geoid/blob/master/CH/municipality/2016/ch_municipality_2016.csv)
@@ -17,7 +17,7 @@ The following 8 municipalities vote in other municipalities:
 - Noflen
 
 
-###Fusion of Municipalities
+### Fusion of Municipalities
 Difference from 2015 to 2016: 2328 - 2294
 
 http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/landscape/swissBOUNDARIES3D.html
@@ -75,7 +75,7 @@ Zurich
 
 
 
-##Bern
+## Bern
 REF File with 352 municipalities     
 https://github.com/datamapio/geoid/blob/master/CH/municipality/2016/election/enforcement_intiative_bern_municipality_20160228.csv
 
