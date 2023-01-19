@@ -1,9 +1,9 @@
-#Conventions
+# Conventions
 
-##Proposal
+## Proposal
 Proposal as of March 22nd
 
-##REF: File Name
+## REF: File Name
 
 au = Area Unit    
 
@@ -13,9 +13,9 @@ E.g.
 REF_ch_municipality_20160228.csv     
 REF_ch_municipality_with_swiss_abroad_20160228.csv      
 
-##REF: Column Order
+## REF: Column Order
 
-###Naming
+### Naming
 Our names are all lowercase and using "_" to separate words    
 External names that follow are kept as is.    
 
@@ -36,7 +36,7 @@ After that come additional higher up area units, always the highest first.
 When our own list is completed, we add the external column names and we leave them as is. The intention of the REF file is to provide matching     possibilities for external data as well as a link to the map.    
 
 
-###Minimum
+### Minimum
 
 id | au_name | match_code   
 
